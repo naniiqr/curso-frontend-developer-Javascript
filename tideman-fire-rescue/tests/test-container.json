@@ -1,0 +1,29 @@
+{
+ "content": [
+  {
+   "id": "c000001",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "h000001",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "PRUEBA CONTENEDOR: si ves este texto, los Contenedores funcionan",
+      "header_size": "h2"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": [],
+ "version": "0.4",
+ "title": "Test contenedor",
+ "type": "page"
+}

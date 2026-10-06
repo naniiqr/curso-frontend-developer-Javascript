@@ -1,0 +1,37 @@
+{
+ "content": [
+  {
+   "id": "s000001",
+   "elType": "section",
+   "settings": [],
+   "elements": [
+    {
+     "id": "k000001",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "h000002",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "PRUEBA SECCION CLASICA: si ves este texto, las secciones funcionan",
+        "header_size": "h2"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": [],
+ "version": "0.4",
+ "title": "Test seccion clasica",
+ "type": "page"
+}
