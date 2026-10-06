@@ -153,8 +153,21 @@ def form(fields):
     s.update(typo("button_typography_", BODY, 13, weight=700, ls=2, tr="uppercase"))
     return widget("form", s)
 
+# ------------------------------------------------------------------ card hover (Elementor Pro > column > Advanced > Custom CSS)
+def hover_css(bg=None, border=None, shadow=None):
+    pop = "selector > .elementor-element-populated,\nselector > .elementor-column-wrap > .elementor-element-populated"
+    hov = "selector:hover > .elementor-element-populated,\nselector:hover > .elementor-column-wrap > .elementor-element-populated"
+    base = "transition: transform .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease;"
+    up = "transform: translateY(-4px);" + (f" background-color: {bg};" if bg else "") + (f" border-color: {border};" if border else "") + (f" box-shadow: {shadow};" if shadow else "")
+    return (f"{pop} {{\n  {base}\n}}\n{hov} {{\n  {up}\n}}\n"
+            "@media (prefers-reduced-motion: reduce) {\n  " + pop.replace("\n", "\n  ") + " { transition: none; }\n  " + hov.replace("\n", "\n  ") + " { transform: none; }\n}\n")
+
+HOVER_MISSION = hover_css(bg="#1C1F23", border=AMBER)
+HOVER_HDPE    = hover_css(border=AMBER)
+HOVER_SERIES  = hover_css(shadow="0 24px 50px rgba(0,0,0,.45)")
+
 # ------------------------------------------------------------------ layout
-def column(size, *els, tablet=100, mobile=100, pad=None, pad_t=None, pad_m=None, margin=None, bg=None, border=None, valign=None, space=16):
+def column(size, *els, tablet=100, mobile=100, pad=None, pad_t=None, pad_m=None, margin=None, bg=None, border=None, valign=None, space=16, hover=None):
     s = {"_column_size": round(size), "_inline_size": size, "_inline_size_tablet": tablet, "_inline_size_mobile": mobile,
          "space_between_widgets": space}
     if pad: s["padding"] = pad
@@ -167,6 +180,7 @@ def column(size, *els, tablet=100, mobile=100, pad=None, pad_t=None, pad_m=None,
         w, c = border
         s.update({"border_border": "solid", "border_width": w, "border_color": c})
     if valign: s["content_position"] = valign
+    if hover: s["custom_css"] = hover
     return {"id": nid(), "elType": "column", "settings": s, "elements": list(els), "isInner": False}
 
 def section(*cols, inner=False, bg=None, image_url=None, image_pos="center center", overlay=None, grad_bg=None,
@@ -313,7 +327,7 @@ def build_sections():
         return column(size, heading(num, 18, 18, 18, tag="div", color=AMBER, ls=2),
                       heading(title, 24, 22, 22, tag="h3", lh=1.1, ls=0.6),
                       pad=DIM(24, 22, 24, 22), margin=DIM(6), bg=CARD, border=(DIM(1), LINE),
-                      tablet=tablet, mobile=100, space=22)
+                      tablet=tablet, mobile=100, space=22, hover=HOVER_MISSION)
     mrows = []
     for r_, row in enumerate([pairs[0:4], pairs[4:8], pairs[8:11]]):
         cs = [mcard(n, t) if not (r_ == 2 and k == 2) else mcard(n, t, 50, 100) for k, (n, t) in enumerate(row)]
@@ -342,7 +356,7 @@ def build_sections():
         return column(25, heading(strip_p(T_(8, b)), 18, 18, 18, tag="div", color=AMBER, ls=2),
                       heading(T_(8, b + 1), 26, 24, 22, tag="h3", lh=1.1, ls=0.6),
                       text(T_(8, b + 2), STEEL, 14, lh=1.6),
-                      pad=DIM(26, 22, 26, 22), margin=DIM(6), bg=PANEL, border=(DIM(1), LINE), tablet=50, mobile=100, space=12)
+                      pad=DIM(26, 22, 26, 22), margin=DIM(6), bg=PANEL, border=(DIM(1), LINE), tablet=50, mobile=100, space=12, hover=HOVER_HDPE)
     out.append(section(
         column(100,
                section(txt_col(52, eyebrow(T_(8, 0)), h2(T_(8, 1)), body(T_(8, 2)), h3(T_(8, 3))),
@@ -358,7 +372,7 @@ def build_sections():
     def scard(h_, lead, tg):
         return column(33.33, h3(T_(9, h_)), body(T_(9, lead), size=15),
                       toggle("Read more", T_(9, tg).replace("<h4>", h4_style)),
-                      pad=DIM(28, 26, 24, 26), margin=DIM(8), bg=PANEL, border=(DIM(4, 0, 0, 0), AMBER), tablet=100, mobile=100, space=14)
+                      pad=DIM(28, 26, 24, 26), margin=DIM(8), bg=PANEL, border=(DIM(4, 0, 0, 0), AMBER), tablet=100, mobile=100, space=14, hover=HOVER_SERIES)
     def series_row(title_i, cards):
         return [section(column(100, heading(T_(9, title_i), 36, 32, 28, tag="h3", lh=1.05)), inner=True, gap="no", margin=DIM(28, 0, 8, 0)),
                 section(*[scard(*c) for c in cards], inner=True, gap="no", margin=DIM(0, -8, 0, -8))]
@@ -401,9 +415,10 @@ def tcss(s, p, dev):
     return ";".join(d)
 
 class R:
-    def __init__(self): self.css = {"": [], "t": [], "m": []}
+    def __init__(self): self.css = {"": [], "t": [], "m": [], "raw": []}
     def add(self, dev, sel, decl):
-        if decl: self.css[dev].append(f"{sel}{{{decl}}}")
+        if dev == "raw": self.css["raw"].append(decl)
+        elif decl: self.css[dev].append(f"{sel}{{{decl}}}")
 
 def bgcss(s):
     d = []
@@ -515,6 +530,7 @@ def column_html(c, r):
     if s.get("padding_tablet"): r.add("t", f"{sel}>.elementor-element-populated", f"padding:{dim(s['padding_tablet'])}")
     if s.get("padding_mobile"): r.add("m", f"{sel}>.elementor-element-populated", f"padding:{dim(s['padding_mobile'])}")
     r.add("", f"{sel}>.elementor-widget-wrap>.elementor-widget:not(:last-child)", f"margin-bottom:{s['space_between_widgets']}px")
+    if s.get("custom_css"): r.add("raw", "", s["custom_css"].replace("selector", sel))
     kids = "".join(element_html(k, r) for k in c["elements"])
     return f'<div class="elementor-column elementor-element elementor-element-{i}"><div class="elementor-widget-wrap elementor-element-populated">{kids}</div></div>'
 
@@ -587,7 +603,7 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
 def render_page(sections):
     r = R()
     body_html = "".join(section_html(s, r) for s in sections)
-    css = PREVIEW_BASE + "".join(r.css[""]) + "@media (max-width:1024px){" + "".join(r.css["t"]) + "}@media (max-width:767px){" + "".join(r.css["m"]) + "}"
+    css = PREVIEW_BASE + "".join(r.css[""]) + "\n".join(r.css["raw"]) + "@media (max-width:1024px){" + "".join(r.css["t"]) + "}@media (max-width:767px){" + "".join(r.css["m"]) + "}"
     return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
             "<title>Fire Boats and Rescue Boats | Tideman Marine</title>\n"
             "<meta name=\"description\" content=\"Tideman Marine designs and manufactures mission-ready fire boats and rescue boats built from durable HDPE for fire departments, municipalities, harbor authorities, and public safety organizations.\">\n"
