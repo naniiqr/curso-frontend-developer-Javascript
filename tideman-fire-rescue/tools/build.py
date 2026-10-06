@@ -33,6 +33,8 @@ def B(text, href, cls=""):              # button
     return {"t": "b", "text": text, "href": href, "cls": cls}
 def I(src, alt, cls=""):                # image
     return {"t": "i", "src": src, "alt": alt, "cls": cls}
+def TG(title, html, cls=""):            # toggle (native Elementor widget)
+    return {"t": "tg", "title": title, "html": html, "cls": cls}
 def RAW(html):                          # html widget
     return {"t": "r", "html": html}
 def F(cls=""):                          # form
@@ -212,8 +214,8 @@ def build_tree():
           "tm-narrow"))), eid="hdpe")
 
     def more(*parts):
-        """Collapsed block: all remaining copy stays in the DOM, behind a Read more toggle."""
-        return T("<details><summary>Read more</summary>" + "".join(parts) + "</details>", "tm-more tm-checks tm-one")
+        """Native Elementor Toggle widget: client edits title/content from the panel."""
+        return TG("Read more", "".join(parts), "tm-more tm-checks tm-one")
     def pp(x): return f"<p>{x}</p>"
     def h4(x): return f"<h4>{x}</h4>"
 
@@ -322,6 +324,11 @@ def render_html(n):
     if n["t"] == "b":
         return w("button", f'<div class="elementor-button-wrapper"><a class="elementor-button elementor-button-link elementor-size-sm" href="{n["href"]}">'
                            f'<span class="elementor-button-content-wrapper"><span class="elementor-button-text">{escape(n["text"])}</span></span></a></div>')
+    if n["t"] == "tg":
+        return w("toggle", '<div class="elementor-toggle"><div class="elementor-toggle-item">'
+                 f'<div class="elementor-tab-title" data-tab="1" role="button" tabindex="0"><span class="elementor-toggle-icon"></span>'
+                 f'<a class="elementor-toggle-title">{escape(n["title"])}</a></div>'
+                 f'<div class="elementor-tab-content elementor-clearfix" data-tab="1">{n["html"]}</div></div></div>')
     if n["t"] == "i":
         return w("image", f'<img src="{n["src"]}" alt="{escape(n["alt"])}">')
     if n["t"] == "f":
@@ -354,6 +361,10 @@ def to_el(n, inner=False):
         return wd("text-editor", {"editor": n["html"]})
     if n["t"] == "b":
         return wd("button", {"text": n["text"], "link": {"url": n["href"], "is_external": "", "nofollow": "", "custom_attributes": ""}})
+    if n["t"] == "tg":
+        return wd("toggle", {"tabs": [{"tab_title": n["title"], "tab_content": n["html"], "_id": _id("tab" + n["html"][:30])}],
+                             "title_html_tag": "div", "selected_icon": {"value": "fas fa-plus", "library": "fa-solid"},
+                             "selected_active_icon": {"value": "fas fa-minus", "library": "fa-solid"}})
     if n["t"] == "i":
         return wd("image", {"image": {"url": n["src"].replace(IMG, BASE + "/"), "id": "", "alt": n["alt"], "source": "library"}, "image_size": "full"})
     if n["t"] == "f":
@@ -384,7 +395,16 @@ PREVIEW_BASE = """
 html{scroll-behavior:smooth} body{margin:0;background:#0a0a0a}
 .e-con{display:flex;flex-direction:column;width:100%}
 .elementor-widget-button .elementor-button{text-align:center}
+.elementor-toggle .elementor-tab-content{display:none}
 """
+
+PREVIEW_JS = """<script>
+document.querySelectorAll('.elementor-tab-title').forEach(function(t){
+  function go(){var on=t.classList.toggle('elementor-active');t.nextElementSibling.style.display=on?'block':'none';}
+  t.addEventListener('click',go);
+  t.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+});
+</script>"""
 
 def main():
     tree = build_tree()
@@ -395,7 +415,7 @@ def main():
             "<title>Fire Boats and Rescue Boats | Tideman Marine</title>\n"
             "<meta name=\"description\" content=\"Tideman Marine designs and manufactures mission-ready fire boats and rescue boats built from durable HDPE for fire departments, municipalities, harbor authorities, and public safety organizations.\">\n"
             f"{FONTS}\n<style>{PREVIEW_BASE}</style>\n<style>\n{css_local}</style>\n</head>\n<body>\n"
-            + render_html(tree) + "\n</body>\n</html>\n")
+            + render_html(tree) + PREVIEW_JS + "\n</body>\n</html>\n")
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 
     # ---- Elementor JSON
