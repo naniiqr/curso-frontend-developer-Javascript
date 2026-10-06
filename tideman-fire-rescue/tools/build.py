@@ -270,18 +270,17 @@ SEC_PAD = dict(pad=PAD(96, 96), pad_t=PAD(72, 72, 24), pad_m=PAD(56, 56, 18))
 def build_sections():
     out = []
 
-    # 0 HERO ---------------------------------------------------------------
+    # 0 HERO: image-first. Only eyebrow + H1 + 2 buttons; the long paragraph lives in the intro section below.
     out.append(section(
-        column(52, eyebrow(T_(0, 0)),
-               heading(T_(0, 1), 74, 56, 40, tag="h1", lh=1.0),
-               text(T_(0, 2), LEAD, 18, mobile=16),
+        column(48, eyebrow(T_(0, 0)),
+               heading(T_(0, 1), 88, 62, 42, tag="h1", lh=0.98),
                section(column(50, button(T_(0, 3), "#contact"), tablet=50, mobile=100),
                        column(50, button(T_(0, 4), "#f-series", primary=False), tablet=50, mobile=100),
-                       inner=True, gap="no", margin=DIM(8, 0, 0, 0)),
-               tablet=80, mobile=100, space=22),
+                       inner=True, gap="no", margin=DIM(10, 0, 0, 0)),
+               tablet=80, mobile=100, space=26),
         image_url=content.IMG + "hero.jpg", image_pos="center right",
-        overlay=grad_overlay(BLACK, 38, "rgba(10,10,10,0)", 74, 90),
-        pad=PAD(100, 150), pad_t=PAD(80, 400, 24), pad_m=PAD(56, 235, 18), min_h=720, valign="middle", vcontent="center",
+        overlay=grad_overlay(BLACK, 34, "rgba(10,10,10,0)", 70, 90),
+        pad=PAD(130, 190), pad_t=PAD(90, 400, 24), pad_m=PAD(56, 235, 18), min_h=760, min_h_m=300, valign="middle", vcontent="center",
         bg_resp={"background_size_tablet": "contain", "background_position_tablet": "bottom center", "background_repeat_tablet": "no-repeat",
                  "background_size_mobile": "contain", "background_position_mobile": "bottom center", "background_repeat_mobile": "no-repeat"}))
 
@@ -297,7 +296,7 @@ def build_sections():
 
     # 2 INTRO --------------------------------------------------------------
     out.append(section(
-        txt_col(52, eyebrow(T_(2, 0)), body(T_(2, 1))),
+        txt_col(52, eyebrow(T_(2, 0)), text(T_(0, 2), LEAD, 18, mobile=16), body(T_(2, 1))),
         img_col(48, image(content.IMG + "square-underway.jpg", LV[2][2]["alt"])),
         bg=BLACK, gap="no", valign="middle", **SEC_PAD))
 
