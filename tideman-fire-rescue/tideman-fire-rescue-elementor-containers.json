@@ -1,0 +1,2700 @@
+{
+ "content": [
+  {
+   "id": "aea87da",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "css_classes": "tm-page"
+   },
+   "elements": [
+    {
+     "id": "82f8cc8",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n<style>\n.tm-page{--tm-hero:url('https://YOUR-SITE.com/wp-content/uploads/tideman/hero.jpg');--tm-water:url('https://YOUR-SITE.com/wp-content/uploads/tideman/bg-water.jpg');--tm-blueprint:url('https://YOUR-SITE.com/wp-content/uploads/tideman/bg-blueprint.jpg');}\n.tm-page {\n  --tm-black: #0a0a0a;\n  --tm-ink: #111214;\n  --tm-panel: #16181b;\n  --tm-line: rgba(255, 255, 255, .12);\n  --tm-amber: #f5a800;\n  --tm-red: #e0452b;\n  --tm-steel: #b3b9c0;\n  --tm-white: #f5f6f7;\n  --tm-display: \"Bebas Neue\", \"Oswald\", Impact, sans-serif;\n  --tm-body: \"Inter\", system-ui, -apple-system, \"Segoe UI\", sans-serif;\n  --tm-img: \"\";\n  background: var(--tm-black);\n  color: var(--tm-white);\n  font-family: var(--tm-body);\n  line-height: 1.65;\n  width: 100%;\n  overflow-x: clip;\n  -webkit-font-smoothing: antialiased;\n}\n.tm-page *, .tm-page *::before, .tm-page *::after { box-sizing: border-box; }\n.tm-page img { max-width: 100%; height: auto; display: block; }\n.tm-page a { text-decoration: none; }\n.tm-page .e-con {\n  --padding-top: 0px; --padding-bottom: 0px; --padding-left: 0px; --padding-right: 0px;\n  --gap: 0px; --row-gap: 0px; --column-gap: 0px;\n  padding: 0; gap: 0; margin: 0; border-radius: 0; min-width: 0;\n}\n.elementor-section.tm-c {padding: 0; margin: 0; border-radius: 0; min-width: 0}\n.elementor-section.tm-c > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 0}\n.tm-page .elementor-widget:not(:last-child) { margin-block-end: 0; margin-bottom: 0; }\n.tm-page .elementor-widget { min-width: 0; }\n.tm-page .e-con.tm-sec { padding: 96px 0; position: relative; align-items: stretch; }\n.elementor-section.tm-c.tm-sec {padding: 96px 0; position: relative}\n.elementor-section.tm-c.tm-sec > .elementor-container > .elementor-column > .elementor-widget-wrap {align-items: stretch}\n.tm-page .e-con.tm-alt { background: var(--tm-ink); }\n.elementor-section.tm-c.tm-alt {background: var(--tm-ink)}\n.tm-page .e-con.tm-wrap { width: calc(100% - 48px); max-width: 1180px; margin-left: auto; margin-right: auto; position: relative; z-index: 2; }\n.elementor-section.tm-c.tm-wrap {width: calc(100% - 48px); max-width: 1180px; margin-left: auto; margin-right: auto; position: relative; z-index: 2}\n.tm-page .e-con.tm-row { flex-direction: row; flex-wrap: wrap; align-items: center; }\n.elementor-section.tm-c.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap {flex-direction: row; flex-wrap: wrap; align-items: center}\n.tm-page .e-con.tm-g2, .tm-page .e-con.tm-g3, .tm-page .e-con.tm-g4, .tm-page .e-con.tm-split { display: grid; }\n.elementor-section.tm-c.tm-g2 > .elementor-container > .elementor-column > .elementor-widget-wrap {display: grid}\n.elementor-section.tm-c.tm-g3 > .elementor-container > .elementor-column > .elementor-widget-wrap {display: grid}\n.elementor-section.tm-c.tm-g4 > .elementor-container > .elementor-column > .elementor-widget-wrap {display: grid}\n.elementor-section.tm-c.tm-split > .elementor-container > .elementor-column > .elementor-widget-wrap {display: grid}\n.tm-page .e-con.tm-g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.elementor-section.tm-c.tm-g2 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(2, minmax(0, 1fr))}\n.tm-page .e-con.tm-g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }\n.elementor-section.tm-c.tm-g3 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(3, minmax(0, 1fr))}\n.tm-page .e-con.tm-g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }\n.elementor-section.tm-c.tm-g4 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(4, minmax(0, 1fr))}\n.tm-page .e-con.tm-split { grid-template-columns: 1.1fr 1fr; gap: 64px; align-items: center; }\n.elementor-section.tm-c.tm-split > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: 1.1fr 1fr; gap: 64px; align-items: center}\n.tm-page .e-con.tm-split.tm-flip { grid-template-columns: 1fr 1.1fr; }\n.elementor-section.tm-c.tm-split.tm-flip > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: 1fr 1.1fr}\n.tm-page .e-con.tm-top { align-items: start; }\n.elementor-section.tm-c.tm-top > .elementor-container > .elementor-column > .elementor-widget-wrap {align-items: start}\n.tm-page .e-con.tm-gap-s { gap: 10px; }\n.elementor-section.tm-c.tm-gap-s > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 10px}\n.tm-page .e-con.tm-gap-m { gap: 18px; }\n.elementor-section.tm-c.tm-gap-m > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 18px}\n.tm-page .e-con.tm-gap-l { gap: 28px; }\n.elementor-section.tm-c.tm-gap-l > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 28px}\n.tm-page .e-con.tm-gap-xl { gap: 48px; }\n.elementor-section.tm-c.tm-gap-xl > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 48px}\n.tm-page .elementor-heading-title { font-family: var(--tm-display); font-weight: 400; letter-spacing: .02em; line-height: 1.02; text-transform: uppercase; color: var(--tm-white); margin: 0; padding: 0; }\n.tm-page h1.elementor-heading-title { font-size: clamp(2.7rem, 6vw, 5.2rem); }\n.tm-page h2.elementor-heading-title { font-size: clamp(2.1rem, 4vw, 3.4rem); }\n.tm-page h3.elementor-heading-title { font-size: clamp(1.5rem, 2.4vw, 2rem); letter-spacing: .03em; }\n.tm-page h4.elementor-heading-title { font-size: 1.15rem; font-family: var(--tm-body); font-style: italic; font-weight: 600; letter-spacing: .02em; text-transform: none; color: var(--tm-amber); line-height: 1.3; }\n.tm-page .elementor-heading-title span { color: var(--tm-amber); }\n.tm-page .elementor-widget-text-editor { color: var(--tm-steel); font-family: var(--tm-body); font-size: 1rem; line-height: 1.7; }\n.tm-page .elementor-widget-text-editor p { margin: 0 0 16px; color: inherit; }\n.tm-page .elementor-widget-text-editor p:last-child { margin-bottom: 0; }\n.tm-page .elementor-widget-text-editor strong { color: var(--tm-white); font-weight: 700; }\n.tm-page .elementor-widget-text-editor a { color: var(--tm-amber); }\n.tm-page .tm-eyebrow { color: var(--tm-amber); font-size: .78rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; display: flex; align-items: center; gap: 12px; }\n.tm-page .tm-eyebrow p { margin: 0; color: var(--tm-amber); }\n.tm-page .tm-eyebrow::before { content: \"\"; width: 34px; height: 3px; background: var(--tm-amber); flex: none; }\n.tm-page .tm-lead { font-size: 1.12rem; color: #cfd3d8; max-width: 54ch; }\n.tm-page .tm-narrow { max-width: 780px; }\n.tm-page .elementor-button { font-family: var(--tm-body); font-weight: 700; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; line-height: 1.2; padding: 17px 30px; border: 2px solid var(--tm-amber); border-radius: 0; background: var(--tm-amber); color: var(--tm-black); transition: .2s ease; display: inline-flex; fill: currentColor; }\n.tm-page .elementor-button:hover, .tm-page .elementor-button:focus { background: transparent; color: var(--tm-amber); }\n.tm-page .tm-ghost .elementor-button { background: transparent; color: var(--tm-white); border-color: rgba(255, 255, 255, .4); }\n.tm-page .tm-ghost .elementor-button:hover { border-color: var(--tm-amber); color: var(--tm-amber); }\n.tm-page .tm-small .elementor-button { padding: 12px 22px; font-size: .74rem; }\n.tm-page .e-con.tm-hero { min-height: min(84vh, 760px); justify-content: center; padding: 0; background-color: var(--tm-black); background-image: linear-gradient(90deg, #0a0a0a 0%, #0a0a0a 38%, rgba(10, 10, 10, .6) 52%, rgba(10, 10, 10, 0) 72%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero); background-size: cover; background-position: right center; background-repeat: no-repeat; overflow: hidden; }\n.elementor-section.tm-c.tm-hero {min-height: min(84vh, 760px); padding: 0; background-color: var(--tm-black); background-image: linear-gradient(90deg, #0a0a0a 0%, #0a0a0a 38%, rgba(10, 10, 10, .6) 52%, rgba(10, 10, 10, 0) 72%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero); background-size: cover; background-position: right center; background-repeat: no-repeat; overflow: hidden}\n.tm-page .e-con.tm-hero .tm-wrap { padding: 90px 0 120px; }\n.elementor-section.tm-c.tm-hero .tm-wrap {padding: 90px 0 120px}\n.tm-page .e-con.tm-hero-copy { max-width: 540px; gap: 24px; }\n.elementor-section.tm-c.tm-hero-copy {max-width: 540px}\n.elementor-section.tm-c.tm-hero-copy > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 24px}\n.tm-page .tm-hero .tm-lead { margin-bottom: 8px; }\n.tm-page .e-con.tm-stats { margin-top: -60px; position: relative; z-index: 5; padding: 0; }\n.elementor-section.tm-c.tm-stats {margin-top: -60px; position: relative; z-index: 5; padding: 0}\n.tm-page .e-con.tm-stats-grid { background: var(--tm-panel); border: 1px solid var(--tm-line); border-top: 3px solid var(--tm-amber); }\n.elementor-section.tm-c.tm-stats-grid {background: var(--tm-panel); border: 1px solid var(--tm-line); border-top: 3px solid var(--tm-amber)}\n.tm-page .e-con.tm-stat { padding: 28px; border-right: 1px solid var(--tm-line); gap: 2px; }\n.elementor-section.tm-c.tm-stat {padding: 28px; border-right: 1px solid var(--tm-line)}\n.elementor-section.tm-c.tm-stat > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 2px}\n.tm-page .e-con.tm-stat:last-child { border-right: 0; }\n.elementor-section.tm-c.tm-stat:last-child {border-right: 0}\n.tm-page .tm-stat .elementor-heading-title { font-size: 2.5rem; color: var(--tm-amber); }\n.tm-page .tm-stat .elementor-widget-text-editor, .tm-page .tm-stat .elementor-widget-text-editor p { font-size: .76rem; letter-spacing: .14em; text-transform: uppercase; }\n.tm-page .tm-media { position: relative; }\n.tm-page .tm-media img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border: 1px solid var(--tm-line); }\n.tm-page .tm-media::after { content: \"\"; position: absolute; right: -14px; bottom: -14px; width: 52%; height: 52%; border-right: 4px solid var(--tm-amber); border-bottom: 4px solid var(--tm-amber); pointer-events: none; }\n.tm-page .tm-flip .tm-media::after { right: auto; left: -14px; border-right: 0; border-left: 4px solid var(--tm-amber); }\n.tm-page .tm-checks ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; }\n.tm-page .tm-checks.tm-one ul { grid-template-columns: 1fr; }\n.tm-page .tm-checks li { position: relative; padding-left: 28px; color: var(--tm-white); font-size: .95rem; line-height: 1.5; margin: 0; }\n.tm-page .tm-checks li::before { content: \"\"; position: absolute; left: 0; top: .35em; width: 14px; height: 7px; border-left: 3px solid var(--tm-amber); border-bottom: 3px solid var(--tm-amber); transform: rotate(-45deg); }\n.tm-page .tm-equip ul { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 32px; }\n.tm-page .tm-equip li { padding: 13px 0 13px 24px; border-bottom: 1px solid var(--tm-line); }\n.tm-page .tm-equip li::before { top: 50%; width: 9px; height: 9px; border: 0; background: var(--tm-red); transform: translateY(-50%) rotate(45deg); }\n.tm-page .tm-tags ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }\n.tm-page .tm-tags li { padding: 11px 18px; background: var(--tm-panel); border: 1px solid var(--tm-line); color: var(--tm-white); font-size: .86rem; font-weight: 600; margin: 0; transition: .2s; }\n.tm-page .tm-tags li:hover { border-color: var(--tm-amber); color: var(--tm-amber); }\n.tm-page .tm-mini ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }\n.tm-page .tm-mini li { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border: 1px solid rgba(245, 168, 0, .45); color: #e9c76a; margin: 0; }\n.tm-page .e-con.tm-panel { background: var(--tm-panel); border: 1px solid var(--tm-line); border-left: 4px solid var(--tm-amber); padding: 30px; gap: 18px; }\n.elementor-section.tm-c.tm-panel {background: var(--tm-panel); border: 1px solid var(--tm-line); border-left: 4px solid var(--tm-amber); padding: 30px}\n.elementor-section.tm-c.tm-panel > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 18px}\n.tm-page .e-con.tm-card { background: var(--tm-panel); border: 1px solid var(--tm-line); padding: 28px 24px; gap: 12px; transition: .2s; }\n.elementor-section.tm-c.tm-card {background: var(--tm-panel); border: 1px solid var(--tm-line); padding: 28px 24px; transition: .2s}\n.elementor-section.tm-c.tm-card > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 12px}\n.tm-page .e-con.tm-card:hover { border-color: var(--tm-amber); transform: translateY(-4px); }\n.elementor-section.tm-c.tm-card:hover {border-color: var(--tm-amber); transform: translateY(-4px)}\n.tm-page .tm-card .elementor-heading-title { font-size: 1.45rem; }\n.tm-page .tm-card .elementor-widget-text-editor { font-size: .93rem; line-height: 1.6; }\n.tm-page .tm-num .elementor-heading-title { font-size: 1.1rem; color: var(--tm-amber); letter-spacing: .12em; }\n.tm-page .e-con.tm-mission-grid { gap: 1px; background: var(--tm-line); border: 1px solid var(--tm-line); }\n.elementor-section.tm-c.tm-mission-grid {background: var(--tm-line); border: 1px solid var(--tm-line)}\n.elementor-section.tm-c.tm-mission-grid > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 1px}\n.tm-page .e-con.tm-mission { background: var(--tm-ink); padding: 28px 24px; min-height: 130px; justify-content: space-between; gap: 16px; transition: .2s; }\n.elementor-section.tm-c.tm-mission {background: var(--tm-ink); padding: 28px 24px; min-height: 130px; transition: .2s}\n.elementor-section.tm-c.tm-mission > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 16px}\n.tm-page .e-con.tm-mission:last-child { grid-column: span 2; }\n.elementor-section.tm-c.tm-mission:last-child {grid-column: span 2}\n.tm-page .e-con.tm-mission:hover { background: #1c1f23; }\n.elementor-section.tm-c.tm-mission:hover {background: #1c1f23}\n.tm-page .tm-mission h3.elementor-heading-title { font-size: 1.35rem; }\n.tm-page .e-con.tm-blueprint { background-color: var(--tm-black); background-image: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, .82) 28%, rgba(10, 10, 10, .82) 72%, #0a0a0a 100%), var(--tm-blueprint); background-size: cover; background-position: center; }\n.elementor-section.tm-c.tm-blueprint {background-color: var(--tm-black); background-image: linear-gradient(180deg, #0a0a0a 0%, rgba(10, 10, 10, .82) 28%, rgba(10, 10, 10, .82) 72%, #0a0a0a 100%), var(--tm-blueprint); background-size: cover; background-position: center}\n.tm-page .tm-ga { background: #fff; padding: 10px; border: 1px solid var(--tm-line); box-shadow: 0 30px 80px rgba(0, 0, 0, .6); }\n.tm-page .tm-ga img { width: 100%; }\n.tm-page .tm-caption, .tm-page .tm-caption p { font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; color: var(--tm-steel); }\n.tm-page .e-con.tm-firefight { background-color: var(--tm-black); background-image: linear-gradient(90deg, rgba(10, 10, 10, .96) 0%, rgba(10, 10, 10, .86) 55%, rgba(10, 10, 10, .55) 100%), var(--tm-water); background-size: cover; background-position: center; }\n.elementor-section.tm-c.tm-firefight {background-color: var(--tm-black); background-image: linear-gradient(90deg, rgba(10, 10, 10, .96) 0%, rgba(10, 10, 10, .86) 55%, rgba(10, 10, 10, .55) 100%), var(--tm-water); background-size: cover; background-position: center}\n.tm-page .e-con.tm-g3 { align-items: start; }\n.elementor-section.tm-c.tm-g3 > .elementor-container > .elementor-column > .elementor-widget-wrap {align-items: start}\n@media (min-width: 1025px) {\n.tm-page .tm-lead-s { min-height: 8.6em; }\n}\n.tm-page .tm-series-title .elementor-heading-title { font-size: 2.2rem; color: var(--tm-white); display: flex; align-items: center; gap: 18px; }\n.tm-page .tm-series-title .elementor-heading-title::after { content: \"\"; flex: 1; height: 2px; background: linear-gradient(90deg, var(--tm-amber), rgba(245, 168, 0, 0)); }\n.tm-page .e-con.tm-scard { position: relative; overflow: hidden; background: linear-gradient(160deg, #1b1e22 0%, #121417 100%); border: 1px solid var(--tm-line); border-top: 4px solid var(--tm-amber); padding: 30px 26px 26px; gap: 14px; transition: .25s; }\n.elementor-section.tm-c.tm-scard {position: relative; overflow: hidden; background: linear-gradient(160deg, #1b1e22 0%, #121417 100%); border: 1px solid var(--tm-line); border-top: 4px solid var(--tm-amber); padding: 30px 26px 26px; transition: .25s}\n.elementor-section.tm-c.tm-scard > .elementor-container > .elementor-column > .elementor-widget-wrap {gap: 14px}\n.tm-page .e-con.tm-scard:hover { transform: translateY(-4px); border-color: rgba(245, 168, 0, .6); box-shadow: 0 24px 50px rgba(0, 0, 0, .45); }\n.elementor-section.tm-c.tm-scard:hover {transform: translateY(-4px); border-color: rgba(245, 168, 0, .6); box-shadow: 0 24px 50px rgba(0, 0, 0, .45)}\n.tm-page .tm-letter { position: absolute; top: -10px; right: 22px; pointer-events: none; width: auto; }\n.tm-page .tm-letter .elementor-heading-title { font-size: 9rem; line-height: 1; color: rgba(245, 168, 0, .09); }\n.tm-page .tm-scard h3.elementor-heading-title { font-size: 1.55rem; position: relative; }\n.tm-page .tm-lead-s { font-size: .95rem; position: relative; }\n.tm-page .tm-more .elementor-toggle { border: 0; }\n.tm-page .tm-more .elementor-toggle .elementor-toggle-item { border: 0; }\n.tm-page .tm-more .elementor-toggle .elementor-tab-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0; padding: 14px 0 0; border: 0; border-top: 1px solid var(--tm-line); background: none; cursor: pointer; }\n.tm-page .tm-more .elementor-toggle .elementor-tab-title::after { content: \"+\"; flex: none; display: grid; place-items: center; width: 26px; height: 26px; border: 1px solid var(--tm-amber); color: var(--tm-amber); font-size: 1.1rem; line-height: 1; transition: .2s; }\n.tm-page .tm-more .elementor-toggle .elementor-tab-title.elementor-active::after { content: \"\\2013\"; background: var(--tm-amber); color: var(--tm-black); }\n.tm-page .tm-more .elementor-toggle .elementor-toggle-icon { display: none; }\n.tm-page .tm-more .elementor-toggle .elementor-toggle-title { color: var(--tm-amber); font-size: .74rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; padding: 0; background: none; }\n.tm-page .tm-more .elementor-toggle .elementor-tab-content { padding: 18px 0 0; border: 0; background: none; color: var(--tm-steel); }\n.tm-page .tm-more p { margin: 0 0 14px; font-size: .92rem; }\n.tm-page .tm-more h4 { font-family: var(--tm-body); font-style: italic; font-weight: 600; font-size: 1.02rem; color: var(--tm-amber); margin: 20px 0 10px; line-height: 1.3; }\n.tm-page .tm-more h4:first-child { margin-top: 0; }\n.tm-page .tm-more ul { margin: 0 0 16px; grid-template-columns: 1fr; gap: 8px; }\n.tm-page .tm-more li { font-size: .88rem; }\n.tm-page .e-con.tm-cta { background: linear-gradient(135deg, #14161a, #0a0a0a); border-top: 3px solid var(--tm-amber); }\n.elementor-section.tm-c.tm-cta {background: linear-gradient(135deg, #14161a, #0a0a0a); border-top: 3px solid var(--tm-amber)}\n.tm-page .tm-form { width: 100%; }\n.tm-page .tm-form form, .tm-page .tm-form .elementor-form { display: grid; gap: 14px; }\n.tm-page .tm-form .elementor-form-fields-wrapper { display: flex; flex-wrap: wrap; gap: 14px; margin: 0; }\n.tm-page .tm-form .elementor-field-group { flex: 1 1 100%; margin: 0; padding: 0; display: grid; gap: 6px; align-content: start; }\n.tm-page .tm-form .elementor-col-50 { flex: 1 1 calc(50% - 7px); }\n.tm-page .tm-form label { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--tm-steel); }\n.tm-page .tm-form input, .tm-page .tm-form select, .tm-page .tm-form textarea { width: 100%; background: var(--tm-panel); border: 1px solid var(--tm-line); border-radius: 0; color: var(--tm-white); padding: 14px 16px; font: inherit; font-size: .95rem; }\n.tm-page .tm-form input:focus, .tm-page .tm-form select:focus, .tm-page .tm-form textarea:focus { outline: none; border-color: var(--tm-amber); }\n.tm-page .tm-form textarea { min-height: 130px; resize: vertical; }\n.tm-page .tm-form button, .tm-page .tm-form .elementor-button { font-family: var(--tm-body); font-weight: 700; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; padding: 17px 30px; border: 2px solid var(--tm-amber); border-radius: 0; background: var(--tm-amber); color: var(--tm-black); cursor: pointer; transition: .2s; }\n.tm-page .tm-form button:hover, .tm-page .tm-form .elementor-button:hover { background: transparent; color: var(--tm-amber); }\n@media (max-width: 1024px) {\n.tm-page .e-con.tm-sec { padding: 72px 0; }\n.elementor-section.tm-c.tm-sec {padding: 72px 0}\n.tm-page .e-con.tm-g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.elementor-section.tm-c.tm-g4 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(2, minmax(0, 1fr))}\n.tm-page .e-con.tm-g3 { grid-template-columns: minmax(0, 1fr); }\n.elementor-section.tm-c.tm-g3 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr)}\n.tm-page .e-con.tm-split, .tm-page .e-con.tm-split.tm-flip { grid-template-columns: minmax(0, 1fr); gap: 40px; }\n.elementor-section.tm-c.tm-split > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr); gap: 40px}\n.elementor-section.tm-c.tm-split.tm-flip > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr); gap: 40px}\n.tm-page .e-con.tm-split.tm-flip .tm-media { order: -1; }\n.elementor-section.tm-c.tm-split.tm-flip .tm-media {order: -1}\n.tm-page .e-con.tm-media-first .tm-media { order: -1; }\n.elementor-section.tm-c.tm-media-first .tm-media {order: -1}\n.tm-page .e-con.tm-g2 { grid-template-columns: minmax(0, 1fr); gap: 40px; }\n.elementor-section.tm-c.tm-g2 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr); gap: 40px}\n.tm-page .e-con.tm-g2.tm-keep2 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }\n.elementor-section.tm-c.tm-g2.tm-keep2 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px}\n.tm-page .e-con.tm-hero { background-position: 68% center; background-image: linear-gradient(90deg, #0a0a0a 0%, rgba(10, 10, 10, .85) 55%, rgba(10, 10, 10, .3) 100%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero); }\n.elementor-section.tm-c.tm-hero {background-position: 68% center; background-image: linear-gradient(90deg, #0a0a0a 0%, rgba(10, 10, 10, .85) 55%, rgba(10, 10, 10, .3) 100%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero)}\n.tm-page .tm-equip ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.tm-page .e-con.tm-stat:nth-child(2) { border-right: 0; }\n.elementor-section.tm-c.tm-stat:nth-child(2) {border-right: 0}\n.tm-page .e-con.tm-stat:nth-child(-n+2) { border-bottom: 1px solid var(--tm-line); }\n.elementor-section.tm-c.tm-stat:nth-child(-n+2) {border-bottom: 1px solid var(--tm-line)}\n.tm-page .tm-media { margin-right: 14px; }\n}\n@media (max-width: 640px) {\n.tm-page .e-con.tm-sec { padding: 56px 0; }\n.elementor-section.tm-c.tm-sec {padding: 56px 0}\n.tm-page .e-con.tm-wrap { width: calc(100% - 36px); }\n.elementor-section.tm-c.tm-wrap {width: calc(100% - 36px)}\n.tm-page .e-con.tm-g4, .tm-page .e-con.tm-g2.tm-keep2 { grid-template-columns: minmax(0, 1fr); }\n.elementor-section.tm-c.tm-g4 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr)}\n.elementor-section.tm-c.tm-g2.tm-keep2 > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: minmax(0, 1fr)}\n.tm-page .e-con.tm-mission:last-child { grid-column: auto; }\n.elementor-section.tm-c.tm-mission:last-child {grid-column: auto}\n.tm-page .e-con.tm-stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }\n.elementor-section.tm-c.tm-stats-grid > .elementor-container > .elementor-column > .elementor-widget-wrap {grid-template-columns: repeat(2, minmax(0, 1fr))}\n.tm-page .e-con.tm-stat { padding: 20px 16px; }\n.elementor-section.tm-c.tm-stat {padding: 20px 16px}\n.tm-page .tm-stat .elementor-heading-title { font-size: 2rem; }\n.tm-page .tm-checks ul, .tm-page .tm-equip ul { grid-template-columns: minmax(0, 1fr); }\n.tm-page .e-con.tm-hero .tm-wrap { padding: 64px 0 100px; }\n.elementor-section.tm-c.tm-hero .tm-wrap {padding: 64px 0 100px}\n.tm-page .e-con.tm-hero { background-image: linear-gradient(180deg, rgba(10, 10, 10, .78) 0%, rgba(10, 10, 10, .9) 100%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero); }\n.elementor-section.tm-c.tm-hero {background-image: linear-gradient(180deg, rgba(10, 10, 10, .78) 0%, rgba(10, 10, 10, .9) 100%), linear-gradient(0deg, #0a0a0a 0%, rgba(10, 10, 10, 0) 24%), var(--tm-hero)}\n.tm-page .e-con.tm-row > .elementor-widget-button, .tm-page .e-con.tm-row > .elementor-widget-button .elementor-button { width: 100%; justify-content: center; text-align: center; }\n.elementor-section.tm-c.tm-row > .elementor-widget-button {width: 100%; text-align: center}\n.elementor-section.tm-c.tm-row > .elementor-widget-button .elementor-button {width: 100%; text-align: center}\n.tm-page .tm-form .elementor-col-50 { flex: 1 1 100%; }\n.tm-page .e-con.tm-panel { padding: 22px 18px; }\n.elementor-section.tm-c.tm-panel {padding: 22px 18px}\n.tm-page .tm-series-title .elementor-heading-title { font-size: 1.7rem; }\n.tm-page .tm-letter .elementor-heading-title { font-size: 7rem; }\n}\n\n/* ---- classic Section/Column plumbing ---- */\n.elementor-section.tm-c > .elementor-container { max-width: none; width: 100%; padding: 0; margin: 0; }\n.elementor-section.tm-c > .elementor-container > .elementor-column > .elementor-widget-wrap { padding: 0; }\n.elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: auto; flex: 0 0 auto; }\n.elementor-section.tm-hero > .elementor-container { min-height: min(84vh, 760px); align-items: center; }\n@media (max-width: 640px) {\n  .elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: 100%; }\n}\n</style>"
+     },
+     "elements": []
+    },
+    {
+     "id": "bc7fb1e",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-hero"
+     },
+     "elements": [
+      {
+       "id": "7c301fb",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "6de1713",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-hero-copy"
+         },
+         "elements": [
+          {
+           "id": "7882830",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Fire Rescue · Emergency Response</p>",
+            "_css_classes": "tm-eyebrow"
+           },
+           "elements": []
+          },
+          {
+           "id": "10e6cd7",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Fire Boats and Rescue Boats Built for <span>Emergency Response</span>",
+            "header_size": "h1",
+            "_css_classes": ""
+           },
+           "elements": []
+          },
+          {
+           "id": "c4407f8",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Tideman Marine designs and manufactures mission-ready <strong>fire boats and rescue boats</strong> for fire departments, municipalities, emergency response agencies, harbor authorities, and public safety organizations. Built from durable HDPE, Tideman Marine boats provide rugged, low-maintenance platforms for marine firefighting, search and rescue, flood response, dive operations, emergency medical response, and public safety missions.</p>",
+            "_css_classes": "tm-lead"
+           },
+           "elements": []
+          },
+          {
+           "id": "494df85",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-row tm-gap-s"
+           },
+           "elements": [
+            {
+             "id": "37256e2",
+             "elType": "widget",
+             "widgetType": "button",
+             "settings": {
+              "text": "Request Information",
+              "link": {
+               "url": "#contact",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "e7dec22",
+             "elType": "widget",
+             "widgetType": "button",
+             "settings": {
+              "text": "Explore the F-Series",
+              "link": {
+               "url": "#f-series",
+               "is_external": "",
+               "nofollow": "",
+               "custom_attributes": ""
+              },
+              "_css_classes": "tm-ghost"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "a8c70e0",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-stats"
+     },
+     "elements": [
+      {
+       "id": "4964e03",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "3a0640b",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-g4 tm-stats-grid"
+         },
+         "elements": [
+          {
+           "id": "d7215b0",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-stat"
+           },
+           "elements": [
+            {
+             "id": "3a0577b",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "23'",
+              "header_size": "div",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "ba9cb18",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Overall length</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "965ca70",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-stat"
+           },
+           "elements": [
+            {
+             "id": "4b9b234",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "8'6\"",
+              "header_size": "div",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "bfdee2e",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Beam</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "3d09a13",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-stat"
+           },
+           "elements": [
+            {
+             "id": "e43b805",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "HDPE",
+              "header_size": "div",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "f785779",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Hull construction</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "ef18d85",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-stat"
+           },
+           "elements": [
+            {
+             "id": "2f0a1e8",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Shallow",
+              "header_size": "div",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "bbb5f0f",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Draft design</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1cfd780",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec"
+     },
+     "elements": [
+      {
+       "id": "f10d25a",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "a3fb995",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-split tm-flip"
+         },
+         "elements": [
+          {
+           "id": "fa48bfe",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "6a3b1da",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Mission-ready platforms</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "b804866",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>From compact, shallow-draft <strong>rescue boats</strong> to larger, fully outfitted <strong>fire boats</strong>, Tideman Marine platforms can be configured around the specific equipment, personnel, waterways, and response requirements of each department.</p><p>Whether responding on lakes, rivers, harbors, coastal waters, flood zones, or shallow waterways, Tideman Marine builds <strong>fire and rescue boats</strong> around the mission.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "e80b0b8",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": ""
+           },
+           "elements": [
+            {
+             "id": "1854ee3",
+             "elType": "widget",
+             "widgetType": "image",
+             "settings": {
+              "image": {
+               "url": "https://YOUR-SITE.com/wp-content/uploads/tideman/square-underway.jpg",
+               "id": "",
+               "alt": "Tideman Marine fire rescue boat underway in a harbor",
+               "source": "library"
+              },
+              "image_size": "full",
+              "_css_classes": "tm-media"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "cd31ece",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-alt",
+      "_element_id": "f-series"
+     },
+     "elements": [
+      {
+       "id": "f401a17",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "c57136e",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-split"
+         },
+         "elements": [
+          {
+           "id": "3fd7753",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "b34888c",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>F-Series</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "f26e5a5",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "F-Series Flat Series <span>Fire Boats and Rescue Boats</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "39c09d6",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>The Tideman Marine <strong>F-Series, or Flat Series</strong>, is a versatile HDPE platform that can be configured for fire rescue and emergency response operations. Its shallow-draft design makes the Flat Series particularly well suited for departments that need access to rivers, lakes, flood zones, shorelines, and other areas where water depth or submerged hazards may limit conventional rescue vessels.</p><p>Configured as a <strong>rescue boat</strong>, the F-Series can support marine firefighting, search and rescue, flood response, dive operations, emergency medical response, victim recovery, and public safety missions.</p><p>The featured General Arrangement (GA) print showcases a <strong>23' long × 8'6\" beam Tideman Marine F-Series Flat Series</strong> platform outfitted specifically for fire rescue operations.</p><p>The Flat Series provides emergency response teams with a rugged and versatile <strong>rescue boat</strong> platform designed around shallow-water access, stability, deck space, and mission flexibility.</p><p>The featured configuration incorporates:</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "94e44d0",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<ul><li>23' overall length</li><li>8'6\" beam</li><li>HDPE hull construction</li><li>Flat Series shallow-draft hull design</li><li>Enclosed patrol-style cabin</li><li>Large working and rescue deck</li><li>Side boarding and dive door access</li><li>Outboard propulsion</li><li>Emergency lighting and electronics</li><li>Rescue and recovery equipment storage</li><li>Configurable equipment and personnel arrangements</li></ul>",
+              "_css_classes": "tm-checks"
+             },
+             "elements": []
+            },
+            {
+             "id": "3680630",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>This F-Series configuration demonstrates how a Tideman Marine platform can be outfitted as a purpose-built <strong>fire department rescue boat</strong> for professional emergency response.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "829068b",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": ""
+           },
+           "elements": [
+            {
+             "id": "579bb4a",
+             "elType": "widget",
+             "widgetType": "image",
+             "settings": {
+              "image": {
+               "url": "https://YOUR-SITE.com/wp-content/uploads/tideman/square-dock-day.jpg",
+               "id": "",
+               "alt": "Tideman Marine F-Series fire rescue boat docked on calm blue water",
+               "source": "library"
+              },
+              "image_size": "full",
+              "_css_classes": "tm-media"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "a2e2739",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-blueprint"
+     },
+     "elements": [
+      {
+       "id": "0a71c7d",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "dc51952",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-m"
+         },
+         "elements": [
+          {
+           "id": "cabb727",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>General Arrangement</p>",
+            "_css_classes": "tm-eyebrow"
+           },
+           "elements": []
+          },
+          {
+           "id": "60dabd0",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-ga"
+           },
+           "elements": [
+            {
+             "id": "c4ca423",
+             "elType": "widget",
+             "widgetType": "image",
+             "settings": {
+              "image": {
+               "url": "https://YOUR-SITE.com/wp-content/uploads/tideman/ga-drawing.png",
+               "id": "",
+               "alt": "General Arrangement drawing of the 23' F-Series Flat Series fire rescue boat",
+               "source": "library"
+              },
+              "image_size": "full",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "baf5916",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>General Arrangement (GA) · 23' × 8'6\" F-Series Flat Series</p>",
+            "_css_classes": "tm-caption"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "740c6d2",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec"
+     },
+     "elements": [
+      {
+       "id": "443f749",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "2447147",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-split"
+         },
+         "elements": [
+          {
+           "id": "c1e06ac",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "f646b4b",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Search and rescue</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "9747bec",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Rescue Boats for <span>Search and Rescue</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "7bdeec9",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Rapid access, stability, durability, and usable deck space can make a critical difference during a marine emergency. Tideman Marine <strong>rescue boats</strong> can be configured for quick deployment of firefighters, rescue personnel, divers, medical teams, and specialized emergency equipment.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "c88da06",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Shallow-Water Rescue Boats for Fire Departments",
+              "header_size": "h3",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "64775b2",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Shallow-water <strong>rescue boats</strong> can be particularly important during emergencies in rivers, marshes, lakes, flood zones, coastal areas, and other low-water environments.</p><p>The shallow-draft F-Series Flat Series helps emergency crews access areas where deeper-draft vessels may have difficulty operating.</p><p>Depending on department requirements, a shallow-water <strong>fire department rescue boat</strong> can be configured with:</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "f3e8355",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<ul><li>Open rescue and recovery areas</li><li>Dive and boarding doors</li><li>Patient recovery areas</li><li>Medical equipment storage</li><li>Rescue equipment storage</li><li>Emergency and scene lighting</li><li>Navigation and communications electronics</li><li>Searchlights</li><li>Tow points</li><li>Specialized seating</li><li>Enclosed or open helm arrangements</li><li>Firefighting equipment</li></ul>",
+              "_css_classes": "tm-checks"
+             },
+             "elements": []
+            },
+            {
+             "id": "caa9a1c",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>These capabilities make the Flat Series a versatile platform for flood rescue, shoreline response, victim recovery, dive operations, and other <strong>boat fire rescue</strong> missions.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "c9d9f67",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": ""
+           },
+           "elements": [
+            {
+             "id": "2919eb0",
+             "elType": "widget",
+             "widgetType": "image",
+             "settings": {
+              "image": {
+               "url": "https://YOUR-SITE.com/wp-content/uploads/tideman/square-dock-night.jpg",
+               "id": "",
+               "alt": "Tideman Marine rescue boat at a lit harbor dock at night",
+               "source": "library"
+              },
+              "image_size": "full",
+              "_css_classes": "tm-media"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1d6c848",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-alt",
+      "_element_id": "missions"
+     },
+     "elements": [
+      {
+       "id": "d21e717",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "2aaa796",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-xl"
+         },
+         "elements": [
+          {
+           "id": "d9ee479",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-narrow tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "859c012",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Municipal fire departments</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "dc8d62c",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Municipal Fire Department <span>Rescue Boats</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "534eddf",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Tideman Marine builds <strong>fire department rescue boats</strong> around the needs of municipal, regional, state, and other public safety agencies.</p><p>Rather than limiting departments to a single standard configuration, Tideman Marine can develop the vessel arrangement around the crew, equipment, operating environment, and mission.</p><p>Tideman Marine <strong>fire and rescue boats</strong> can support:</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "d3f5bc0",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-g4 tm-mission-grid"
+           },
+           "elements": [
+            {
+             "id": "01170f0",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "ac704ec",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "01",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "5e1b057",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Marine firefighting",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "29280d6",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "ac37b73",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "02",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "4054fc7",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Search and rescue",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "317233e",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "d11810b",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "03",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "aa87b67",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Flood response",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "6e59a02",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "d7e1026",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "04",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "28ea12d",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Dive team deployment",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "14c7bc3",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "f9c9f45",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "05",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "840d6aa",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Emergency medical response",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "f8f4677",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "c41b577",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "06",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "375b2eb",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Victim recovery",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "8fe09e5",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "a5bb36b",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "07",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "5965844",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Harbor and marina response",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "371a10b",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "f3e669b",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "08",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "e7473f1",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Public safety patrol",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "adc4c0f",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "ccb8ab3",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "09",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "6a87f35",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Vessel assistance",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "c95f2fd",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "a4b2f07",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "10",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "add3652",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Disaster response",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "f85d42d",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-mission"
+             },
+             "elements": [
+              {
+               "id": "9e2fc11",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "11",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "ad7e224",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Personnel and equipment transport",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "18c711d",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>This flexibility allows one <strong>fire and rescue boat</strong> to support multiple emergency response missions.</p>",
+            "_css_classes": "tm-narrow"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "aabfd2e",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-firefight"
+     },
+     "elements": [
+      {
+       "id": "99d72a5",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "0729062",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-l"
+         },
+         "elements": [
+          {
+           "id": "e731ede",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-narrow tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "e9a01ed",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Marine firefighting</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "4cadde7",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Fire Boats for <span>Marine Firefighting</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "6ead08e",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>For departments requiring dedicated marine firefighting capability, Tideman Marine <strong>fire boats</strong> can be configured with equipment for responding to vessel fires, marina incidents, waterfront structure fires, port emergencies, and other incidents on or near the water.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "520b007",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Fire Boats with Pumps, Monitors and Rescue Equipment",
+              "header_size": "h3",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "a148797",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Depending on vessel size, mission, and department requirements, Tideman Marine <strong>fire boats</strong> can be outfitted with:</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "ebdc461",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<ul><li>Fire suppression pumps</li><li>Fire monitors and water cannons</li><li>Hose connections and deployment systems</li><li>Emergency and scene lighting</li><li>Searchlights</li><li>Communications systems</li><li>Navigation electronics</li><li>Rescue and recovery equipment</li><li>Dive equipment</li><li>Medical equipment</li><li>Equipment storage</li><li>Specialized seating</li><li>Command and helm stations</li></ul>",
+            "_css_classes": "tm-checks tm-equip"
+           },
+           "elements": []
+          },
+          {
+           "id": "752a65b",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>These capabilities allow a Tideman Marine <strong>rescue fire boat</strong> to serve as a multipurpose emergency response asset for fire departments, ports, harbors, marinas, industrial waterfront facilities, and other marine operations.</p>",
+            "_css_classes": "tm-narrow"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "7e1c0d0",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec",
+      "_element_id": "hdpe"
+     },
+     "elements": [
+      {
+       "id": "de36758",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "87fe996",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-xl"
+         },
+         "elements": [
+          {
+           "id": "27d3298",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-split tm-flip"
+           },
+           "elements": [
+            {
+             "id": "bb8f6f4",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-gap-m"
+             },
+             "elements": [
+              {
+               "id": "cf17ac8",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE construction</p>",
+                "_css_classes": "tm-eyebrow"
+               },
+               "elements": []
+              },
+              {
+               "id": "15118f6",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "HDPE Fire Boats <span>and Rescue Boats</span>",
+                "header_size": "h2",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "53c18e3",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tideman Marine constructs its vessels using High-Density Polyethylene (HDPE), providing characteristics that are particularly well suited for professional <strong>fire boats and rescue boats</strong>.</p><p>Emergency response vessels may encounter docks, submerged objects, debris, rocky shorelines, shallow water, saltwater, and other demanding conditions. HDPE provides departments with a rugged hull material designed for these real-world marine environments.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "c46a757",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Why HDPE Works for Fire Boats and Rescue Boats",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "bc64652",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": ""
+             },
+             "elements": [
+              {
+               "id": "b8716d9",
+               "elType": "widget",
+               "widgetType": "image",
+               "settings": {
+                "image": {
+                 "url": "https://YOUR-SITE.com/wp-content/uploads/tideman/square-deck-detail.jpg",
+                 "id": "",
+                 "alt": "Deck detail of a Tideman Marine HDPE rescue boat with life ring and equipment case",
+                 "source": "library"
+                },
+                "image_size": "full",
+                "_css_classes": "tm-media"
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "12b3924",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-g4 tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "3fcef06",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "1237e5e",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "01",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "5dfb915",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Impact Resistance",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "96d99c8",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE provides excellent impact resistance for operations around docks, debris, rocky shorelines, and other demanding environments.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "d3e4d53",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "1bc7a08",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "02",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "727aad3",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Corrosion Resistance",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "71638da",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE does not corrode from exposure to freshwater or saltwater, making it well suited for long-term marine service.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "1d14c56",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "8c6d0a6",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "03",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "7965878",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Low Maintenance",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "08d11b3",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>The HDPE hull does not require the same corrosion protection associated with many traditional marine materials.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "900989c",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "94b97e5",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "04",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "048fb06",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "No Electrolysis",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "1505451",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE is nonconductive and is not subject to galvanic corrosion.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "3c50e70",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "ddf70d5",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "05",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "e109640",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Naturally Buoyant",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "4191595",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE itself is naturally buoyant, an important characteristic for a marine hull material.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "4785b81",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "63a7bcc",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "06",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "32eacc2",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Shallow-Water Capability",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "9986479",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE construction works particularly well with rugged, shallow-draft workboat designs such as the F-Series Flat Series.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "dc07ed7",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "df96f3f",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "07",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "f1ceed8",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Long Service Life",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "c8996b0",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>HDPE is designed to provide years of demanding marine service with relatively low hull maintenance.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            },
+            {
+             "id": "55cdc5a",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-card"
+             },
+             "elements": [
+              {
+               "id": "7b315c1",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "08",
+                "header_size": "div",
+                "_css_classes": "tm-num"
+               },
+               "elements": []
+              },
+              {
+               "id": "559b85c",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Repairability",
+                "header_size": "h3",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "e3f5300",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>If damage does occur, HDPE can be welded and repaired.</p>",
+                "_css_classes": ""
+               },
+               "elements": []
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "ba3cc95",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>For departments whose <strong>rescue boats</strong> may encounter submerged debris, damaged docks, rocky shorelines, flood-related hazards, or other challenging conditions, HDPE can provide an important operational advantage.</p>",
+            "_css_classes": "tm-narrow"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "04de9d9",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-alt",
+      "_element_id": "series"
+     },
+     "elements": [
+      {
+       "id": "efb325c",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "0ef3d3f",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-xl"
+         },
+         "elements": [
+          {
+           "id": "5020e39",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-narrow tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "749f8fd",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>More platforms</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "45a17fc",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Other Tideman Marine Series for <span>Fire Boats and Rescue Boats</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "a2dc3f7",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>While the <strong>F-Series Flat Series</strong> provides an excellent shallow-draft platform for fire rescue operations, other Tideman Marine boat series can also be configured as <strong>fire boats and rescue boats</strong>.</p><p>The right platform depends on the department's waterways, crew size, equipment, operating conditions, required range, and primary mission.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "621ff82",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "a1cf876",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "I-Series <span>Inland</span>",
+              "header_size": "h3",
+              "_css_classes": "tm-series-title"
+             },
+             "elements": []
+            },
+            {
+             "id": "468d692",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-g3 tm-gap-l"
+             },
+             "elements": [
+              {
+               "id": "82a87cc",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "66a5d65",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "8e19927",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I-Series Inland Patrol Fire Boats and Rescue Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "c9eb466",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>The <strong>I-Series Inland Patrol</strong> is a strong option for fire departments operating on lakes, rivers, harbors, and inland waterways.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "59f9acd",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<p>Configured as a <strong>fire rescue boat</strong>, the Inland Patrol can support marine firefighting, search and rescue, dive operations, emergency medical response, harbor patrol, and personnel transport.</p><h4>Inland Patrol Rescue Boats for Emergency Response</h4><p>An I-Series Inland Patrol <strong>rescue boat</strong> can be configured with equipment such as fire pumps and monitors, emergency lighting, searchlights, rescue equipment storage, electronics, communications equipment, dive access, and specialized crew seating.</p><p>This combination makes the Inland Patrol an option for departments that need one boat to perform both routine public safety and emergency response missions.</p>",
+                    "_id": "7e70649"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              },
+              {
+               "id": "a0087d0",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "cf9cb78",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "db119bc",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I-Series Inland Utility Fire Boats and Rescue Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "728ad07",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>For departments that prioritize deck space, stability, and equipment capacity, the <strong>I-Series Inland Utility</strong> provides another versatile platform for <strong>fire boats and rescue boats</strong>.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "54ddcb6",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<p>The Inland Utility can provide valuable working space for pumps, hoses, rescue equipment, divers, medical personnel, and recovered victims.</p><h4>Inland Utility Fire Department Rescue Boats</h4><p>An Inland Utility <strong>fire department rescue boat</strong> could be particularly well-suited for:</p><ul><li>Flood response</li><li>Shallow-water rescue</li><li>Dive operations</li><li>Equipment transport</li><li>Victim recovery</li><li>Emergency medical response</li><li>Marine firefighting</li><li>Disaster response</li></ul><p>Its open-working platform also provides departments with flexibility in determining where specialized fire and rescue equipment should be positioned.</p>",
+                    "_id": "6343028"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              },
+              {
+               "id": "324367e",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "330d0a6",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "5167dfd",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "I-Series Inland Landing Craft Rescue Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "104e9ee",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>The <strong>I-Series Inland Landing Craft</strong> provides another approach to emergency response by offering direct access between the vessel and shoreline.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "5146c4f",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<h4>Landing Craft Rescue Boats for Flood and Disaster Response</h4><p>A bow ramp can make it easier to move rescue personnel, equipment, patients, and emergency supplies between the <strong>rescue boat</strong> and shore.</p><p>This can make an Inland Landing Craft particularly useful for:</p><ul><li>Flood response</li><li>Disaster response</li><li>Evacuations</li><li>Shoreline rescue</li><li>Emergency equipment deployment</li><li>Personnel transport</li><li>Medical response</li><li>Access to isolated areas</li></ul><p>For departments responding where roads, docks, or conventional access points have been compromised, a landing craft-style <strong>rescue boat</strong> can provide additional mission flexibility.</p>",
+                    "_id": "79e7b6f"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "ba765a5",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "33e67c0",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "C-Series <span>Coastal</span>",
+              "header_size": "h3",
+              "_css_classes": "tm-series-title"
+             },
+             "elements": []
+            },
+            {
+             "id": "55cbbd7",
+             "elType": "container",
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "css_classes": "tm-g3 tm-gap-l"
+             },
+             "elements": [
+              {
+               "id": "da22ddc",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "5c61176",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "589964f",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C-Series Coastal Patrol Fire Boats and Rescue Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "4f118d0",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>For departments operating in larger harbors, ports, coastal waterways, and more demanding marine environments, the <strong>C-Series Coastal Patrol</strong> provides a larger platform for a highly capable <strong>fire boat</strong>.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "24d6acc",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<p>The Coastal Series can provide additional room and payload capacity for larger firefighting systems, rescue equipment, medical equipment, electronics, crew accommodations, and command systems.</p><h4>Coastal Fire Boats for Ports and Harbors</h4><p>A C-Series Coastal Patrol <strong>fire rescue boat</strong> can be configured for:</p><ul><li>Marine firefighting</li><li>Port and harbor response</li><li>Search and rescue</li><li>Dive operations</li><li>Vessel assistance</li><li>Emergency medical response</li><li>Coastal patrol</li><li>Extended emergency response missions</li></ul><p>For departments covering large harbors, coastal areas, ports, or more exposed waterways, the C-Series provides another option for a highly capable <strong>fire and rescue boat</strong>.</p>",
+                    "_id": "67c8f83"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              },
+              {
+               "id": "3bbe77e",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "1161f3d",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "ea1e12c",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C-Series Coastal Utility Fire Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "e11c914",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>The <strong>C-Series Coastal Utility</strong> provides a substantial working deck for departments requiring a heavy-duty <strong>fire boat</strong> with room for firefighting and rescue systems.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "10b80fe",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<h4>Coastal Utility Fire Boats with Working Deck Space</h4><p>The working deck can be configured around equipment such as:</p><ul><li>Fire pumps</li><li>Fire monitors</li><li>Hose storage</li><li>Dive equipment</li><li>Rescue gear</li><li>Medical equipment</li><li>Generators</li><li>Emergency equipment</li><li>Specialized storage</li></ul><p>For a department looking for a working <strong>fire boat</strong> rather than a traditional patrol-style layout, the Coastal Utility provides another highly configurable HDPE platform.</p>",
+                    "_id": "66bdab8"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              },
+              {
+               "id": "2381f60",
+               "elType": "container",
+               "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "tm-scard"
+               },
+               "elements": [
+                {
+                 "id": "c25ecba",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C",
+                  "header_size": "div",
+                  "_css_classes": "tm-letter"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "d8f0fca",
+                 "elType": "widget",
+                 "widgetType": "heading",
+                 "settings": {
+                  "title": "C-Series Coastal Landing Craft Fire and Rescue Boats",
+                  "header_size": "h3",
+                  "_css_classes": ""
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "1b05c8d",
+                 "elType": "widget",
+                 "widgetType": "text-editor",
+                 "settings": {
+                  "editor": "<p>The <strong>C-Series Coastal Landing Craft</strong> can provide fire and rescue agencies with a heavy-duty emergency response platform capable of moving personnel and equipment directly to a shoreline.</p>",
+                  "_css_classes": "tm-lead-s"
+                 },
+                 "elements": []
+                },
+                {
+                 "id": "f70bdb2",
+                 "elType": "widget",
+                 "widgetType": "toggle",
+                 "settings": {
+                  "tabs": [
+                   {
+                    "tab_title": "Read more",
+                    "tab_content": "<h4>Coastal Landing Craft Rescue Boats for Emergency Access</h4><p>A Coastal Landing Craft <strong>fire and rescue boat</strong> could be especially valuable for agencies responsible for islands, coastal communities, industrial waterfronts, ports, or areas where emergency crews need the ability to bring personnel and equipment directly ashore.</p><p>Potential missions include:</p><ul><li>Disaster response</li><li>Evacuation</li><li>Search and rescue</li><li>Firefighting support</li><li>Equipment deployment</li><li>Emergency personnel transport</li><li>Shoreline access</li><li>Recovery operations</li></ul>",
+                    "_id": "3a9470b"
+                   }
+                  ],
+                  "title_html_tag": "div",
+                  "selected_icon": {
+                   "value": "fas fa-plus",
+                   "library": "fa-solid"
+                  },
+                  "selected_active_icon": {
+                   "value": "fas fa-minus",
+                   "library": "fa-solid"
+                  },
+                  "_css_classes": "tm-more tm-checks tm-one"
+                 },
+                 "elements": []
+                }
+               ],
+               "isInner": true
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "2371a98",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec"
+     },
+     "elements": [
+      {
+       "id": "6e97fe6",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "6d62827",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-gap-l"
+         },
+         "elements": [
+          {
+           "id": "5337a82",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-narrow tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "c8aac65",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Built around your mission</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "5056614",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Fire Boats and Rescue Boats <span>Configured Around Your Department</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "3187faa",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Every fire department operates differently. A coastal department may require a substantial firefighting system, larger crew capacity, and an enclosed cabin, while an inland department may prioritize shallow draft, open deck space, rapid victim recovery, and trailerability.</p><p>Tideman Marine can configure <strong>fire boats and rescue boats</strong> around the specific requirements of the department and its operating environment.</p><p>Available configurations can include:</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "ca7ed56",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<ul><li>Shallow-water rescue boats</li><li>Municipal fire boats</li><li>Fire department rescue boats</li><li>Search and rescue boats</li><li>Flood response boats</li><li>Dive support boats</li><li>Harbor and port response boats</li><li>Fire suppression boats</li><li>Multi-purpose emergency response boats</li><li>Coastal rescue boats</li></ul>",
+            "_css_classes": "tm-tags"
+           },
+           "elements": []
+          },
+          {
+           "id": "54bdc2f",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>From the <strong>23' F-Series Flat Series</strong> featured on this page to larger Inland and Coastal platforms, Tideman Marine provides departments with the ability to select the hull, layout, propulsion, cabin, equipment, and rescue features that best support their mission.</p>",
+            "_css_classes": "tm-narrow"
+           },
+           "elements": []
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1d2abe6",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "css_classes": "tm-sec tm-cta",
+      "_element_id": "contact"
+     },
+     "elements": [
+      {
+       "id": "27164a4",
+       "elType": "container",
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "601ba28",
+         "elType": "container",
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "css_classes": "tm-g2 tm-gap-xl tm-top"
+         },
+         "elements": [
+          {
+           "id": "f2e779d",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-gap-m"
+           },
+           "elements": [
+            {
+             "id": "7134cf1",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Contact</p>",
+              "_css_classes": "tm-eyebrow"
+             },
+             "elements": []
+            },
+            {
+             "id": "60eaa60",
+             "elType": "widget",
+             "widgetType": "heading",
+             "settings": {
+              "title": "Request Information About Tideman Marine <span>Fire Boats and Rescue Boats</span>",
+              "header_size": "h2",
+              "_css_classes": ""
+             },
+             "elements": []
+            },
+            {
+             "id": "b5ad0e7",
+             "elType": "widget",
+             "widgetType": "text-editor",
+             "settings": {
+              "editor": "<p>Contact Tideman Marine to discuss your department's operational requirements. Our team can help identify the Tideman Marine platform, hull configuration, propulsion package, layout, and mission equipment best suited for your department's marine firefighting, fire rescue, search and rescue, flood response, or emergency response operations.</p>",
+              "_css_classes": ""
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          },
+          {
+           "id": "6c639c5",
+           "elType": "container",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "tm-panel"
+           },
+           "elements": [
+            {
+             "id": "3efc488",
+             "elType": "widget",
+             "widgetType": "form",
+             "settings": {
+              "form_name": "Fire Rescue Information Request",
+              "form_fields": [
+               {
+                "custom_id": "name",
+                "field_type": "text",
+                "field_label": "Name",
+                "placeholder": "",
+                "width": "50",
+                "required": "true",
+                "_id": "4ed9be0"
+               },
+               {
+                "custom_id": "department",
+                "field_type": "text",
+                "field_label": "Department / Organization",
+                "placeholder": "",
+                "width": "50",
+                "required": "true",
+                "_id": "35102f3"
+               },
+               {
+                "custom_id": "email",
+                "field_type": "email",
+                "field_label": "Email",
+                "placeholder": "",
+                "width": "50",
+                "required": "true",
+                "_id": "e03752c"
+               },
+               {
+                "custom_id": "phone",
+                "field_type": "tel",
+                "field_label": "Phone",
+                "placeholder": "",
+                "width": "50",
+                "required": "",
+                "_id": "09e6ceb"
+               },
+               {
+                "custom_id": "mission",
+                "field_type": "select",
+                "field_label": "Primary Mission",
+                "placeholder": "",
+                "width": "100",
+                "required": "",
+                "_id": "00abd15",
+                "field_options": "Marine firefighting\nSearch and rescue\nFlood response\nDive operations\nEmergency medical response\nHarbor and port response\nOther"
+               },
+               {
+                "custom_id": "message",
+                "field_type": "textarea",
+                "field_label": "Tell us about your department's requirements",
+                "placeholder": "",
+                "width": "100",
+                "required": "",
+                "_id": "b28ae12",
+                "rows": "5"
+               }
+              ],
+              "button_text": "Request Information",
+              "button_size": "md",
+              "submit_actions": [
+               "email"
+              ],
+              "email_to": "info@tideman-marine.com",
+              "email_subject": "New Fire Rescue information request",
+              "email_content": "[all-fields]",
+              "email_from_name": "Tideman Marine Website",
+              "success_message": "Thank you. Our team will contact you shortly.",
+              "show_labels": "true",
+              "label_position": "above",
+              "_css_classes": "tm-form"
+             },
+             "elements": []
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": [],
+ "version": "0.4",
+ "title": "Fire Rescue Boats - Tideman Marine (containers)",
+ "type": "page"
+}

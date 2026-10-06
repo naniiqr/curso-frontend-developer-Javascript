@@ -307,14 +307,13 @@ def build_tree():
         T("<p>© Tideman Marine. Built to Last.</p>"),
         T('<p><a href="#top">Back to top ↑</a></p>')))
 
-    return C("tm-page", topbar, nav, hero, stats, intro, f_series, ga, search, missions, firefight, hdpe, series, config, cta, footer, eid="tm-page")
+    return C("tm-page", hero, stats, intro, f_series, ga, search, missions, firefight, hdpe, series, config, cta)
 
 # ---------------------------------------------------------------- HTML renderer (mimics Elementor DOM)
-def render_html(n):
+
+# ---------------------------------------------------------------- widgets -> HTML (Elementor-like DOM)
+def render_widget(n):
     cls = n.get("cls", "")
-    if n["t"] == "c":
-        a = f' id="{n["eid"]}"' if n.get("eid") else ""
-        return f'<div class="e-con e-flex {cls}"{a}>' + "".join(render_html(k) for k in n["kids"]) + "</div>"
     w = lambda name, inner: (f'<div class="elementor-element elementor-widget elementor-widget-{name} {cls}">'
                              f'<div class="elementor-widget-container">{inner}</div></div>')
     if n["t"] == "h":
@@ -343,15 +342,25 @@ def render_html(n):
         return w("form", '<form class="elementor-form" onsubmit="return false"><div class="elementor-form-fields-wrapper">' + "".join(rows) + "</div></form>")
     raise ValueError(n)
 
+# ---- classic DOM: every container becomes Section > Column > widget-wrap
+def render_classic(n, top):
+    if n["t"] != "c":
+        return render_widget(n)
+    kind = "top" if top else "inner"
+    cls = ("tm-c tm-page " if top else "tm-c ") + n.get("cls", "")
+    a = f' id="{n["eid"]}"' if n.get("eid") else ""
+    inner = "".join(render_classic(k, False) for k in n["kids"])
+    return (f'<section class="elementor-section elementor-{kind}-section elementor-section-full_width elementor-element {cls}"{a}>'
+            f'<div class="elementor-container elementor-column-gap-no"><div class="elementor-column elementor-col-100 elementor-{kind}-column elementor-element">'
+            f'<div class="elementor-widget-wrap elementor-element-populated">{inner}</div></div></div></section>')
+
+def render_page(tree):
+    return "".join(render_classic(k, True) for k in tree["kids"])
+
 # ---------------------------------------------------------------- Elementor JSON
-def to_el(n, inner=False):
+def widget_json(n):
     seed = n.get("cls", "") + str(n.get("text", n.get("html", n.get("href", ""))))[:40]
     cls = n.get("cls", "")
-    if n["t"] == "c":
-        s = {"content_width": "full", "flex_direction": "column", "_css_classes": cls}
-        if n.get("eid"): s["_element_id"] = n["eid"]
-        return {"id": _id(seed), "elType": "container", "settings": s,
-                "elements": [to_el(k, True) for k in n["kids"]], "isInner": inner}
     def wd(typ, s):
         s["_css_classes"] = cls
         return {"id": _id(seed), "elType": "widget", "widgetType": typ, "settings": s, "elements": []}
@@ -382,17 +391,100 @@ def to_el(n, inner=False):
                            "show_labels": "true", "label_position": "above"})
     raise ValueError(n)
 
+def classic_json(n, top):
+    """container node -> section > column > children (inner sections nested in the column)."""
+    if n["t"] != "c":
+        return widget_json(n)
+    cls = ("tm-c tm-page " if top else "tm-c ") + n.get("cls", "")
+    s = {"layout": "full_width", "gap": "no", "structure": "10", "css_classes": cls.strip()}
+    if n.get("eid"): s["_element_id"] = n["eid"]
+    col = {"id": _id("col" + cls + str(len(n["kids"]))), "elType": "column",
+           "settings": {"_column_size": 100, "_inline_size": None},
+           "elements": [classic_json(k, False) for k in n["kids"]], "isInner": not top}
+    return {"id": _id("sec" + cls + str(len(n["kids"]))), "elType": "section", "settings": s, "elements": [col], "isInner": not top}
+
+def container_json(n, inner=False):
+    """Flexbox-container variant (needs Elementor > Features > Flexbox Container = Active)."""
+    if n["t"] != "c":
+        return widget_json(n)
+    s = {"content_width": "full", "flex_direction": "column", "css_classes": n.get("cls", "")}
+    if n.get("eid"): s["_element_id"] = n["eid"]
+    return {"id": _id("con" + n.get("cls", "") + str(len(n["kids"]))), "elType": "container", "settings": s,
+            "elements": [container_json(k, True) for k in n["kids"]], "isInner": inner}
+
+# ---------------------------------------------------------------- CSS: add classic-DOM twins for every .e-con rule
+LAYOUT = {"display", "flex-wrap", "flex-direction", "grid-template-columns", "align-items", "align-content",
+          "gap", "row-gap", "column-gap", "justify-items", "place-items"}   # justify-content dropped on purpose (axis differs)
+DROP = {"justify-content"}
+WRAP = " > .elementor-container > .elementor-column > .elementor-widget-wrap"
+
+def _blocks(css):
+    """yield ('rule', selector, body) / ('media', header, [blocks])"""
+    css = __import__("re").sub(r"/\*.*?\*/", "", css, flags=__import__("re").S)
+    i, n, out = 0, len(css), []
+    while i < n:
+        j = css.find("{", i)
+        if j < 0: break
+        head = css[i:j].strip()
+        depth, k = 1, j + 1
+        while depth and k < n:
+            depth += (css[k] == "{") - (css[k] == "}"); k += 1
+        body = css[j + 1:k - 1]
+        out.append(("media", head, _blocks(body)) if head.startswith("@media") else ("rule", head, body))
+        i = k
+    return out
+
+def _emit(blocks):
+    res = []
+    for b in blocks:
+        if b[0] == "media":
+            res.append(f"{b[1]} {{\n{_emit(b[2])}}}\n"); continue
+        _, sel, body = b
+        res.append(f"{sel} {{{body}}}\n")
+        decls = [d.strip() for d in body.split(";") if d.strip()]
+        for s in [x.strip() for x in sel.split(",")]:
+            if ".e-con" not in s: continue
+            s2 = (s[len(".tm-page "):] if s.startswith(".tm-page ") else s).replace(".e-con", ".elementor-section.tm-c")
+            target = ".e-con" in s.split()[-1]
+            box, lay = [], []
+            for d in decls:
+                prop = d.split(":", 1)[0].strip()
+                if prop.startswith("--") or prop in DROP: continue
+                (lay if (target and prop in LAYOUT) else box).append(d)
+            if box: res.append(f"{s2} {{{'; '.join(box)}}}\n")
+            if lay: res.append(f"{s2}{WRAP} {{{'; '.join(lay)}}}\n")
+    return "".join(res)
+
+CLASSIC_EXTRA = """
+/* ---- classic Section/Column plumbing ---- */
+.elementor-section.tm-c > .elementor-container { max-width: none; width: 100%; padding: 0; margin: 0; }
+.elementor-section.tm-c > .elementor-container > .elementor-column > .elementor-widget-wrap { padding: 0; }
+.elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: auto; flex: 0 0 auto; }
+.elementor-section.tm-hero > .elementor-container { min-height: min(84vh, 760px); align-items: center; }
+@media (max-width: 640px) {
+  .elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: 100%; }
+}
+"""
+
 def css_for(img_base):
-    """CSS with the image variables resolved for this target."""
+    """CSS (container rules + classic twins) with image variables resolved."""
     v = (f".tm-page{{--tm-hero:url('{img_base}hero.jpg');--tm-water:url('{img_base}bg-water.jpg');"
          f"--tm-blueprint:url('{img_base}bg-blueprint.jpg');}}\n")
-    return v + CSS
+    return v + _emit(_blocks(CSS)) + CLASSIC_EXTRA
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">')
 
+# Minimal stand-in for Elementor's own CSS so the standalone preview behaves like the real editor DOM
 PREVIEW_BASE = """
 html{scroll-behavior:smooth} body{margin:0;background:#0a0a0a}
+.elementor-section{position:relative}
+.elementor-container{display:flex;margin-left:auto;margin-right:auto;position:relative}
+.elementor-column{position:relative;min-height:1px;display:flex;width:100%}
+.elementor-widget-wrap{position:relative;width:100%;flex-wrap:wrap;align-content:flex-start;display:flex}
+.elementor-widget-wrap>.elementor-element{width:100%}
+.elementor-column-gap-no>.elementor-column>.elementor-element-populated{padding:0}
+.elementor-widget:not(:last-child){margin-block-end:20px}
 .e-con{display:flex;flex-direction:column;width:100%}
 .elementor-widget-button .elementor-button{text-align:center}
 .elementor-toggle .elementor-tab-content{display:none}
@@ -406,27 +498,48 @@ document.querySelectorAll('.elementor-tab-title').forEach(function(t){
 });
 </script>"""
 
+def template(content, title):
+    return {"content": content, "page_settings": [], "version": "0.4", "title": title, "type": "page"}
+
 def main():
     tree = build_tree()
-    # ---- HTML
-    css_local = css_for(IMG)          # relative paths from styles.css? -> inline <style> sits in index.html
+    css_local = css_for(IMG)
     html = ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
             "<title>Fire Boats and Rescue Boats | Tideman Marine</title>\n"
             "<meta name=\"description\" content=\"Tideman Marine designs and manufactures mission-ready fire boats and rescue boats built from durable HDPE for fire departments, municipalities, harbor authorities, and public safety organizations.\">\n"
             f"{FONTS}\n<style>{PREVIEW_BASE}</style>\n<style>\n{css_local}</style>\n</head>\n<body>\n"
-            + render_html(tree) + PREVIEW_JS + "\n</body>\n</html>\n")
+            + render_page(tree) + PREVIEW_JS + "\n</body>\n</html>\n")
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 
-    # ---- Elementor JSON
-    style_widget = {"id": _id("style"), "elType": "widget", "widgetType": "html",
-                    "settings": {"html": FONTS + "\n<style>\n" + css_for(BASE + "/") + "</style>"}, "elements": []}
-    page = to_el(tree)
-    page["elements"].insert(0, style_widget)
-    tpl = {"content": [page], "page_settings": {"hide_title": "yes"}, "version": "0.4",
-           "title": "Fire Rescue Boats - Tideman Marine", "type": "page"}
-    out = os.path.join(ROOT, "tideman-fire-rescue-elementor.json")
-    json.dump(tpl, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("OK", len(html), "bytes html;", os.path.getsize(out), "bytes json; image base:", BASE)
+    css_json = FONTS + "\n<style>\n" + css_for(BASE + "/") + "</style>"
+    style_widget = {"id": _id("style"), "elType": "widget", "widgetType": "html", "settings": {"html": css_json}, "elements": []}
+
+    # 1) classic Sections/Columns: works on any Elementor, no experiments needed
+    style_sec = {"id": _id("stylesec"), "elType": "section", "settings": {"layout": "full_width", "gap": "no", "css_classes": "tm-style"},
+                 "elements": [{"id": _id("stylecol"), "elType": "column", "settings": {"_column_size": 100, "_inline_size": None},
+                               "elements": [style_widget], "isInner": False}], "isInner": False}
+    classic = [style_sec] + [classic_json(k, True) for k in tree["kids"]]
+    p1 = os.path.join(ROOT, "tideman-fire-rescue-elementor.json")
+    json.dump(template(classic, "Fire Rescue Boats - Tideman Marine"), open(p1, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+    # 2) Flexbox-container variant (only if Elementor > Features > Flexbox Container is Active)
+    root = container_json(tree)
+    root["elements"].insert(0, {**style_widget, "id": _id("style2")})
+    p2 = os.path.join(ROOT, "tideman-fire-rescue-elementor-containers.json")
+    json.dump(template([root], "Fire Rescue Boats - Tideman Marine (containers)"), open(p2, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # 3) same classic structure WITHOUT the embedded <style> widget + the CSS as a separate file
+    #    (use if the host/WAF rejects the big file or <style> inside the JSON)
+    p3 = os.path.join(ROOT, "tideman-fire-rescue-elementor-nocss.json")
+    json.dump(template([classic_json(k, True) for k in tree["kids"]], "Fire Rescue Boats - Tideman Marine (no css)"),
+              open(p3, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    open(os.path.join(ROOT, "tideman-fire-rescue.css"), "w", encoding="utf-8").write(
+        "/* Paste in Appearance > Customize > Additional CSS (or Elementor Site Settings > Custom CSS).\n"
+        "   Fonts: add Bebas Neue + Inter from Google Fonts. */\n" + css_for(BASE + "/"))
+
+    # 4) smallest possible real test: hero section only, no CSS, no special widgets
+    p4 = os.path.join(ROOT, "tests", "test-hero-only.json")
+    json.dump(template([classic_json(tree["kids"][0], True)], "Test hero only"), open(p4, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("OK", len(html), "bytes html |", os.path.getsize(p1), "bytes classic json |", os.path.getsize(p2), "bytes container json | base:", BASE)
 
 main()

@@ -1,0 +1,167 @@
+{
+ "content": [
+  {
+   "id": "49a13ba",
+   "elType": "section",
+   "settings": {
+    "layout": "full_width",
+    "gap": "no",
+    "structure": "10",
+    "css_classes": "tm-c tm-page tm-hero"
+   },
+   "elements": [
+    {
+     "id": "aa29d08",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "9e5f067",
+       "elType": "section",
+       "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "structure": "10",
+        "css_classes": "tm-c tm-wrap"
+       },
+       "elements": [
+        {
+         "id": "97838b7",
+         "elType": "column",
+         "settings": {
+          "_column_size": 100,
+          "_inline_size": null
+         },
+         "elements": [
+          {
+           "id": "b4d0096",
+           "elType": "section",
+           "settings": {
+            "layout": "full_width",
+            "gap": "no",
+            "structure": "10",
+            "css_classes": "tm-c tm-hero-copy"
+           },
+           "elements": [
+            {
+             "id": "90d276d",
+             "elType": "column",
+             "settings": {
+              "_column_size": 100,
+              "_inline_size": null
+             },
+             "elements": [
+              {
+               "id": "ccc425a",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Fire Rescue · Emergency Response</p>",
+                "_css_classes": "tm-eyebrow"
+               },
+               "elements": []
+              },
+              {
+               "id": "5cabe9e",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "Fire Boats and Rescue Boats Built for <span>Emergency Response</span>",
+                "header_size": "h1",
+                "_css_classes": ""
+               },
+               "elements": []
+              },
+              {
+               "id": "eed666a",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tideman Marine designs and manufactures mission-ready <strong>fire boats and rescue boats</strong> for fire departments, municipalities, emergency response agencies, harbor authorities, and public safety organizations. Built from durable HDPE, Tideman Marine boats provide rugged, low-maintenance platforms for marine firefighting, search and rescue, flood response, dive operations, emergency medical response, and public safety missions.</p>",
+                "_css_classes": "tm-lead"
+               },
+               "elements": []
+              },
+              {
+               "id": "421e1e1",
+               "elType": "section",
+               "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "structure": "10",
+                "css_classes": "tm-c tm-row tm-gap-s"
+               },
+               "elements": [
+                {
+                 "id": "ae4b638",
+                 "elType": "column",
+                 "settings": {
+                  "_column_size": 100,
+                  "_inline_size": null
+                 },
+                 "elements": [
+                  {
+                   "id": "71ee8f7",
+                   "elType": "widget",
+                   "widgetType": "button",
+                   "settings": {
+                    "text": "Request Information",
+                    "link": {
+                     "url": "#contact",
+                     "is_external": "",
+                     "nofollow": "",
+                     "custom_attributes": ""
+                    },
+                    "_css_classes": ""
+                   },
+                   "elements": []
+                  },
+                  {
+                   "id": "ecdee7c",
+                   "elType": "widget",
+                   "widgetType": "button",
+                   "settings": {
+                    "text": "Explore the F-Series",
+                    "link": {
+                     "url": "#f-series",
+                     "is_external": "",
+                     "nofollow": "",
+                     "custom_attributes": ""
+                    },
+                    "_css_classes": "tm-ghost"
+                   },
+                   "elements": []
+                  }
+                 ],
+                 "isInner": true
+                }
+               ],
+               "isInner": true
+              }
+             ],
+             "isInner": true
+            }
+           ],
+           "isInner": true
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": [],
+ "version": "0.4",
+ "title": "Test hero only",
+ "type": "page"
+}
