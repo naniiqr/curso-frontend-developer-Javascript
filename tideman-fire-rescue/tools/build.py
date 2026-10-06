@@ -1,545 +1,616 @@
 #!/usr/bin/env python3
-"""Builds index.html and the Elementor template JSON from ONE content tree.
+"""Builds the Tideman Marine Fire Rescue landing.
 
     python3 tools/build.py [IMAGE_BASE_URL]
 
-IMAGE_BASE_URL is where the images will live in WordPress (media library
-folder). Default is a placeholder you can find/replace in the JSON.
+Outputs (in tideman-fire-rescue/):
+  tideman-fire-rescue-elementor.json   Elementor template (classic Sections/Columns, NO custom CSS)
+  index.html                           preview that renders the same Elementor settings
+  tideman-fire-rescue-standalone.html  same preview with images inlined (single file)
+  tests/test-hero-only.json            smallest real import test
+
+All styling lives in native Elementor settings (typography, colours, backgrounds,
+padding, widths per device) so the client can edit everything from the panel.
+The copy comes from tools/content.py (taken from the client's PDF).
 """
-import hashlib, json, os, sys
+import base64, hashlib, json, os, re, sys
 from html import escape
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import content
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = (sys.argv[1] if len(sys.argv) > 1 else "https://YOUR-SITE.com/wp-content/uploads/tideman").rstrip("/")
-CSS = open(os.path.join(ROOT, "styles.css"), encoding="utf-8").read()
 
-_ids = set()
-def _id(seed):
-    n = 0
-    while True:
-        h = hashlib.md5(f"{seed}{n}".encode()).hexdigest()[:7]
-        if h not in _ids:
-            _ids.add(h); return h
-        n += 1
+# ------------------------------------------------------------------ design tokens
+BLACK, INK, PANEL, CARD = "#0A0A0A", "#111214", "#16181B", "#0F1114"
+AMBER, STEEL, WHITE, LEAD = "#F5A800", "#B3B9C0", "#F5F6F7", "#CFD3D8"
+LINE = "rgba(255,255,255,0.14)"
+DISPLAY, BODY = "Bebas Neue", "Inter"
 
-# ---------------------------------------------------------------- node helpers
-def C(cls, *kids, eid=None):            # container
-    return {"t": "c", "cls": cls, "kids": [k for k in kids if k], "eid": eid}
-def H(text, tag="h2", cls=""):          # heading
-    return {"t": "h", "text": text, "tag": tag, "cls": cls}
-def T(html, cls=""):                    # text editor
-    return {"t": "p", "html": html, "cls": cls}
-def B(text, href, cls=""):              # button
-    return {"t": "b", "text": text, "href": href, "cls": cls}
-def I(src, alt, cls=""):                # image
-    return {"t": "i", "src": src, "alt": alt, "cls": cls}
-def TG(title, html, cls=""):            # toggle (native Elementor widget)
-    return {"t": "tg", "title": title, "html": html, "cls": cls}
-def RAW(html):                          # html widget
-    return {"t": "r", "html": html}
-def F(cls=""):                          # form
-    return {"t": "f", "cls": cls}
-def UL(items):
-    return "<ul>" + "".join(f"<li>{i}</li>" for i in items) + "</ul>"
-def P(*paras):
-    return "".join(f"<p>{p}</p>" for p in paras)
+# ------------------------------------------------------------------ tiny Elementor settings helpers
+_n = 0
+def nid():
+    global _n
+    _n += 1
+    return hashlib.md5(f"tm-{_n}".encode()).hexdigest()[:7]
 
-IMG = "assets/img/"      # relative in the HTML preview, BASE in the JSON
+def SZ(v, unit="px"):
+    return {"unit": unit, "size": v, "sizes": []}
 
-FORM_FIELDS = [
-    ("name", "text", "Name", "", True, 50),
-    ("department", "text", "Department / Organization", "", True, 50),
-    ("email", "email", "Email", "", True, 50),
-    ("phone", "tel", "Phone", "", False, 50),
-    ("mission", "select", "Primary Mission", "Marine firefighting\nSearch and rescue\nFlood response\nDive operations\nEmergency medical response\nHarbor and port response\nOther", False, 100),
-    ("message", "textarea", "Tell us about your department's requirements", "", False, 100),
-]
+def DIM(t, r=None, b=None, l=None, unit="px"):
+    linked = r is None
+    if linked: r = b = l = t
+    return {"unit": unit, "top": str(t), "right": str(r), "bottom": str(b), "left": str(l), "isLinked": linked}
 
-# ---------------------------------------------------------------- content
-def series_item(title, paras_before, sub, paras_after, list_items=None, list_intro=None, list_pos=None):
-    kids = [H(title, "h3"), *[T(p) for p in paras_before], H(sub, "h4")]
-    kids += [T(p) for p in paras_after]
-    return C("tm-series-item", *kids)
+def typo(p, family=None, size=None, tablet=None, mobile=None, weight=None, lh=None, ls=None, tr=None, style=None):
+    s = {f"{p}typography": "custom"}
+    if family: s[f"{p}font_family"] = family
+    if size is not None: s[f"{p}font_size"] = SZ(size)
+    if tablet is not None: s[f"{p}font_size_tablet"] = SZ(tablet)
+    if mobile is not None: s[f"{p}font_size_mobile"] = SZ(mobile)
+    if weight: s[f"{p}font_weight"] = str(weight)
+    if lh is not None: s[f"{p}line_height"] = SZ(lh, "em")
+    if ls is not None: s[f"{p}letter_spacing"] = SZ(ls)
+    if tr: s[f"{p}text_transform"] = tr
+    if style: s[f"{p}font_style"] = style
+    return s
 
-def build_tree():
-    wrap = lambda *k, cls="": C(f"tm-wrap {cls}".strip(), *k)
+def rich(html, color=WHITE):
+    """<strong> gets a visible colour inline (editable in the WYSIWYG)."""
+    return html.replace("<strong>", f'<strong style="color:{color}">')
 
-    topbar = C("tm-topbar", wrap(
-        T("<p>Fire &amp; Rescue Boats · Built from HDPE</p>"),
-        T("<p>Built to Last</p>")))
+def amber(html):
+    return html.replace("<span>", f'<span style="color:{AMBER}">')
 
-    nav = C("tm-nav", wrap(
-        H('TIDEMAN <span>MARINE</span>', "div", "tm-brand"),
-        T('<p><a href="#f-series">F-Series</a><a href="#missions">Missions</a><a href="#hdpe">Why HDPE</a>'
-          '<a href="#series">Other Series</a><a href="#contact">Contact</a></p>', "tm-menu"),
-        B("Request Information", "#contact", "tm-small")), eid="top")
+def img_url(src):
+    return src.replace(content.IMG, BASE + "/")
 
-    hero = C("tm-hero", wrap(C("tm-hero-copy",
-        T("<p>Fire Rescue · Emergency Response</p>", "tm-eyebrow"),
-        H("Fire Boats and Rescue Boats Built for <span>Emergency Response</span>", "h1"),
-        T(P("Tideman Marine designs and manufactures mission-ready <strong>fire boats and rescue boats</strong> "
-            "for fire departments, municipalities, emergency response agencies, harbor authorities, and public "
-            "safety organizations. Built from durable HDPE, Tideman Marine boats provide rugged, low-maintenance "
-            "platforms for marine firefighting, search and rescue, flood response, dive operations, emergency "
-            "medical response, and public safety missions."), "tm-lead"),
-        C("tm-row tm-gap-s", B("Request Information", "#contact"), B("Explore the F-Series", "#f-series", "tm-ghost")))))
+def strip_p(html):
+    return re.sub(r"</?p>", "", html)
 
-    stats = C("tm-stats", wrap(C("tm-g4 tm-stats-grid",
-        C("tm-stat", H("23'", "div"), T("<p>Overall length</p>")),
-        C("tm-stat", H("8'6\"", "div"), T("<p>Beam</p>")),
-        C("tm-stat", H("HDPE", "div"), T("<p>Hull construction</p>")),
-        C("tm-stat", H("Shallow", "div"), T("<p>Draft design</p>")))))
+# ------------------------------------------------------------------ widgets
+def widget(wtype, s):
+    return {"id": nid(), "elType": "widget", "widgetType": wtype, "settings": s, "elements": []}
 
-    intro = C("tm-sec", wrap(C("tm-split tm-flip",
-        C("tm-gap-m",
-          T("<p>Mission-ready platforms</p>", "tm-eyebrow"),
-          T(P("From compact, shallow-draft <strong>rescue boats</strong> to larger, fully outfitted "
-              "<strong>fire boats</strong>, Tideman Marine platforms can be configured around the specific "
-              "equipment, personnel, waterways, and response requirements of each department.",
-              "Whether responding on lakes, rivers, harbors, coastal waters, flood zones, or shallow waterways, "
-              "Tideman Marine builds <strong>fire and rescue boats</strong> around the mission."))),
-        C("", I(IMG + "square-underway.jpg", "Tideman Marine fire rescue boat underway in a harbor", "tm-media")))), )
+def heading(text_, size, tablet, mobile, tag="h2", color=WHITE, family=DISPLAY, weight=400, lh=1.05, ls=0.5,
+            tr="uppercase", align=None, margin=None, style=None):
+    s = {"title": amber(text_), "header_size": tag, "title_color": color}
+    s.update(typo("typography_", family, size, tablet, mobile, weight, lh, ls, tr, style))
+    if align: s["align"] = align
+    if margin: s["_margin"] = margin
+    return widget("heading", s)
 
-    f_series = C("tm-sec tm-alt", wrap(C("tm-split",
-        C("tm-gap-m",
-          T("<p>F-Series</p>", "tm-eyebrow"),
-          H("F-Series Flat Series <span>Fire Boats and Rescue Boats</span>", "h2"),
-          T(P("The Tideman Marine <strong>F-Series, or Flat Series</strong>, is a versatile HDPE platform that can "
-              "be configured for fire rescue and emergency response operations. Its shallow-draft design makes the "
-              "Flat Series particularly well suited for departments that need access to rivers, lakes, flood zones, "
-              "shorelines, and other areas where water depth or submerged hazards may limit conventional rescue vessels.",
-              "Configured as a <strong>rescue boat</strong>, the F-Series can support marine firefighting, search and "
-              "rescue, flood response, dive operations, emergency medical response, victim recovery, and public safety missions.",
-              "The featured General Arrangement (GA) print showcases a <strong>23' long × 8'6\" beam Tideman Marine "
-              "F-Series Flat Series</strong> platform outfitted specifically for fire rescue operations.",
-              "The Flat Series provides emergency response teams with a rugged and versatile <strong>rescue boat</strong> "
-              "platform designed around shallow-water access, stability, deck space, and mission flexibility.",
-              "The featured configuration incorporates:")),
-          T(UL(["23' overall length", "8'6\" beam", "HDPE hull construction", "Flat Series shallow-draft hull design",
-                "Enclosed patrol-style cabin", "Large working and rescue deck", "Side boarding and dive door access",
-                "Outboard propulsion", "Emergency lighting and electronics", "Rescue and recovery equipment storage",
-                "Configurable equipment and personnel arrangements"]), "tm-checks"),
-          T(P("This F-Series configuration demonstrates how a Tideman Marine platform can be outfitted as a "
-              "purpose-built <strong>fire department rescue boat</strong> for professional emergency response."))),
-        C("", I(IMG + "square-dock-day.jpg", "Tideman Marine F-Series fire rescue boat docked on calm blue water", "tm-media")))), eid="f-series")
+def text(html, color=STEEL, size=16, tablet=None, mobile=None, weight=None, lh=1.7, ls=None, tr=None, align=None, margin=None):
+    s = {"editor": rich(html), "text_color": color}
+    s.update(typo("typography_", BODY, size, tablet, mobile, weight, lh, ls, tr))
+    if align: s["align"] = align
+    if margin: s["_margin"] = margin
+    return widget("text-editor", s)
 
-    ga = C("tm-sec tm-blueprint", wrap(C("tm-gap-m",
-        T("<p>General Arrangement</p>", "tm-eyebrow"),
-        C("tm-ga", I(IMG + "ga-drawing.png", "General Arrangement drawing of the 23' F-Series Flat Series fire rescue boat")),
-        T("<p>General Arrangement (GA) · 23' × 8'6\" F-Series Flat Series</p>", "tm-caption"))))
+def eyebrow(html):
+    return text(f"<p>{strip_p(html)}</p>", AMBER, 12, weight=700, ls=3, tr="uppercase", lh=1.4)
 
-    search = C("tm-sec", wrap(C("tm-split",
-        C("tm-gap-m",
-          T("<p>Search and rescue</p>", "tm-eyebrow"),
-          H("Rescue Boats for <span>Search and Rescue</span>", "h2"),
-          T(P("Rapid access, stability, durability, and usable deck space can make a critical difference during a "
-              "marine emergency. Tideman Marine <strong>rescue boats</strong> can be configured for quick deployment "
-              "of firefighters, rescue personnel, divers, medical teams, and specialized emergency equipment.")),
-          H("Shallow-Water Rescue Boats for Fire Departments", "h3"),
-          T(P("Shallow-water <strong>rescue boats</strong> can be particularly important during emergencies in rivers, "
-              "marshes, lakes, flood zones, coastal areas, and other low-water environments.",
-              "The shallow-draft F-Series Flat Series helps emergency crews access areas where deeper-draft vessels "
-              "may have difficulty operating.",
-              "Depending on department requirements, a shallow-water <strong>fire department rescue boat</strong> "
-              "can be configured with:")),
-          T(UL(["Open rescue and recovery areas", "Dive and boarding doors", "Patient recovery areas",
-                "Medical equipment storage", "Rescue equipment storage", "Emergency and scene lighting",
-                "Navigation and communications electronics", "Searchlights", "Tow points", "Specialized seating",
-                "Enclosed or open helm arrangements", "Firefighting equipment"]), "tm-checks"),
-          T(P("These capabilities make the Flat Series a versatile platform for flood rescue, shoreline response, "
-              "victim recovery, dive operations, and other <strong>boat fire rescue</strong> missions."))),
-        C("", I(IMG + "square-dock-night.jpg", "Tideman Marine rescue boat at a lit harbor dock at night", "tm-media")))))
+def button(label, url, primary=True, align="left", align_mobile="justify"):
+    s = {"text": label, "link": {"url": url, "is_external": "", "nofollow": "", "custom_attributes": ""},
+         "align": align, "align_mobile": align_mobile,
+         "text_color": BLACK if primary else WHITE,
+         "background_color": AMBER if primary else "rgba(0,0,0,0)",
+         "border_border": "solid", "border_width": DIM(2), "border_color": AMBER if primary else "rgba(255,255,255,0.4)",
+         "border_radius": DIM(0), "text_padding": DIM(17, 30, 17, 30),
+         "hover_color": AMBER, "button_background_hover_color": "rgba(0,0,0,0)", "button_hover_border_color": AMBER}
+    s.update(typo("typography_", BODY, 13, weight=700, ls=2, tr="uppercase", lh=1.2))
+    return widget("button", s)
 
-    missions = C("tm-sec tm-alt", wrap(C("tm-gap-xl",
-        C("tm-narrow tm-gap-m",
-          T("<p>Municipal fire departments</p>", "tm-eyebrow"),
-          H("Municipal Fire Department <span>Rescue Boats</span>", "h2"),
-          T(P("Tideman Marine builds <strong>fire department rescue boats</strong> around the needs of municipal, "
-              "regional, state, and other public safety agencies.",
-              "Rather than limiting departments to a single standard configuration, Tideman Marine can develop the "
-              "vessel arrangement around the crew, equipment, operating environment, and mission.",
-              "Tideman Marine <strong>fire and rescue boats</strong> can support:"))),
-        C("tm-g4 tm-mission-grid", *[
-            C("tm-mission", H(f"{i:02d}", "div", "tm-num"), H(m, "h3"))
-            for i, m in enumerate(["Marine firefighting", "Search and rescue", "Flood response", "Dive team deployment",
-                                   "Emergency medical response", "Victim recovery", "Harbor and marina response",
-                                   "Public safety patrol", "Vessel assistance", "Disaster response",
-                                   "Personnel and equipment transport"], 1)]),
-        T(P("This flexibility allows one <strong>fire and rescue boat</strong> to support multiple emergency response missions."),
-          "tm-narrow"))), eid="missions")
+def image(src, alt, border=True, bg=None, pad=None):
+    s = {"image": {"url": img_url(src), "id": "", "alt": alt, "source": "library"}, "image_size": "full",
+         "width": SZ(100, "%")}
+    if border:
+        s.update({"image_border_border": "solid", "image_border_width": DIM(1), "image_border_color": LINE})
+    if bg:
+        s.update({"_background_background": "classic", "_background_color": bg, "_padding": DIM(pad or 10)})
+    return widget("image", s)
 
-    firefight = C("tm-sec tm-firefight", wrap(C("tm-gap-l",
-        C("tm-narrow tm-gap-m",
-          T("<p>Marine firefighting</p>", "tm-eyebrow"),
-          H("Fire Boats for <span>Marine Firefighting</span>", "h2"),
-          T(P("For departments requiring dedicated marine firefighting capability, Tideman Marine <strong>fire boats</strong> "
-              "can be configured with equipment for responding to vessel fires, marina incidents, waterfront structure "
-              "fires, port emergencies, and other incidents on or near the water.")),
-          H("Fire Boats with Pumps, Monitors and Rescue Equipment", "h3"),
-          T(P("Depending on vessel size, mission, and department requirements, Tideman Marine <strong>fire boats</strong> "
-              "can be outfitted with:"))),
-        T(UL(["Fire suppression pumps", "Fire monitors and water cannons", "Hose connections and deployment systems",
-              "Emergency and scene lighting", "Searchlights", "Communications systems", "Navigation electronics",
-              "Rescue and recovery equipment", "Dive equipment", "Medical equipment", "Equipment storage",
-              "Specialized seating", "Command and helm stations"]), "tm-checks tm-equip"),
-        T(P("These capabilities allow a Tideman Marine <strong>rescue fire boat</strong> to serve as a multipurpose "
-            "emergency response asset for fire departments, ports, harbors, marinas, industrial waterfront facilities, "
-            "and other marine operations."), "tm-narrow"))))
+def icon_list(items_, inline=False, size=15, icon="fas fa-check", icon_color=AMBER):
+    s = {"icon_list": [{"text": t, "selected_icon": {"value": icon, "library": "fa-solid"}, "_id": nid()} for t in items_],
+         "view": "inline" if inline else "traditional",
+         "space_between": SZ(10 if inline else 12), "icon_color": icon_color, "icon_size": SZ(13),
+         "text_color": WHITE, "text_indent": SZ(10)}
+    s.update(typo("icon_typography_", BODY, size, weight=500, lh=1.5))
+    return widget("icon-list", s)
 
-    def card(i, title, text):
-        return C("tm-card", H(f"{i:02d}", "div", "tm-num"), H(title, "h3"), T(f"<p>{text}</p>"))
-    hdpe = C("tm-sec", wrap(C("tm-gap-xl",
-        C("tm-split tm-flip",
-          C("tm-gap-m",
-            T("<p>HDPE construction</p>", "tm-eyebrow"),
-            H("HDPE Fire Boats <span>and Rescue Boats</span>", "h2"),
-            T(P("Tideman Marine constructs its vessels using High-Density Polyethylene (HDPE), providing characteristics "
-                "that are particularly well suited for professional <strong>fire boats and rescue boats</strong>.",
-                "Emergency response vessels may encounter docks, submerged objects, debris, rocky shorelines, shallow "
-                "water, saltwater, and other demanding conditions. HDPE provides departments with a rugged hull material "
-                "designed for these real-world marine environments.")),
-            H("Why HDPE Works for Fire Boats and Rescue Boats", "h3")),
-          C("", I(IMG + "square-deck-detail.jpg", "Deck detail of a Tideman Marine HDPE rescue boat with life ring and equipment case", "tm-media"))),
-        C("tm-g4 tm-gap-m",
-          card(1, "Impact Resistance", "HDPE provides excellent impact resistance for operations around docks, debris, rocky shorelines, and other demanding environments."),
-          card(2, "Corrosion Resistance", "HDPE does not corrode from exposure to freshwater or saltwater, making it well suited for long-term marine service."),
-          card(3, "Low Maintenance", "The HDPE hull does not require the same corrosion protection associated with many traditional marine materials."),
-          card(4, "No Electrolysis", "HDPE is nonconductive and is not subject to galvanic corrosion."),
-          card(5, "Naturally Buoyant", "HDPE itself is naturally buoyant, an important characteristic for a marine hull material."),
-          card(6, "Shallow-Water Capability", "HDPE construction works particularly well with rugged, shallow-draft workboat designs such as the F-Series Flat Series."),
-          card(7, "Long Service Life", "HDPE is designed to provide years of demanding marine service with relatively low hull maintenance."),
-          card(8, "Repairability", "If damage does occur, HDPE can be welded and repaired.")),
-        T(P("For departments whose <strong>rescue boats</strong> may encounter submerged debris, damaged docks, rocky shorelines, "
-            "flood-related hazards, or other challenging conditions, HDPE can provide an important operational advantage."),
-          "tm-narrow"))), eid="hdpe")
+def toggle(title, html):
+    s = {"tabs": [{"tab_title": title, "tab_content": html, "_id": nid()}], "title_html_tag": "div",
+         "selected_icon": {"value": "fas fa-plus", "library": "fa-solid"},
+         "selected_active_icon": {"value": "fas fa-minus", "library": "fa-solid"},
+         "icon_align": "right", "border_width": SZ(1), "border_color": LINE, "space_between": SZ(0),
+         "title_color": AMBER, "tab_active_color": AMBER, "icon_color": AMBER, "icon_active_color": AMBER,
+         "content_color": STEEL, "content_padding": DIM(16, 0, 4, 0)}
+    s.update(typo("title_typography_", BODY, 12, weight=700, ls=2.5, tr="uppercase"))
+    s.update(typo("content_typography_", BODY, 14, lh=1.65))
+    return widget("toggle", s)
 
-    def more(*parts):
-        """Native Elementor Toggle widget: client edits title/content from the panel."""
-        return TG("Read more", "".join(parts), "tm-more tm-checks tm-one")
-    def pp(x): return f"<p>{x}</p>"
-    def h4(x): return f"<h4>{x}</h4>"
+def form(fields):
+    fl = []
+    for cid, typ, label, opts, req, width in fields:
+        f = {"custom_id": cid, "field_type": typ, "field_label": label, "placeholder": "", "width": str(width),
+             "required": "true" if req else "", "_id": nid()}
+        if typ == "select": f["field_options"] = opts
+        if typ == "textarea": f["rows"] = "5"
+        fl.append(f)
+    s = {"form_name": "Fire Rescue Information Request", "form_fields": fl, "button_text": "Request Information",
+         "button_size": "md", "submit_actions": ["email"], "email_to": "info@tideman-marine.com",
+         "email_subject": "New Fire Rescue information request", "email_content": "[all-fields]",
+         "email_from_name": "Tideman Marine Website", "success_message": "Thank you. Our team will contact you shortly.",
+         "show_labels": "true", "label_position": "above", "column_gap": SZ(14), "row_gap": SZ(14),
+         "label_color": STEEL, "field_text_color": WHITE, "field_background_color": INK,
+         "field_border_color": LINE, "field_border_width": DIM(1), "field_border_radius": DIM(0),
+         "button_background_color": AMBER, "button_text_color": BLACK, "button_border_border": "solid",
+         "button_border_width": DIM(2), "button_border_color": AMBER, "button_border_radius": DIM(0),
+         "button_background_hover_color": "rgba(0,0,0,0)", "button_hover_color": AMBER, "button_hover_border_color": AMBER,
+         "button_text_padding": DIM(17, 30, 17, 30)}
+    s.update(typo("label_typography_", BODY, 11, weight=700, ls=2, tr="uppercase"))
+    s.update(typo("button_typography_", BODY, 13, weight=700, ls=2, tr="uppercase"))
+    return widget("form", s)
 
-    def scard(letter, title, lead, *rest):
-        return C("tm-scard",
-                 H(letter, "div", "tm-letter"),
-                 H(title, "h3"),
-                 T(pp(lead), "tm-lead-s"),
-                 more(*rest))
+# ------------------------------------------------------------------ layout
+def column(size, *els, tablet=100, mobile=100, pad=None, pad_t=None, pad_m=None, margin=None, bg=None, border=None, valign=None, space=16):
+    s = {"_column_size": round(size), "_inline_size": size, "_inline_size_tablet": tablet, "_inline_size_mobile": mobile,
+         "space_between_widgets": space}
+    if pad: s["padding"] = pad
+    if pad_t: s["padding_tablet"] = pad_t
+    if pad_m: s["padding_mobile"] = pad_m
+    if margin: s["margin"] = margin
+    if bg:
+        s.update({"background_background": "classic", "background_color": bg})
+    if border:
+        w, c = border
+        s.update({"border_border": "solid", "border_width": w, "border_color": c})
+    if valign: s["content_position"] = valign
+    return {"id": nid(), "elType": "column", "settings": s, "elements": list(els), "isInner": False}
 
-    i_cards = C("tm-g3 tm-gap-l",
-        scard("I", "I-Series Inland Patrol Fire Boats and Rescue Boats",
-              "The <strong>I-Series Inland Patrol</strong> is a strong option for fire departments operating on lakes, rivers, harbors, and inland waterways.",
-              pp("Configured as a <strong>fire rescue boat</strong>, the Inland Patrol can support marine firefighting, search and rescue, dive operations, emergency medical response, harbor patrol, and personnel transport."),
-              h4("Inland Patrol Rescue Boats for Emergency Response"),
-              pp("An I-Series Inland Patrol <strong>rescue boat</strong> can be configured with equipment such as fire pumps and monitors, emergency lighting, searchlights, rescue equipment storage, electronics, communications equipment, dive access, and specialized crew seating."),
-              pp("This combination makes the Inland Patrol an option for departments that need one boat to perform both routine public safety and emergency response missions.")),
-        scard("I", "I-Series Inland Utility Fire Boats and Rescue Boats",
-              "For departments that prioritize deck space, stability, and equipment capacity, the <strong>I-Series Inland Utility</strong> provides another versatile platform for <strong>fire boats and rescue boats</strong>.",
-              pp("The Inland Utility can provide valuable working space for pumps, hoses, rescue equipment, divers, medical personnel, and recovered victims."),
-              h4("Inland Utility Fire Department Rescue Boats"),
-              pp("An Inland Utility <strong>fire department rescue boat</strong> could be particularly well-suited for:"),
-              UL(["Flood response", "Shallow-water rescue", "Dive operations", "Equipment transport", "Victim recovery",
-                  "Emergency medical response", "Marine firefighting", "Disaster response"]),
-              pp("Its open-working platform also provides departments with flexibility in determining where specialized fire and rescue equipment should be positioned.")),
-        scard("I", "I-Series Inland Landing Craft Rescue Boats",
-              "The <strong>I-Series Inland Landing Craft</strong> provides another approach to emergency response by offering direct access between the vessel and shoreline.",
-              h4("Landing Craft Rescue Boats for Flood and Disaster Response"),
-              pp("A bow ramp can make it easier to move rescue personnel, equipment, patients, and emergency supplies between the <strong>rescue boat</strong> and shore."),
-              pp("This can make an Inland Landing Craft particularly useful for:"),
-              UL(["Flood response", "Disaster response", "Evacuations", "Shoreline rescue", "Emergency equipment deployment",
-                  "Personnel transport", "Medical response", "Access to isolated areas"]),
-              pp("For departments responding where roads, docks, or conventional access points have been compromised, a landing craft-style <strong>rescue boat</strong> can provide additional mission flexibility.")))
+def section(*cols, inner=False, bg=None, image_url=None, image_pos="center center", overlay=None, grad_bg=None,
+            pad=None, pad_t=None, pad_m=None, width=1180, gap="no", valign=None, margin=None, border=None,
+            min_h=None, min_h_m=None, z=None, anchor=None, vcontent=None, bg_resp=None, margin_t=None, margin_m=None):
+    s = {"layout": "full_width" if inner else "boxed", "gap": gap, "structure": f"{min(len(cols), 6)}0"}
+    if not inner: s["content_width"] = SZ(width)
+    if pad: s["padding"] = pad
+    if pad_t: s["padding_tablet"] = pad_t
+    if pad_m: s["padding_mobile"] = pad_m
+    if margin: s["margin"] = margin
+    if margin_t: s["margin_tablet"] = margin_t
+    if margin_m: s["margin_mobile"] = margin_m
+    if bg:
+        s.update({"background_background": "classic", "background_color": bg})
+    if grad_bg:
+        s.update({"background_background": "gradient", "background_color": grad_bg[0], "background_color_b": grad_bg[1],
+                  "background_gradient_type": "linear", "background_gradient_angle": SZ(135, "deg")})
+    if image_url:
+        s.update({"background_background": "classic", "background_image": {"url": img_url(image_url), "id": "", "source": "library"},
+                  "background_position": image_pos, "background_repeat": "no-repeat", "background_size": "cover"})
+    if overlay:
+        s.update(overlay)
+    if bg_resp:
+        s.update(bg_resp)
+    if border:
+        w, c = border
+        s.update({"border_border": "solid", "border_width": w, "border_color": c})
+    if valign: s["column_position"] = valign
+    if vcontent: s["content_position"] = vcontent
+    if min_h:
+        s["height"] = "min-height"; s["custom_height"] = SZ(min_h)
+        if min_h_m: s["custom_height_mobile"] = SZ(min_h_m)
+    if z: s["z_index"] = z
+    if anchor: s["_element_id"] = anchor
+    cols = [dict(c, isInner=inner) for c in cols]
+    return {"id": nid(), "elType": "section", "settings": s, "elements": cols, "isInner": inner}
 
-    c_cards = C("tm-g3 tm-gap-l",
-        scard("C", "C-Series Coastal Patrol Fire Boats and Rescue Boats",
-              "For departments operating in larger harbors, ports, coastal waterways, and more demanding marine environments, the <strong>C-Series Coastal Patrol</strong> provides a larger platform for a highly capable <strong>fire boat</strong>.",
-              pp("The Coastal Series can provide additional room and payload capacity for larger firefighting systems, rescue equipment, medical equipment, electronics, crew accommodations, and command systems."),
-              h4("Coastal Fire Boats for Ports and Harbors"),
-              pp("A C-Series Coastal Patrol <strong>fire rescue boat</strong> can be configured for:"),
-              UL(["Marine firefighting", "Port and harbor response", "Search and rescue", "Dive operations", "Vessel assistance",
-                  "Emergency medical response", "Coastal patrol", "Extended emergency response missions"]),
-              pp("For departments covering large harbors, coastal areas, ports, or more exposed waterways, the C-Series provides another option for a highly capable <strong>fire and rescue boat</strong>.")),
-        scard("C", "C-Series Coastal Utility Fire Boats",
-              "The <strong>C-Series Coastal Utility</strong> provides a substantial working deck for departments requiring a heavy-duty <strong>fire boat</strong> with room for firefighting and rescue systems.",
-              h4("Coastal Utility Fire Boats with Working Deck Space"),
-              pp("The working deck can be configured around equipment such as:"),
-              UL(["Fire pumps", "Fire monitors", "Hose storage", "Dive equipment", "Rescue gear", "Medical equipment",
-                  "Generators", "Emergency equipment", "Specialized storage"]),
-              pp("For a department looking for a working <strong>fire boat</strong> rather than a traditional patrol-style layout, the Coastal Utility provides another highly configurable HDPE platform.")),
-        scard("C", "C-Series Coastal Landing Craft Fire and Rescue Boats",
-              "The <strong>C-Series Coastal Landing Craft</strong> can provide fire and rescue agencies with a heavy-duty emergency response platform capable of moving personnel and equipment directly to a shoreline.",
-              h4("Coastal Landing Craft Rescue Boats for Emergency Access"),
-              pp("A Coastal Landing Craft <strong>fire and rescue boat</strong> could be especially valuable for agencies responsible for islands, coastal communities, industrial waterfronts, ports, or areas where emergency crews need the ability to bring personnel and equipment directly ashore."),
-              pp("Potential missions include:"),
-              UL(["Disaster response", "Evacuation", "Search and rescue", "Firefighting support", "Equipment deployment",
-                  "Emergency personnel transport", "Shoreline access", "Recovery operations"])))
+def solid_overlay(color, opacity):
+    return {"background_overlay_background": "classic", "background_overlay_color": color,
+            "background_overlay_opacity": SZ(opacity)}
 
-    series = C("tm-sec tm-alt", wrap(C("tm-gap-xl",
-        C("tm-narrow tm-gap-m",
-          T("<p>More platforms</p>", "tm-eyebrow"),
-          H("Other Tideman Marine Series for <span>Fire Boats and Rescue Boats</span>", "h2"),
-          T(P("While the <strong>F-Series Flat Series</strong> provides an excellent shallow-draft platform for fire rescue operations, other Tideman Marine boat series can also be configured as <strong>fire boats and rescue boats</strong>.",
-              "The right platform depends on the department's waterways, crew size, equipment, operating conditions, required range, and primary mission."))),
-        C("tm-gap-m", H("I-Series <span>Inland</span>", "h3", "tm-series-title"), i_cards),
-        C("tm-gap-m", H("C-Series <span>Coastal</span>", "h3", "tm-series-title"), c_cards))), eid="series")
+def grad_overlay(c1, stop1, c2, stop2, angle=90):
+    return {"background_overlay_background": "gradient", "background_overlay_color": c1,
+            "background_overlay_color_stop": SZ(stop1, "%"), "background_overlay_color_b": c2,
+            "background_overlay_color_b_stop": SZ(stop2, "%"), "background_overlay_gradient_type": "linear",
+            "background_overlay_gradient_angle": SZ(angle, "deg"), "background_overlay_opacity": SZ(1)}
 
-    config = C("tm-sec", wrap(C("tm-gap-l",
-        C("tm-narrow tm-gap-m",
-          T("<p>Built around your mission</p>", "tm-eyebrow"),
-          H("Fire Boats and Rescue Boats <span>Configured Around Your Department</span>", "h2"),
-          T(P("Every fire department operates differently. A coastal department may require a substantial firefighting system, larger crew capacity, and an enclosed cabin, while an inland department may prioritize shallow draft, open deck space, rapid victim recovery, and trailerability.",
-              "Tideman Marine can configure <strong>fire boats and rescue boats</strong> around the specific requirements of the department and its operating environment.",
-              "Available configurations can include:"))),
-        T(UL(["Shallow-water rescue boats", "Municipal fire boats", "Fire department rescue boats", "Search and rescue boats",
-              "Flood response boats", "Dive support boats", "Harbor and port response boats", "Fire suppression boats",
-              "Multi-purpose emergency response boats", "Coastal rescue boats"]), "tm-tags"),
-        T(P("From the <strong>23' F-Series Flat Series</strong> featured on this page to larger Inland and Coastal platforms, Tideman Marine provides departments with the ability to select the hull, layout, propulsion, cabin, equipment, and rescue features that best support their mission."),
-          "tm-narrow"))))
+def PAD(t, b, side=0):
+    return DIM(t, side, b, side)
 
-    cta = C("tm-sec tm-cta", wrap(C("tm-g2 tm-gap-xl tm-top",
-        C("tm-gap-m",
-          T("<p>Contact</p>", "tm-eyebrow"),
-          H("Request Information About Tideman Marine <span>Fire Boats and Rescue Boats</span>", "h2"),
-          T(P("Contact Tideman Marine to discuss your department's operational requirements. Our team can help identify the Tideman Marine platform, hull configuration, propulsion package, layout, and mission equipment best suited for your department's marine firefighting, fire rescue, search and rescue, flood response, or emergency response operations."))),
-        C("tm-panel", F("tm-form")))), eid="contact")
-
-    footer = C("tm-footer", wrap(
-        T("<p>© Tideman Marine. Built to Last.</p>"),
-        T('<p><a href="#top">Back to top ↑</a></p>')))
-
-    return C("tm-page", hero, stats, intro, f_series, ga, search, missions, firefight, hdpe, series, config, cta)
-
-# ---------------------------------------------------------------- HTML renderer (mimics Elementor DOM)
-
-# ---------------------------------------------------------------- widgets -> HTML (Elementor-like DOM)
-def render_widget(n):
-    cls = n.get("cls", "")
-    w = lambda name, inner: (f'<div class="elementor-element elementor-widget elementor-widget-{name} {cls}">'
-                             f'<div class="elementor-widget-container">{inner}</div></div>')
-    if n["t"] == "h":
-        return w("heading", f'<{n["tag"]} class="elementor-heading-title">{n["text"]}</{n["tag"]}>')
-    if n["t"] == "p":
-        return w("text-editor", n["html"])
-    if n["t"] == "b":
-        return w("button", f'<div class="elementor-button-wrapper"><a class="elementor-button elementor-button-link elementor-size-sm" href="{n["href"]}">'
-                           f'<span class="elementor-button-content-wrapper"><span class="elementor-button-text">{escape(n["text"])}</span></span></a></div>')
-    if n["t"] == "tg":
-        return w("toggle", '<div class="elementor-toggle"><div class="elementor-toggle-item">'
-                 f'<div class="elementor-tab-title" data-tab="1" role="button" tabindex="0"><span class="elementor-toggle-icon"></span>'
-                 f'<a class="elementor-toggle-title">{escape(n["title"])}</a></div>'
-                 f'<div class="elementor-tab-content elementor-clearfix" data-tab="1">{n["html"]}</div></div></div>')
-    if n["t"] == "i":
-        return w("image", f'<img src="{n["src"]}" alt="{escape(n["alt"])}">')
-    if n["t"] == "f":
-        rows = []
-        for cid, typ, label, ph, req, width in FORM_FIELDS:
-            r = " required" if req else ""
-            if typ == "textarea": fld = f'<textarea id="f-{cid}" name="{cid}" class="elementor-field"{r}></textarea>'
-            elif typ == "select": fld = f'<select id="f-{cid}" name="{cid}" class="elementor-field">' + "".join(f"<option>{escape(o)}</option>" for o in ph.split("\n")) + "</select>"
-            else: fld = f'<input id="f-{cid}" name="{cid}" type="{typ}" class="elementor-field"{r}>'
-            rows.append(f'<div class="elementor-field-group elementor-col-{width}"><label for="f-{cid}">{escape(label)}</label>{fld}</div>')
-        rows.append('<div class="elementor-field-group elementor-col-100"><button type="submit" class="elementor-button">Request Information</button></div>')
-        return w("form", '<form class="elementor-form" onsubmit="return false"><div class="elementor-form-fields-wrapper">' + "".join(rows) + "</div></form>")
-    raise ValueError(n)
-
-# ---- classic DOM: every container becomes Section > Column > widget-wrap
-def render_classic(n, top):
-    if n["t"] != "c":
-        return render_widget(n)
-    kind = "top" if top else "inner"
-    cls = ("tm-c tm-page " if top else "tm-c ") + n.get("cls", "")
-    a = f' id="{n["eid"]}"' if n.get("eid") else ""
-    inner = "".join(render_classic(k, False) for k in n["kids"])
-    return (f'<section class="elementor-section elementor-{kind}-section elementor-section-full_width elementor-element {cls}"{a}>'
-            f'<div class="elementor-container elementor-column-gap-no"><div class="elementor-column elementor-col-100 elementor-{kind}-column elementor-element">'
-            f'<div class="elementor-widget-wrap elementor-element-populated">{inner}</div></div></div></section>')
-
-def render_page(tree):
-    return "".join(render_classic(k, True) for k in tree["kids"])
-
-# ---------------------------------------------------------------- Elementor JSON
-def widget_json(n):
-    seed = n.get("cls", "") + str(n.get("text", n.get("html", n.get("href", ""))))[:40]
-    cls = n.get("cls", "")
-    def wd(typ, s):
-        s["_css_classes"] = cls
-        return {"id": _id(seed), "elType": "widget", "widgetType": typ, "settings": s, "elements": []}
-    if n["t"] == "h":
-        return wd("heading", {"title": n["text"], "header_size": n["tag"]})
-    if n["t"] == "p":
-        return wd("text-editor", {"editor": n["html"]})
-    if n["t"] == "b":
-        return wd("button", {"text": n["text"], "link": {"url": n["href"], "is_external": "", "nofollow": "", "custom_attributes": ""}})
-    if n["t"] == "tg":
-        return wd("toggle", {"tabs": [{"tab_title": n["title"], "tab_content": n["html"], "_id": _id("tab" + n["html"][:30])}],
-                             "title_html_tag": "div", "selected_icon": {"value": "fas fa-plus", "library": "fa-solid"},
-                             "selected_active_icon": {"value": "fas fa-minus", "library": "fa-solid"}})
-    if n["t"] == "i":
-        return wd("image", {"image": {"url": n["src"].replace(IMG, BASE + "/"), "id": "", "alt": n["alt"], "source": "library"}, "image_size": "full"})
-    if n["t"] == "f":
-        fields = []
-        for cid, typ, label, opts, req, width in FORM_FIELDS:
-            f = {"custom_id": cid, "field_type": typ, "field_label": label, "placeholder": "", "width": str(width),
-                 "required": "true" if req else "", "_id": _id("f" + cid)}
-            if typ == "select": f["field_options"] = opts
-            if typ == "textarea": f["rows"] = "5"
-            fields.append(f)
-        return wd("form", {"form_name": "Fire Rescue Information Request", "form_fields": fields, "button_text": "Request Information",
-                           "button_size": "md", "submit_actions": ["email"], "email_to": "info@tideman-marine.com",
-                           "email_subject": "New Fire Rescue information request", "email_content": "[all-fields]",
-                           "email_from_name": "Tideman Marine Website", "success_message": "Thank you. Our team will contact you shortly.",
-                           "show_labels": "true", "label_position": "above"})
-    raise ValueError(n)
-
-def classic_json(n, top):
-    """container node -> section > column > children (inner sections nested in the column)."""
-    if n["t"] != "c":
-        return widget_json(n)
-    cls = ("tm-c tm-page " if top else "tm-c ") + n.get("cls", "")
-    s = {"layout": "full_width", "gap": "no", "structure": "10", "css_classes": cls.strip()}
-    if n.get("eid"): s["_element_id"] = n["eid"]
-    col = {"id": _id("col" + cls + str(len(n["kids"]))), "elType": "column",
-           "settings": {"_column_size": 100, "_inline_size": None},
-           "elements": [classic_json(k, False) for k in n["kids"]], "isInner": not top}
-    return {"id": _id("sec" + cls + str(len(n["kids"]))), "elType": "section", "settings": s, "elements": [col], "isInner": not top}
-
-def container_json(n, inner=False):
-    """Flexbox-container variant (needs Elementor > Features > Flexbox Container = Active)."""
-    if n["t"] != "c":
-        return widget_json(n)
-    s = {"content_width": "full", "flex_direction": "column", "css_classes": n.get("cls", "")}
-    if n.get("eid"): s["_element_id"] = n["eid"]
-    return {"id": _id("con" + n.get("cls", "") + str(len(n["kids"]))), "elType": "container", "settings": s,
-            "elements": [container_json(k, True) for k in n["kids"]], "isInner": inner}
-
-# ---------------------------------------------------------------- CSS: add classic-DOM twins for every .e-con rule
-LAYOUT = {"display", "flex-wrap", "flex-direction", "grid-template-columns", "align-items", "align-content",
-          "gap", "row-gap", "column-gap", "justify-items", "place-items"}   # justify-content dropped on purpose (axis differs)
-DROP = {"justify-content"}
-WRAP = " > .elementor-container > .elementor-column > .elementor-widget-wrap"
-
-def _blocks(css):
-    """yield ('rule', selector, body) / ('media', header, [blocks])"""
-    css = __import__("re").sub(r"/\*.*?\*/", "", css, flags=__import__("re").S)
-    i, n, out = 0, len(css), []
-    while i < n:
-        j = css.find("{", i)
-        if j < 0: break
-        head = css[i:j].strip()
-        depth, k = 1, j + 1
-        while depth and k < n:
-            depth += (css[k] == "{") - (css[k] == "}"); k += 1
-        body = css[j + 1:k - 1]
-        out.append(("media", head, _blocks(body)) if head.startswith("@media") else ("rule", head, body))
-        i = k
+# ------------------------------------------------------------------ page copy accessors
+TREE = content.build_tree()
+def _leaves(n, out):
+    if n["t"] == "c":
+        for k in n["kids"]: _leaves(k, out)
+    else: out.append(n)
+    return out
+LV = [_leaves(s, []) for s in TREE["kids"]]          # LV[section][leaf]
+def T_(si, i):  return LV[si][i].get("html") or LV[si][i].get("text") or ""
+def items(si, i): return re.findall(r"<li>(.*?)</li>", LV[si][i]["html"], flags=re.S)
+def split_even(xs, n):
+    k, m = divmod(len(xs), n); out, p = [], 0
+    for j in range(n):
+        q = p + k + (1 if j < m else 0); out.append(xs[p:q]); p = q
     return out
 
-def _emit(blocks):
-    res = []
-    for b in blocks:
-        if b[0] == "media":
-            res.append(f"{b[1]} {{\n{_emit(b[2])}}}\n"); continue
-        _, sel, body = b
-        res.append(f"{sel} {{{body}}}\n")
-        decls = [d.strip() for d in body.split(";") if d.strip()]
-        for s in [x.strip() for x in sel.split(",")]:
-            if ".e-con" not in s: continue
-            s2 = (s[len(".tm-page "):] if s.startswith(".tm-page ") else s).replace(".e-con", ".elementor-section.tm-c")
-            target = ".e-con" in s.split()[-1]
-            box, lay = [], []
-            for d in decls:
-                prop = d.split(":", 1)[0].strip()
-                if prop.startswith("--") or prop in DROP: continue
-                (lay if (target and prop in LAYOUT) else box).append(d)
-            if box: res.append(f"{s2} {{{'; '.join(box)}}}\n")
-            if lay: res.append(f"{s2}{WRAP} {{{'; '.join(lay)}}}\n")
-    return "".join(res)
+H2 = dict(size=54, tablet=44, mobile=34, lh=1.02)
+H3 = dict(size=30, tablet=26, mobile=24, lh=1.1, ls=0.6)
+def h2(t_):  return heading(t_, tag="h2", **H2)
+def h3(t_):  return heading(t_, tag="h3", **H3)
+def body(html, **kw): return text(html, **kw)
 
-CLASSIC_EXTRA = """
-/* ---- classic Section/Column plumbing ---- */
-.elementor-section.tm-c > .elementor-container { max-width: none; width: 100%; padding: 0; margin: 0; }
-.elementor-section.tm-c > .elementor-container > .elementor-column > .elementor-widget-wrap { padding: 0; }
-.elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: auto; flex: 0 0 auto; }
-.elementor-section.tm-hero > .elementor-container { min-height: min(84vh, 760px); align-items: center; }
-@media (max-width: 640px) {
-  .elementor-section.tm-row > .elementor-container > .elementor-column > .elementor-widget-wrap > .elementor-element { width: 100%; }
-}
+def two_lists(lst):
+    a, b = split_even(lst, 2)
+    return section(column(50, icon_list(a), tablet=50, mobile=100), column(50, icon_list(b), tablet=50, mobile=100),
+                   inner=True, gap="no", margin=DIM(0, 0, 8, 0))
+
+def txt_col(size, *els, **kw):
+    return column(size, *els, pad=DIM(0, 40, 0, 0), pad_t=DIM(0), pad_m=DIM(0), **kw)
+def img_col(size, *els, **kw):
+    return column(size, *els, pad=DIM(0, 0, 0, 40), pad_t=DIM(0), pad_m=DIM(0), **kw)
+
+SEC_PAD = dict(pad=PAD(96, 96), pad_t=PAD(72, 72, 24), pad_m=PAD(56, 56, 18))
+
+# ------------------------------------------------------------------ sections
+def build_sections():
+    out = []
+
+    # 0 HERO ---------------------------------------------------------------
+    out.append(section(
+        column(52, eyebrow(T_(0, 0)),
+               heading(T_(0, 1), 74, 56, 40, tag="h1", lh=1.0),
+               text(T_(0, 2), LEAD, 18, mobile=16),
+               section(column(50, button(T_(0, 3), "#contact"), tablet=50, mobile=100),
+                       column(50, button(T_(0, 4), "#f-series", primary=False), tablet=50, mobile=100),
+                       inner=True, gap="no", margin=DIM(8, 0, 0, 0)),
+               tablet=80, mobile=100, space=22),
+        image_url=content.IMG + "hero.jpg", image_pos="center right",
+        overlay=grad_overlay(BLACK, 38, "rgba(10,10,10,0)", 74, 90),
+        pad=PAD(100, 150), pad_t=PAD(80, 400, 24), pad_m=PAD(56, 235, 18), min_h=720, valign="middle", vcontent="center",
+        bg_resp={"background_size_tablet": "contain", "background_position_tablet": "bottom center", "background_repeat_tablet": "no-repeat",
+                 "background_size_mobile": "contain", "background_position_mobile": "bottom center", "background_repeat_mobile": "no-repeat"}))
+
+    # 1 STATS --------------------------------------------------------------
+    vals = [(T_(1, 0), T_(1, 1)), (T_(1, 2), T_(1, 3)), (T_(1, 4), T_(1, 5)), (T_(1, 6), T_(1, 7))]
+    def stat(i, v, l):
+        last = i == 3
+        return column(25, heading(v, 46, 40, 32, tag="div", color=AMBER, lh=1.0),
+                      text(f"<p>{strip_p(l)}</p>", STEEL, 12, ls=2, tr="uppercase", lh=1.4), tablet=50, mobile=50, space=2,
+                      pad=DIM(26, 28, 26, 28), bg=PANEL, border=(DIM(0, 0 if last else 1, 1 if i > 1 else 0, 0), LINE))
+    out.append(section(*[stat(i, v, l) for i, (v, l) in enumerate(vals)], width=1180,
+                       margin=DIM(-64, 0, 0, 0), margin_t=DIM(0), margin_m=DIM(0), z=5, border=(DIM(3, 0, 0, 0), AMBER)))
+
+    # 2 INTRO --------------------------------------------------------------
+    out.append(section(
+        txt_col(52, eyebrow(T_(2, 0)), body(T_(2, 1))),
+        img_col(48, image(content.IMG + "square-underway.jpg", LV[2][2]["alt"])),
+        bg=BLACK, gap="no", valign="middle", **SEC_PAD))
+
+    # 3 F-SERIES -----------------------------------------------------------
+    out.append(section(
+        txt_col(56, eyebrow(T_(3, 0)), h2(T_(3, 1)), body(T_(3, 2)), icon_list(items(3, 3)), body(T_(3, 4))),
+        img_col(44, image(content.IMG + "square-dock-day.jpg", LV[3][5]["alt"])),
+        bg=INK, gap="no", valign="middle", anchor="f-series", **SEC_PAD))
+
+    # 4 GENERAL ARRANGEMENT ------------------------------------------------
+    out.append(section(
+        column(100, eyebrow(T_(4, 0)), image(content.IMG + "ga-drawing.png", LV[4][1]["alt"], border=False, bg="#FFFFFF", pad=10),
+               text(f"<p>{strip_p(T_(4, 2))}</p>", STEEL, 12, ls=2, tr="uppercase")),
+        image_url=content.IMG + "bg-blueprint.jpg", overlay=solid_overlay(BLACK, 0.85),
+        pad=PAD(80, 80), pad_t=PAD(64, 64, 24), pad_m=PAD(48, 48, 18)))
+
+    # 5 SEARCH & RESCUE ----------------------------------------------------
+    out.append(section(
+        txt_col(56, eyebrow(T_(5, 0)), h2(T_(5, 1)), body(T_(5, 2)), h3(T_(5, 3)), body(T_(5, 4)),
+               two_lists(items(5, 5)), body(T_(5, 6))),
+        img_col(44, image(content.IMG + "square-dock-night.jpg", LV[5][7]["alt"])),
+        bg=BLACK, gap="no", valign="middle", **SEC_PAD))
+
+    # 6 MISSIONS -----------------------------------------------------------
+    pairs = [(strip_p(T_(6, 3 + 2 * k)), T_(6, 4 + 2 * k)) for k in range(11)]
+    def mcard(num, title, size=25, tablet=50):
+        return column(size, heading(num, 18, 18, 18, tag="div", color=AMBER, ls=2),
+                      heading(title, 24, 22, 22, tag="h3", lh=1.1, ls=0.6),
+                      pad=DIM(24, 22, 24, 22), margin=DIM(6), bg=CARD, border=(DIM(1), LINE),
+                      tablet=tablet, mobile=100, space=22)
+    mrows = []
+    for r_, row in enumerate([pairs[0:4], pairs[4:8], pairs[8:11]]):
+        cs = [mcard(n, t) if not (r_ == 2 and k == 2) else mcard(n, t, 50, 100) for k, (n, t) in enumerate(row)]
+        mrows.append(section(*cs, inner=True, gap="no", margin=DIM(0, -6, 0, -6)))
+    out.append(section(
+        column(100,
+               section(column(66, eyebrow(T_(6, 0)), h2(T_(6, 1)), body(T_(6, 2))), inner=True, gap="no", margin=DIM(0, 0, 18, 0)),
+               *mrows,
+               section(column(66, body(T_(6, 25), margin=DIM(14, 0, 0, 0))), inner=True, gap="no")),
+        bg=INK, anchor="missions", **SEC_PAD))
+
+    # 7 MARINE FIREFIGHTING ------------------------------------------------
+    lists3 = split_even(items(7, 5), 3)
+    cols3 = [column(33.33, icon_list(l), tablet=50 if k < 2 else 100, mobile=100) for k, l in enumerate(lists3)]
+    out.append(section(
+        column(100,
+               section(column(62, eyebrow(T_(7, 0)), h2(T_(7, 1)), body(T_(7, 2)), h3(T_(7, 3)), body(T_(7, 4))),
+                       inner=True, gap="no", margin=DIM(0, 0, 18, 0)),
+               section(*cols3, inner=True, gap="wide", margin=DIM(0, 0, 18, 0)),
+               section(column(62, body(T_(7, 6))), inner=True, gap="no")),
+        image_url=content.IMG + "bg-water.jpg", overlay=grad_overlay(BLACK, 45, "rgba(10,10,10,0.55)", 100, 90), **SEC_PAD))
+
+    # 8 HDPE ---------------------------------------------------------------
+    def hcard(k):
+        b = 5 + 3 * k
+        return column(25, heading(strip_p(T_(8, b)), 18, 18, 18, tag="div", color=AMBER, ls=2),
+                      heading(T_(8, b + 1), 26, 24, 22, tag="h3", lh=1.1, ls=0.6),
+                      text(T_(8, b + 2), STEEL, 14, lh=1.6),
+                      pad=DIM(26, 22, 26, 22), margin=DIM(6), bg=PANEL, border=(DIM(1), LINE), tablet=50, mobile=100, space=12)
+    out.append(section(
+        column(100,
+               section(txt_col(52, eyebrow(T_(8, 0)), h2(T_(8, 1)), body(T_(8, 2)), h3(T_(8, 3))),
+                       img_col(48, image(content.IMG + "square-deck-detail.jpg", LV[8][4]["alt"])),
+                       inner=True, gap="no", valign="middle", margin=DIM(0, 0, 36, 0)),
+               section(*[hcard(k) for k in range(4)], inner=True, gap="no", margin=DIM(0, -6, 0, -6)),
+               section(*[hcard(k) for k in range(4, 8)], inner=True, gap="no", margin=DIM(0, -6, 0, -6)),
+               section(column(66, body(T_(8, 29), margin=DIM(18, 0, 0, 0))), inner=True, gap="no")),
+        bg=BLACK, anchor="hdpe", **SEC_PAD))
+
+    # 9 OTHER SERIES -------------------------------------------------------
+    h4_style = f'<h4 style="color:{AMBER};font-family:Inter,sans-serif;font-size:16px;font-style:italic;font-weight:600;margin:18px 0 8px">'
+    def scard(h_, lead, tg):
+        return column(33.33, h3(T_(9, h_)), body(T_(9, lead), size=15),
+                      toggle("Read more", T_(9, tg).replace("<h4>", h4_style)),
+                      pad=DIM(28, 26, 24, 26), margin=DIM(8), bg=PANEL, border=(DIM(4, 0, 0, 0), AMBER), tablet=100, mobile=100, space=14)
+    def series_row(title_i, cards):
+        return [section(column(100, heading(T_(9, title_i), 36, 32, 28, tag="h3", lh=1.05)), inner=True, gap="no", margin=DIM(28, 0, 8, 0)),
+                section(*[scard(*c) for c in cards], inner=True, gap="no", margin=DIM(0, -8, 0, -8))]
+    out.append(section(
+        column(100,
+               section(column(66, eyebrow(T_(9, 0)), h2(T_(9, 1)), body(T_(9, 2))), inner=True, gap="no"),
+               *series_row(3, [(5, 6, 7), (9, 10, 11), (13, 14, 15)]),
+               *series_row(16, [(18, 19, 20), (22, 23, 24), (26, 27, 28)])),
+        bg=INK, anchor="series", **SEC_PAD))
+
+    # 10 CONFIGURED AROUND YOUR DEPARTMENT --------------------------------
+    out.append(section(
+        column(100,
+               section(column(66, eyebrow(T_(10, 0)), h2(T_(10, 1)), body(T_(10, 2))), inner=True, gap="no", margin=DIM(0, 0, 22, 0)),
+               icon_list(items(10, 3), inline=True, size=14),
+               section(column(66, body(T_(10, 4), margin=DIM(22, 0, 0, 0))), inner=True, gap="no")),
+        bg=BLACK, **SEC_PAD))
+
+    # 11 CONTACT ------------------------------------------------------------
+    out.append(section(
+        txt_col(45, eyebrow(T_(11, 0)), h2(T_(11, 1)), body(T_(11, 2))),
+        column(55, form(content.FORM_FIELDS), pad=DIM(30), bg=PANEL, border=(DIM(0, 0, 0, 4), AMBER)),
+        grad_bg=("#14161A", BLACK), border=(DIM(3, 0, 0, 0), AMBER), gap="no", anchor="contact", **SEC_PAD))
+    return out
+
+# ------------------------------------------------------------------ preview renderer (reads the same settings)
+def u(v):  return v.replace(BASE + "/", content.IMG)
+def dim(d): return " ".join(f"{d[k]}{d['unit']}" for k in ("top", "right", "bottom", "left"))
+def szs(d): return f"{d['size']}{d['unit']}"
+def get(s, k, dev):
+    return s.get(k + {"": "", "t": "_tablet", "m": "_mobile"}[dev])
+def tcss(s, p, dev):
+    d = []
+    for k, prop, fn in (("font_family", "font-family", lambda v: f"'{v}',sans-serif"), ("font_size", "font-size", szs),
+                        ("font_weight", "font-weight", str), ("line_height", "line-height", szs),
+                        ("letter_spacing", "letter-spacing", szs), ("text_transform", "text-transform", str),
+                        ("font_style", "font-style", str)):
+        v = get(s, p + k, dev)
+        if v is not None: d.append(f"{prop}:{fn(v)}")
+    return ";".join(d)
+
+class R:
+    def __init__(self): self.css = {"": [], "t": [], "m": []}
+    def add(self, dev, sel, decl):
+        if decl: self.css[dev].append(f"{sel}{{{decl}}}")
+
+def bgcss(s):
+    d = []
+    bg = s.get("background_background")
+    if bg == "classic":
+        if s.get("background_color"): d.append(f"background-color:{s['background_color']}")
+        if s.get("background_image"):
+            d.append(f"background-image:url('{u(s['background_image']['url'])}');background-position:{s.get('background_position', 'center center')};background-repeat:no-repeat;background-size:cover")
+    elif bg == "gradient":
+        d.append(f"background:linear-gradient({s['background_gradient_angle']['size']}deg,{s['background_color']},{s['background_color_b']})")
+    return ";".join(d)
+
+def bordercss(s):
+    if s.get("border_border"):
+        return f"border-style:solid;border-width:{dim(s['border_width'])};border-color:{s['border_color']}"
+    return ""
+
+def widget_html(w, r):
+    s, i, t = w["settings"], w["id"], w["widgetType"]
+    sel = f".elementor-element-{i}"
+    cont = f"{sel}>.elementor-widget-container"
+    if s.get("_margin"): r.add("", cont, f"margin:{dim(s['_margin'])}")
+    if s.get("_padding"): r.add("", cont, f"padding:{dim(s['_padding'])}")
+    if s.get("_background_color"): r.add("", cont, f"background:{s['_background_color']}")
+    if s.get("align"): r.add("", sel, f"text-align:{s['align']}")
+    wrap = lambda cls, inner: (f'<div class="elementor-element elementor-element-{i} elementor-widget elementor-widget-{cls}">'
+                               f'<div class="elementor-widget-container">{inner}</div></div>')
+    if t == "heading":
+        tag = s["header_size"]
+        for dev in ("", "t", "m"):
+            d = tcss(s, "typography_", dev)
+            if dev == "": d += f";color:{s['title_color']}"
+            r.add(dev, f"{sel} .elementor-heading-title", d)
+        return wrap("heading", f'<{tag} class="elementor-heading-title">{s["title"]}</{tag}>')
+    if t == "text-editor":
+        for dev in ("", "t", "m"):
+            d = tcss(s, "typography_", dev)
+            if dev == "": d += f";color:{s['text_color']}"
+            r.add(dev, sel, d)
+        return wrap("text-editor", s["editor"])
+    if t == "button":
+        d = (f"background:{s['background_color']};color:{s['text_color']};border:{s['border_width']['top']}px solid {s['border_color']};"
+             f"border-radius:0;padding:{dim(s['text_padding'])};{tcss(s, 'typography_', '')}")
+        r.add("", f"{sel} .elementor-button", d)
+        r.add("", f"{sel} .elementor-button:hover", f"color:{s['hover_color']};background:{s['button_background_hover_color']};border-color:{s['button_hover_border_color']}")
+        if s.get("align_mobile") == "justify": r.add("m", f"{sel} .elementor-button", "display:block;text-align:center")
+        return wrap("button", f'<div class="elementor-button-wrapper"><a class="elementor-button elementor-button-link elementor-size-sm" href="{s["link"]["url"]}">'
+                              f'<span class="elementor-button-content-wrapper"><span class="elementor-button-text">{escape(s["text"])}</span></span></a></div>')
+    if t == "image":
+        im = s["image"]
+        d = f"width:{szs(s['width'])};height:auto;display:block"
+        if s.get("image_border_border"): d += f";border:1px solid {s['image_border_color']}"
+        r.add("", f"{sel} img", d)
+        return wrap("image", f'<img src="{u(im["url"])}" alt="{escape(im["alt"])}">')
+    if t == "icon-list":
+        inline = s["view"] == "inline"
+        r.add("", f"{sel} ul", "list-style:none;margin:0;padding:0" + (";display:flex;flex-wrap:wrap;gap:10px" if inline else ""))
+        r.add("", f"{sel} li", f"display:flex;align-items:flex-start;color:{s['text_color']};{tcss(s, 'icon_typography_', '')}"
+                              + (f";background:{PANEL};border:1px solid {LINE};padding:11px 18px" if inline else f";margin-bottom:{szs(s['space_between'])}"))
+        r.add("", f"{sel} li:last-child", "margin-bottom:0")
+        r.add("", f"{sel} .elementor-icon-list-icon", f"color:{s['icon_color']};width:{szs(s['icon_size'])};margin-right:{szs(s['text_indent'])};flex:none;margin-top:.35em")
+        svg = '<svg viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor"><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2L210.1 439.4c-10 10-26.2 10-36.2 0z"/></svg>'
+        lis = "".join(f'<li class="elementor-icon-list-item"><span class="elementor-icon-list-icon">{svg}</span><span class="elementor-icon-list-text">{x["text"]}</span></li>' for x in s["icon_list"])
+        return wrap("icon-list", f'<ul class="elementor-icon-list-items">{lis}</ul>')
+    if t == "toggle":
+        tab = s["tabs"][0]
+        r.add("", f"{sel} .elementor-tab-title", f"display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:16px 0 0;border-top:1px solid {s['border_color']};color:{s['title_color']};{tcss(s, 'title_typography_', '')}")
+        r.add("", f"{sel} .elementor-tab-title:after", f"content:'+';display:grid;place-items:center;width:26px;height:26px;border:1px solid {s['icon_color']};color:{s['icon_color']};font-size:18px;letter-spacing:0")
+        r.add("", f"{sel} .elementor-tab-title.elementor-active:after", f"content:'\\2212';background:{s['icon_active_color']};color:#0A0A0A")
+        r.add("", f"{sel} .elementor-tab-content", f"display:none;padding:{dim(s['content_padding'])};color:{s['content_color']};{tcss(s, 'content_typography_', '')}")
+        r.add("", f"{sel} .elementor-tab-content p", "margin:0 0 12px")
+        r.add("", f"{sel} .elementor-tab-content ul", "margin:0 0 12px;padding-left:20px")
+        return wrap("toggle", f'<div class="elementor-toggle"><div class="elementor-toggle-item"><div class="elementor-tab-title" role="button" tabindex="0">'
+                              f'<span class="elementor-toggle-title">{escape(tab["tab_title"])}</span></div><div class="elementor-tab-content">{tab["tab_content"]}</div></div></div>')
+    if t == "form":
+        r.add("", f"{sel} .elementor-form-fields-wrapper", f"display:flex;flex-wrap:wrap;gap:{szs(s['row_gap'])}")
+        r.add("", f"{sel} .elementor-field-group", "display:grid;gap:6px;align-content:start")
+        r.add("", f"{sel} label", f"color:{s['label_color']};{tcss(s, 'label_typography_', '')}")
+        r.add("", f"{sel} .elementor-field", f"width:100%;background:{s['field_background_color']};color:{s['field_text_color']};border:1px solid {s['field_border_color']};border-radius:0;padding:14px 16px;font:inherit;font-size:15px")
+        r.add("", f"{sel} .elementor-field-textual:focus", f"outline:none;border-color:{AMBER}")
+        r.add("", f"{sel} .elementor-button", f"background:{s['button_background_color']};color:{s['button_text_color']};border:2px solid {s['button_border_color']};border-radius:0;padding:{dim(s['button_text_padding'])};cursor:pointer;{tcss(s, 'button_typography_', '')}")
+        r.add("", f"{sel} .elementor-button:hover", f"background:{s['button_background_hover_color']};color:{s['button_hover_color']};border-color:{s['button_hover_border_color']}")
+        rows = []
+        for f in s["form_fields"]:
+            typ, cid, w_ = f["field_type"], f["custom_id"], f["width"]
+            req = " required" if f["required"] else ""
+            if typ == "textarea": fld = f'<textarea id="f-{cid}" class="elementor-field elementor-field-textual" rows="5"{req}></textarea>'
+            elif typ == "select": fld = f'<select id="f-{cid}" class="elementor-field">' + "".join(f"<option>{escape(o)}</option>" for o in f["field_options"].split("\n")) + "</select>"
+            else: fld = f'<input id="f-{cid}" type="{typ}" class="elementor-field elementor-field-textual"{req}>'
+            r.add("", f"{sel} .fg-{cid}", "flex:1 1 calc(50% - 7px)" if w_ == "50" else "flex:1 1 100%")
+            r.add("m", f"{sel} .fg-{cid}", "flex:1 1 100%")
+            rows.append(f'<div class="elementor-field-group fg-{cid}"><label for="f-{cid}">{escape(f["field_label"])}</label>{fld}</div>')
+        rows.append(f'<div class="elementor-field-group" style="flex:1 1 100%"><button type="submit" class="elementor-button">{escape(s["button_text"])}</button></div>')
+        return wrap("form", '<form class="elementor-form" onsubmit="return false"><div class="elementor-form-fields-wrapper">' + "".join(rows) + "</div></form>")
+    raise ValueError(t)
+
+def column_html(c, r):
+    s, i = c["settings"], c["id"]
+    sel = f".elementor-element-{i}"
+    r.add("", sel, f"width:{s['_inline_size']}%")
+    r.add("t", sel, f"width:{s['_inline_size_tablet']}%")
+    r.add("m", sel, f"width:{s['_inline_size_mobile']}%")
+    d = []
+    if s.get("padding"): d.append(f"padding:{dim(s['padding'])}")
+    if s.get("margin"): d.append(f"margin:{dim(s['margin'])}")
+    d.append(bgcss(s)); d.append(bordercss(s))
+    if s.get("content_position") == "center": d.append("align-content:center")
+    r.add("", f"{sel}>.elementor-element-populated", ";".join(x for x in d if x))
+    if s.get("padding_tablet"): r.add("t", f"{sel}>.elementor-element-populated", f"padding:{dim(s['padding_tablet'])}")
+    if s.get("padding_mobile"): r.add("m", f"{sel}>.elementor-element-populated", f"padding:{dim(s['padding_mobile'])}")
+    r.add("", f"{sel}>.elementor-widget-wrap>.elementor-widget:not(:last-child)", f"margin-bottom:{s['space_between_widgets']}px")
+    kids = "".join(element_html(k, r) for k in c["elements"])
+    return f'<div class="elementor-column elementor-element elementor-element-{i}"><div class="elementor-widget-wrap elementor-element-populated">{kids}</div></div>'
+
+def section_html(sec, r):
+    s, i = sec["settings"], sec["id"]
+    sel = f".elementor-element-{i}"
+    d = []
+    if s.get("padding"): d.append(f"padding:{dim(s['padding'])}")
+    if s.get("margin"): d.append(f"margin:{dim(s['margin'])}")
+    d.append(bgcss(s)); d.append(bordercss(s))
+    if s.get("z_index"): d.append(f"z-index:{s['z_index']}")
+    r.add("", sel, ";".join(x for x in d if x))
+    if s.get("padding_tablet"): r.add("t", sel, f"padding:{dim(s['padding_tablet'])}")
+    if s.get("padding_mobile"): r.add("m", sel, f"padding:{dim(s['padding_mobile'])}")
+    for dev, suf in (("t", "_tablet"), ("m", "_mobile")):
+        if s.get("margin" + suf): r.add(dev, sel, f"margin:{dim(s['margin' + suf])}")
+        if s.get("background_size" + suf):
+            r.add(dev, sel, f"background-size:{s['background_size' + suf]};background-position:{s.get('background_position' + suf, 'center center')};background-repeat:no-repeat")
+    cont = f"{sel}>.elementor-container"
+    if s.get("content_width"): r.add("", cont, f"max-width:{szs(s['content_width'])}")
+    if s.get("custom_height"):
+        r.add("", cont, f"min-height:{szs(s['custom_height'])}")
+        if s.get("custom_height_mobile"): r.add("m", cont, f"min-height:{szs(s['custom_height_mobile'])}")
+    pos = {"middle": "center", "top": "flex-start", "bottom": "flex-end"}.get(s.get("column_position"))
+    if pos: r.add("", cont, f"align-items:{pos}")
+    ov = ""
+    if s.get("background_overlay_background"):
+        a = f"{sel}>.elementor-background-overlay"
+        if s["background_overlay_background"] == "gradient":
+            r.add("", a, f"background:linear-gradient({s['background_overlay_gradient_angle']['size']}deg,{s['background_overlay_color']} {s['background_overlay_color_stop']['size']}%,{s['background_overlay_color_b']} {s['background_overlay_color_b_stop']['size']}%)")
+        else:
+            r.add("", a, f"background:{s['background_overlay_color']};opacity:{s['background_overlay_opacity']['size']}")
+        ov = '<div class="elementor-background-overlay"></div>'
+    kind = "inner" if sec["isInner"] else "top"
+    boxed = "boxed" if s["layout"] == "boxed" else "full_width"
+    aid = f' id="{s["_element_id"]}"' if s.get("_element_id") else ""
+    cols = "".join(column_html(c, r) for c in sec["elements"])
+    return (f'<section class="elementor-section elementor-{kind}-section elementor-section-{boxed} elementor-element elementor-element-{i}"{aid}>{ov}'
+            f'<div class="elementor-container elementor-column-gap-{s["gap"]}">{cols}</div></section>')
+
+def element_html(el, r):
+    return section_html(el, r) if el["elType"] == "section" else widget_html(el, r)
+
+PREVIEW_BASE = """*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0A0A0A;font-family:Inter,sans-serif}
+img{max-width:100%}a{text-decoration:none}
+.elementor-section{position:relative}
+.elementor-container{display:flex;margin:0 auto;position:relative;width:100%}
+.elementor-section-full_width>.elementor-container{max-width:none}
+.elementor-column{position:relative;min-height:1px;display:flex}
+.elementor-widget-wrap{position:relative;width:100%;flex-wrap:wrap;align-content:flex-start;display:flex}
+.elementor-widget-wrap>.elementor-element{width:100%}
+.elementor-column-gap-narrow>.elementor-column>.elementor-element-populated{padding:5px}
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:10px}
+.elementor-column-gap-extended>.elementor-column>.elementor-element-populated{padding:15px}
+.elementor-column-gap-wide>.elementor-column>.elementor-element-populated{padding:20px}
+.elementor-column-gap-wider>.elementor-column>.elementor-element-populated{padding:30px}
+.elementor-background-overlay{position:absolute;inset:0;pointer-events:none}
+.elementor-heading-title{margin:0;padding:0}
+.elementor-widget-text-editor p{margin:0 0 16px}.elementor-widget-text-editor p:last-child{margin-bottom:0}
+.elementor-button{display:inline-block;text-align:center;transition:.2s}
+.elementor-widget-container{position:relative}
+@media (max-width:1024px){.elementor-container{flex-wrap:wrap}}
+@media (max-width:767px){.elementor-container{flex-wrap:wrap}}
 """
-
-def css_for(img_base):
-    """CSS (container rules + classic twins) with image variables resolved."""
-    v = (f".tm-page{{--tm-hero:url('{img_base}hero.jpg');--tm-water:url('{img_base}bg-water.jpg');"
-         f"--tm-blueprint:url('{img_base}bg-blueprint.jpg');}}\n")
-    return v + _emit(_blocks(CSS)) + CLASSIC_EXTRA
-
+PREVIEW_JS = """<script>document.querySelectorAll('.elementor-tab-title').forEach(function(t){function go(){var on=t.classList.toggle('elementor-active');t.nextElementSibling.style.display=on?'block':'none';}
+t.addEventListener('click',go);t.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});</script>"""
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">')
 
-# Minimal stand-in for Elementor's own CSS so the standalone preview behaves like the real editor DOM
-PREVIEW_BASE = """
-html{scroll-behavior:smooth} body{margin:0;background:#0a0a0a}
-.elementor-section{position:relative}
-.elementor-container{display:flex;margin-left:auto;margin-right:auto;position:relative}
-.elementor-column{position:relative;min-height:1px;display:flex;width:100%}
-.elementor-widget-wrap{position:relative;width:100%;flex-wrap:wrap;align-content:flex-start;display:flex}
-.elementor-widget-wrap>.elementor-element{width:100%}
-.elementor-column-gap-no>.elementor-column>.elementor-element-populated{padding:0}
-.elementor-widget:not(:last-child){margin-block-end:20px}
-.e-con{display:flex;flex-direction:column;width:100%}
-.elementor-widget-button .elementor-button{text-align:center}
-.elementor-toggle .elementor-tab-content{display:none}
-"""
-
-PREVIEW_JS = """<script>
-document.querySelectorAll('.elementor-tab-title').forEach(function(t){
-  function go(){var on=t.classList.toggle('elementor-active');t.nextElementSibling.style.display=on?'block':'none';}
-  t.addEventListener('click',go);
-  t.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
-});
-</script>"""
-
-def template(content, title):
-    return {"content": content, "page_settings": [], "version": "0.4", "title": title, "type": "page"}
-
-def main():
-    tree = build_tree()
-    css_local = css_for(IMG)
-    html = ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n"
-            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+def render_page(sections):
+    r = R()
+    body_html = "".join(section_html(s, r) for s in sections)
+    css = PREVIEW_BASE + "".join(r.css[""]) + "@media (max-width:1024px){" + "".join(r.css["t"]) + "}@media (max-width:767px){" + "".join(r.css["m"]) + "}"
+    return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
             "<title>Fire Boats and Rescue Boats | Tideman Marine</title>\n"
             "<meta name=\"description\" content=\"Tideman Marine designs and manufactures mission-ready fire boats and rescue boats built from durable HDPE for fire departments, municipalities, harbor authorities, and public safety organizations.\">\n"
-            f"{FONTS}\n<style>{PREVIEW_BASE}</style>\n<style>\n{css_local}</style>\n</head>\n<body>\n"
-            + render_page(tree) + PREVIEW_JS + "\n</body>\n</html>\n")
+            f"{FONTS}\n<style>\n{css}\n</style>\n</head>\n<body>\n{body_html}\n{PREVIEW_JS}\n</body>\n</html>\n")
+
+def template(content_, title):
+    return {"content": content_, "page_settings": [], "version": "0.4", "title": title, "type": "page"}
+
+def main():
+    sections = build_sections()
+    html = render_page(sections)
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 
-    css_json = FONTS + "\n<style>\n" + css_for(BASE + "/") + "</style>"
-    style_widget = {"id": _id("style"), "elType": "widget", "widgetType": "html", "settings": {"html": css_json}, "elements": []}
+    def b64(p):
+        ext = os.path.splitext(p)[1][1:].replace("jpg", "jpeg")
+        return f"data:image/{ext};base64," + base64.b64encode(open(os.path.join(ROOT, p), "rb").read()).decode()
+    open(os.path.join(ROOT, "tideman-fire-rescue-standalone.html"), "w", encoding="utf-8").write(
+        re.sub(r"assets/img/[\w.-]+", lambda m: b64(m.group(0)), html))
 
-    # 1) classic Sections/Columns: works on any Elementor, no experiments needed
-    style_sec = {"id": _id("stylesec"), "elType": "section", "settings": {"layout": "full_width", "gap": "no", "css_classes": "tm-style"},
-                 "elements": [{"id": _id("stylecol"), "elType": "column", "settings": {"_column_size": 100, "_inline_size": None},
-                               "elements": [style_widget], "isInner": False}], "isInner": False}
-    classic = [style_sec] + [classic_json(k, True) for k in tree["kids"]]
     p1 = os.path.join(ROOT, "tideman-fire-rescue-elementor.json")
-    json.dump(template(classic, "Fire Rescue Boats - Tideman Marine"), open(p1, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-
-    # 2) Flexbox-container variant (only if Elementor > Features > Flexbox Container is Active)
-    root = container_json(tree)
-    root["elements"].insert(0, {**style_widget, "id": _id("style2")})
-    p2 = os.path.join(ROOT, "tideman-fire-rescue-elementor-containers.json")
-    json.dump(template([root], "Fire Rescue Boats - Tideman Marine (containers)"), open(p2, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    # 3) same classic structure WITHOUT the embedded <style> widget + the CSS as a separate file
-    #    (use if the host/WAF rejects the big file or <style> inside the JSON)
-    p3 = os.path.join(ROOT, "tideman-fire-rescue-elementor-nocss.json")
-    json.dump(template([classic_json(k, True) for k in tree["kids"]], "Fire Rescue Boats - Tideman Marine (no css)"),
-              open(p3, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    open(os.path.join(ROOT, "tideman-fire-rescue.css"), "w", encoding="utf-8").write(
-        "/* Paste in Appearance > Customize > Additional CSS (or Elementor Site Settings > Custom CSS).\n"
-        "   Fonts: add Bebas Neue + Inter from Google Fonts. */\n" + css_for(BASE + "/"))
-
-    # 4) smallest possible real test: hero section only, no CSS, no special widgets
-    p4 = os.path.join(ROOT, "tests", "test-hero-only.json")
-    json.dump(template([classic_json(tree["kids"][0], True)], "Test hero only"), open(p4, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("OK", len(html), "bytes html |", os.path.getsize(p1), "bytes classic json |", os.path.getsize(p2), "bytes container json | base:", BASE)
+    json.dump(template(sections, "Fire Rescue Boats - Tideman Marine"), open(p1, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    os.makedirs(os.path.join(ROOT, "tests"), exist_ok=True)
+    json.dump(template([sections[0]], "Test hero only"), open(os.path.join(ROOT, "tests", "test-hero-only.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print("OK html", len(html), "bytes | json", os.path.getsize(p1), "bytes | image base:", BASE)
 
 main()
