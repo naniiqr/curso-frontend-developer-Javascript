@@ -1,0 +1,3178 @@
+{
+ "version": "0.4",
+ "title": "Sobre nosaltres",
+ "type": "page",
+ "content": [
+  {
+   "id": "4e4b5fb",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "14",
+     "right": "0",
+     "bottom": "14",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "middle",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#0c0c0d",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "1",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "rgba(255,255,255,.12)"
+   },
+   "elements": [
+    {
+     "id": "1bb91f7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100,
+      "_element_width_": ""
+     },
+     "elements": [
+      {
+       "id": "6e2713a",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3a07724",
+     "elType": "column",
+     "settings": {
+      "_column_size": 55,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "11b921e",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<nav style=\"display:flex;gap:30px;justify-content:center;flex-wrap:wrap;font:500 11px Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase\"><a href=\"/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Inici</a><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Productes</a><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Projectes</a><a href=\"/sobre-nosaltres/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid #e4152d\">Sobre nosaltres</a><a href=\"/contacte/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Contacte</a></nav>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "58ae749",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "a9a6653",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "right",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "dc6a648",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "70",
+     "right": "0",
+     "bottom": "70",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "middle",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#0c0c0d",
+    "background_image": {
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/seg-professionals.jpg",
+     "id": ""
+    },
+    "background_position": "center right",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "#0c0c0d",
+    "background_overlay_color_b": "rgba(12,12,13,0.15)",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90,
+     "sizes": []
+    },
+    "background_overlay_color_stop": {
+     "unit": "%",
+     "size": 45,
+     "sizes": []
+    },
+    "background_overlay_opacity": {
+     "unit": "",
+     "size": 1,
+     "sizes": []
+    },
+    "height": "min-height",
+    "custom_height": {
+     "unit": "px",
+     "size": 400,
+     "sizes": []
+    },
+    "custom_height_mobile": {
+     "unit": "px",
+     "size": 340,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e836d81",
+     "elType": "column",
+     "settings": {
+      "_column_size": 55,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "428fca9",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<div style=\"font:11px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sobre nosaltres</span></div>"
+       },
+       "elements": []
+      },
+      {
+       "id": "f1b6f28",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Més de 30 anys construint <span style=\"color:#e4152d\">millors espais</span>",
+        "header_size": "h1",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 52,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 37,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "18",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "68ce199",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Som una empresa familiar de l'Empordà especialitzada en tancaments d'alumini i PVC fabricats a mida.",
+        "text_color": "#e6e6e8",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "24",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "51d92be",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Parlem del teu projecte &rarr;</a><a href=\"/projectes/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure projectes &rarr;</a>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "877a9ba",
+     "elType": "column",
+     "settings": {
+      "_column_size": 45,
+      "_inline_size": null,
+      "content_position": "bottom",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "ab817c9",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Junts construïm<br>millors espais",
+        "header_size": "div",
+        "align": "right",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Caveat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 28,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d18f655",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "extended",
+    "padding": {
+     "unit": "px",
+     "top": "80",
+     "right": "0",
+     "bottom": "80",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "598b3e7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "2633735",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "La nostra història",
+        "header_size": "span",
+        "align": "left",
+        "title_color": "#a9a9ae",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.5,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "8e6b42f",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Experiència que et dona tranquil·litat",
+        "header_size": "h2",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 34,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "18",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ef575e8",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Aluminis l'Albera va nèixer fa més de tres dècades a Figueres amb una idea clara: oferir tancaments ben fets, amb un tracte proper i honest. Des d'aleshores hem crescut de la mà dels nostres clients, sempre mantenint l'esperit d'empresa familiar.",
+        "text_color": "#cfcfd2",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "12",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "2050e03",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Avui fabriquem i instal·lem finestres, portes d'entrada, persianes, pèrgoles, baranes i mampares per a particulars, comços i grans projectes professionals de tot l'Empordà i les comarques gironines.",
+        "text_color": "#cfcfd2",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "12",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "25ddc0f",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Treballem amb les millors marques del mercat i amb un equip propi, de manera que controlem tot el procés: de l'assessorament inicial fins al darrer detall de la instal·lació.",
+        "text_color": "#cfcfd2",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "20",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "5ef0b4e",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Parlem del teu projecte",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "cfee398",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "74071a6",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/seg-particulars.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 400,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 280,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e1e32e2",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "70",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#131315"
+   },
+   "elements": [
+    {
+     "id": "f770b62",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "6ea2ef7",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "El que ens mou",
+        "header_size": "span",
+        "align": "left",
+        "title_color": "#a9a9ae",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.5,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "9461cce",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Missió i visió",
+        "header_size": "h2",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "24",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "55a7cf9",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wide",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "70",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#131315"
+   },
+   "elements": [
+    {
+     "id": "a516a87",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "background_background": "classic",
+      "background_color": "#0c0c0d",
+      "padding": {
+       "unit": "px",
+       "top": "30",
+       "right": "28",
+       "bottom": "30",
+       "left": "28",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "eba0dc3",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "01",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "218a0ae",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "La nostra missió",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7d04bbb",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Crear espais més confortables, segurs i eficients mitjançant solucions de tancament d'alta qualitat, adaptades a l'estil i a les necessitats de cada persona i de cada projecte.",
+        "text_color": "#cfcfd2",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 13.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "559cb99",
+     "elType": "column",
+     "settings": {
+      "_column_size": 50,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "background_background": "classic",
+      "background_color": "#0c0c0d",
+      "padding": {
+       "unit": "px",
+       "top": "30",
+       "right": "28",
+       "bottom": "30",
+       "left": "28",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "c3c59e5",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "02",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "854d9fc",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "La nostra visió",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c410003",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Ser l'empresa de referència en tancaments d'alumini i PVC a les comarques gironines, reconeguda per la qualitat del producte, la proximitat del servei i la confiança dels clients.",
+        "text_color": "#cfcfd2",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 13.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b534ba6",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "60",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "3505107",
+     "elType": "column",
+     "settings": {
+      "_column_size": 70,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "2f55707",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Per què confiar en nosaltres",
+        "header_size": "h2",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "1be3bc3",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Experiència, qualitat i proximitat en cada fase del projecte.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "285e19f",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wide",
+    "padding": {
+     "unit": "px",
+     "top": "14",
+     "right": "0",
+     "bottom": "14",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "05f971b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "7380ad8",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-gem",
+         "library": "fa-solid"
+        },
+        "title_text": "Qualitat garantida",
+        "description_text": "Treballem amb els millors marques del mercat i seleccionem cada material amb criteri. Totes les nostres obres compten amb garantia.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "cee6311",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "3cf166c",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-users",
+         "library": "fa-solid"
+        },
+        "title_text": "Assessorament personalitzat",
+        "description_text": "Escoltem les teves necessitats, visitem l'espai i t'ajudem a triar la solució que millor s'adapta al teu habitatge o negoci.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "b5b41fa",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "5b69b9c",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-file-signature",
+         "library": "fa-solid"
+        },
+        "title_text": "Compliment de terminis",
+        "description_text": "Planifiquem cada obra amb rigor i ens comprometem amb unes dates clares des del primer pressupost.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "0874085",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wide",
+    "padding": {
+     "unit": "px",
+     "top": "14",
+     "right": "0",
+     "bottom": "14",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e8c0653",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "b337e84",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-leaf",
+         "library": "fa-solid"
+        },
+        "title_text": "Solucions sostenibles",
+        "description_text": "Perfils amb trencament de pont tèrmic i vidres d'alt rendiment que milloren l'aïllament i redueixen el consum energètic.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "2d6cc4b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "ff4d5fb",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-cog",
+         "library": "fa-solid"
+        },
+        "title_text": "Fabricació a mida",
+        "description_text": "Cada peça es dissenya i es fabrica segons les teves mides, colors i acabats. Sense solucions estàndard forçades.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e2230b8",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "389bc7b",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-hard-hat",
+         "library": "fa-solid"
+        },
+        "title_text": "Instal·lació pròpia",
+        "description_text": "El nostre equip professional i qualificat s'encarrega del muntatge i deixa l'obra neta i a punt.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "59b90e1",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "60",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "3dc4876",
+     "elType": "column",
+     "settings": {
+      "_column_size": 70,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "a760880",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Com treballem",
+        "header_size": "h2",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "10a7cdd",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Un procés clar i transparent perquè sàpigues en tot moment en quin punt és el teu projecte.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "33e8075",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wide",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "70",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "63538fe",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "2b8a615",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "#e4152d",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f3f27a3",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "01",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "38913e1",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Assessorament",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ebd9629",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Escoltem les teves necessitats, visitem l'espai i prenem mides. Sense compromis.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "ba2fd31",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "cf67355",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "#e4152d",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "07563a3",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "02",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "53fde96",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Disseny i pressupost",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "2bb232c",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Et proposem la millor solució en materials, colors i acabats, amb un pressupost detallat.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "37f0e88",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "69421f0",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "#e4152d",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "85422af",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "03",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "13f320e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Fabricació",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f4be002",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Fabriquem cada peça a mida amb materials de qualitat i un control rigorós.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c399862",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "d64a340",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "#e4152d",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0fcbc61",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "04",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "298f95e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Instal·lació",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "df877f3",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "El nostre equip ho munta, ho ajusta i ho deixa tot a punt i net.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "97e8527",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "70",
+     "right": "180",
+     "bottom": "70",
+     "left": "180",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#131315",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "60",
+     "right": "40",
+     "bottom": "60",
+     "left": "40",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "8144813",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "65658fd",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Preguntes freqüents",
+        "header_size": "h2",
+        "align": "center",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 21,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "18",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7dcd340",
+       "elType": "widget",
+       "widgetType": "accordion",
+       "settings": {
+        "tabs": [
+         {
+          "tab_title": "Fabriqueu a mida?",
+          "tab_content": "<p>Sí. Cada projecte es dissenya i es fabrica segons les mides, els colors i els acabats que necessites, tant per a obra nova com per a rehabilitació.</p>",
+          "_id": "5ea1649"
+         },
+         {
+          "tab_title": "Us ocupeu també de la instal·lació?",
+          "tab_content": "<p>Disposem d'equip propi de muntatge. Així coordinem tot el procés, de la presa de mides a la instal·lació final, i responem d'un únic resultat.</p>",
+          "_id": "7bcdf75"
+         },
+         {
+          "tab_title": "Quins materials utilitzeu?",
+          "tab_content": "<p>Treballem amb alumini amb trencament de pont tèrmic i PVC de les millors marques del mercat, combinats amb vidres adaptats a cada necessitat d'aïllament i seguretat.</p>",
+          "_id": "5737034"
+         },
+         {
+          "tab_title": "Quant triga un projecte?",
+          "tab_content": "<p>Depèn de la tipologia i de la mida, però sempre et donem un termini clar des del pressupost i el complim.</p>",
+          "_id": "9b72e31"
+         },
+         {
+          "tab_title": "Oferiu garantia i servei posterior?",
+          "tab_content": "<p>Sí. Tots els treballs tenen garantia i ens mantenim al teu costat un cop acabada l'obra, amb manteniment i atenció personalitzada.</p>",
+          "_id": "16c222a"
+         }
+        ],
+        "title_color": "#ffffff",
+        "tab_active_color": "#e4152d",
+        "content_color": "#cfcfd2",
+        "border_color": "rgba(255,255,255,.12)",
+        "border_width": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "icon_color": "#e4152d",
+        "icon_active_color": "#e4152d",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "400",
+        "content_typography_typography": "custom",
+        "content_typography_font_family": "Inter",
+        "content_typography_font_size": {
+         "unit": "px",
+         "size": 13.5,
+         "sizes": []
+        },
+        "content_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "15de21c",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "48",
+     "right": "0",
+     "bottom": "48",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "middle",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#160a0d",
+    "background_image": {
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/sunset.jpg",
+     "id": ""
+    },
+    "background_position": "center right",
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "#0c0c0d",
+    "background_overlay_color_b": "rgba(12,12,13,0)",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90,
+     "sizes": []
+    },
+    "background_overlay_color_stop": {
+     "unit": "%",
+     "size": 55,
+     "sizes": []
+    },
+    "background_overlay_opacity": {
+     "unit": "",
+     "size": 1,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "94c7bb5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 45,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "647bba3",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Tens un projecte en ment?",
+        "header_size": "h2",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 28,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ed265bc",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Parlem-ne i t'oferim una solució a mida.",
+        "text_color": "#dddddd",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "18",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c75b6f1",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f387624",
+     "elType": "column",
+     "settings": {
+      "_column_size": 35,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "8d34201",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-phone",
+         "library": "fa-solid"
+        },
+        "title_text": "Truca'ns",
+        "description_text": "972 50 00 00",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 22,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "ccb1d45",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fab fa-whatsapp",
+         "library": "fa-brands"
+        },
+        "title_text": "WhatsApp",
+        "description_text": "Envia'ns un missatge",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 22,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "01f78be",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-envelope",
+         "library": "fa-solid"
+        },
+        "title_text": "Escriu-nos",
+        "description_text": "info@aluminisalbera.com",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 22,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 11,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "5e38810",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "7f24d24",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Junts<br>construïm<br>millors espais",
+        "header_size": "div",
+        "align": "right",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Caveat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "500",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c9892a9",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "0",
+     "bottom": "30",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "middle",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#0a0a0b",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "1",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "rgba(255,255,255,.12)"
+   },
+   "elements": [
+    {
+     "id": "1728efb",
+     "elType": "column",
+     "settings": {
+      "_column_size": 18,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "8eefcfd",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "db85e25",
+     "elType": "column",
+     "settings": {
+      "_column_size": 47,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "cbcb58a",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<div style=\"font:500 10px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase\"><a href=\"/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Inici</a><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Productes</a><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Projectes</a><a href=\"/sobre-nosaltres/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Sobre nosaltres</a><a href=\"/contacte/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Contacte</a></div>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "dd45850",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "99c5e07",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-map-marker-alt",
+         "library": "fa-solid"
+        },
+        "title_text": "Figueres (Girona)",
+        "description_text": "",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "title_typography_font_weight": "400",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "a86c450",
+     "elType": "column",
+     "settings": {
+      "_column_size": 15,
+      "_inline_size": null,
+      "content_position": "middle",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "8b16ebc",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"#\" style=\"color:#fff;margin-left:14px\">Facebook</a><a href=\"#\" style=\"color:#fff;margin-left:14px\">Instagram</a><a href=\"#\" style=\"color:#fff;margin-left:14px\">LinkedIn</a></div>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "f0e52b2",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "40",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_color": "#0a0a0b"
+   },
+   "elements": [
+    {
+     "id": "e5f6ad6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100
+     },
+     "elements": [
+      {
+       "id": "e6b4b2a",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<div style=\"text-align:right;font:10px Inter,sans-serif;color:#a9a9ae\"><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Av&iacute;s legal</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Pol&iacute;tica de privacitat</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Cookies</a></div>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_canvas",
+  "hide_title": "yes",
+  "background_background": "classic",
+  "background_color": "#0c0c0d"
+ }
+}
