@@ -316,7 +316,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* about page additions */
-.values3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.values3 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .value { border: 1px solid var(--line); background: var(--bg); padding: 30px 28px; }
 .value .num { color: var(--red); font-size: 30px; font-weight: 300; display: block; margin-bottom: 14px; }
 .value h3 { font-size: 18px; font-weight: 500; margin-bottom: 10px; }
