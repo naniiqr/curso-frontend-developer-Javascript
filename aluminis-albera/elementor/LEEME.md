@@ -19,6 +19,6 @@ Una plantilla `.json` por página. Importar en WordPress: **Plantillas → Plant
 - Cada plantilla usa el lienzo de Elementor (sin cabecera/pie del tema) y lleva su propia cabecera y pie.
 - Las imágenes se descargan a la biblioteca de medios al importar, desde `img/` de este repositorio
   (`https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/`).
-  Si cambias la rama o el repositorio es privado, vuelve a generar con la variable `IMG_BASE`.
+  Si cambias la rama, el repositorio pasa a privado o mueves las imágenes, pídeme regenerar las plantillas con la nueva URL.
 - Solo usa widgets gratuitos de Elementor (sin Pro). El formulario de contacto y el mapa son bloques HTML
   de relleno: sustitúyelos por tu plugin de formularios y tu mapa.
