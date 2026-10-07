@@ -146,8 +146,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* CTA band */
 .cta-band { position: relative; isolation: isolate; overflow: hidden; background: #160a0d; }
-.cta-band > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: right bottom; z-index: -2; opacity: .85; }
-.cta-band::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #0c0c0d 0%, rgba(12,12,13,.6) 50%, rgba(12,12,13,.1) 100%); }
+.cta-band > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: right bottom; z-index: -2; filter: brightness(1.7) saturate(1.3); }
+.cta-band::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #0c0c0d 0%, rgba(12,12,13,.55) 45%, rgba(12,12,13,0) 85%); }
 .cta-band .wrap { display: flex; align-items: center; gap: 36px; padding-block: 44px; flex-wrap: wrap; }
 .cta-band .lead { flex: 1 1 280px; }
 .cta-band h2 { font-size: 26px; font-weight: 500; margin-bottom: 8px; }
@@ -314,3 +314,20 @@ ul { margin: 0; padding: 0; list-style: none; }
   .form { grid-template-columns: 1fr; }
   .hero { min-height: 520px; }
 }
+
+/* about page additions */
+.values3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.value { border: 1px solid var(--line); background: var(--bg); padding: 30px 28px; }
+.value .num { color: var(--red); font-size: 30px; font-weight: 300; display: block; margin-bottom: 14px; }
+.value h3 { font-size: 18px; font-weight: 500; margin-bottom: 10px; }
+.value p { color: #cfcfd2; font-size: 13.5px; }
+.why2 { grid-template-columns: repeat(3, 1fr); gap: 34px 28px; }
+.why2 .usp-item span { font-size: 12.5px; }
+.faq-wrap { max-width: 860px; }
+.faq { border-bottom: 1px solid var(--line); }
+.faq summary { cursor: pointer; padding: 18px 0; font-size: 15px; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; color: var(--red); font-size: 22px; line-height: 1; }
+.faq[open] summary::after { content: '–'; }
+.faq p { color: #cfcfd2; font-size: 13.5px; padding: 0 0 20px; max-width: 70ch; }
+@media (max-width: 960px) { .values3, .why2 { grid-template-columns: 1fr; } }
