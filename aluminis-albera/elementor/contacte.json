@@ -4,206 +4,25 @@
  "type": "page",
  "content": [
   {
-   "id": "c3992e9",
+   "id": "e8c0653",
    "elType": "section",
    "settings": {
     "layout": "boxed",
     "gap": "default",
     "padding": {
      "unit": "px",
-     "top": "14",
+     "top": "72",
      "right": "0",
-     "bottom": "14",
+     "bottom": "72",
      "left": "0",
      "isLinked": false
     },
-    "padding_mobile": {
+    "padding_tablet": {
      "unit": "px",
-     "top": "40",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "middle",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": "#0c0c0d",
-    "border_border": "solid",
-    "border_width": {
-     "unit": "px",
-     "top": "0",
-     "right": "0",
-     "bottom": "1",
-     "left": "0",
-     "isLinked": false
-    },
-    "border_color": "rgba(255,255,255,.12)"
-   },
-   "elements": [
-    {
-     "id": "6aca970",
-     "elType": "column",
-     "settings": {
-      "_column_size": 20,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100,
-      "_element_width_": ""
-     },
-     "elements": [
-      {
-       "id": "08c5433",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "3435c37",
-     "elType": "column",
-     "settings": {
-      "_column_size": 55,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "b2eeb73",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<nav style=\"display:flex;gap:30px;justify-content:center;flex-wrap:wrap;font:500 11px Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase\"><a href=\"/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Inici</a><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Productes</a><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Projectes</a><a href=\"/sobre-nosaltres/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent\">Sobre nosaltres</a><a href=\"/contacte/\" style=\"color:#fff;text-decoration:none;padding:8px 0;border-bottom:2px solid #e4152d\">Contacte</a></nav>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b2f627f",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "d490d7b",
-       "elType": "widget",
-       "widgetType": "button",
-       "settings": {
-        "text": "Demana pressupost",
-        "link": {
-         "url": "/contacte/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "align": "right",
-        "size": "md",
-        "button_text_color": "#ffffff",
-        "background_color": "#e4152d",
-        "border_border": "solid",
-        "border_width": {
-         "unit": "px",
-         "top": "1",
-         "right": "1",
-         "bottom": "1",
-         "left": "1",
-         "isLinked": false
-        },
-        "border_color": "#e4152d",
-        "border_radius": {
-         "unit": "px",
-         "top": "2",
-         "right": "2",
-         "bottom": "2",
-         "left": "2",
-         "isLinked": false
-        },
-        "text_padding": {
-         "unit": "px",
-         "top": "14",
-         "right": "26",
-         "bottom": "14",
-         "left": "26",
-         "isLinked": false
-        },
-        "selected_icon": {
-         "value": "fas fa-arrow-right",
-         "library": "fa-solid"
-        },
-        "icon_align": "right",
-        "icon_indent": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        },
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "c6e19e8",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "70",
-     "right": "0",
-     "bottom": "70",
-     "left": "0",
+     "top": "54",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
      "isLinked": false
     },
     "padding_mobile": {
@@ -261,17 +80,18 @@
    },
    "elements": [
     {
-     "id": "a8849b0",
+     "id": "b5b41fa",
      "elType": "column",
      "settings": {
       "_column_size": 55,
       "_inline_size": null,
       "content_position": "middle",
-      "_inline_size_mobile": 100
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
      },
      "elements": [
       {
-       "id": "ffeabd2",
+       "id": "3cf166c",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -280,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "a7aeed7",
+       "id": "cee6311",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -298,7 +118,12 @@
         "typography_font_weight": "300",
         "typography_font_size_mobile": {
          "unit": "px",
-         "size": 37,
+         "size": 32,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 42,
          "sizes": []
         },
         "typography_line_height": {
@@ -318,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "fde9264",
+       "id": "5b69b9c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -353,17 +178,20 @@
      "isInner": false
     },
     {
-     "id": "069d3bb",
+     "id": "b337e84",
      "elType": "column",
      "settings": {
       "_column_size": 45,
       "_inline_size": null,
       "content_position": "top",
-      "_inline_size_mobile": 100
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100,
+      "hide_tablet": "hidden-tablet",
+      "hide_mobile": "hidden-mobile"
      },
      "elements": [
       {
-       "id": "258be18",
+       "id": "285e19f",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -382,17 +210,25 @@
    "isInner": false
   },
   {
-   "id": "04ecb1f",
+   "id": "63538fe",
    "elType": "section",
    "settings": {
     "layout": "boxed",
     "gap": "extended",
     "padding": {
      "unit": "px",
-     "top": "70",
+     "top": "72",
      "right": "0",
-     "bottom": "70",
+     "bottom": "72",
      "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "54",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
      "isLinked": false
     },
     "padding_mobile": {
@@ -412,17 +248,18 @@
    },
    "elements": [
     {
-     "id": "9ad6aae",
+     "id": "2d6cc4b",
      "elType": "column",
      "settings": {
       "_column_size": 60,
       "_inline_size": null,
       "content_position": "top",
-      "_inline_size_mobile": 100
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
      },
      "elements": [
       {
-       "id": "46922a0",
+       "id": "ff4d5fb",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -434,13 +271,14 @@
      "isInner": false
     },
     {
-     "id": "076a0c9",
+     "id": "ebd9629",
      "elType": "column",
      "settings": {
       "_column_size": 40,
       "_inline_size": null,
       "content_position": "top",
       "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100,
       "background_background": "classic",
       "background_color": "#131315",
       "padding": {
@@ -454,7 +292,7 @@
      },
      "elements": [
       {
-       "id": "f5deaee",
+       "id": "389bc7b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -500,7 +338,7 @@
        "elements": []
       },
       {
-       "id": "a9a1d53",
+       "id": "e2230b8",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -519,7 +357,7 @@
        "elements": []
       },
       {
-       "id": "605ff76",
+       "id": "0874085",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -565,7 +403,7 @@
        "elements": []
       },
       {
-       "id": "766ebcd",
+       "id": "a760880",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -584,7 +422,7 @@
        "elements": []
       },
       {
-       "id": "daca412",
+       "id": "10a7cdd",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -630,7 +468,7 @@
        "elements": []
       },
       {
-       "id": "30bb382",
+       "id": "3dc4876",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -649,7 +487,7 @@
        "elements": []
       },
       {
-       "id": "08b255a",
+       "id": "59b90e1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -658,7 +496,7 @@
          "library": "fa-solid"
         },
         "title_text": "On som",
-        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
+        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -695,7 +533,7 @@
        "elements": []
       },
       {
-       "id": "3493894",
+       "id": "2b8a615",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -714,7 +552,7 @@
        "elements": []
       },
       {
-       "id": "dbe272b",
+       "id": "f3f27a3",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -760,7 +598,7 @@
        "elements": []
       },
       {
-       "id": "acc3e04",
+       "id": "38913e1",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -773,254 +611,10 @@
     }
    ],
    "isInner": false
-  },
-  {
-   "id": "8ebda54",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "30",
-     "right": "0",
-     "bottom": "30",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "40",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "middle",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": "#0a0a0b",
-    "border_border": "solid",
-    "border_width": {
-     "unit": "px",
-     "top": "0",
-     "right": "0",
-     "bottom": "1",
-     "left": "0",
-     "isLinked": false
-    },
-    "border_color": "rgba(255,255,255,.12)"
-   },
-   "elements": [
-    {
-     "id": "9cf81d8",
-     "elType": "column",
-     "settings": {
-      "_column_size": 18,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "d86ea61",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "44c4c17",
-     "elType": "column",
-     "settings": {
-      "_column_size": 47,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "c361bc7",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"font:500 10px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase\"><a href=\"/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Inici</a><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Productes</a><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Projectes</a><a href=\"/sobre-nosaltres/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Sobre nosaltres</a><a href=\"/contacte/\" style=\"color:#fff;text-decoration:none;margin-right:22px\">Contacte</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "996a7fa",
-     "elType": "column",
-     "settings": {
-      "_column_size": 20,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "dc82d63",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-map-marker-alt",
-         "library": "fa-solid"
-        },
-        "title_text": "Figueres (Girona)",
-        "description_text": "",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 16,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "title_typography_font_weight": "400",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "00ac8ed",
-     "elType": "column",
-     "settings": {
-      "_column_size": 15,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "d7a728a",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"#\" style=\"color:#fff;margin-left:14px\">Facebook</a><a href=\"#\" style=\"color:#fff;margin-left:14px\">Instagram</a><a href=\"#\" style=\"color:#fff;margin-left:14px\">LinkedIn</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "851ddf5",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "10",
-     "right": "0",
-     "bottom": "10",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "40",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": "#0a0a0b"
-   },
-   "elements": [
-    {
-     "id": "f29c21d",
-     "elType": "column",
-     "settings": {
-      "_column_size": 100,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100
-     },
-     "elements": [
-      {
-       "id": "f76a89f",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"text-align:right;font:10px Inter,sans-serif;color:#a9a9ae\"><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Av&iacute;s legal</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Pol&iacute;tica de privacitat</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px\">Cookies</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
   }
  ],
  "page_settings": {
-  "template": "elementor_canvas",
+  "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
   "background_color": "#0c0c0d"

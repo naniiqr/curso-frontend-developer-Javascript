@@ -310,7 +310,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   .hero::before { background: linear-gradient(0deg, var(--bg) 0%, rgba(12,12,13,.78) 60%, rgba(12,12,13,.4) 100%); }
 }
 @media (max-width: 560px) {
-  .grid-products, .grid-products.big { grid-template-columns: 1fr; }
+  .grid-products { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .grid-products.big { grid-template-columns: 1fr; gap: 16px; }
+  .grid-products:not(.big) .card-product .body { padding: 10px 10px 12px; min-height: 58px; }
+  .grid-products:not(.big) .card-product h3 { font-size: 10.5px; }
+  .grid-products:not(.big) .card-product p { font-size: 10.5px; }
+  .grid-products:not(.big) .card-product .icon { display: none; }
+  .wa-float { width: 46px; height: 46px; right: 14px; bottom: 14px; }
+  .wa-float .icon { font-size: 26px; }
   .form { grid-template-columns: 1fr; }
   .hero { min-height: 520px; }
 }
@@ -336,3 +343,25 @@ ul { margin: 0; padding: 0; list-style: none; }
 .gallery.portrait { grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .gallery.portrait img { aspect-ratio: 3/4; }
 @media (max-width: 960px) { .gallery.portrait { grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 960px) {
+  .split-two .half, .split-two .half:last-child { flex-direction: column; }
+  .split-two .half img { width: 100%; height: 200px; }
+  .site-footer .wrap { gap: 20px; }
+}
+
+/* final polish: balanced grids and tablet alignment */
+.card-product.feature { grid-column: span 2; }
+.card-product.feature .ph { aspect-ratio: 8 / 3; flex: none; }
+@media (max-width: 960px) {
+  .split-two .half .txt { align-self: stretch; padding: 24px var(--pad); }
+  .usp .wrap { grid-template-columns: repeat(2, 1fr); }
+  .usp-item:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+.grid-products.big .card-product:last-child:nth-child(3n+2) { grid-column: span 2; }
+.grid-products.big .card-product:last-child:nth-child(3n+2) .ph { aspect-ratio: 8 / 3; }
+@media (max-width: 960px) {
+  .grid-products.big .card-product:last-child:nth-child(3n+2) { grid-column: auto; }
+  .grid-products.big .card-product:last-child:nth-child(3n+2) .ph { aspect-ratio: 4 / 3; }
+}
+h1, h2, h3 { text-wrap: balance; }
