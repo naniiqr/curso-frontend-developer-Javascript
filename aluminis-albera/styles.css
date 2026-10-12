@@ -331,3 +331,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .faq[open] summary::after { content: '–'; }
 .faq p { color: #cfcfd2; font-size: 13.5px; padding: 0 0 20px; max-width: 70ch; }
 @media (max-width: 960px) { .values3, .why2 { grid-template-columns: 1fr; } }
+.photos2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.photos2 img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.gallery.portrait { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.gallery.portrait img { aspect-ratio: 3/4; }
+@media (max-width: 960px) { .gallery.portrait { grid-template-columns: repeat(2, 1fr); } }

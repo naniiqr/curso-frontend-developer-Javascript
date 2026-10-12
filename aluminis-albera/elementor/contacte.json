@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "d490d7b",
+   "id": "c3992e9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -46,7 +46,7 @@
    },
    "elements": [
     {
-     "id": "b2eeb73",
+     "id": "6aca970",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -57,7 +57,7 @@
      },
      "elements": [
       {
-       "id": "04ecb1f",
+       "id": "08c5433",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -86,7 +86,7 @@
      "isInner": false
     },
     {
-     "id": "08c5433",
+     "id": "3435c37",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -96,7 +96,7 @@
      },
      "elements": [
       {
-       "id": "076a0c9",
+       "id": "b2eeb73",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -108,7 +108,7 @@
      "isInner": false
     },
     {
-     "id": "3435c37",
+     "id": "b2f627f",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -118,7 +118,7 @@
      },
      "elements": [
       {
-       "id": "6aca970",
+       "id": "d490d7b",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -382,7 +382,7 @@
    "isInner": false
   },
   {
-   "id": "acc3e04",
+   "id": "04ecb1f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -434,7 +434,7 @@
      "isInner": false
     },
     {
-     "id": "dbe272b",
+     "id": "076a0c9",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -463,7 +463,7 @@
          "library": "fa-solid"
         },
         "title_text": "Truca'ns",
-        "description_text": "972 50 00 00",
+        "description_text": "600 83 19 36 · 667 50 65 17",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -658,7 +658,7 @@
          "library": "fa-solid"
         },
         "title_text": "On som",
-        "description_text": "Figueres (Girona)",
+        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -697,6 +697,71 @@
       {
        "id": "3493894",
        "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "dbe272b",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "far fa-clock",
+         "library": "fa-regular"
+        },
+        "title_text": "Horari exposició",
+        "description_text": "Matins de 9:00h a 14:00h",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "acc3e04",
+       "elType": "widget",
        "widgetType": "html",
        "settings": {
         "html": "<div style=\"margin-top:14px;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;color:#a9a9ae;font:12px Inter,sans-serif;background:#131315\">Substitueix aquest bloc pel teu mapa (Google Maps)</div>"
@@ -710,7 +775,7 @@
    "isInner": false
   },
   {
-   "id": "d7a728a",
+   "id": "8ebda54",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -752,7 +817,7 @@
    },
    "elements": [
     {
-     "id": "c3992e9",
+     "id": "9cf81d8",
      "elType": "column",
      "settings": {
       "_column_size": 18,
@@ -762,7 +827,7 @@
      },
      "elements": [
       {
-       "id": "b2f627f",
+       "id": "d86ea61",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -791,7 +856,7 @@
      "isInner": false
     },
     {
-     "id": "9cf81d8",
+     "id": "44c4c17",
      "elType": "column",
      "settings": {
       "_column_size": 47,
@@ -801,7 +866,7 @@
      },
      "elements": [
       {
-       "id": "d86ea61",
+       "id": "c361bc7",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -813,7 +878,7 @@
      "isInner": false
     },
     {
-     "id": "44c4c17",
+     "id": "996a7fa",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -823,7 +888,7 @@
      },
      "elements": [
       {
-       "id": "c361bc7",
+       "id": "dc82d63",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -872,7 +937,7 @@
      "isInner": false
     },
     {
-     "id": "996a7fa",
+     "id": "00ac8ed",
      "elType": "column",
      "settings": {
       "_column_size": 15,
@@ -882,7 +947,7 @@
      },
      "elements": [
       {
-       "id": "dc82d63",
+       "id": "d7a728a",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -897,7 +962,7 @@
    "isInner": false
   },
   {
-   "id": "f76a89f",
+   "id": "851ddf5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -929,7 +994,7 @@
    },
    "elements": [
     {
-     "id": "8ebda54",
+     "id": "f29c21d",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -939,7 +1004,7 @@
      },
      "elements": [
       {
-       "id": "00ac8ed",
+       "id": "f76a89f",
        "elType": "widget",
        "widgetType": "html",
        "settings": {

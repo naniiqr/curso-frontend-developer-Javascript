@@ -322,7 +322,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Som una empresa familiar de l'Empordà especialitzada en tancaments d'alumini i PVC fabricats a mida.",
+        "editor": "Empresa especialitzada en tancaments d'alumini i PVC, per al particular i per al professional, i un dels principals referents a les comarques gironines.",
         "text_color": "#e6e6e8",
         "align": "left",
         "typography_typography": "custom",
@@ -598,7 +598,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Treballem amb les millors marques del mercat i amb un equip propi, de manera que controlem tot el procés: de l'assessorament inicial fins al darrer detall de la instal·lació.",
+        "editor": "Ens dediquem a la instal·lació i muntatge de finestres, persianes, pèrgoles bioclimàtiques, mampares de bany, tancaments de jardí, baranes i sostres, entre d'altres, tant en reformes i rehabilitacions com en obra nova.",
         "text_color": "#cfcfd2",
         "align": "left",
         "typography_typography": "custom",
@@ -710,31 +710,9 @@
       {
        "id": "74071a6",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "html",
        "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/seg-particulars.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 400,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 280,
-         "sizes": []
-        }
+        "html": "<div style=\"display:grid;grid-template-columns:1fr 1fr;gap:6px\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/site-nos-1.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/site-nos-2.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/site-nos-3.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/site-nos-4.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"></div>"
        },
        "elements": []
       }
@@ -1314,7 +1292,7 @@
          "library": "fa-solid"
         },
         "title_text": "Qualitat garantida",
-        "description_text": "Treballem amb els millors marques del mercat i seleccionem cada material amb criteri. Totes les nostres obres compten amb garantia.",
+        "description_text": "Treballem amb els millors marques del mercat i seleccionem cada material amb criteri.",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -2463,7 +2441,7 @@
          },
          {
           "tab_title": "Us ocupeu també de la instal·lació?",
-          "tab_content": "<p>Disposem d'equip propi de muntatge. Així coordinem tot el procés, de la presa de mides a la instal·lació final, i responem d'un únic resultat.</p>",
+          "tab_content": "<p>Sí. Ens dediquem a la instal·lació i muntatge, i t'assessorem perquè obtinguis la millor solució en cada cas.</p>",
           "_id": "7bcdf75"
          },
          {
@@ -2472,13 +2450,13 @@
           "_id": "5737034"
          },
          {
-          "tab_title": "Quant triga un projecte?",
-          "tab_content": "<p>Depèn de la tipologia i de la mida, però sempre et donem un termini clar des del pressupost i el complim.</p>",
+          "tab_title": "Quin tipus d'obres feu?",
+          "tab_content": "<p>Reformes, rehabilitacions i obra nova, tant per a particulars com per a empreses i establiments comercials: finestres, portes, persianes, pèrgoles, baranes, mampares, tancaments i sostres.</p>",
           "_id": "9b72e31"
          },
          {
-          "tab_title": "Oferiu garantia i servei posterior?",
-          "tab_content": "<p>Sí. Tots els treballs tenen garantia i ens mantenim al teu costat un cop acabada l'obra, amb manteniment i atenció personalitzada.</p>",
+          "tab_title": "Treballeu amb particulars i amb professionals?",
+          "tab_content": "<p>Sí. Atenem tant el particular com el professional, amb una atenció i un servei personalitzat de primera qualitat.</p>",
           "_id": "16c222a"
          }
         ],
@@ -2747,7 +2725,7 @@
          "library": "fa-solid"
         },
         "title_text": "Truca'ns",
-        "description_text": "972 50 00 00",
+        "description_text": "600 83 19 36",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
