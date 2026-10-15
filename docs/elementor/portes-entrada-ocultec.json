@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "a486cd0",
+   "id": "7dc1c76",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -42,7 +42,7 @@
    },
    "elements": [
     {
-     "id": "350db08",
+     "id": "9f44e95",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -53,7 +53,7 @@
      },
      "elements": [
       {
-       "id": "e21e4e5",
+       "id": "23c97e9",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -62,7 +62,7 @@
        "elements": []
       },
       {
-       "id": "d30960c",
+       "id": "5d6646a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -105,7 +105,7 @@
        "elements": []
       },
       {
-       "id": "24917db",
+       "id": "2a34abd",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -120,7 +120,7 @@
    "isInner": false
   },
   {
-   "id": "8c5f6ec",
+   "id": "e2ad76f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -158,6 +158,231 @@
    },
    "elements": [
     {
+     "id": "936a40b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "c182f93",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g01.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e21e4e5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "0d73a25",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g02.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "24917db",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "d30960c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g03.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b440509",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "a486cd0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "350db08",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g04.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "1e8c391",
      "elType": "column",
      "settings": {
@@ -174,7 +399,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g01.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -220,53 +445,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "697e382",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "d542599",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g03.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -299,7 +478,7 @@
    "isInner": false
   },
   {
-   "id": "25db67c",
+   "id": "1c6a019",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -337,6 +516,52 @@
    },
    "elements": [
     {
+     "id": "697e382",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "d542599",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g07.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "1819932",
      "elType": "column",
      "settings": {
@@ -353,7 +578,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g04.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -399,53 +624,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "c3e4035",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "6e5025c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -478,7 +657,7 @@
    "isInner": false
   },
   {
-   "id": "ea119a4",
+   "id": "0a87257",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -516,6 +695,52 @@
    },
    "elements": [
     {
+     "id": "c3e4035",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "6e5025c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "32e0561",
      "elType": "column",
      "settings": {
@@ -532,7 +757,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -578,53 +803,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "88a839f",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "bd0cc81",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -657,7 +836,7 @@
    "isInner": false
   },
   {
-   "id": "6832a7b",
+   "id": "71560ce",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -695,6 +874,52 @@
    },
    "elements": [
     {
+     "id": "88a839f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "bd0cc81",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g13.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "9978b70",
      "elType": "column",
      "settings": {
@@ -711,7 +936,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g14.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -757,53 +982,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "0234c51",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "211c1e0",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -836,7 +1015,7 @@
    "isInner": false
   },
   {
-   "id": "1145a30",
+   "id": "14ea0d5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -874,6 +1053,52 @@
    },
    "elements": [
     {
+     "id": "0234c51",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "211c1e0",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g16.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "169779d",
      "elType": "column",
      "settings": {
@@ -890,7 +1115,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g17.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -936,53 +1161,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g14.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "d51b416",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "100d9f3",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g18.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1015,7 +1194,7 @@
    "isInner": false
   },
   {
-   "id": "5249ee8",
+   "id": "ca0daec",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1024,7 +1203,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "3",
+     "bottom": "72",
      "left": "0",
      "isLinked": false
     },
@@ -1032,7 +1211,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "2",
+     "bottom": "54",
      "left": "24",
      "isLinked": false
     },
@@ -1040,7 +1219,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "2",
+     "bottom": "40",
      "left": "18",
      "isLinked": false
     },
@@ -1052,6 +1231,52 @@
     }
    },
    "elements": [
+    {
+     "id": "d51b416",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "100d9f3",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g19.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 300,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
     {
      "id": "00a03ec",
      "elType": "column",
@@ -1069,7 +1294,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g16.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g20.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1115,231 +1340,6 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g17.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b440509",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "e2ad76f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g18.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "e45823a",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "0a87257",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1c6a019",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g19.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "14ea0d5",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "71560ce",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g20.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 300,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "cdf1e28",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "ca0daec",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g21.jpg",
          "id": ""
         },
@@ -1373,7 +1373,7 @@
    "isInner": false
   },
   {
-   "id": "4b4edc2",
+   "id": "25db67c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1411,7 +1411,7 @@
    },
    "elements": [
     {
-     "id": "2d969e2",
+     "id": "8c5f6ec",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1422,7 +1422,7 @@
      },
      "elements": [
       {
-       "id": "dd28e50",
+       "id": "cdf1e28",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1452,7 +1452,7 @@
    "isInner": false
   },
   {
-   "id": "3323fe1",
+   "id": "2d969e2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1517,7 +1517,7 @@
    },
    "elements": [
     {
-     "id": "cd3afef",
+     "id": "5249ee8",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -1528,7 +1528,7 @@
      },
      "elements": [
       {
-       "id": "06d5ae1",
+       "id": "ea119a4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1571,7 +1571,7 @@
        "elements": []
       },
       {
-       "id": "fea9c11",
+       "id": "6832a7b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1603,7 +1603,7 @@
        "elements": []
       },
       {
-       "id": "4aecfbe",
+       "id": "1145a30",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1674,7 +1674,7 @@
      "isInner": false
     },
     {
-     "id": "1368ba1",
+     "id": "dd28e50",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -1687,7 +1687,7 @@
      },
      "elements": [
       {
-       "id": "db116b3",
+       "id": "e45823a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {

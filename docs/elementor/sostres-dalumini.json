@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "9597353",
+   "id": "83e8ef5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "a368b0d",
+     "id": "309fee4",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "9e984c1",
+       "id": "d72fbbc",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "c559da2",
+       "id": "06a81a4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "1bc0249",
+       "id": "0ebcc77",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "f317393",
+       "id": "d88518a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "83e8ef5",
+       "id": "5129a5d",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -226,7 +226,7 @@
      "isInner": false
     },
     {
-     "id": "495dabf",
+     "id": "9c19a2a",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -239,7 +239,7 @@
      },
      "elements": [
       {
-       "id": "f18a6d1",
+       "id": "87ec2f4",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -258,7 +258,7 @@
    "isInner": false
   },
   {
-   "id": "962e56a",
+   "id": "faafda6",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -308,7 +308,7 @@
    },
    "elements": [
     {
-     "id": "a2cc63e",
+     "id": "c559da2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -319,7 +319,7 @@
      },
      "elements": [
       {
-       "id": "faafda6",
+       "id": "9e984c1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -368,7 +368,7 @@
      "isInner": false
     },
     {
-     "id": "7a6a74c",
+     "id": "f317393",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -379,7 +379,7 @@
      },
      "elements": [
       {
-       "id": "a14ac55",
+       "id": "1bc0249",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -428,7 +428,7 @@
      "isInner": false
     },
     {
-     "id": "69d658d",
+     "id": "f18a6d1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -439,7 +439,7 @@
      },
      "elements": [
       {
-       "id": "52947e0",
+       "id": "a368b0d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -488,7 +488,7 @@
      "isInner": false
     },
     {
-     "id": "71a58e8",
+     "id": "9597353",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -499,7 +499,7 @@
      },
      "elements": [
       {
-       "id": "e9fd7c2",
+       "id": "495dabf",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -551,7 +551,7 @@
    "isInner": false
   },
   {
-   "id": "5c50b4d",
+   "id": "4462bf0",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -586,7 +586,7 @@
    },
    "elements": [
     {
-     "id": "f60bb6b",
+     "id": "a14ac55",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -597,7 +597,7 @@
      },
      "elements": [
       {
-       "id": "297fa77",
+       "id": "a2cc63e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -631,7 +631,7 @@
      "isInner": false
     },
     {
-     "id": "efb76cf",
+     "id": "806beaf",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -650,7 +650,7 @@
      },
      "elements": [
       {
-       "id": "d1dc3a8",
+       "id": "7a6a74c",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -659,7 +659,7 @@
        "elements": []
       },
       {
-       "id": "806beaf",
+       "id": "52947e0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -698,7 +698,7 @@
        "elements": []
       },
       {
-       "id": "4462bf0",
+       "id": "69d658d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -741,7 +741,7 @@
        "elements": []
       },
       {
-       "id": "c7af092",
+       "id": "e9fd7c2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -773,7 +773,7 @@
        "elements": []
       },
       {
-       "id": "97d0145",
+       "id": "d1dc3a8",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -784,7 +784,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "fc52859"
+          "_id": "71a58e8"
          },
          {
           "text": "Bany, cuina o galeries",
@@ -792,7 +792,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "9327969"
+          "_id": "962e56a"
          },
          {
           "text": "Material de primera qualitat",
@@ -800,7 +800,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "a981f2b"
+          "_id": "297fa77"
          },
          {
           "text": "Llarga durabilitat",
@@ -808,7 +808,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "bc57386"
+          "_id": "f60bb6b"
          }
         ],
         "icon_color": "#e4152d",
@@ -841,7 +841,7 @@
    "isInner": false
   },
   {
-   "id": "6dd4e10",
+   "id": "bc57386",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -886,7 +886,7 @@
    },
    "elements": [
     {
-     "id": "0771fc6",
+     "id": "9327969",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -897,7 +897,7 @@
      },
      "elements": [
       {
-       "id": "6ba3af5",
+       "id": "fc52859",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -943,7 +943,7 @@
      "isInner": false
     },
     {
-     "id": "21fe5b8",
+     "id": "a981f2b",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -954,7 +954,7 @@
      },
      "elements": [
       {
-       "id": "46031b3",
+       "id": "c7af092",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -969,7 +969,7 @@
    "isInner": false
   },
   {
-   "id": "f670ef5",
+   "id": "42a3964",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1007,7 +1007,7 @@
    },
    "elements": [
     {
-     "id": "1c54985",
+     "id": "efb76cf",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1018,7 +1018,7 @@
      },
      "elements": [
       {
-       "id": "42a3964",
+       "id": "97d0145",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1053,7 +1053,7 @@
      "isInner": false
     },
     {
-     "id": "7e23052",
+     "id": "46031b3",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1064,7 +1064,7 @@
      },
      "elements": [
       {
-       "id": "52c5189",
+       "id": "5c50b4d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1099,7 +1099,7 @@
      "isInner": false
     },
     {
-     "id": "84f0f20",
+     "id": "0771fc6",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1110,7 +1110,7 @@
      },
      "elements": [
       {
-       "id": "3c1e4bd",
+       "id": "6ba3af5",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1145,7 +1145,7 @@
      "isInner": false
     },
     {
-     "id": "81c650c",
+     "id": "6dd4e10",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1156,7 +1156,7 @@
      },
      "elements": [
       {
-       "id": "10c272d",
+       "id": "21fe5b8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1194,7 +1194,7 @@
    "isInner": false
   },
   {
-   "id": "9d26823",
+   "id": "e4873aa",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1234,7 +1234,7 @@
    },
    "elements": [
     {
-     "id": "e4873aa",
+     "id": "7e23052",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1253,7 +1253,7 @@
      },
      "elements": [
       {
-       "id": "89f03f7",
+       "id": "1c54985",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1286,7 +1286,7 @@
        "elements": []
       },
       {
-       "id": "c1fea27",
+       "id": "52c5189",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -1298,7 +1298,7 @@
      "isInner": false
     },
     {
-     "id": "b147a61",
+     "id": "c1fea27",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1319,7 +1319,7 @@
      },
      "elements": [
       {
-       "id": "8d420fa",
+       "id": "3c1e4bd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1358,7 +1358,7 @@
        "elements": []
       },
       {
-       "id": "7437d13",
+       "id": "84f0f20",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1401,7 +1401,7 @@
        "elements": []
       },
       {
-       "id": "96de254",
+       "id": "10c272d",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1433,7 +1433,7 @@
        "elements": []
       },
       {
-       "id": "973a5f0",
+       "id": "81c650c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1502,7 +1502,7 @@
        "elements": []
       },
       {
-       "id": "be3e9d3",
+       "id": "f670ef5",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1515,7 +1515,7 @@
        "elements": []
       },
       {
-       "id": "207f880",
+       "id": "89f03f7",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1545,7 +1545,7 @@
    "isInner": false
   },
   {
-   "id": "7d12b66",
+   "id": "b147a61",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1584,7 +1584,7 @@
    },
    "elements": [
     {
-     "id": "c056079",
+     "id": "973a5f0",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1595,7 +1595,7 @@
      },
      "elements": [
       {
-       "id": "cc42acc",
+       "id": "8d420fa",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1634,7 +1634,7 @@
        "elements": []
       },
       {
-       "id": "712a3c9",
+       "id": "7437d13",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1677,7 +1677,7 @@
        "elements": []
       },
       {
-       "id": "a40511c",
+       "id": "96de254",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1704,7 +1704,7 @@
      "isInner": false
     },
     {
-     "id": "9a44005",
+     "id": "207f880",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1715,7 +1715,7 @@
      },
      "elements": [
       {
-       "id": "e169600",
+       "id": "be3e9d3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1746,7 +1746,7 @@
    "isInner": false
   },
   {
-   "id": "2cb6b10",
+   "id": "1485100",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1784,6 +1784,231 @@
    },
    "elements": [
     {
+     "id": "cc42acc",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "9d26823",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-02.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "a40511c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "712a3c9",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-03.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e169600",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "c056079",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-04.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7d12b66",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "9a44005",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-05.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "647c722",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
      "id": "e449b93",
      "elType": "column",
      "settings": {
@@ -1800,7 +2025,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-02.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1846,7 +2071,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-03.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1892,7 +2117,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-04.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1938,231 +2163,6 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "e638471",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "647c722",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1485100",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-06.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "a0f3601",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "2451041",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-07.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "64f1f27",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "757f843",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "08e6bea",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "831c2f8",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-09.jpg",
          "id": ""
         },
@@ -2196,7 +2196,7 @@
    "isInner": false
   },
   {
-   "id": "6a81681",
+   "id": "757f843",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2234,7 +2234,7 @@
    },
    "elements": [
     {
-     "id": "f50a6c0",
+     "id": "a0f3601",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2245,7 +2245,7 @@
      },
      "elements": [
       {
-       "id": "11d0e62",
+       "id": "2451041",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2320,7 +2320,7 @@
    "isInner": false
   },
   {
-   "id": "b59a51a",
+   "id": "5d79099",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2385,7 +2385,7 @@
    },
    "elements": [
     {
-     "id": "d43ab11",
+     "id": "6a81681",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2396,7 +2396,7 @@
      },
      "elements": [
       {
-       "id": "fddd793",
+       "id": "64f1f27",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2439,7 +2439,7 @@
        "elements": []
       },
       {
-       "id": "1ef91c2",
+       "id": "831c2f8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2471,7 +2471,7 @@
        "elements": []
       },
       {
-       "id": "5d79099",
+       "id": "08e6bea",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2543,7 +2543,7 @@
      "isInner": false
     },
     {
-     "id": "8303a79",
+     "id": "fddd793",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -2554,7 +2554,7 @@
      },
      "elements": [
       {
-       "id": "b618c32",
+       "id": "2cb6b10",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2600,7 +2600,7 @@
        "elements": []
       },
       {
-       "id": "7fea637",
+       "id": "e638471",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2646,7 +2646,7 @@
        "elements": []
       },
       {
-       "id": "ae614c5",
+       "id": "11d0e62",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2695,7 +2695,7 @@
      "isInner": false
     },
     {
-     "id": "4921f95",
+     "id": "1ef91c2",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -2708,7 +2708,7 @@
      },
      "elements": [
       {
-       "id": "7c4ede3",
+       "id": "f50a6c0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

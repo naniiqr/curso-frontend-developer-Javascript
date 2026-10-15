@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "10a5ab2",
+   "id": "2468192",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "f79921b",
+     "id": "fccb3cd",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "556f391",
+       "id": "dc6a707",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "3328bdf",
+       "id": "71a3cb1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "109a0ca",
+       "id": "9fe8593",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "7f5d04d",
+       "id": "ca9c267",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "2468192",
+       "id": "8fecb20",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -226,7 +226,7 @@
      "isInner": false
     },
     {
-     "id": "c06d06d",
+     "id": "08d9863",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -239,7 +239,7 @@
      },
      "elements": [
       {
-       "id": "07a96b1",
+       "id": "1595af6",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -258,7 +258,7 @@
    "isInner": false
   },
   {
-   "id": "e5841df",
+   "id": "e555ebe",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -308,7 +308,7 @@
    },
    "elements": [
     {
-     "id": "53e3a71",
+     "id": "3328bdf",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -319,7 +319,7 @@
      },
      "elements": [
       {
-       "id": "e555ebe",
+       "id": "556f391",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -368,7 +368,7 @@
      "isInner": false
     },
     {
-     "id": "e4bb4c5",
+     "id": "7f5d04d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -379,7 +379,7 @@
      },
      "elements": [
       {
-       "id": "5487315",
+       "id": "109a0ca",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -428,7 +428,7 @@
      "isInner": false
     },
     {
-     "id": "8a0e114",
+     "id": "07a96b1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -439,7 +439,7 @@
      },
      "elements": [
       {
-       "id": "0cb929e",
+       "id": "f79921b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -488,7 +488,7 @@
      "isInner": false
     },
     {
-     "id": "afd4836",
+     "id": "10a5ab2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -499,7 +499,7 @@
      },
      "elements": [
       {
-       "id": "99bcfcd",
+       "id": "c06d06d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -551,7 +551,7 @@
    "isInner": false
   },
   {
-   "id": "07c5807",
+   "id": "4a47d29",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -586,7 +586,7 @@
    },
    "elements": [
     {
-     "id": "b1eec33",
+     "id": "5487315",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -597,7 +597,7 @@
      },
      "elements": [
       {
-       "id": "b4a5289",
+       "id": "53e3a71",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -631,7 +631,7 @@
      "isInner": false
     },
     {
-     "id": "19bc916",
+     "id": "f64eac1",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -650,7 +650,7 @@
      },
      "elements": [
       {
-       "id": "d6c651d",
+       "id": "e4bb4c5",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -659,7 +659,7 @@
        "elements": []
       },
       {
-       "id": "f64eac1",
+       "id": "0cb929e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -698,7 +698,7 @@
        "elements": []
       },
       {
-       "id": "4a47d29",
+       "id": "8a0e114",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -741,7 +741,7 @@
        "elements": []
       },
       {
-       "id": "9c82c71",
+       "id": "99bcfcd",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -773,7 +773,7 @@
        "elements": []
       },
       {
-       "id": "6081594",
+       "id": "d6c651d",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -784,7 +784,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "500e75a"
+          "_id": "afd4836"
          },
          {
           "text": "Mateix aspecte tant oberta com tancada",
@@ -792,7 +792,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "ae0eb3e"
+          "_id": "e5841df"
          },
          {
           "text": "Marcs d'alumini molt més fins que els tradicionals",
@@ -800,7 +800,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "1ecfb46"
+          "_id": "b4a5289"
          },
          {
           "text": "Fins a un 30% més de superfície de vidre",
@@ -808,7 +808,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "e706118"
+          "_id": "b1eec33"
          }
         ],
         "icon_color": "#e4152d",
@@ -841,7 +841,7 @@
    "isInner": false
   },
   {
-   "id": "50c3d76",
+   "id": "e706118",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -886,7 +886,7 @@
    },
    "elements": [
     {
-     "id": "e7f8a7f",
+     "id": "ae0eb3e",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -897,7 +897,7 @@
      },
      "elements": [
       {
-       "id": "8df707a",
+       "id": "500e75a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -943,7 +943,7 @@
      "isInner": false
     },
     {
-     "id": "788d986",
+     "id": "1ecfb46",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -954,7 +954,7 @@
      },
      "elements": [
       {
-       "id": "d14220e",
+       "id": "9c82c71",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -969,7 +969,7 @@
    "isInner": false
   },
   {
-   "id": "fb89705",
+   "id": "2afe456",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1007,7 +1007,7 @@
    },
    "elements": [
     {
-     "id": "5f2c22c",
+     "id": "19bc916",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1018,7 +1018,7 @@
      },
      "elements": [
       {
-       "id": "2afe456",
+       "id": "6081594",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1053,7 +1053,7 @@
      "isInner": false
     },
     {
-     "id": "c8ed21d",
+     "id": "d14220e",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1064,7 +1064,7 @@
      },
      "elements": [
       {
-       "id": "aba3b6f",
+       "id": "07c5807",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1099,7 +1099,7 @@
      "isInner": false
     },
     {
-     "id": "7f1171a",
+     "id": "e7f8a7f",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1110,7 +1110,7 @@
      },
      "elements": [
       {
-       "id": "08419be",
+       "id": "8df707a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1145,7 +1145,7 @@
      "isInner": false
     },
     {
-     "id": "0d3180d",
+     "id": "50c3d76",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1156,7 +1156,7 @@
      },
      "elements": [
       {
-       "id": "82f2b30",
+       "id": "788d986",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1194,7 +1194,7 @@
    "isInner": false
   },
   {
-   "id": "217eedd",
+   "id": "d5cfead",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1234,7 +1234,7 @@
    },
    "elements": [
     {
-     "id": "d5cfead",
+     "id": "c8ed21d",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1253,7 +1253,7 @@
      },
      "elements": [
       {
-       "id": "d4c2e4a",
+       "id": "5f2c22c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1286,7 +1286,7 @@
        "elements": []
       },
       {
-       "id": "5751ec3",
+       "id": "aba3b6f",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -1298,7 +1298,7 @@
      "isInner": false
     },
     {
-     "id": "a5cdd4a",
+     "id": "5751ec3",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1319,7 +1319,7 @@
      },
      "elements": [
       {
-       "id": "59c3301",
+       "id": "08419be",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1358,7 +1358,7 @@
        "elements": []
       },
       {
-       "id": "ba38666",
+       "id": "7f1171a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1401,7 +1401,7 @@
        "elements": []
       },
       {
-       "id": "6c29793",
+       "id": "82f2b30",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1433,7 +1433,7 @@
        "elements": []
       },
       {
-       "id": "e995f98",
+       "id": "0d3180d",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1502,7 +1502,7 @@
        "elements": []
       },
       {
-       "id": "6cd67d9",
+       "id": "fb89705",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1515,7 +1515,7 @@
        "elements": []
       },
       {
-       "id": "6bc24fc",
+       "id": "d4c2e4a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1545,7 +1545,7 @@
    "isInner": false
   },
   {
-   "id": "5f0f5e5",
+   "id": "a5cdd4a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1584,7 +1584,7 @@
    },
    "elements": [
     {
-     "id": "e94550c",
+     "id": "e995f98",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1595,7 +1595,7 @@
      },
      "elements": [
       {
-       "id": "df263d9",
+       "id": "59c3301",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1634,7 +1634,7 @@
        "elements": []
       },
       {
-       "id": "edfbe1a",
+       "id": "ba38666",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1677,7 +1677,7 @@
        "elements": []
       },
       {
-       "id": "2e65f2f",
+       "id": "6c29793",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1704,7 +1704,7 @@
      "isInner": false
     },
     {
-     "id": "0537fb4",
+     "id": "6bc24fc",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1715,7 +1715,7 @@
      },
      "elements": [
       {
-       "id": "5c572ec",
+       "id": "6cd67d9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1746,7 +1746,232 @@
    "isInner": false
   },
   {
-   "id": "e074133",
+   "id": "4ea06fb",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "df263d9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "217eedd",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-02.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "2e65f2f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "edfbe1a",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-03.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "5c572ec",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e94550c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-04.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "5f0f5e5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "0537fb4",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-05.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b7ee6f5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1800,7 +2025,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-02.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1846,7 +2071,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-03.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1892,7 +2117,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-04.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1938,7 +2163,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-05.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1971,7 +2196,7 @@
    "isInner": false
   },
   {
-   "id": "67d96d4",
+   "id": "e57c6b9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2025,7 +2250,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-10.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2071,7 +2296,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2117,7 +2342,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-08.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2163,7 +2388,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-13.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2196,7 +2421,7 @@
    "isInner": false
   },
   {
-   "id": "a8e864d",
+   "id": "86b122d",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2205,7 +2430,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "3",
+     "bottom": "72",
      "left": "0",
      "isLinked": false
     },
@@ -2213,7 +2438,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "2",
+     "bottom": "54",
      "left": "24",
      "isLinked": false
     },
@@ -2221,7 +2446,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "2",
+     "bottom": "40",
      "left": "18",
      "isLinked": false
     },
@@ -2250,7 +2475,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-14.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2296,7 +2521,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2342,7 +2567,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-16.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2388,231 +2613,6 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-13.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "7143d7f",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "b7ee6f5",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "4ea06fb",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-14.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "86b122d",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "e57c6b9",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-15.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "c0f168c",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "4e0928d",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "f1c1592",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "8c6744c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-17.jpg",
          "id": ""
         },
@@ -2646,7 +2646,7 @@
    "isInner": false
   },
   {
-   "id": "fc8001f",
+   "id": "8c6744c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2684,7 +2684,7 @@
    },
    "elements": [
     {
-     "id": "6e0721b",
+     "id": "c0f168c",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2695,7 +2695,7 @@
      },
      "elements": [
       {
-       "id": "72da7fd",
+       "id": "4e0928d",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2770,7 +2770,7 @@
    "isInner": false
   },
   {
-   "id": "7c590f0",
+   "id": "3621f14",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2835,7 +2835,7 @@
    },
    "elements": [
     {
-     "id": "96ea64f",
+     "id": "fc8001f",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2846,7 +2846,7 @@
      },
      "elements": [
       {
-       "id": "4b04a68",
+       "id": "f1c1592",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2889,7 +2889,7 @@
        "elements": []
       },
       {
-       "id": "61b4a64",
+       "id": "e074133",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2921,7 +2921,7 @@
        "elements": []
       },
       {
-       "id": "3621f14",
+       "id": "67d96d4",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2993,7 +2993,7 @@
      "isInner": false
     },
     {
-     "id": "da8ce53",
+     "id": "4b04a68",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3004,7 +3004,7 @@
      },
      "elements": [
       {
-       "id": "c15da1f",
+       "id": "a8e864d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3050,7 +3050,7 @@
        "elements": []
       },
       {
-       "id": "68053af",
+       "id": "7143d7f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3096,7 +3096,7 @@
        "elements": []
       },
       {
-       "id": "2dace78",
+       "id": "72da7fd",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3145,7 +3145,7 @@
      "isInner": false
     },
     {
-     "id": "82489c9",
+     "id": "61b4a64",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3158,7 +3158,7 @@
      },
      "elements": [
       {
-       "id": "df7f28a",
+       "id": "6e0721b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
