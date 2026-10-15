@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "fe8c15f",
+   "id": "aff1621",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -54,7 +54,7 @@
    },
    "elements": [
     {
-     "id": "3d8e28c",
+     "id": "f455267",
      "elType": "column",
      "settings": {
       "_column_size": 18,
@@ -65,12 +65,12 @@
      },
      "elements": [
       {
-       "id": "b0b183c",
+       "id": "02a32ad",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/logo.png",
          "id": ""
         },
         "image_size": "full",
@@ -94,7 +94,7 @@
      "isInner": false
     },
     {
-     "id": "b86e8d0",
+     "id": "fe8c15f",
      "elType": "column",
      "settings": {
       "_column_size": 47,
@@ -105,7 +105,7 @@
      },
      "elements": [
       {
-       "id": "e97ee20",
+       "id": "362e80d",
        "elType": "widget",
        "widgetType": "nav-menu",
        "settings": {
@@ -123,7 +123,7 @@
         "menu_typography_font_family": "Inter",
         "menu_typography_font_size": {
          "unit": "px",
-         "size": 10,
+         "size": 12,
          "sizes": []
         },
         "menu_typography_font_weight": "500",
@@ -176,7 +176,7 @@
      "isInner": false
     },
     {
-     "id": "f455267",
+     "id": "92fb0c6",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -187,7 +187,7 @@
      },
      "elements": [
       {
-       "id": "84f7e69",
+       "id": "1efa39b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -236,7 +236,7 @@
      "isInner": false
     },
     {
-     "id": "362e80d",
+     "id": "22ac3c5",
      "elType": "column",
      "settings": {
       "_column_size": 15,
@@ -247,7 +247,7 @@
      },
      "elements": [
       {
-       "id": "02a32ad",
+       "id": "b86e8d0",
        "elType": "widget",
        "widgetType": "social-icons",
        "settings": {
@@ -263,7 +263,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "f9028fa"
+          "_id": "fc3cf45"
          },
          {
           "social_icon": {
@@ -276,7 +276,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "8f7d807"
+          "_id": "3d8e28c"
          },
          {
           "social_icon": {
@@ -289,7 +289,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "fa83a11"
+          "_id": "e97ee20"
          }
         ],
         "shape": "rounded",
@@ -323,7 +323,7 @@
    "isInner": false
   },
   {
-   "id": "22ac3c5",
+   "id": "8c235f8",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -363,7 +363,7 @@
    },
    "elements": [
     {
-     "id": "92fb0c6",
+     "id": "addfa9b",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -374,16 +374,16 @@
      },
      "elements": [
       {
-       "id": "1efa39b",
+       "id": "f7e9050",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
-        "html": "<div style=\"font:10px Inter,sans-serif;color:#a9a9ae;text-align:right\"><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Avís legal</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Política de privacitat</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Cookies</a></div>"
+        "html": "<div style=\"font:12px Inter,sans-serif;color:#a9a9ae;text-align:right\"><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Avís legal</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Política de privacitat</a><a href=\"#\" style=\"color:#a9a9ae;margin-left:18px;text-decoration:none\">Cookies</a></div>"
        },
        "elements": []
       },
       {
-       "id": "fc3cf45",
+       "id": "84f7e69",
        "elType": "widget",
        "widgetType": "icon",
        "settings": {

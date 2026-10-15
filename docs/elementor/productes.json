@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "c0e190d",
+   "id": "060ad92",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -42,7 +42,7 @@
     "background_background": "classic",
     "background_color": "#0c0c0d",
     "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/hero-home.jpg",
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/hero-home.jpg",
      "id": ""
     },
     "background_position": "center right",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "45fbc6d",
+     "id": "e96ed47",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "979d472",
+       "id": "3b8a614",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
-        "html": "<div style=\"font:11px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Productes</span></div>"
+        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Productes</span></div>"
        },
        "elements": []
       },
       {
-       "id": "ca46c1b",
+       "id": "45fbc6d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "3b8a614",
+       "id": "63dc7ed",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -178,7 +178,7 @@
      "isInner": false
     },
     {
-     "id": "e96ed47",
+     "id": "ec8ce6a",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -191,7 +191,7 @@
      },
      "elements": [
       {
-       "id": "63dc7ed",
+       "id": "c0e190d",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -210,7 +210,7 @@
    "isInner": false
   },
   {
-   "id": "bcbe336",
+   "id": "13fe9d8",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -248,7 +248,7 @@
    },
    "elements": [
     {
-     "id": "060ad92",
+     "id": "115f895",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -259,1361 +259,7 @@
      },
      "elements": [
       {
-       "id": "ec8ce6a",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "caf1a3d",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "wider",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "57aeee3",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "115f895",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-finestres-c16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "13fe9d8",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "d1c38a0",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Finestres fulla oculta C/16",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "9cfdf10",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Màxima llum, disseny minimalista",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "705f217",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Disseny minimalista: la fulla mòbil queda amagada dins del fix, i els marcs més fins permeten guanyar fins a un 30% de superfície de vidre.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "74db120",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "01161aa",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "6da9003",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-finestres-rpt55.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/finestres-rpt-55/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "9b04d15",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "be83ab3",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Finestres RPT 55",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/finestres-rpt-55/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "e165421",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Aïllament i eficiència",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "289dff0",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Finestres d'alumini amb trencament de pont tèrmic: un material aïllant entre la cara externa i la interna evita la pèrdua energètica.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "577ef11",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "cb70ab3",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "539fd53",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-portes.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/projectes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "ac1dd20",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "555d670",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Portes d'entrada",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/projectes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "335f535",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Seguretat i disseny",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "f340f1b",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "La primera impressió de casa teva: les fem totalment personalitzades i adaptades a les teves necessitats.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "e4a6222",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "5737c6e",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "wider",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "6c9882b",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "9188905",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-persianes.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0266e33",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "38db3ae",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Persianes",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "3cec07e",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Confort i aïllament",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "621bf66",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Redueixen el soroll de l'exterior i eviten l'entrada de calor o fred. De seguretat, apilables i mallorquines.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "077e29b",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "d96409b",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "19f3cd3",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-persianes-locals.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "03c6b06",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "c24cd76",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Persianes locals comercials",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "c52f1bd",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Resistència i funcionalitat",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "fe131d7",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Seguretat per a empreses i establiments comercials i, alhora, més visibilitat al negoci.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "f718499",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "d6baf65",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "502e4a1",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-corredisses.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "cfa0860",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "a4f2367",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Corredisses",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "#",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "b1a59b3",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Espais oberts i llum natural",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "36660e5",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Ambients més oberts, amb més llum i confort, sense ocupar espai ni a l'interior ni a l'exterior.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12.5,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "8c19f57",
+       "id": "bcbe336",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1670,7 +316,7 @@
    },
    "elements": [
     {
-     "id": "7f100b7",
+     "id": "9b04d15",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1691,12 +337,12 @@
      },
      "elements": [
       {
-       "id": "e56954b",
+       "id": "d1c38a0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-corredisses-grans.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-finestres-c16.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1728,7 +374,7 @@
        "elements": []
       },
       {
-       "id": "f766406",
+       "id": "9cfdf10",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1741,11 +387,11 @@
        "elements": []
       },
       {
-       "id": "eda80a3",
+       "id": "705f217",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Corredisses grans dimensions",
+        "title": "Finestres fulla oculta C/16",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1794,18 +440,18 @@
        "elements": []
       },
       {
-       "id": "8f121ce",
+       "id": "74db120",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Sense límits",
+        "editor": "Màxima llum, disseny minimalista",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -1834,11 +480,11 @@
        "elements": []
       },
       {
-       "id": "06138bc",
+       "id": "57aeee3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Pensades per a espais grans: redueixen l'impacte visual de les fulles centrals i connecten amb l'exterior.",
+        "editor": "Disseny minimalista: la fulla mòbil queda amagada dins del fix, i els marcs més fins permeten guanyar fins a un 30% de superfície de vidre.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1866,7 +512,7 @@
        "elements": []
       },
       {
-       "id": "3905972",
+       "id": "6da9003",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1882,7 +528,7 @@
      "isInner": false
     },
     {
-     "id": "07cdfd2",
+     "id": "ac1dd20",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1903,12 +549,12 @@
      },
      "elements": [
       {
-       "id": "7a614fd",
+       "id": "be83ab3",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-baranes.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-finestres-rpt55.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1920,7 +566,7 @@
         },
         "link_to": "custom",
         "link": {
-         "url": "#",
+         "url": "/finestres-rpt-55/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1940,7 +586,7 @@
        "elements": []
       },
       {
-       "id": "4734ba6",
+       "id": "e165421",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1953,11 +599,11 @@
        "elements": []
       },
       {
-       "id": "d947bf0",
+       "id": "289dff0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Baranes",
+        "title": "Finestres RPT 55",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1981,7 +627,7 @@
          "sizes": []
         },
         "link": {
-         "url": "#",
+         "url": "/finestres-rpt-55/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -2006,18 +652,18 @@
        "elements": []
       },
       {
-       "id": "63923f4",
+       "id": "577ef11",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Seguretat amb estil",
+        "editor": "Aïllament i eficiència",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -2046,11 +692,11 @@
        "elements": []
       },
       {
-       "id": "db8e1af",
+       "id": "01161aa",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "D'alumini o d'acer inoxidable, també de vidre, per a terrasses, patis i escales, a l'interior o a l'exterior.",
+        "editor": "Finestres d'alumini amb trencament de pont tèrmic: un material aïllant entre la cara externa i la interna evita la pèrdua energètica.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -2078,7 +724,7 @@
        "elements": []
       },
       {
-       "id": "20f0759",
+       "id": "539fd53",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2094,7 +740,7 @@
      "isInner": false
     },
     {
-     "id": "0e01938",
+     "id": "0266e33",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -2115,12 +761,12 @@
      },
      "elements": [
       {
-       "id": "d395771",
+       "id": "555d670",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-pergoles.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-portes.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2132,7 +778,7 @@
         },
         "link_to": "custom",
         "link": {
-         "url": "#",
+         "url": "/projectes/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -2152,7 +798,7 @@
        "elements": []
       },
       {
-       "id": "92c8c96",
+       "id": "335f535",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2165,11 +811,11 @@
        "elements": []
       },
       {
-       "id": "e3796ae",
+       "id": "f340f1b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Pèrgoles bioclimàtiques",
+        "title": "Portes d'entrada",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -2193,7 +839,7 @@
          "sizes": []
         },
         "link": {
-         "url": "#",
+         "url": "/projectes/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -2218,18 +864,18 @@
        "elements": []
       },
       {
-       "id": "6a9aedd",
+       "id": "e4a6222",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Confort tot l'any",
+        "editor": "Seguretat i disseny",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -2258,11 +904,11 @@
        "elements": []
       },
       {
-       "id": "0f49c89",
+       "id": "cb70ab3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Protecció solar per gaudir del pati o la terrassa durant tot l'any, per a particulars i professionals.",
+        "editor": "La primera impressió de casa teva: les fem totalment personalitzades i adaptades a les teves necessitats.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -2290,7 +936,7 @@
        "elements": []
       },
       {
-       "id": "46ba9f2",
+       "id": "9188905",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2347,7 +993,7 @@
    },
    "elements": [
     {
-     "id": "1700002",
+     "id": "03c6b06",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -2368,12 +1014,12 @@
      },
      "elements": [
       {
-       "id": "16a5cda",
+       "id": "38db3ae",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-sostres.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-persianes.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2405,7 +1051,7 @@
        "elements": []
       },
       {
-       "id": "918317b",
+       "id": "3cec07e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2418,7 +1064,1361 @@
        "elements": []
       },
       {
+       "id": "621bf66",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Persianes",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "077e29b",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Confort i aïllament",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "6c9882b",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Redueixen el soroll de l'exterior i eviten l'entrada de calor o fred. De seguretat, apilables i mallorquines.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "19f3cd3",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "cfa0860",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "c24cd76",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-persianes-locals.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c52f1bd",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "fe131d7",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Persianes locals comercials",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f718499",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Resistència i funcionalitat",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d96409b",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Seguretat per a empreses i establiments comercials i, alhora, més visibilitat al negoci.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "502e4a1",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f766406",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "a4f2367",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "b1a59b3",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "36660e5",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Corredisses",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "8c19f57",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Espais oberts i llum natural",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d6baf65",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Ambients més oberts, amb més llum i confort, sense ocupar espai ni a l'interior ni a l'exterior.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "e56954b",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "89f0fd5",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wider",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "4734ba6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "eda80a3",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses-grans.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "8f121ce",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "06138bc",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Corredisses grans dimensions",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "3905972",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Sense límits",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7f100b7",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Pensades per a espais grans: redueixen l'impacte visual de les fulles centrals i connecten amb l'exterior.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7a614fd",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "92c8c96",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "d947bf0",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-baranes.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "63923f4",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "db8e1af",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Baranes",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "20f0759",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Seguretat amb estil",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "07cdfd2",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "D'alumini o d'acer inoxidable, també de vidre, per a terrasses, patis i escales, a l'interior o a l'exterior.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d395771",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "918317b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "e3796ae",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-pergoles.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "6a9aedd",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0f49c89",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Pèrgoles bioclimàtiques",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "46ba9f2",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Confort tot l'any",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0e01938",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Protecció solar per gaudir del pati o la terrassa durant tot l'any, per a particulars i professionals.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12.5,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "16a5cda",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a666587",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wider",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "6883966",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
        "id": "48aedb8",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-sostres.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "839ab46",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f90f2ac",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2471,7 +2471,7 @@
        "elements": []
       },
       {
-       "id": "839ab46",
+       "id": "9c838d2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2482,7 +2482,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -2511,7 +2511,7 @@
        "elements": []
       },
       {
-       "id": "f90f2ac",
+       "id": "1700002",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2543,7 +2543,7 @@
        "elements": []
       },
       {
-       "id": "9c838d2",
+       "id": "53c3bce",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2559,7 +2559,7 @@
      "isInner": false
     },
     {
-     "id": "ef0d393",
+     "id": "34ed066",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -2580,12 +2580,12 @@
      },
      "elements": [
       {
-       "id": "53c3bce",
+       "id": "49182f8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-tancaments.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-tancaments.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2617,7 +2617,7 @@
        "elements": []
       },
       {
-       "id": "6883966",
+       "id": "d296c10",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2630,7 +2630,7 @@
        "elements": []
       },
       {
-       "id": "49182f8",
+       "id": "9fd8184",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2683,7 +2683,7 @@
        "elements": []
       },
       {
-       "id": "d296c10",
+       "id": "26e359e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2694,7 +2694,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -2723,7 +2723,7 @@
        "elements": []
       },
       {
-       "id": "9fd8184",
+       "id": "ef0d393",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2755,7 +2755,7 @@
        "elements": []
       },
       {
-       "id": "26e359e",
+       "id": "94f6d7e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2771,7 +2771,7 @@
      "isInner": false
     },
     {
-     "id": "b2eb734",
+     "id": "a8c88a0",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -2792,12 +2792,12 @@
      },
      "elements": [
       {
-       "id": "94f6d7e",
+       "id": "577bcc9",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-mampares.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-mampares.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2829,7 +2829,7 @@
        "elements": []
       },
       {
-       "id": "34ed066",
+       "id": "11b9842",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2842,7 +2842,7 @@
        "elements": []
       },
       {
-       "id": "577bcc9",
+       "id": "37bc2f7",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2895,7 +2895,7 @@
        "elements": []
       },
       {
-       "id": "11b9842",
+       "id": "496e05e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2906,7 +2906,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -2935,7 +2935,7 @@
        "elements": []
       },
       {
-       "id": "37bc2f7",
+       "id": "b2eb734",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2967,7 +2967,7 @@
        "elements": []
       },
       {
-       "id": "496e05e",
+       "id": "8e98d81",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2986,7 +2986,7 @@
    "isInner": false
   },
   {
-   "id": "89f0fd5",
+   "id": "b83aac2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3024,7 +3024,7 @@
    },
    "elements": [
     {
-     "id": "158f306",
+     "id": "ad13a2a",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3045,12 +3045,12 @@
      },
      "elements": [
       {
-       "id": "8e98d81",
+       "id": "eddea82",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-muntatge.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-muntatge.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3082,7 +3082,7 @@
        "elements": []
       },
       {
-       "id": "a8c88a0",
+       "id": "06eb61b",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3095,7 +3095,7 @@
        "elements": []
       },
       {
-       "id": "eddea82",
+       "id": "9dfcd5e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3148,7 +3148,7 @@
        "elements": []
       },
       {
-       "id": "06eb61b",
+       "id": "950a415",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3159,7 +3159,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -3188,7 +3188,7 @@
        "elements": []
       },
       {
-       "id": "9dfcd5e",
+       "id": "158f306",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3220,7 +3220,7 @@
        "elements": []
       },
       {
-       "id": "950a415",
+       "id": "7588749",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3236,7 +3236,7 @@
      "isInner": false
     },
     {
-     "id": "3207225",
+     "id": "5737c6e",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3257,12 +3257,12 @@
      },
      "elements": [
       {
-       "id": "7588749",
+       "id": "3fe94a0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-altres.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-altres.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3294,7 +3294,7 @@
        "elements": []
       },
       {
-       "id": "ad13a2a",
+       "id": "5b8add2",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3307,7 +3307,7 @@
        "elements": []
       },
       {
-       "id": "3fe94a0",
+       "id": "432aca3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3360,7 +3360,7 @@
        "elements": []
       },
       {
-       "id": "5b8add2",
+       "id": "8d3bba7",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3371,7 +3371,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11.5,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -3400,7 +3400,7 @@
        "elements": []
       },
       {
-       "id": "432aca3",
+       "id": "3207225",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3432,7 +3432,7 @@
        "elements": []
       },
       {
-       "id": "8d3bba7",
+       "id": "caf1a3d",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3451,7 +3451,7 @@
    "isInner": false
   },
   {
-   "id": "310dcbb",
+   "id": "f9b902f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3491,7 +3491,7 @@
    },
    "elements": [
     {
-     "id": "fe73f68",
+     "id": "c042f4d",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -3502,7 +3502,7 @@
      },
      "elements": [
       {
-       "id": "a666587",
+       "id": "cd00692",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3514,7 +3514,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "400",
@@ -3541,7 +3541,7 @@
        "elements": []
       },
       {
-       "id": "b83aac2",
+       "id": "6faa804",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3584,7 +3584,7 @@
        "elements": []
       },
       {
-       "id": "cd00692",
+       "id": "fe73f68",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3616,7 +3616,7 @@
        "elements": []
       },
       {
-       "id": "6faa804",
+       "id": "6da37dd",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3688,7 +3688,7 @@
      "isInner": false
     },
     {
-     "id": "c042f4d",
+     "id": "2f2b265",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -3699,12 +3699,12 @@
      },
      "elements": [
       {
-       "id": "6da37dd",
+       "id": "310dcbb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/prod-refine.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-refine.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3736,7 +3736,7 @@
    "isInner": false
   },
   {
-   "id": "b3967a0",
+   "id": "13f9896",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3774,7 +3774,7 @@
     "background_background": "classic",
     "background_color": "#160a0d",
     "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/sunset.jpg",
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/sunset.jpg",
      "id": ""
     },
     "background_position": "center right",
@@ -3801,7 +3801,7 @@
    },
    "elements": [
     {
-     "id": "3dd48ab",
+     "id": "3ad7c2e",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3812,7 +3812,7 @@
      },
      "elements": [
       {
-       "id": "2f2b265",
+       "id": "6855456",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3855,7 +3855,7 @@
        "elements": []
       },
       {
-       "id": "f9b902f",
+       "id": "357a6fd",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3887,7 +3887,7 @@
        "elements": []
       },
       {
-       "id": "6855456",
+       "id": "819f46e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3959,7 +3959,7 @@
      "isInner": false
     },
     {
-     "id": "58238e9",
+     "id": "b3967a0",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3970,7 +3970,7 @@
      },
      "elements": [
       {
-       "id": "357a6fd",
+       "id": "0402595",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4008,7 +4008,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -4016,7 +4016,7 @@
        "elements": []
       },
       {
-       "id": "819f46e",
+       "id": "40008b9",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4054,7 +4054,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -4062,7 +4062,7 @@
        "elements": []
       },
       {
-       "id": "0402595",
+       "id": "3dd48ab",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4100,7 +4100,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -4111,7 +4111,7 @@
      "isInner": false
     },
     {
-     "id": "3ad7c2e",
+     "id": "d81f9c1",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -4124,7 +4124,7 @@
      },
      "elements": [
       {
-       "id": "40008b9",
+       "id": "58238e9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

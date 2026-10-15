@@ -4,7 +4,7 @@
  "type": "header",
  "content": [
   {
-   "id": "ab88b15",
+   "id": "fa83a11",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -62,7 +62,7 @@
    },
    "elements": [
     {
-     "id": "7250eb9",
+     "id": "ab88b15",
      "elType": "column",
      "settings": {
       "_column_size": 18,
@@ -73,12 +73,12 @@
      },
      "elements": [
       {
-       "id": "8e82ab7",
+       "id": "301ad0e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/logo.png",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/logo.png",
          "id": ""
         },
         "image_size": "full",
@@ -107,7 +107,7 @@
      "isInner": false
     },
     {
-     "id": "301ad0e",
+     "id": "f9028fa",
      "elType": "column",
      "settings": {
       "_column_size": 57,
@@ -118,7 +118,7 @@
      },
      "elements": [
       {
-       "id": "013a006",
+       "id": "b0b183c",
        "elType": "widget",
        "widgetType": "nav-menu",
        "settings": {
@@ -136,7 +136,7 @@
         "menu_typography_font_family": "Inter",
         "menu_typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "menu_typography_font_weight": "500",
@@ -189,7 +189,7 @@
      "isInner": false
     },
     {
-     "id": "4d5b995",
+     "id": "8f7d807",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -202,7 +202,7 @@
      },
      "elements": [
       {
-       "id": "e0ec453",
+       "id": "4d5b995",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -257,7 +257,7 @@
         "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 11,
+         "size": 12,
          "sizes": []
         },
         "typography_font_weight": "600",

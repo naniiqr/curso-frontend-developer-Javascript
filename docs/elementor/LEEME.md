@@ -34,7 +34,7 @@ Crea las páginas con esos slugs para que los enlaces funcionen.
 
 ## Notas
 - Las imágenes se descargan a la biblioteca de medios al importar, desde `img/` de este repositorio
-  (`https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/`).
+  (`https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/`).
   Si cambias la rama, el repositorio pasa a privado o mueves las imágenes, pídeme regenerar las plantillas con la nueva URL.
 - Espaciados y tamaños están definidos para escritorio, tablet y móvil en cada sección.
 - El formulario de contacto y el mapa son bloques HTML de relleno: sustitúyelos por tu formulario (Elementor Pro → Formulario) y tu mapa.

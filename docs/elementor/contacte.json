@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "e8c0653",
+   "id": "2d6cc4b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -42,7 +42,7 @@
     "background_background": "classic",
     "background_color": "#0c0c0d",
     "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/aluminis-albera/img/hero-home.jpg",
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/hero-home.jpg",
      "id": ""
     },
     "background_position": "center right",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "b5b41fa",
+     "id": "b337e84",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "3cf166c",
+       "id": "5b69b9c",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
-        "html": "<div style=\"font:11px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Contacte</span></div>"
+        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Contacte</span></div>"
        },
        "elements": []
       },
       {
-       "id": "cee6311",
+       "id": "b5b41fa",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,11 +143,11 @@
        "elements": []
       },
       {
-       "id": "5b69b9c",
+       "id": "285e19f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Explica'ns què necessites i t'assessorarem per trobar la millor solució. Sense compromis.",
+        "editor": "Explica'ns què necessites i t'assessorarem per trobar la millor solució. Sense compromís.",
         "text_color": "#e6e6e8",
         "align": "left",
         "typography_typography": "custom",
@@ -178,7 +178,7 @@
      "isInner": false
     },
     {
-     "id": "b337e84",
+     "id": "ff4d5fb",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -191,7 +191,7 @@
      },
      "elements": [
       {
-       "id": "285e19f",
+       "id": "e8c0653",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -210,7 +210,7 @@
    "isInner": false
   },
   {
-   "id": "63538fe",
+   "id": "07563a3",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -248,7 +248,7 @@
    },
    "elements": [
     {
-     "id": "2d6cc4b",
+     "id": "e2230b8",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -259,11 +259,11 @@
      },
      "elements": [
       {
-       "id": "ff4d5fb",
+       "id": "389bc7b",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
-        "html": "<form action=\"#\" method=\"post\" style=\"display:grid;gap:16px;grid-template-columns:1fr 1fr\">\n<label style=\"display:block;font:11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px\">Nom<input name=\"nom\" required placeholder=\"El teu nom\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px\">Telèfon<input name=\"tel\" type=\"tel\" placeholder=\"600 00 00 00\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Correu electrònic<input name=\"email\" type=\"email\" required placeholder=\"nom@correu.com\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Què t'interessa?<select name=\"tipus\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"><option>Finestres</option><option>Portes d'entrada</option><option>Persianes</option><option>Pèrgoles i exteriors</option><option>Baranes i mampares</option><option>Altres</option></select></label>\n<label style=\"display:block;font:11px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Missatge<textarea name=\"missatge\" rows=\"5\" placeholder=\"Explica'ns breument el teu projecte\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></textarea></label>\n<label style=\"grid-column:1/-1;font:12px Inter,sans-serif;color:#cfcfd2\"><input type=\"checkbox\" required> He llegit i accepto la política de privacitat.</label>\n<button type=\"submit\" style=\"grid-column:1/-1;justify-self:start;padding:15px 28px;background:#e4152d;color:#fff;border:0;border-radius:2px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer\">Demana pressupost &rarr;</button></form>"
+        "html": "<form action=\"#\" method=\"post\" style=\"display:grid;gap:16px;grid-template-columns:1fr 1fr\">\n<label style=\"display:block;font:12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px\">Nom<input name=\"nom\" required placeholder=\"El teu nom\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px\">Telèfon<input name=\"tel\" type=\"tel\" placeholder=\"600 00 00 00\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Correu electrònic<input name=\"email\" type=\"email\" required placeholder=\"nom@correu.com\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></label>\n<label style=\"display:block;font:12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Què t'interessa?<select name=\"tipus\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"><option>Finestres</option><option>Portes d'entrada</option><option>Persianes</option><option>Pèrgoles i exteriors</option><option>Baranes i mampares</option><option>Altres</option></select></label>\n<label style=\"display:block;font:12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a9a9ae;margin-bottom:6px;grid-column:1/-1\">Missatge<textarea name=\"missatge\" rows=\"5\" placeholder=\"Explica'ns breument el teu projecte\" style=\"width:100%;box-sizing:border-box;padding:13px 14px;background:#1a1a1d;border:1px solid rgba(255,255,255,.12);color:#fff;font:14px Inter,sans-serif;border-radius:2px;margin-top:6px\"></textarea></label>\n<label style=\"grid-column:1/-1;font:12px Inter,sans-serif;color:#cfcfd2\"><input type=\"checkbox\" required> He llegit i accepto la política de privacitat.</label>\n<button type=\"submit\" style=\"grid-column:1/-1;justify-self:start;padding:15px 28px;background:#e4152d;color:#fff;border:0;border-radius:2px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer\">Demana pressupost &rarr;</button></form>"
        },
        "elements": []
       }
@@ -271,7 +271,7 @@
      "isInner": false
     },
     {
-     "id": "ebd9629",
+     "id": "cf67355",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -292,7 +292,7 @@
      },
      "elements": [
       {
-       "id": "389bc7b",
+       "id": "0874085",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -302,71 +302,6 @@
         },
         "title_text": "Truca'ns",
         "description_text": "600 83 19 36 · 667 50 65 17",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      },
-      {
-       "id": "e2230b8",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "rgba(255,255,255,.12)",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0874085",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fab fa-whatsapp",
-         "library": "fa-brands"
-        },
-        "title_text": "WhatsApp",
-        "description_text": "Envia'ns un missatge",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -427,11 +362,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-envelope",
-         "library": "fa-solid"
+         "value": "fab fa-whatsapp",
+         "library": "fa-brands"
         },
-        "title_text": "Escriu-nos",
-        "description_text": "info@aluminisalbera.com",
+        "title_text": "WhatsApp",
+        "description_text": "Envia'ns un missatge",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -492,11 +427,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-map-marker-alt",
+         "value": "fas fa-envelope",
          "library": "fa-solid"
         },
-        "title_text": "On som",
-        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
+        "title_text": "Escriu-nos",
+        "description_text": "info@aluminisalbera.com",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -557,6 +492,71 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
+         "value": "fas fa-map-marker-alt",
+         "library": "fa-solid"
+        },
+        "title_text": "On som",
+        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "38913e1",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ebd9629",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
          "value": "far fa-clock",
          "library": "fa-regular"
         },
@@ -598,11 +598,11 @@
        "elements": []
       },
       {
-       "id": "38913e1",
+       "id": "63538fe",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
-        "html": "<div style=\"margin-top:14px;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;color:#a9a9ae;font:12px Inter,sans-serif;background:#131315\">Substitueix aquest bloc pel teu mapa (Google Maps)</div>"
+        "html": "<div style=\"margin-top:14px;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;color:#a9a9ae;font:12px Inter,sans-serif;background:#131315\">Mapa de Figueres (Girona)</div>"
        },
        "elements": []
       }

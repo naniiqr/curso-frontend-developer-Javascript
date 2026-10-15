@@ -365,3 +365,60 @@ ul { margin: 0; padding: 0; list-style: none; }
   .grid-products.big .card-product:last-child:nth-child(3n+2) .ph { aspect-ratio: 4 / 3; }
 }
 h1, h2, h3 { text-wrap: balance; }
+
+/* ---- UX audit fixes: legibility, hit targets, focus, reduced motion ---- */
+.skip { position: absolute; left: 16px; top: -60px; z-index: 100; background: #fff; color: #000; padding: 12px 18px; font-weight: 600; border-radius: 2px; }
+.skip:focus { top: 12px; }
+:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.btn:focus-visible, .chip:focus-visible { outline-color: #fff; box-shadow: 0 0 0 4px var(--red); }
+.eyebrow, .crumbs, .link-arrow, .btn, .nav a, .lang, .chip, .foot-nav, .loc, .legal .wrap, .split-two small { font-size: max(12px, 1em); }
+.eyebrow { font-size: 12px; }
+.crumbs { font-size: 12px; }
+.btn { font-size: 12px; min-height: 44px; }
+.nav a { font-size: 12px; min-height: 44px; display: inline-flex; align-items: center; padding-block: 0; }
+.lang { font-size: 12px; } .lang a { min-height: 44px; min-width: 28px; display: inline-flex; align-items: center; justify-content: center; }
+.link-arrow { font-size: 12px; min-height: 44px; }
+.chip { font-size: 12px; min-height: 44px; padding-block: 0; }
+.crumbs a { display: inline-flex; align-items: center; min-height: 32px; }
+.foot-nav { font-size: 12px; gap: 4px 6px; margin-left: 12px; }
+.foot-nav a { display: inline-flex; align-items: center; min-height: 44px; padding-inline: 8px; }
+.social a { display: inline-grid; place-items: center; width: 44px; height: 44px; }
+.legal .wrap { font-size: 12px; } .legal a { display: inline-flex; align-items: center; min-height: 44px; }
+.loc { font-size: 12px; }
+.burger { width: 44px; height: 44px; display: none; place-items: center; padding: 0; }
+.tabs a { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px; }
+.usp-item span, .card-product p, .card-product .desc, .slide .cap span, .step p, .value p, .why .usp-item span, .why2 .usp-item span { font-size: 12.5px; }
+.card-product h3 { font-size: 12.5px; }
+.usp-item b { font-size: 13px; }
+.pdfs a { font-size: 12px; min-height: 44px; }
+.form label { font-size: 12px; }
+.form .check { font-size: 13px; }
+.form input, .form select, .form textarea { font-size: 16px; min-height: 44px; }
+.form .err { color: #ff6b7a; font-size: 13px; text-transform: none; letter-spacing: 0; }
+.form [aria-invalid="true"] { border-color: #ff6b7a; }
+.faq summary { min-height: 44px; align-items: center; }
+.split-two .link-arrow { color: #b30f22; }
+.proj-card .link-arrow { color: #ff5a6b; }
+.legal a, .foot-nav a { color: inherit; }
+.insta-head { font-size: 22px; }
+@media (max-width: 960px) {
+  .burger { display: grid; }
+  .site-header.open .nav a { min-height: 48px; font-size: 13px; }
+  .grid-products:not(.big) .card-product h3, .grid-products:not(.big) .card-product p { font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  .card-product:hover img, .proj-card:hover img, .gallery a:hover img { transform: none; }
+}
+.cta-contacts a { font-size: 12px; min-height: 44px; }
+.cta-contacts a b { font-size: 13px; }
+.split-two small { font-size: 12px; }
+.crumbs a { min-height: 44px; }
+.crumbs { margin-bottom: 4px; }
+.form input[type="checkbox"] { width: 20px; height: 20px; min-height: 0; }
+.lang a.on { color: #ff5a6b; }
+.lang a { min-width: 36px; }
+.usp-item span { font-size: 12.5px; }
+.info-card small { font-size: 12px; }
+.crumbs { align-items: center; }
