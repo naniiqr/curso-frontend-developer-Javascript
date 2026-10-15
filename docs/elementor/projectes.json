@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "13f9896",
+   "id": "138bb06",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -42,7 +42,7 @@
     "background_background": "classic",
     "background_color": "#0c0c0d",
     "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/portes-hero.jpg",
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-04.jpg",
      "id": ""
     },
     "background_position": "center right",
@@ -69,18 +69,18 @@
     "height": "min-height",
     "custom_height": {
      "unit": "px",
-     "size": 520,
+     "size": 380,
      "sizes": []
     },
     "custom_height_mobile": {
      "unit": "px",
-     "size": 442,
+     "size": 323,
      "sizes": []
     }
    },
    "elements": [
     {
-     "id": "3ad7c2e",
+     "id": "9de6d14",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "40008b9",
+       "id": "c5ff254",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -100,30 +100,30 @@
        "elements": []
       },
       {
-       "id": "3dd48ab",
+       "id": "01386bd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Projectes",
+        "title": "Projectes que parlen <span style=\"color:#e4152d\">per nosaltres</span>",
         "header_size": "h1",
         "align": "left",
         "title_color": "#ffffff",
         "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
+        "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 60,
+         "size": 52,
          "sizes": []
         },
-        "typography_font_weight": "400",
+        "typography_font_weight": "300",
         "typography_font_size_mobile": {
          "unit": "px",
-         "size": 37,
+         "size": 32,
          "sizes": []
         },
         "typography_font_size_tablet": {
          "unit": "px",
-         "size": 49,
+         "size": 42,
          "sizes": []
         },
         "typography_line_height": {
@@ -143,11 +143,11 @@
        "elements": []
       },
       {
-       "id": "58238e9",
+       "id": "0bb4aec",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "La primera impressió de casa teva, feta a mida.",
+        "editor": "Descobreix alguns dels nostres treballs i deixa't inspirar per les possibilitats.",
         "text_color": "#e6e6e8",
         "align": "left",
         "typography_typography": "custom",
@@ -175,262 +175,11 @@
        "elements": []
       },
       {
-       "id": "0402595",
+       "id": "13f9896",
        "elType": "widget",
-       "widgetType": "button",
+       "widgetType": "html",
        "settings": {
-        "text": "Demana pressupost",
-        "link": {
-         "url": "/contacte/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "align": "left",
-        "size": "md",
-        "button_text_color": "#ffffff",
-        "background_color": "#8f1a28",
-        "border_border": "solid",
-        "border_width": {
-         "unit": "px",
-         "top": "1",
-         "right": "1",
-         "bottom": "1",
-         "left": "1",
-         "isLinked": false
-        },
-        "border_color": "#8f1a28",
-        "border_radius": {
-         "unit": "px",
-         "top": "3",
-         "right": "3",
-         "bottom": "3",
-         "left": "3",
-         "isLinked": false
-        },
-        "text_padding": {
-         "unit": "px",
-         "top": "14",
-         "right": "26",
-         "bottom": "14",
-         "left": "26",
-         "isLinked": false
-        },
-        "selected_icon": {
-         "value": "fas fa-arrow-right",
-         "library": "fa-solid"
-        },
-        "icon_align": "right",
-        "icon_indent": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        },
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "d81f9c1",
-     "elType": "column",
-     "settings": {
-      "_column_size": 45,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100,
-      "hide_tablet": "hidden-tablet",
-      "hide_mobile": "hidden-mobile"
-     },
-     "elements": [
-      {
-       "id": "b3967a0",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "138bb06",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "44",
-     "right": "0",
-     "bottom": "44",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "33",
-     "right": "24",
-     "bottom": "33",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "24",
-     "right": "18",
-     "bottom": "24",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": "#131315"
-   },
-   "elements": [
-    {
-     "id": "01386bd",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "c5ff254",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-clone",
-         "library": "fa-solid"
-        },
-        "title_text": "Disseny personalitzat",
-        "description_text": "Portes d'entrada fetes a mida per adaptar-se al teu estil i espai.",
-        "position": "top",
-        "text_align": "center",
-        "title_size": "h3",
-        "primary_color": "#ffffff",
-        "icon_size": {
-         "unit": "px",
-         "size": 32,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Cormorant Garamond",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 22,
-         "sizes": []
-        },
-        "title_typography_font_weight": "400",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Cormorant Garamond",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 13,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "9de6d14",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "0bb4aec",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-palette",
-         "library": "fa-solid"
-        },
-        "title_text": "Colors i acabats",
-        "description_text": "Una àmplia gamma de colors, textures i acabats d'alta qualitat.",
-        "position": "top",
-        "text_align": "center",
-        "title_size": "h3",
-        "primary_color": "#ffffff",
-        "icon_size": {
-         "unit": "px",
-         "size": 32,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Cormorant Garamond",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 22,
-         "sizes": []
-        },
-        "title_typography_font_weight": "400",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Cormorant Garamond",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 13,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
+        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Parlem del teu projecte &rarr;</a>"
        },
        "elements": []
       }
@@ -441,1097 +190,6 @@
      "id": "371bce7",
      "elType": "column",
      "settings": {
-      "_column_size": 33.34,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "efe9377",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-sun",
-         "library": "fa-solid"
-        },
-        "title_text": "Llum i caràcter",
-        "description_text": "Amb o sense vidre, per aconseguir l'equilibri perfecte entre privacitat i llum natural.",
-        "position": "top",
-        "text_align": "center",
-        "title_size": "h3",
-        "primary_color": "#ffffff",
-        "icon_size": {
-         "unit": "px",
-         "size": 32,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Cormorant Garamond",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 22,
-         "sizes": []
-        },
-        "title_typography_font_weight": "400",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Cormorant Garamond",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 13,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "bac9162",
-   "elType": "section",
-   "settings": {
-    "layout": "full_width",
-    "gap": "no",
-    "padding": {
-     "unit": "px",
-     "top": "0",
-     "right": "0",
-     "bottom": "0",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "0",
-     "right": "0",
-     "bottom": "0",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "0",
-     "right": "0",
-     "bottom": "0",
-     "left": "0",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "background_background": "classic",
-    "background_color": "#0c0c0d"
-   },
-   "elements": [
-    {
-     "id": "82cec96",
-     "elType": "column",
-     "settings": {
-      "_column_size": 50,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "8dd48d6",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/portes-entrada.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 560,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 392,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "0041146",
-     "elType": "column",
-     "settings": {
-      "_column_size": 50,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100,
-      "padding": {
-       "unit": "px",
-       "top": "50",
-       "right": "56",
-       "bottom": "50",
-       "left": "56",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "6c524f9",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Refine",
-        "header_size": "span",
-        "align": "left",
-        "title_color": "#a9a9ae",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.5,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "6",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "fb7b9ff",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Una entrada que parla de tu",
-        "header_size": "h2",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 40,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_font_size_mobile": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "typography_font_size_tablet": {
-         "unit": "px",
-         "size": 32,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "18",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "aa942ab",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Les nostres portes d'entrada combinen disseny, funcionalitat i altes prestacions per oferir-te una solució pensada per a tu.",
-        "text_color": "#cfcfd2",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "12",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "c058f54",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Fabriquem portes d'alumini a mida, amb una àmplia gamma de dissenys, colors i acabats, que s'integren perfectament amb l'arquitectura de la teva llar, sigui moderna o tradicional.",
-        "text_color": "#cfcfd2",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "12",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "e7b24b1",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Pots optar per dissenys totalment tancats o amb elements de vidre, per aportar llum, amplitud i un caràcter únic a l'entrada.",
-        "text_color": "#cfcfd2",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "12",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "52720e0",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Cada porta es personalitza fins al darrer detall per reflectir el teu estil i donar la benvinguda a casa teva amb caràcter.",
-        "text_color": "#cfcfd2",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "20",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "c3e878e",
-       "elType": "widget",
-       "widgetType": "button",
-       "settings": {
-        "text": "Descobreix el producte",
-        "link": {
-         "url": "/portes-entrada-ocultec/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "align": "left",
-        "size": "md",
-        "button_text_color": "#ffffff",
-        "background_color": "#8f1a28",
-        "border_border": "solid",
-        "border_width": {
-         "unit": "px",
-         "top": "1",
-         "right": "1",
-         "bottom": "1",
-         "left": "1",
-         "isLinked": false
-        },
-        "border_color": "#8f1a28",
-        "border_radius": {
-         "unit": "px",
-         "top": "3",
-         "right": "3",
-         "bottom": "3",
-         "left": "3",
-         "isLinked": false
-        },
-        "text_padding": {
-         "unit": "px",
-         "top": "14",
-         "right": "26",
-         "bottom": "14",
-         "left": "26",
-         "isLinked": false
-        },
-        "selected_icon": {
-         "value": "fas fa-arrow-right",
-         "library": "fa-solid"
-        },
-        "icon_align": "right",
-        "icon_indent": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        },
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "0c74b7f",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "72",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "54",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "40",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": [
-     72,
-     0,
-     24,
-     0
-    ]
-   },
-   "elements": [
-    {
-     "id": "cf004fd",
-     "elType": "column",
-     "settings": {
-      "_column_size": 100,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "9be40ce",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Projectes",
-        "header_size": "span",
-        "align": "left",
-        "title_color": "#a9a9ae",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.5,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "6",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "5ef698c",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Projectes que parlen per nosaltres",
-        "header_size": "h2",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 36,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_font_size_mobile": {
-         "unit": "px",
-         "size": 22,
-         "sizes": []
-        },
-        "typography_font_size_tablet": {
-         "unit": "px",
-         "size": 29,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "6",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "05049e9",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Portes d'entrada que combinen disseny, funcionalitat i estil, integrades en habitatges i espais comercials amb personalitat.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "a02ffd9",
-   "elType": "section",
-   "settings": {
-    "layout": "full_width",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "6",
-     "right": "0",
-     "bottom": "6",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "4",
-     "right": "0",
-     "bottom": "4",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "content_position": "top"
-   },
-   "elements": [
-    {
-     "id": "24b16fe",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "d709f38",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/portes-particular.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/portes-entrada-particular/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 480,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 336,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "41f1f19",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"margin-top:-90px;position:relative;padding:0 24px 24px;background:linear-gradient(0deg,#08080a,transparent)\"><div style=\"font:400 28px/1.1 Cormorant Garamond,serif;color:#fff;margin-bottom:8px\">Portes d'Entrada Particular</div><a href=\"/portes-entrada-particular/\" style=\"color:#ff5a6b;font:400 15px Cormorant Garamond,serif;text-decoration:none\">Veure galeria &rarr;</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "f61d694",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "ffd52f3",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/portes-ocultec.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/portes-entrada-ocultec/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 480,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 336,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "ad972f1",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"margin-top:-90px;position:relative;padding:0 24px 24px;background:linear-gradient(0deg,#08080a,transparent)\"><div style=\"font:400 28px/1.1 Cormorant Garamond,serif;color:#fff;margin-bottom:8px\">Portes d'Entrada Particular OCULTEC</div><a href=\"/portes-entrada-ocultec/\" style=\"color:#ff5a6b;font:400 15px Cormorant Garamond,serif;text-decoration:none\">Veure galeria &rarr;</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "8bf1211",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "142949d",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/portes-comercial.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/portes-entrada-comercial/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 480,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 336,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "d34ab16",
-       "elType": "widget",
-       "widgetType": "html",
-       "settings": {
-        "html": "<div style=\"margin-top:-90px;position:relative;padding:0 24px 24px;background:linear-gradient(0deg,#08080a,transparent)\"><div style=\"font:400 28px/1.1 Cormorant Garamond,serif;color:#fff;margin-bottom:8px\">Portes d'Entrada Comercial</div><a href=\"/portes-entrada-comercial/\" style=\"color:#ff5a6b;font:400 15px Cormorant Garamond,serif;text-decoration:none\">Veure galeria &rarr;</a></div>"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "8efb100",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "default",
-    "padding": {
-     "unit": "px",
-     "top": "72",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "54",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "40",
-     "right": "18",
-     "bottom": "40",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "background_background": "classic",
-    "background_color": "#1c0c10",
-    "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/sunset.jpg",
-     "id": ""
-    },
-    "background_position": "center right",
-    "background_repeat": "no-repeat",
-    "background_size": "cover",
-    "background_overlay_background": "gradient",
-    "background_overlay_color": "#0c0c0d",
-    "background_overlay_color_b": "rgba(12,12,13,0)",
-    "background_overlay_gradient_angle": {
-     "unit": "deg",
-     "size": 90,
-     "sizes": []
-    },
-    "background_overlay_color_stop": {
-     "unit": "%",
-     "size": 55,
-     "sizes": []
-    },
-    "background_overlay_opacity": {
-     "unit": "",
-     "size": 1,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "0584ce5",
-     "elType": "column",
-     "settings": {
-      "_column_size": 55,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "bca82e4",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Projecte",
-        "header_size": "span",
-        "align": "left",
-        "title_color": "#a9a9ae",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.5,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "6",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "00ec53c",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Parlem del teu projecte",
-        "header_size": "h2",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 42,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_font_size_mobile": {
-         "unit": "px",
-         "size": 26,
-         "sizes": []
-        },
-        "typography_font_size_tablet": {
-         "unit": "px",
-         "size": 34,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "10",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "4f6ffe1",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "T'assessorem per trobar la solució de portes d'entrada que millor s'adapti al teu habitatge. Sense compromís.",
-        "text_color": "#cfcfd2",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "20",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "beed136",
-       "elType": "widget",
-       "widgetType": "button",
-       "settings": {
-        "text": "Demana pressupost",
-        "link": {
-         "url": "/contacte/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "align": "left",
-        "size": "md",
-        "button_text_color": "#ffffff",
-        "background_color": "#8f1a28",
-        "border_border": "solid",
-        "border_width": {
-         "unit": "px",
-         "top": "1",
-         "right": "1",
-         "bottom": "1",
-         "left": "1",
-         "isLinked": false
-        },
-        "border_color": "#8f1a28",
-        "border_radius": {
-         "unit": "px",
-         "top": "3",
-         "right": "3",
-         "bottom": "3",
-         "left": "3",
-         "isLinked": false
-        },
-        "text_padding": {
-         "unit": "px",
-         "top": "14",
-         "right": "26",
-         "bottom": "14",
-         "left": "26",
-         "isLinked": false
-        },
-        "selected_icon": {
-         "value": "fas fa-arrow-right",
-         "library": "fa-solid"
-        },
-        "icon_align": "right",
-        "icon_indent": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        },
-        "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "39461a1",
-     "elType": "column",
-     "settings": {
       "_column_size": 45,
       "_inline_size": null,
       "content_position": "top",
@@ -1542,7 +200,7 @@
      },
      "elements": [
       {
-       "id": "dc912a2",
+       "id": "efe9377",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1561,7 +219,485 @@
    "isInner": false
   },
   {
-   "id": "b7b16ec",
+   "id": "82cec96",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "default",
+    "padding": {
+     "unit": "px",
+     "top": "56",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "42",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "31",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "8dd48d6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "d81f9c1",
+       "elType": "widget",
+       "widgetType": "gallery",
+       "settings": {
+        "gallery_type": "multiple",
+        "galleries": [
+         {
+          "gallery_title": "Finestres i corredisses",
+          "_id": "0402595",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-14.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-01.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-15.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-22.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-29.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-12.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-15.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-06.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-10.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-14.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-18.jpg"
+           }
+          ]
+         },
+         {
+          "gallery_title": "Portes d'entrada",
+          "_id": "40008b9",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-01.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pc-01.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pc-03.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pc-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pc-07.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g01.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g06.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/oc-g16.jpg"
+           }
+          ]
+         },
+         {
+          "gallery_title": "Persianes",
+          "_id": "3dd48ab",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-09.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-13.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-17.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-20.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-24.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-28.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-03.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-04.jpg"
+           }
+          ]
+         },
+         {
+          "gallery_title": "Exteriors",
+          "_id": "58238e9",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-09.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-13.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-17.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-14.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-04.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-06.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/sostres-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/tancaments-jardi-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/tancaments-jardi-04.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/tancaments-jardi-07.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/tancaments-jardi-10.jpg"
+           }
+          ]
+         },
+         {
+          "gallery_title": "Mampares de bany",
+          "_id": "3ad7c2e",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-03.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-07.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-09.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-10.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-12.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-14.jpg"
+           }
+          ]
+         },
+         {
+          "gallery_title": "Muntatge i altres feines",
+          "_id": "b3967a0",
+          "multiple_gallery": [
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-02.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-08.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-01.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-06.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-11.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-20.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-24.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-28.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-38.jpg"
+           },
+           {
+            "id": "",
+            "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/altres-feines-47.jpg"
+           }
+          ]
+         }
+        ],
+        "show_all_galleries": "yes",
+        "show_all_galleries_label": "Tots",
+        "gallery_layout": "grid",
+        "columns": 4,
+        "columns_tablet": 3,
+        "columns_mobile": 2,
+        "gap": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        },
+        "aspect_ratio": "4:3",
+        "link_to": "file",
+        "lazyload": "yes",
+        "overlay_background": "overlay",
+        "galleries_title_color": "#a9a9ae",
+        "galleries_title_color_hover": "#ffffff",
+        "galleries_title_color_active": "#ffffff",
+        "galleries_title_typography_typography": "custom",
+        "galleries_title_typography_font_family": "Inter",
+        "galleries_title_typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "galleries_title_typography_text_transform": "uppercase",
+        "galleries_title_typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "galleries_titles_gap": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5ef698c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1626,7 +762,7 @@
    },
    "elements": [
     {
-     "id": "1543843",
+     "id": "0041146",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -1637,7 +773,7 @@
      },
      "elements": [
       {
-       "id": "d9fc5b7",
+       "id": "6c524f9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1646,7 +782,7 @@
         "align": "left",
         "title_color": "#ffffff",
         "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
+        "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
          "size": 28,
@@ -1680,7 +816,7 @@
        "elements": []
       },
       {
-       "id": "c86a7ee",
+       "id": "fb7b9ff",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1712,7 +848,7 @@
        "elements": []
       },
       {
-       "id": "a01a038",
+       "id": "aa942ab",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1726,7 +862,7 @@
         "align": "left",
         "size": "md",
         "button_text_color": "#ffffff",
-        "background_color": "#8f1a28",
+        "background_color": "#e4152d",
         "border_border": "solid",
         "border_width": {
          "unit": "px",
@@ -1736,13 +872,13 @@
          "left": "1",
          "isLinked": false
         },
-        "border_color": "#8f1a28",
+        "border_color": "#e4152d",
         "border_radius": {
          "unit": "px",
-         "top": "3",
-         "right": "3",
-         "bottom": "3",
-         "left": "3",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
          "isLinked": false
         },
         "text_padding": {
@@ -1764,16 +900,17 @@
          "sizes": []
         },
         "typography_typography": "custom",
-        "typography_font_family": "Cormorant Garamond",
+        "typography_font_family": "Inter",
         "typography_font_size": {
          "unit": "px",
-         "size": 14,
+         "size": 12,
          "sizes": []
         },
-        "typography_font_weight": "400",
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
-         "size": 0,
+         "size": 1,
          "sizes": []
         }
        },
@@ -1783,7 +920,7 @@
      "isInner": false
     },
     {
-     "id": "f8c1f23",
+     "id": "bac9162",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1794,7 +931,7 @@
      },
      "elements": [
       {
-       "id": "5a4b25a",
+       "id": "c058f54",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1840,7 +977,7 @@
        "elements": []
       },
       {
-       "id": "f73b76c",
+       "id": "e7b24b1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1886,7 +1023,7 @@
        "elements": []
       },
       {
-       "id": "70c639d",
+       "id": "52720e0",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1935,7 +1072,7 @@
      "isInner": false
     },
     {
-     "id": "e46de7e",
+     "id": "9be40ce",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -1948,7 +1085,7 @@
      },
      "elements": [
       {
-       "id": "28f0b86",
+       "id": "c3e878e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
