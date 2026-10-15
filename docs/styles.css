@@ -422,3 +422,8 @@ h1, h2, h3 { text-wrap: balance; }
 .usp-item span { font-size: 12.5px; }
 .info-card small { font-size: 12px; }
 .crumbs { align-items: center; }
+.pdfs { position: static; justify-content: flex-end; margin-bottom: 20px; }
+@media (max-width: 960px) {
+  .gallery a[style*="span"] { grid-column: auto !important; }
+  .gallery a[style*="span"] img { aspect-ratio: 4 / 3 !important; }
+}

@@ -1,6 +1,6 @@
 # Plantillas de Elementor Pro – Aluminis l'Albera
 
-11 plantillas `.json`: 2 de Theme Builder (cabecera y pie) y 9 páginas.
+24 plantillas `.json`: 2 de Theme Builder (cabecera y pie) y 22 páginas.
 
 ## 1. Menú de WordPress (antes de importar)
 Apariencia → Menús → crea un menú llamado **Menú principal** (slug `menu-principal`) con:
@@ -29,6 +29,29 @@ Las páginas usan la plantilla "Ancho completo de Elementor" (con la cabecera y 
 | `portes-entrada-particular.json` | Galería Particular | `/portes-entrada-particular/` |
 | `portes-entrada-ocultec.json` | Galería OCULTEC | `/portes-entrada-ocultec/` |
 | `portes-entrada-comercial.json` | Galería Comercial | `/portes-entrada-comercial/` |
+
+### Páginas de producto (plantilla de la página 2 del PDF)
+Cada producto del menú usa la misma plantilla, con el texto y las fotos de su página en aluminisalbera.com.
+
+| Archivo | Producto | Slug nuevo | Slug en la web actual |
+|---|---|---|---|
+| `finestres-fulla-oculta.json` | Finestres fulla oculta C/16 | `/finestres-fulla-oculta/` | `/finestres-fulla-oculta/` |
+| `finestres-rpt-55.json` | Finestres RPT 55 | `/finestres-rpt-55/` | `/finestres-rpt-55/` |
+| `portes-dentrada.json` | Portes d'entrada | `/portes-dentrada/` | `/portes-dentrada/` |
+| `persianes.json` | Persianes | `/persianes/` | `/portes-de-garaig/` |
+| `persianes-locals-comercials.json` | Persianes locals comercials | `/persianes-locals-comercials/` | `/persianes/` |
+| `corredisses.json` | Corredisses | `/corredisses/` | `/correderes/` |
+| `corredisses-grans-dimensions.json` | Corredisses grans dimensions | `/corredisses-grans-dimensions/` | `/correderes-grans-dimensions/` |
+| `baranes.json` | Baranes | `/baranes/` | `/baranes/` |
+| `pergoles-bioclimatiques.json` | Pèrgoles bioclimàtiques | `/pergoles-bioclimatiques/` | `/pergoles/` |
+| `sostres-dalumini.json` | Sostres d'alumini | `/sostres-dalumini/` | `/sostres-dalumini/` |
+| `tancaments-jardi.json` | Tancaments jardí | `/tancaments-jardi/` | `/tancaments-jardi/` |
+| `mampares-de-bany.json` | Mampares de bany | `/mampares-de-bany/` | `/mampares/` |
+| `muntatge.json` | Muntatge | `/muntatge/` | `/muntatges/` |
+| `altres-feines.json` | Altres feines | `/altres-feines/` | `/altres-feines/` |
+
+Si sustituyes la web actual, los slugs que cambian necesitan una redirección 301 desde el antiguo para no perder posicionamiento.
+Ojo: en la web actual `/portes-de-garaig/` contiene en realidad las persianes y `/persianes/` las persianes de locals comercials.
 
 Crea las páginas con esos slugs para que los enlaces funcionen.
 
