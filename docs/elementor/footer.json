@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "9667150",
+   "id": "1090781",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -54,7 +54,7 @@
    },
    "elements": [
     {
-     "id": "074177d",
+     "id": "487d4c6",
      "elType": "column",
      "settings": {
       "_column_size": 18,
@@ -65,7 +65,7 @@
      },
      "elements": [
       {
-       "id": "53ed35c",
+       "id": "e0f7a4d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -94,7 +94,7 @@
      "isInner": false
     },
     {
-     "id": "cd0cbcc",
+     "id": "b6e3232",
      "elType": "column",
      "settings": {
       "_column_size": 47,
@@ -105,7 +105,7 @@
      },
      "elements": [
       {
-       "id": "95f8d99",
+       "id": "d4dd111",
        "elType": "widget",
        "widgetType": "nav-menu",
        "settings": {
@@ -176,7 +176,7 @@
      "isInner": false
     },
     {
-     "id": "fe40fb9",
+     "id": "90aef91",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -187,7 +187,7 @@
      },
      "elements": [
       {
-       "id": "6150ccc",
+       "id": "1a3f91f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -217,7 +217,7 @@
         "title_typography_font_family": "Inter",
         "title_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "title_typography_font_weight": "400",
@@ -225,7 +225,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -236,7 +236,7 @@
      "isInner": false
     },
     {
-     "id": "cc7e2b8",
+     "id": "3147da8",
      "elType": "column",
      "settings": {
       "_column_size": 15,
@@ -247,7 +247,7 @@
      },
      "elements": [
       {
-       "id": "a376033",
+       "id": "b166b57",
        "elType": "widget",
        "widgetType": "social-icons",
        "settings": {
@@ -263,7 +263,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "2b8eba3"
+          "_id": "653ac11"
          },
          {
           "social_icon": {
@@ -276,7 +276,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "51de85d"
+          "_id": "b0b79da"
          },
          {
           "social_icon": {
@@ -289,7 +289,7 @@
            "nofollow": "",
            "custom_attributes": ""
           },
-          "_id": "cd0f74b"
+          "_id": "3dd9424"
          }
         ],
         "shape": "rounded",
@@ -323,7 +323,7 @@
    "isInner": false
   },
   {
-   "id": "d6bcb48",
+   "id": "be6c7b0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -363,7 +363,7 @@
    },
    "elements": [
     {
-     "id": "0f46c64",
+     "id": "df1f1d2",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -374,7 +374,7 @@
      },
      "elements": [
       {
-       "id": "dc16622",
+       "id": "758a066",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -383,7 +383,7 @@
        "elements": []
       },
       {
-       "id": "743394b",
+       "id": "2952351",
        "elType": "widget",
        "widgetType": "icon",
        "settings": {

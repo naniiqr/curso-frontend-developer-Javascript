@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "ab817c9",
+   "id": "dc6a648",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "f1b6f28",
+     "id": "e836d81",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "0353ab4",
+       "id": "428fca9",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "51d92be",
+       "id": "f1b6f28",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -115,7 +115,7 @@
          "size": 52,
          "sizes": []
         },
-        "typography_font_weight": "300",
+        "typography_font_weight": "400",
         "typography_font_size_mobile": {
          "unit": "px",
          "size": 32,
@@ -143,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "428fca9",
+       "id": "68ce199",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -178,7 +178,7 @@
      "isInner": false
     },
     {
-     "id": "e836d81",
+     "id": "877a9ba",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -191,7 +191,7 @@
      },
      "elements": [
       {
-       "id": "68ce199",
+       "id": "ab817c9",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -210,7 +210,7 @@
    "isInner": false
   },
   {
-   "id": "9461cce",
+   "id": "e1e32e2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -248,7 +248,7 @@
    },
    "elements": [
     {
-     "id": "dc6a648",
+     "id": "8e6b42f",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -259,7 +259,7 @@
      },
      "elements": [
       {
-       "id": "877a9ba",
+       "id": "2633735",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -271,7 +271,7 @@
      "isInner": false
     },
     {
-     "id": "6ea2ef7",
+     "id": "f770b62",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -292,7 +292,7 @@
      },
      "elements": [
       {
-       "id": "2633735",
+       "id": "ef575e8",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -330,7 +330,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -338,7 +338,7 @@
        "elements": []
       },
       {
-       "id": "8e6b42f",
+       "id": "2050e03",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -357,7 +357,7 @@
        "elements": []
       },
       {
-       "id": "ef575e8",
+       "id": "25ddc0f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -395,7 +395,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -403,7 +403,7 @@
        "elements": []
       },
       {
-       "id": "2050e03",
+       "id": "5ef0b4e",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -422,7 +422,7 @@
        "elements": []
       },
       {
-       "id": "25ddc0f",
+       "id": "598b3e7",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -460,7 +460,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -468,7 +468,7 @@
        "elements": []
       },
       {
-       "id": "5ef0b4e",
+       "id": "74071a6",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -487,7 +487,7 @@
        "elements": []
       },
       {
-       "id": "598b3e7",
+       "id": "cfee398",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -525,7 +525,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -533,7 +533,7 @@
        "elements": []
       },
       {
-       "id": "74071a6",
+       "id": "d18f655",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -552,7 +552,7 @@
        "elements": []
       },
       {
-       "id": "cfee398",
+       "id": "6ea2ef7",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -590,7 +590,7 @@
         "description_typography_font_family": "Inter",
         "description_typography_font_size": {
          "unit": "px",
-         "size": 12,
+         "size": 14,
          "sizes": []
         },
         "description_typography_font_weight": "400"
@@ -598,7 +598,7 @@
        "elements": []
       },
       {
-       "id": "d18f655",
+       "id": "9461cce",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
