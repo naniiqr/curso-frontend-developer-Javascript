@@ -507,3 +507,4 @@ p, li { max-width: 70ch; }
   .social { margin-left: auto; }
   .loc { border-left: 0; padding-left: 0; }
 }
+.cta-band > img { object-position: center 42%; }
