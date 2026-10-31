@@ -42,10 +42,10 @@
     "background_background": "classic",
     "background_color": "#0c0c0d",
     "background_image": {
-     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/hero-home.jpg",
+     "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/contact-hero.jpg",
      "id": ""
     },
-    "background_position": "center right",
+    "background_position": "bottom right",
     "background_repeat": "no-repeat",
     "background_size": "cover",
     "background_overlay_background": "gradient",
@@ -69,12 +69,12 @@
     "height": "min-height",
     "custom_height": {
      "unit": "px",
-     "size": 380,
+     "size": 440,
      "sizes": []
     },
     "custom_height_mobile": {
      "unit": "px",
-     "size": 323,
+     "size": 374,
      "sizes": []
     }
    },
