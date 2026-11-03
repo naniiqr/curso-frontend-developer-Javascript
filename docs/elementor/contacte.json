@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "dc6a648",
+   "id": "25ddc0f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "e836d81",
+     "id": "8e6b42f",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "428fca9",
+       "id": "877a9ba",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Contacte</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Contacte</span></div>"
        },
        "elements": []
       },
       {
-       "id": "f1b6f28",
+       "id": "dc6a648",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "68ce199",
+       "id": "2633735",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -178,7 +178,7 @@
      "isInner": false
     },
     {
-     "id": "877a9ba",
+     "id": "2050e03",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -191,7 +191,7 @@
      },
      "elements": [
       {
-       "id": "ab817c9",
+       "id": "ef575e8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -210,7 +210,7 @@
    "isInner": false
   },
   {
-   "id": "e1e32e2",
+   "id": "c3c59e5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -248,7 +248,7 @@
    },
    "elements": [
     {
-     "id": "8e6b42f",
+     "id": "598b3e7",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -259,7 +259,7 @@
      },
      "elements": [
       {
-       "id": "2633735",
+       "id": "5ef0b4e",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -271,7 +271,7 @@
      "isInner": false
     },
     {
-     "id": "f770b62",
+     "id": "a516a87",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -292,7 +292,7 @@
      },
      "elements": [
       {
-       "id": "ef575e8",
+       "id": "74071a6",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -338,7 +338,7 @@
        "elements": []
       },
       {
-       "id": "2050e03",
+       "id": "cfee398",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -357,7 +357,7 @@
        "elements": []
       },
       {
-       "id": "25ddc0f",
+       "id": "d18f655",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -403,7 +403,7 @@
        "elements": []
       },
       {
-       "id": "5ef0b4e",
+       "id": "6ea2ef7",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -422,7 +422,7 @@
        "elements": []
       },
       {
-       "id": "598b3e7",
+       "id": "9461cce",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -468,7 +468,7 @@
        "elements": []
       },
       {
-       "id": "74071a6",
+       "id": "f770b62",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -487,7 +487,7 @@
        "elements": []
       },
       {
-       "id": "cfee398",
+       "id": "e1e32e2",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
        "elements": []
       },
       {
-       "id": "d18f655",
+       "id": "eba0dc3",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -552,7 +552,7 @@
        "elements": []
       },
       {
-       "id": "6ea2ef7",
+       "id": "218a0ae",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -598,7 +598,7 @@
        "elements": []
       },
       {
-       "id": "9461cce",
+       "id": "7d04bbb",
        "elType": "widget",
        "widgetType": "html",
        "settings": {
@@ -617,7 +617,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "e97ee20",
+   "id": "addfa9b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "02a32ad",
+     "id": "22ac3c5",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "b0b183c",
+       "id": "362e80d",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Persianes</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Persianes</span></div>"
        },
        "elements": []
       },
       {
-       "id": "f9028fa",
+       "id": "fe8c15f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "8f7d807",
+       "id": "1efa39b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "fa83a11",
+       "id": "92fb0c6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,11 +214,158 @@
        "elements": []
       },
       {
-       "id": "ab88b15",
+       "id": "84f7e69",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Demana pressupost &rarr;</a><a href=\"#galeria\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure la galeria &rarr;</a>"
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f455267",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Veure la galeria",
+        "link": {
+         "url": "#galeria",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -226,7 +373,7 @@
      "isInner": false
     },
     {
-     "id": "3d8e28c",
+     "id": "f7e9050",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -239,7 +386,7 @@
      },
      "elements": [
       {
-       "id": "fc3cf45",
+       "id": "aff1621",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -258,7 +405,7 @@
    "isInner": false
   },
   {
-   "id": "aff1621",
+   "id": "1fc2140",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -308,7 +455,7 @@
    },
    "elements": [
     {
-     "id": "84f7e69",
+     "id": "847cc55",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -319,7 +466,7 @@
      },
      "elements": [
       {
-       "id": "b86e8d0",
+       "id": "8c235f8",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -368,7 +515,7 @@
      "isInner": false
     },
     {
-     "id": "362e80d",
+     "id": "2a084e5",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -379,7 +526,7 @@
      },
      "elements": [
       {
-       "id": "f455267",
+       "id": "a67f096",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -428,7 +575,7 @@
      "isInner": false
     },
     {
-     "id": "1efa39b",
+     "id": "f9a40a4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -439,7 +586,7 @@
      },
      "elements": [
       {
-       "id": "fe8c15f",
+       "id": "fc49306",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -488,7 +635,7 @@
      "isInner": false
     },
     {
-     "id": "22ac3c5",
+     "id": "19b6506",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -499,7 +646,7 @@
      },
      "elements": [
       {
-       "id": "92fb0c6",
+       "id": "5ec91aa",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -551,7 +698,7 @@
    "isInner": false
   },
   {
-   "id": "ede7e2b",
+   "id": "dd8eb9f",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -586,7 +733,7 @@
    },
    "elements": [
     {
-     "id": "addfa9b",
+     "id": "ca8155f",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -597,7 +744,7 @@
      },
      "elements": [
       {
-       "id": "f7e9050",
+       "id": "3b3dbaf",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -631,7 +778,7 @@
      "isInner": false
     },
     {
-     "id": "ca8155f",
+     "id": "3524072",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -650,16 +797,16 @@
      },
      "elements": [
       {
-       "id": "8c235f8",
+       "id": "ede7e2b",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
+        "editor": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
        },
        "elements": []
       },
       {
-       "id": "847cc55",
+       "id": "dd45045",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -698,7 +845,7 @@
        "elements": []
       },
       {
-       "id": "a67f096",
+       "id": "49c9adb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -741,7 +888,7 @@
        "elements": []
       },
       {
-       "id": "2a084e5",
+       "id": "22fb0ce",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -773,7 +920,7 @@
        "elements": []
       },
       {
-       "id": "3b3dbaf",
+       "id": "67d16d0",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -784,7 +931,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "fc49306"
+          "_id": "aeb3135"
          },
          {
           "text": "Eviten l'entrada de la calor o del fred",
@@ -792,7 +939,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "f9a40a4"
+          "_id": "43feaee"
          },
          {
           "text": "Persianes de seguretat",
@@ -800,7 +947,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "5ec91aa"
+          "_id": "98d6f58"
          },
          {
           "text": "Persianes apilables",
@@ -808,7 +955,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "19b6506"
+          "_id": "51ef186"
          },
          {
           "text": "Persianes mallorquines",
@@ -816,7 +963,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "1fc2140"
+          "_id": "4b0a59d"
          }
         ],
         "icon_color": "#e4152d",
@@ -849,7 +996,7 @@
    "isInner": false
   },
   {
-   "id": "43feaee",
+   "id": "210f760",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -894,7 +1041,7 @@
    },
    "elements": [
     {
-     "id": "22fb0ce",
+     "id": "7504ada",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -905,7 +1052,7 @@
      },
      "elements": [
       {
-       "id": "49c9adb",
+       "id": "1f50893",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -951,7 +1098,7 @@
      "isInner": false
     },
     {
-     "id": "aeb3135",
+     "id": "6c3cf77",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -962,11 +1109,11 @@
      },
      "elements": [
       {
-       "id": "dd45045",
+       "id": "d516b13",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
+        "editor": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
        },
        "elements": []
       }
@@ -977,7 +1124,7 @@
    "isInner": false
   },
   {
-   "id": "7504ada",
+   "id": "c2aee86",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1015,7 +1162,7 @@
    },
    "elements": [
     {
-     "id": "51ef186",
+     "id": "0efe328",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1026,7 +1173,7 @@
      },
      "elements": [
       {
-       "id": "98d6f58",
+       "id": "170c944",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1061,7 +1208,7 @@
      "isInner": false
     },
     {
-     "id": "67d16d0",
+     "id": "7ce3284",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1072,7 +1219,7 @@
      },
      "elements": [
       {
-       "id": "4b0a59d",
+       "id": "704afe0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1107,7 +1254,7 @@
      "isInner": false
     },
     {
-     "id": "dd8eb9f",
+     "id": "0787191",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1118,7 +1265,7 @@
      },
      "elements": [
       {
-       "id": "3524072",
+       "id": "0a113ef",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1153,7 +1300,7 @@
      "isInner": false
     },
     {
-     "id": "1f50893",
+     "id": "cfbce4c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1164,7 +1311,7 @@
      },
      "elements": [
       {
-       "id": "d516b13",
+       "id": "024d7f8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1202,7 +1349,7 @@
    "isInner": false
   },
   {
-   "id": "c2aee86",
+   "id": "aa169b4",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1242,7 +1389,7 @@
    },
    "elements": [
     {
-     "id": "170c944",
+     "id": "20aee3a",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1261,7 +1408,7 @@
      },
      "elements": [
       {
-       "id": "6c3cf77",
+       "id": "d56b9fc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1294,11 +1441,11 @@
        "elements": []
       },
       {
-       "id": "210f760",
+       "id": "4b02507",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Tipus</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">De seguretat, apilables i mallorquines</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Avantatges</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Menys soroll exterior, menys calor i menys fred</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Solució</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Adaptada a les necessitats de cada client</td></tr></table>"
+        "editor": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Tipus</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">De seguretat, apilables i mallorquines</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Avantatges</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Menys soroll exterior, menys calor i menys fred</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Solució</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Adaptada a les necessitats de cada client</td></tr></table>"
        },
        "elements": []
       }
@@ -1306,7 +1453,7 @@
      "isInner": false
     },
     {
-     "id": "cfbce4c",
+     "id": "b6a1085",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1340,7 +1487,7 @@
      },
      "elements": [
       {
-       "id": "0efe328",
+       "id": "061412e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1379,7 +1526,7 @@
        "elements": []
       },
       {
-       "id": "704afe0",
+       "id": "5705e11",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1422,7 +1569,7 @@
        "elements": []
       },
       {
-       "id": "7ce3284",
+       "id": "a64c94b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1454,7 +1601,7 @@
        "elements": []
       },
       {
-       "id": "0a113ef",
+       "id": "0188251",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1523,7 +1670,7 @@
        "elements": []
       },
       {
-       "id": "0787191",
+       "id": "acf4b89",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1536,7 +1683,7 @@
        "elements": []
       },
       {
-       "id": "024d7f8",
+       "id": "892c91e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1566,7 +1713,7 @@
    "isInner": false
   },
   {
-   "id": "0188251",
+   "id": "e205ee2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1605,7 +1752,7 @@
    },
    "elements": [
     {
-     "id": "061412e",
+     "id": "621461a",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1616,7 +1763,7 @@
      },
      "elements": [
       {
-       "id": "d56b9fc",
+       "id": "f47d0ad",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1655,7 +1802,7 @@
        "elements": []
       },
       {
-       "id": "4b02507",
+       "id": "f57a2f5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1698,7 +1845,7 @@
        "elements": []
       },
       {
-       "id": "20aee3a",
+       "id": "c8fbbc8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1725,7 +1872,7 @@
      "isInner": false
     },
     {
-     "id": "a64c94b",
+     "id": "a4300b0",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1736,7 +1883,7 @@
      },
      "elements": [
       {
-       "id": "5705e11",
+       "id": "8b6dd7d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1767,7 +1914,7 @@
    "isInner": false
   },
   {
-   "id": "437d7d1",
+   "id": "6602294",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1805,7 +1952,7 @@
    },
    "elements": [
     {
-     "id": "892c91e",
+     "id": "2a9d121",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1816,7 +1963,7 @@
      },
      "elements": [
       {
-       "id": "acf4b89",
+       "id": "b56a18e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1851,7 +1998,7 @@
      "isInner": false
     },
     {
-     "id": "aa169b4",
+     "id": "7634ea6",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1862,7 +2009,7 @@
      },
      "elements": [
       {
-       "id": "b6a1085",
+       "id": "8b5040a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1897,7 +2044,7 @@
      "isInner": false
     },
     {
-     "id": "f57a2f5",
+     "id": "23ce185",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1908,7 +2055,7 @@
      },
      "elements": [
       {
-       "id": "f47d0ad",
+       "id": "24896ee",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1943,7 +2090,7 @@
      "isInner": false
     },
     {
-     "id": "621461a",
+     "id": "1e056d2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1954,7 +2101,7 @@
      },
      "elements": [
       {
-       "id": "c8fbbc8",
+       "id": "da0d111",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1992,7 +2139,7 @@
    "isInner": false
   },
   {
-   "id": "d707329",
+   "id": "c22abfa",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2030,7 +2177,7 @@
    },
    "elements": [
     {
-     "id": "a4300b0",
+     "id": "6d0f846",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2041,7 +2188,7 @@
      },
      "elements": [
       {
-       "id": "8b6dd7d",
+       "id": "3e89ebd",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2076,7 +2223,7 @@
      "isInner": false
     },
     {
-     "id": "b56a18e",
+     "id": "ccc0aa1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2087,7 +2234,7 @@
      },
      "elements": [
       {
-       "id": "e205ee2",
+       "id": "430c362",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2122,7 +2269,7 @@
      "isInner": false
     },
     {
-     "id": "8b5040a",
+     "id": "bea5955",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2133,7 +2280,7 @@
      },
      "elements": [
       {
-       "id": "2a9d121",
+       "id": "c4015b7",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2168,7 +2315,7 @@
      "isInner": false
     },
     {
-     "id": "24896ee",
+     "id": "cbb6a3b",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2179,7 +2326,7 @@
      },
      "elements": [
       {
-       "id": "7634ea6",
+       "id": "7fa732b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2217,7 +2364,7 @@
    "isInner": false
   },
   {
-   "id": "5c93626",
+   "id": "ca75910",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2255,7 +2402,7 @@
    },
    "elements": [
     {
-     "id": "da0d111",
+     "id": "d045c59",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2266,7 +2413,7 @@
      },
      "elements": [
       {
-       "id": "23ce185",
+       "id": "1f4477b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2301,7 +2448,7 @@
      "isInner": false
     },
     {
-     "id": "3e89ebd",
+     "id": "1cc3633",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2312,7 +2459,7 @@
      },
      "elements": [
       {
-       "id": "1e056d2",
+       "id": "0d0871f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2347,7 +2494,7 @@
      "isInner": false
     },
     {
-     "id": "430c362",
+     "id": "d2ed45a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2358,7 +2505,7 @@
      },
      "elements": [
       {
-       "id": "6d0f846",
+       "id": "9f53d83",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2393,7 +2540,7 @@
      "isInner": false
     },
     {
-     "id": "c4015b7",
+     "id": "4daa3db",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2404,7 +2551,7 @@
      },
      "elements": [
       {
-       "id": "ccc0aa1",
+       "id": "043c3d7",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2442,7 +2589,7 @@
    "isInner": false
   },
   {
-   "id": "1ce927f",
+   "id": "4311359",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2480,7 +2627,7 @@
    },
    "elements": [
     {
-     "id": "7fa732b",
+     "id": "90794e3",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2491,7 +2638,7 @@
      },
      "elements": [
       {
-       "id": "bea5955",
+       "id": "e820a45",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2526,7 +2673,7 @@
      "isInner": false
     },
     {
-     "id": "1f4477b",
+     "id": "74bba22",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2537,7 +2684,7 @@
      },
      "elements": [
       {
-       "id": "cbb6a3b",
+       "id": "b7892fb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2572,7 +2719,7 @@
      "isInner": false
     },
     {
-     "id": "0d0871f",
+     "id": "8d6dc35",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2583,7 +2730,7 @@
      },
      "elements": [
       {
-       "id": "d045c59",
+       "id": "3df1d4b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2618,7 +2765,7 @@
      "isInner": false
     },
     {
-     "id": "9f53d83",
+     "id": "b55ec28",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2629,7 +2776,7 @@
      },
      "elements": [
       {
-       "id": "1cc3633",
+       "id": "92262bf",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2667,7 +2814,7 @@
    "isInner": false
   },
   {
-   "id": "8065d07",
+   "id": "92977ae",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2705,7 +2852,7 @@
    },
    "elements": [
     {
-     "id": "043c3d7",
+     "id": "64223cc",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2716,7 +2863,7 @@
      },
      "elements": [
       {
-       "id": "d2ed45a",
+       "id": "2f885d0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2751,7 +2898,7 @@
      "isInner": false
     },
     {
-     "id": "e820a45",
+     "id": "c8c41c4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2762,7 +2909,7 @@
      },
      "elements": [
       {
-       "id": "4daa3db",
+       "id": "4b6538a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2797,7 +2944,7 @@
      "isInner": false
     },
     {
-     "id": "b7892fb",
+     "id": "58e4d44",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2808,7 +2955,7 @@
      },
      "elements": [
       {
-       "id": "90794e3",
+       "id": "c4b31ce",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2843,7 +2990,7 @@
      "isInner": false
     },
     {
-     "id": "3df1d4b",
+     "id": "a3d68b4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2854,7 +3001,7 @@
      },
      "elements": [
       {
-       "id": "74bba22",
+       "id": "3cef96d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2892,7 +3039,7 @@
    "isInner": false
   },
   {
-   "id": "eeb69a3",
+   "id": "9c01802",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2930,7 +3077,7 @@
    },
    "elements": [
     {
-     "id": "92262bf",
+     "id": "e6cb2a3",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2941,7 +3088,7 @@
      },
      "elements": [
       {
-       "id": "8d6dc35",
+       "id": "1c1d4df",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2976,7 +3123,7 @@
      "isInner": false
     },
     {
-     "id": "2f885d0",
+     "id": "6395ebd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2987,7 +3134,7 @@
      },
      "elements": [
       {
-       "id": "b55ec28",
+       "id": "9232fe8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3022,7 +3169,7 @@
      "isInner": false
     },
     {
-     "id": "4b6538a",
+     "id": "168908d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3033,7 +3180,7 @@
      },
      "elements": [
       {
-       "id": "64223cc",
+       "id": "ef4e3b7",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3068,7 +3215,7 @@
      "isInner": false
     },
     {
-     "id": "c4b31ce",
+     "id": "d240e3d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3079,7 +3226,7 @@
      },
      "elements": [
       {
-       "id": "c8c41c4",
+       "id": "2ba5966",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3117,7 +3264,7 @@
    "isInner": false
   },
   {
-   "id": "4e0cb6f",
+   "id": "cc1aa43",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3155,7 +3302,7 @@
    },
    "elements": [
     {
-     "id": "3cef96d",
+     "id": "437d7d1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3166,7 +3313,7 @@
      },
      "elements": [
       {
-       "id": "58e4d44",
+       "id": "0f840be",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3201,7 +3348,7 @@
      "isInner": false
     },
     {
-     "id": "1c1d4df",
+     "id": "5c93626",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3212,7 +3359,7 @@
      },
      "elements": [
       {
-       "id": "a3d68b4",
+       "id": "d707329",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3247,7 +3394,7 @@
      "isInner": false
     },
     {
-     "id": "9232fe8",
+     "id": "8065d07",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3258,7 +3405,7 @@
      },
      "elements": [
       {
-       "id": "e6cb2a3",
+       "id": "1ce927f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3293,7 +3440,7 @@
      "isInner": false
     },
     {
-     "id": "ef4e3b7",
+     "id": "4e0cb6f",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3304,7 +3451,7 @@
      },
      "elements": [
       {
-       "id": "6395ebd",
+       "id": "eeb69a3",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3342,7 +3489,7 @@
    "isInner": false
   },
   {
-   "id": "6cfe0e6",
+   "id": "2ab5641",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3380,7 +3527,7 @@
    },
    "elements": [
     {
-     "id": "2ba5966",
+     "id": "8f468c8",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3391,7 +3538,7 @@
      },
      "elements": [
       {
-       "id": "168908d",
+       "id": "6cfe0e6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3426,7 +3573,7 @@
      "isInner": false
     },
     {
-     "id": "0f840be",
+     "id": "89fcd07",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3437,7 +3584,7 @@
      },
      "elements": [
       {
-       "id": "d240e3d",
+       "id": "e744f91",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3475,7 +3622,7 @@
    "isInner": false
   },
   {
-   "id": "89fcd07",
+   "id": "287e03d",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3513,7 +3660,7 @@
    },
    "elements": [
     {
-     "id": "e744f91",
+     "id": "d79aac0",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -3524,7 +3671,7 @@
      },
      "elements": [
       {
-       "id": "8f468c8",
+       "id": "c32d9bf",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3599,7 +3746,7 @@
    "isInner": false
   },
   {
-   "id": "287e03d",
+   "id": "860320b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3664,7 +3811,7 @@
    },
    "elements": [
     {
-     "id": "2ab5641",
+     "id": "a1140a3",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3675,7 +3822,7 @@
      },
      "elements": [
       {
-       "id": "6602294",
+       "id": "fec8d47",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3718,7 +3865,7 @@
        "elements": []
       },
       {
-       "id": "c22abfa",
+       "id": "6aab127",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3750,7 +3897,7 @@
        "elements": []
       },
       {
-       "id": "ca75910",
+       "id": "d93ed5b",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3822,7 +3969,7 @@
      "isInner": false
     },
     {
-     "id": "c32d9bf",
+     "id": "4fac9ba",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3833,7 +3980,7 @@
      },
      "elements": [
       {
-       "id": "4311359",
+       "id": "54a367d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3879,7 +4026,7 @@
        "elements": []
       },
       {
-       "id": "92977ae",
+       "id": "fe7ee8f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3925,7 +4072,7 @@
        "elements": []
       },
       {
-       "id": "9c01802",
+       "id": "df6d233",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3974,7 +4121,7 @@
      "isInner": false
     },
     {
-     "id": "d79aac0",
+     "id": "692f93b",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3987,7 +4134,7 @@
      },
      "elements": [
       {
-       "id": "cc1aa43",
+       "id": "9908279",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4032,7 +4179,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

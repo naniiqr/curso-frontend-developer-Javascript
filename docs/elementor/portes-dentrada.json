@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "d5cfead",
+   "id": "217eedd",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "fb89705",
+     "id": "6cd67d9",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "08419be",
+       "id": "59c3301",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Portes d'entrada</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Portes d'entrada</span></div>"
        },
        "elements": []
       },
       {
-       "id": "7f1171a",
+       "id": "ba38666",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "82f2b30",
+       "id": "6c29793",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "0d3180d",
+       "id": "e995f98",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,11 +214,158 @@
        "elements": []
       },
       {
-       "id": "c8ed21d",
+       "id": "5751ec3",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Demana pressupost &rarr;</a><a href=\"#galeria\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure la galeria &rarr;</a>"
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d5cfead",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Veure la galeria",
+        "link": {
+         "url": "#galeria",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -226,7 +373,7 @@
      "isInner": false
     },
     {
-     "id": "5751ec3",
+     "id": "a5cdd4a",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -239,7 +386,7 @@
      },
      "elements": [
       {
-       "id": "d4c2e4a",
+       "id": "6bc24fc",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -258,7 +405,7 @@
    "isInner": false
   },
   {
-   "id": "df263d9",
+   "id": "8d317bd",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -308,7 +455,7 @@
    },
    "elements": [
     {
-     "id": "ba38666",
+     "id": "edfbe1a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -319,7 +466,7 @@
      },
      "elements": [
       {
-       "id": "59c3301",
+       "id": "df263d9",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -368,7 +515,7 @@
      "isInner": false
     },
     {
-     "id": "e995f98",
+     "id": "e94550c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -379,7 +526,7 @@
      },
      "elements": [
       {
-       "id": "6c29793",
+       "id": "2e65f2f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -428,7 +575,7 @@
      "isInner": false
     },
     {
-     "id": "6bc24fc",
+     "id": "0537fb4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -439,7 +586,7 @@
      },
      "elements": [
       {
-       "id": "6cd67d9",
+       "id": "5c572ec",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -488,7 +635,7 @@
      "isInner": false
     },
     {
-     "id": "217eedd",
+     "id": "185e65b",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -499,7 +646,7 @@
      },
      "elements": [
       {
-       "id": "a5cdd4a",
+       "id": "5f0f5e5",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -551,7 +698,7 @@
    "isInner": false
   },
   {
-   "id": "6f2268b",
+   "id": "eefc9e1",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -586,7 +733,7 @@
    },
    "elements": [
     {
-     "id": "2e65f2f",
+     "id": "b056eb1",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -597,7 +744,7 @@
      },
      "elements": [
       {
-       "id": "edfbe1a",
+       "id": "e49b8b4",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -631,7 +778,7 @@
      "isInner": false
     },
     {
-     "id": "a1d33d0",
+     "id": "06997f0",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -650,16 +797,16 @@
      },
      "elements": [
       {
-       "id": "e94550c",
+       "id": "b137fdd",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
+        "editor": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
        },
        "elements": []
       },
       {
-       "id": "5c572ec",
+       "id": "912d2b1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -698,7 +845,7 @@
        "elements": []
       },
       {
-       "id": "0537fb4",
+       "id": "a1d33d0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -741,7 +888,7 @@
        "elements": []
       },
       {
-       "id": "5f0f5e5",
+       "id": "6f2268b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -773,7 +920,7 @@
        "elements": []
       },
       {
-       "id": "b137fdd",
+       "id": "bf62768",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -784,7 +931,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "185e65b"
+          "_id": "872488f"
          },
          {
           "text": "Color adaptat a l'estil de l'entorn",
@@ -792,7 +939,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "8d317bd"
+          "_id": "ccb0989"
          },
          {
           "text": "Envidrament per a un ambient clar i acollidor",
@@ -800,7 +947,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "e49b8b4"
+          "_id": "2823f47"
          },
          {
           "text": "Galeries: particular, OCULTEC i comercial",
@@ -808,7 +955,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "b056eb1"
+          "_id": "470e7a4"
          }
         ],
         "icon_color": "#e4152d",
@@ -835,11 +982,236 @@
        "elements": []
       },
       {
-       "id": "912d2b1",
+       "id": "fa14d4f",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/portes-entrada-particular/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Galeria particular &rarr;</a><a href=\"/portes-entrada-ocultec/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Galeria OCULTEC &rarr;</a><a href=\"/portes-entrada-comercial/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Galeria comercial &rarr;</a>"
+        "text": "Galeria particular",
+        "link": {
+         "url": "/portes-entrada-particular/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "2ca65f5",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Galeria OCULTEC",
+        "link": {
+         "url": "/portes-entrada-ocultec/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "88ae637",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Galeria comercial",
+        "link": {
+         "url": "/portes-entrada-comercial/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -850,7 +1222,7 @@
    "isInner": false
   },
   {
-   "id": "bf62768",
+   "id": "3a835d3",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -895,7 +1267,7 @@
    },
    "elements": [
     {
-     "id": "2823f47",
+     "id": "959a557",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -906,7 +1278,7 @@
      },
      "elements": [
       {
-       "id": "ccb0989",
+       "id": "d840cc5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -952,7 +1324,7 @@
      "isInner": false
     },
     {
-     "id": "470e7a4",
+     "id": "f2201f5",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -963,11 +1335,11 @@
      },
      "elements": [
       {
-       "id": "872488f",
+       "id": "5807a68",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
+        "editor": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
        },
        "elements": []
       }
@@ -978,7 +1350,7 @@
    "isInner": false
   },
   {
-   "id": "f2201f5",
+   "id": "f1c1592",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1016,7 +1388,7 @@
    },
    "elements": [
     {
-     "id": "2ca65f5",
+     "id": "4ea06fb",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1027,7 +1399,7 @@
      },
      "elements": [
       {
-       "id": "fa14d4f",
+       "id": "288cc0f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1062,7 +1434,7 @@
      "isInner": false
     },
     {
-     "id": "06997f0",
+     "id": "e57c6b9",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1073,7 +1445,7 @@
      },
      "elements": [
       {
-       "id": "88ae637",
+       "id": "b7ee6f5",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1108,7 +1480,7 @@
      "isInner": false
     },
     {
-     "id": "5807a68",
+     "id": "4e0928d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1119,7 +1491,7 @@
      },
      "elements": [
       {
-       "id": "eefc9e1",
+       "id": "86b122d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1154,7 +1526,7 @@
      "isInner": false
     },
     {
-     "id": "959a557",
+     "id": "8c6744c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1165,7 +1537,7 @@
      },
      "elements": [
       {
-       "id": "d840cc5",
+       "id": "c0f168c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1203,7 +1575,7 @@
    "isInner": false
   },
   {
-   "id": "e074133",
+   "id": "c15da1f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1243,7 +1615,7 @@
    },
    "elements": [
     {
-     "id": "4ea06fb",
+     "id": "a8e864d",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1262,7 +1634,7 @@
      },
      "elements": [
       {
-       "id": "3a835d3",
+       "id": "e074133",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1295,11 +1667,11 @@
        "elements": []
       },
       {
-       "id": "288cc0f",
+       "id": "67d96d4",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Personalització</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Totalment a mida</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Color</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">S'adapta a l'estil de l'entorn</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Envidrament</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Ambient clar i acollidor</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Galeries</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Particular · OCULTEC · Comercial</td></tr></table>"
+        "editor": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Personalització</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Totalment a mida</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Color</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">S'adapta a l'estil de l'entorn</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Envidrament</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Ambient clar i acollidor</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Galeries</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Particular · OCULTEC · Comercial</td></tr></table>"
        },
        "elements": []
       }
@@ -1307,7 +1679,7 @@
      "isInner": false
     },
     {
-     "id": "f1c1592",
+     "id": "3621f14",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1341,7 +1713,7 @@
      },
      "elements": [
       {
-       "id": "b7ee6f5",
+       "id": "7143d7f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1380,7 +1752,7 @@
        "elements": []
       },
       {
-       "id": "e57c6b9",
+       "id": "72da7fd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1423,7 +1795,7 @@
        "elements": []
       },
       {
-       "id": "86b122d",
+       "id": "6e0721b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1455,7 +1827,7 @@
        "elements": []
       },
       {
-       "id": "4e0928d",
+       "id": "fc8001f",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1524,7 +1896,7 @@
        "elements": []
       },
       {
-       "id": "c0f168c",
+       "id": "4b04a68",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1537,7 +1909,7 @@
        "elements": []
       },
       {
-       "id": "8c6744c",
+       "id": "61b4a64",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1567,7 +1939,7 @@
    "isInner": false
   },
   {
-   "id": "4b04a68",
+   "id": "7c590f0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1606,7 +1978,7 @@
    },
    "elements": [
     {
-     "id": "72da7fd",
+     "id": "96ea64f",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1617,7 +1989,7 @@
      },
      "elements": [
       {
-       "id": "67d96d4",
+       "id": "68053af",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1656,7 +2028,7 @@
        "elements": []
       },
       {
-       "id": "a8e864d",
+       "id": "2dace78",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1699,7 +2071,7 @@
        "elements": []
       },
       {
-       "id": "7143d7f",
+       "id": "df7f28a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1726,7 +2098,7 @@
      "isInner": false
     },
     {
-     "id": "fc8001f",
+     "id": "82489c9",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1737,7 +2109,7 @@
      },
      "elements": [
       {
-       "id": "6e0721b",
+       "id": "da8ce53",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1768,7 +2140,7 @@
    "isInner": false
   },
   {
-   "id": "f0adc88",
+   "id": "c2626d8",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1805,277 +2177,6 @@
     }
    },
    "elements": [
-    {
-     "id": "3621f14",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "61b4a64",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-01.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "68053af",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "c15da1f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "df7f28a",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "2dace78",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "da8ce53",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "96ea64f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "3b5dca5",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "7c590f0",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "82489c9",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
     {
      "id": "beb22fb",
      "elType": "column",
@@ -2093,7 +2194,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-01.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2139,7 +2240,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2185,7 +2286,53 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "1aa48fc",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "1141938",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2218,7 +2365,7 @@
    "isInner": false
   },
   {
-   "id": "e2a2dcc",
+   "id": "ce78d1d",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2256,52 +2403,6 @@
    },
    "elements": [
     {
-     "id": "1aa48fc",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1141938",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
      "id": "846c260",
      "elType": "column",
      "settings": {
@@ -2318,7 +2419,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2364,7 +2465,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2410,7 +2511,53 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "670e8a4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "b6edc1c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2443,7 +2590,7 @@
    "isInner": false
   },
   {
-   "id": "4558dbb",
+   "id": "8e82ab7",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2452,7 +2599,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "72",
+     "bottom": "3",
      "left": "0",
      "isLinked": false
     },
@@ -2460,7 +2607,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "54",
+     "bottom": "2",
      "left": "24",
      "isLinked": false
     },
@@ -2468,7 +2615,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "40",
+     "bottom": "2",
      "left": "18",
      "isLinked": false
     },
@@ -2480,52 +2627,6 @@
     }
    },
    "elements": [
-    {
-     "id": "670e8a4",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "b6edc1c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
     {
      "id": "e0cf1f4",
      "elType": "column",
@@ -2543,7 +2644,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2589,7 +2690,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2635,6 +2736,277 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3b5dca5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "f0adc88",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e0ec453",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "4558dbb",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e2a2dcc",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "632cee9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "afda332",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "d554f7b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "677e097",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fa3a3c4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "795c7a7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-16.jpg",
          "id": ""
         },
@@ -2668,7 +3040,7 @@
    "isInner": false
   },
   {
-   "id": "677e097",
+   "id": "301ad0e",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2706,7 +3078,7 @@
    },
    "elements": [
     {
-     "id": "632cee9",
+     "id": "013a006",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2717,7 +3089,7 @@
      },
      "elements": [
       {
-       "id": "afda332",
+       "id": "7250eb9",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2792,7 +3164,7 @@
    "isInner": false
   },
   {
-   "id": "4d5b995",
+   "id": "b86e8d0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2857,7 +3229,7 @@
    },
    "elements": [
     {
-     "id": "7250eb9",
+     "id": "fc3cf45",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2868,7 +3240,7 @@
      },
      "elements": [
       {
-       "id": "d554f7b",
+       "id": "4d5b995",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2911,7 +3283,7 @@
        "elements": []
       },
       {
-       "id": "795c7a7",
+       "id": "ab88b15",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2943,7 +3315,7 @@
        "elements": []
       },
       {
-       "id": "fa3a3c4",
+       "id": "b0b183c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3015,7 +3387,7 @@
      "isInner": false
     },
     {
-     "id": "013a006",
+     "id": "3d8e28c",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3026,7 +3398,7 @@
      },
      "elements": [
       {
-       "id": "c2626d8",
+       "id": "f9028fa",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3072,7 +3444,7 @@
        "elements": []
       },
       {
-       "id": "ce78d1d",
+       "id": "8f7d807",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3118,7 +3490,7 @@
        "elements": []
       },
       {
-       "id": "8e82ab7",
+       "id": "fa83a11",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3167,7 +3539,7 @@
      "isInner": false
     },
     {
-     "id": "301ad0e",
+     "id": "e97ee20",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3180,7 +3552,7 @@
      },
      "elements": [
       {
-       "id": "e0ec453",
+       "id": "02a32ad",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3225,7 +3597,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

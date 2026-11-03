@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "82cec96",
+   "id": "6c524f9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "371bce7",
+     "id": "138bb06",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "0bb4aec",
+       "id": "9de6d14",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Projectes</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Projectes</span></div>"
        },
        "elements": []
       },
       {
-       "id": "9de6d14",
+       "id": "efe9377",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "efe9377",
+       "id": "371bce7",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -175,11 +175,80 @@
        "elements": []
       },
       {
-       "id": "01386bd",
+       "id": "0bb4aec",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Parlem del teu projecte &rarr;</a>"
+        "text": "Parlem del teu projecte",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -187,7 +256,7 @@
      "isInner": false
     },
     {
-     "id": "8dd48d6",
+     "id": "82cec96",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -200,7 +269,7 @@
      },
      "elements": [
       {
-       "id": "138bb06",
+       "id": "8dd48d6",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -219,7 +288,7 @@
    "isInner": false
   },
   {
-   "id": "fb7b9ff",
+   "id": "aa942ab",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -257,7 +326,7 @@
    },
    "elements": [
     {
-     "id": "6c524f9",
+     "id": "fb7b9ff",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -268,7 +337,7 @@
      },
      "elements": [
       {
-       "id": "c5ff254",
+       "id": "01386bd",
        "elType": "widget",
        "widgetType": "gallery",
        "settings": {
@@ -276,7 +345,7 @@
         "galleries": [
          {
           "gallery_title": "Finestres i corredisses",
-          "_id": "3dd48ab",
+          "_id": "58238e9",
           "multiple_gallery": [
            {
             "id": "",
@@ -362,7 +431,7 @@
          },
          {
           "gallery_title": "Portes d'entrada",
-          "_id": "58238e9",
+          "_id": "3ad7c2e",
           "multiple_gallery": [
            {
             "id": "",
@@ -432,7 +501,7 @@
          },
          {
           "gallery_title": "Persianes",
-          "_id": "3ad7c2e",
+          "_id": "b3967a0",
           "multiple_gallery": [
            {
             "id": "",
@@ -482,7 +551,7 @@
          },
          {
           "gallery_title": "Exteriors",
-          "_id": "b3967a0",
+          "_id": "d81f9c1",
           "multiple_gallery": [
            {
             "id": "",
@@ -560,7 +629,7 @@
          },
          {
           "gallery_title": "Mampares de bany",
-          "_id": "d81f9c1",
+          "_id": "13f9896",
           "multiple_gallery": [
            {
             "id": "",
@@ -598,7 +667,7 @@
          },
          {
           "gallery_title": "Muntatge i altres feines",
-          "_id": "13f9896",
+          "_id": "c5ff254",
           "multiple_gallery": [
            {
             "id": "",
@@ -697,7 +766,7 @@
    "isInner": false
   },
   {
-   "id": "cf004fd",
+   "id": "0c74b7f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -762,7 +831,7 @@
    },
    "elements": [
     {
-     "id": "9be40ce",
+     "id": "5ef698c",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -773,7 +842,7 @@
      },
      "elements": [
       {
-       "id": "aa942ab",
+       "id": "c058f54",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -816,7 +885,7 @@
        "elements": []
       },
       {
-       "id": "c058f54",
+       "id": "e7b24b1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -848,7 +917,7 @@
        "elements": []
       },
       {
-       "id": "e7b24b1",
+       "id": "52720e0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -920,7 +989,7 @@
      "isInner": false
     },
     {
-     "id": "5ef698c",
+     "id": "05049e9",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -931,7 +1000,7 @@
      },
      "elements": [
       {
-       "id": "52720e0",
+       "id": "c3e878e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -977,7 +1046,7 @@
        "elements": []
       },
       {
-       "id": "c3e878e",
+       "id": "0041146",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1023,7 +1092,7 @@
        "elements": []
       },
       {
-       "id": "0041146",
+       "id": "bac9162",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1072,7 +1141,7 @@
      "isInner": false
     },
     {
-     "id": "05049e9",
+     "id": "cf004fd",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -1085,7 +1154,7 @@
      },
      "elements": [
       {
-       "id": "bac9162",
+       "id": "9be40ce",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1130,7 +1199,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

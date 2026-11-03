@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "142949d",
+   "id": "8bf1211",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "ffd52f3",
+     "id": "f61d694",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "d709f38",
+       "id": "24b16fe",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sobre nosaltres</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sobre nosaltres</span></div>"
        },
        "elements": []
       },
       {
-       "id": "41f1f19",
+       "id": "ffd52f3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,7 +143,7 @@
        "elements": []
       },
       {
-       "id": "24b16fe",
+       "id": "ad972f1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -175,11 +175,158 @@
        "elements": []
       },
       {
-       "id": "0c74b7f",
+       "id": "d709f38",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Parlem del teu projecte &rarr;</a><a href=\"/projectes/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure projectes &rarr;</a>"
+        "text": "Parlem del teu projecte",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "41f1f19",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Veure projectes",
+        "link": {
+         "url": "/projectes/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -187,7 +334,7 @@
      "isInner": false
     },
     {
-     "id": "f61d694",
+     "id": "d34ab16",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -200,7 +347,7 @@
      },
      "elements": [
       {
-       "id": "ad972f1",
+       "id": "142949d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -241,7 +388,7 @@
    "isInner": false
   },
   {
-   "id": "39461a1",
+   "id": "5a4b25a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -279,7 +426,7 @@
    },
    "elements": [
     {
-     "id": "beed136",
+     "id": "dc912a2",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -290,7 +437,7 @@
      },
      "elements": [
       {
-       "id": "d34ab16",
+       "id": "a02ffd9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -329,7 +476,7 @@
        "elements": []
       },
       {
-       "id": "8bf1211",
+       "id": "bca82e4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -372,7 +519,7 @@
        "elements": []
       },
       {
-       "id": "a02ffd9",
+       "id": "00ec53c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -404,7 +551,7 @@
        "elements": []
       },
       {
-       "id": "bca82e4",
+       "id": "4f6ffe1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -436,7 +583,7 @@
        "elements": []
       },
       {
-       "id": "00ec53c",
+       "id": "beed136",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -468,7 +615,7 @@
        "elements": []
       },
       {
-       "id": "4f6ffe1",
+       "id": "0584ce5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -540,7 +687,7 @@
      "isInner": false
     },
     {
-     "id": "dc912a2",
+     "id": "a01a038",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -551,11 +698,182 @@
      },
      "elements": [
       {
-       "id": "0584ce5",
+       "id": "39461a1",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "image",
        "settings": {
-        "html": "<div style=\"display:grid;grid-template-columns:1fr 1fr;gap:6px\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-1.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-2.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-3.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"><img src=\"https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-4.jpg\" style=\"width:100%;aspect-ratio:1;object-fit:cover\" alt=\"\"></div>"
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-1.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "%",
+         "size": 49,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "6",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "8efb100",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-2.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "%",
+         "size": 49,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "6",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d9fc5b7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-3.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "%",
+         "size": 49,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "6",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c86a7ee",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-nos-4.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "%",
+         "size": 49,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "6",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -566,7 +884,7 @@
    "isInner": false
   },
   {
-   "id": "a01a038",
+   "id": "1543843",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -606,7 +924,7 @@
    },
    "elements": [
     {
-     "id": "c86a7ee",
+     "id": "28f0b86",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -617,7 +935,7 @@
      },
      "elements": [
       {
-       "id": "8efb100",
+       "id": "f73b76c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -656,7 +974,7 @@
        "elements": []
       },
       {
-       "id": "d9fc5b7",
+       "id": "70c639d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -705,7 +1023,7 @@
    "isInner": false
   },
   {
-   "id": "352fe25",
+   "id": "4f4adcb",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -745,7 +1063,7 @@
    },
    "elements": [
     {
-     "id": "28f0b86",
+     "id": "352fe25",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -766,7 +1084,7 @@
      },
      "elements": [
       {
-       "id": "5a4b25a",
+       "id": "f8c1f23",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -809,7 +1127,7 @@
        "elements": []
       },
       {
-       "id": "f73b76c",
+       "id": "e46de7e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -842,7 +1160,7 @@
        "elements": []
       },
       {
-       "id": "70c639d",
+       "id": "b7b16ec",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -869,7 +1187,7 @@
      "isInner": false
     },
     {
-     "id": "b7b16ec",
+     "id": "bbf94b3",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -890,7 +1208,7 @@
      },
      "elements": [
       {
-       "id": "1543843",
+       "id": "18d8042",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -933,7 +1251,7 @@
        "elements": []
       },
       {
-       "id": "f8c1f23",
+       "id": "816b112",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -966,7 +1284,7 @@
        "elements": []
       },
       {
-       "id": "e46de7e",
+       "id": "69cb3ea",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -996,7 +1314,7 @@
    "isInner": false
   },
   {
-   "id": "bbf94b3",
+   "id": "0d0fd7c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1041,7 +1359,7 @@
    },
    "elements": [
     {
-     "id": "69cb3ea",
+     "id": "f4f6dce",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1052,7 +1370,7 @@
      },
      "elements": [
       {
-       "id": "18d8042",
+       "id": "bbcbff5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1095,7 +1413,7 @@
        "elements": []
       },
       {
-       "id": "816b112",
+       "id": "8cb22bd",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1125,7 +1443,7 @@
    "isInner": false
   },
   {
-   "id": "1068c6e",
+   "id": "42e7aaa",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1163,7 +1481,7 @@
    },
    "elements": [
     {
-     "id": "bbcbff5",
+     "id": "1068c6e",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1174,7 +1492,7 @@
      },
      "elements": [
       {
-       "id": "4f4adcb",
+       "id": "a96b65a",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1223,167 +1541,6 @@
      "isInner": false
     },
     {
-     "id": "f4f6dce",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "8cb22bd",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-users",
-         "library": "fa-solid"
-        },
-        "title_text": "Assessorament personalitzat",
-        "description_text": "Escoltem les teves necessitats, visitem l'espai i t'ajudem a triar la solució que millor s'adapta al teu habitatge o negoci.",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "a96b65a",
-     "elType": "column",
-     "settings": {
-      "_column_size": 33.33,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
-     },
-     "elements": [
-      {
-       "id": "0d0fd7c",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-file-signature",
-         "library": "fa-solid"
-        },
-        "title_text": "Compliment de terminis",
-        "description_text": "Planifiquem cada obra amb rigor i ens comprometem amb unes dates clares des del primer pressupost.",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "41ae36e",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "wide",
-    "padding": {
-     "unit": "px",
-     "top": "14",
-     "right": "0",
-     "bottom": "14",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "10",
-     "right": "24",
-     "bottom": "10",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "8",
-     "right": "18",
-     "bottom": "8",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "b9228e0",
      "elType": "column",
      "settings": {
@@ -1400,11 +1557,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-leaf",
+         "value": "fas fa-users",
          "library": "fa-solid"
         },
-        "title_text": "Solucions sostenibles",
-        "description_text": "Perfils amb trencament de pont tèrmic i vidres d'alt rendiment que milloren l'aïllament i redueixen el consum energètic.",
+        "title_text": "Assessorament personalitzat",
+        "description_text": "Escoltem les teves necessitats, visitem l'espai i t'ajudem a triar la solució que millor s'adapta al teu habitatge o negoci.",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -1460,6 +1617,167 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
+         "value": "fas fa-file-signature",
+         "library": "fa-solid"
+        },
+        "title_text": "Compliment de terminis",
+        "description_text": "Planifiquem cada obra amb rigor i ens comprometem amb unes dates clares des del primer pressupost.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "f85454e",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "wide",
+    "padding": {
+     "unit": "px",
+     "top": "14",
+     "right": "0",
+     "bottom": "14",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "10",
+     "right": "24",
+     "bottom": "10",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "8",
+     "right": "18",
+     "bottom": "8",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "41ae36e",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "8fe0093",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-leaf",
+         "library": "fa-solid"
+        },
+        "title_text": "Solucions sostenibles",
+        "description_text": "Perfils amb trencament de pont tèrmic i vidres d'alt rendiment que milloren l'aïllament i redueixen el consum energètic.",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7eacb53",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.33,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 100
+     },
+     "elements": [
+      {
+       "id": "d1f255a",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
          "value": "fas fa-cog",
          "library": "fa-solid"
         },
@@ -1504,7 +1822,7 @@
      "isInner": false
     },
     {
-     "id": "8fe0093",
+     "id": "e0c6411",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1515,7 +1833,7 @@
      },
      "elements": [
       {
-       "id": "42e7aaa",
+       "id": "b6f0479",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1567,7 +1885,7 @@
    "isInner": false
   },
   {
-   "id": "e0c6411",
+   "id": "6ecbdd6",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1612,7 +1930,7 @@
    },
    "elements": [
     {
-     "id": "b6f0479",
+     "id": "25b2822",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1623,7 +1941,7 @@
      },
      "elements": [
       {
-       "id": "d1f255a",
+       "id": "faa9afe",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1666,7 +1984,7 @@
        "elements": []
       },
       {
-       "id": "7eacb53",
+       "id": "3c7781a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1696,7 +2014,7 @@
    "isInner": false
   },
   {
-   "id": "c203d8a",
+   "id": "9a96876",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1734,7 +2052,7 @@
    },
    "elements": [
     {
-     "id": "6ecbdd6",
+     "id": "6636827",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -1745,7 +2063,7 @@
      },
      "elements": [
       {
-       "id": "f85454e",
+       "id": "1899773",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -1764,7 +2082,7 @@
        "elements": []
       },
       {
-       "id": "faa9afe",
+       "id": "8d7d8ee",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1807,7 +2125,7 @@
        "elements": []
       },
       {
-       "id": "3c7781a",
+       "id": "75fc093",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1840,144 +2158,11 @@
        "elements": []
       },
       {
-       "id": "25b2822",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Escoltem les teves necessitats, visitem l'espai i prenem mides. Sense compromís.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "6636827",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1899773",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "#e4152d",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "8d7d8ee",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "02",
-        "header_size": "div",
-        "align": "left",
-        "title_color": "#e4152d",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_font_size_mobile": {
-         "unit": "px",
-         "size": 20,
-         "sizes": []
-        },
-        "typography_font_size_tablet": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "8",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "75fc093",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Disseny i pressupost",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "6",
-         "left": "0",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
        "id": "f74909a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Et proposem la millor solució en materials, colors i acabats, amb un pressupost detallat.",
+        "editor": "Escoltem les teves necessitats, visitem l'espai i prenem mides. Sense compromís.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -2034,7 +2219,7 @@
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "03",
+        "title": "02",
         "header_size": "div",
         "align": "left",
         "title_color": "#e4152d",
@@ -2077,7 +2262,7 @@
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Fabricació",
+        "title": "Disseny i pressupost",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -2110,7 +2295,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Fabriquem cada peça a mida amb materials de qualitat i un control rigorós.",
+        "editor": "Et proposem la millor solució en materials, colors i acabats, amb un pressupost detallat.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -2167,7 +2352,7 @@
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "04",
+        "title": "03",
         "header_size": "div",
         "align": "left",
         "title_color": "#e4152d",
@@ -2210,7 +2395,7 @@
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Instal·lació",
+        "title": "Fabricació",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -2243,6 +2428,139 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
+        "editor": "Fabriquem cada peça a mida amb materials de qualitat i un control rigorós.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "1a5b1e4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "c203d8a",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "#e4152d",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "13f3cf8",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "04",
+        "header_size": "div",
+        "align": "left",
+        "title_color": "#e4152d",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "8",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "550a141",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Instal·lació",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "6",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "67f7fb8",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
         "editor": "El nostre equip ho munta, ho ajusta i ho deixa tot a punt i net.",
         "text_color": "#a9a9ae",
         "align": "left",
@@ -2269,7 +2587,7 @@
    "isInner": false
   },
   {
-   "id": "941e1aa",
+   "id": "250cf8b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2309,7 +2627,7 @@
    },
    "elements": [
     {
-     "id": "f5f8590",
+     "id": "821fa74",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2320,7 +2638,7 @@
      },
      "elements": [
       {
-       "id": "13f3cf8",
+       "id": "9b70e8f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2363,7 +2681,7 @@
        "elements": []
       },
       {
-       "id": "d61e4bb",
+       "id": "e44fea3",
        "elType": "widget",
        "widgetType": "accordion",
        "settings": {
@@ -2371,27 +2689,27 @@
          {
           "tab_title": "Fabriqueu a mida?",
           "tab_content": "<p>Sí. Cada projecte es dissenya i es fabrica segons les mides, els colors i els acabats que necessites, tant per a obra nova com per a rehabilitació.</p>",
-          "_id": "550a141"
+          "_id": "d61e4bb"
          },
          {
           "tab_title": "Us ocupeu també de la instal·lació?",
           "tab_content": "<p>Sí. Ens dediquem a la instal·lació i muntatge, i t'assessorem perquè obtinguis la millor solució en cada cas.</p>",
-          "_id": "67f7fb8"
+          "_id": "f5f8590"
          },
          {
           "tab_title": "Quins materials utilitzeu?",
           "tab_content": "<p>Treballem amb alumini amb trencament de pont tèrmic i PVC de les millors marques del mercat, combinats amb vidres adaptats a cada necessitat d'aïllament i seguretat.</p>",
-          "_id": "1a5b1e4"
+          "_id": "941e1aa"
          },
          {
           "tab_title": "Quin tipus d'obres feu?",
           "tab_content": "<p>Reformes, rehabilitacions i obra nova, tant per a particulars com per a empreses i establiments comercials: finestres, portes, persianes, pèrgoles, baranes, mampares, tancaments i sostres.</p>",
-          "_id": "9a96876"
+          "_id": "9431c87"
          },
          {
           "tab_title": "Treballeu amb particulars i amb professionals?",
           "tab_content": "<p>Sí. Atenem tant el particular com el professional, amb una atenció i un servei personalitzat de primera qualitat.</p>",
-          "_id": "9b70e8f"
+          "_id": "49ae49a"
          }
         ],
         "title_color": "#ffffff",
@@ -2431,7 +2749,7 @@
    "isInner": false
   },
   {
-   "id": "51d92be",
+   "id": "ab817c9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2496,7 +2814,7 @@
    },
    "elements": [
     {
-     "id": "7fe1f8a",
+     "id": "f1b6f28",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2507,7 +2825,7 @@
      },
      "elements": [
       {
-       "id": "9431c87",
+       "id": "42998cf",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2550,7 +2868,7 @@
        "elements": []
       },
       {
-       "id": "49ae49a",
+       "id": "d07e70e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2582,7 +2900,7 @@
        "elements": []
       },
       {
-       "id": "e44fea3",
+       "id": "7fe1f8a",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2654,7 +2972,7 @@
      "isInner": false
     },
     {
-     "id": "98b2979",
+     "id": "68ce199",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -2665,7 +2983,7 @@
      },
      "elements": [
       {
-       "id": "821fa74",
+       "id": "98b2979",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2711,7 +3029,7 @@
        "elements": []
       },
       {
-       "id": "250cf8b",
+       "id": "0353ab4",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2757,7 +3075,7 @@
        "elements": []
       },
       {
-       "id": "42998cf",
+       "id": "51d92be",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2806,7 +3124,7 @@
      "isInner": false
     },
     {
-     "id": "0353ab4",
+     "id": "e836d81",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -2819,7 +3137,7 @@
      },
      "elements": [
       {
-       "id": "d07e70e",
+       "id": "428fca9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2864,7 +3182,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

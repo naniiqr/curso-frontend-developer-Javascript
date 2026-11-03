@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "654ad60",
+   "id": "2cad8fa",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -42,7 +42,7 @@
    },
    "elements": [
     {
-     "id": "f410588",
+     "id": "978d766",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -53,16 +53,16 @@
      },
      "elements": [
       {
-       "id": "cbef463",
+       "id": "194cf6c",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <a href=\"/portes-dentrada/\" style=\"color:#a9a9ae;text-decoration:none\">Portes d'entrada</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Portes d'Entrada Particular OCULTEC</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <a href=\"/portes-dentrada/\" style=\"color:#a9a9ae;text-decoration:none\">Portes d'entrada</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Portes d'Entrada Particular OCULTEC</span></div>"
        },
        "elements": []
       },
       {
-       "id": "6492d38",
+       "id": "a03fa30",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -105,11 +105,11 @@
        "elements": []
       },
       {
-       "id": "819e3d6",
+       "id": "a1d7311",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:6px\"><a href=\"/portes-entrada-particular/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Particular</a><a href=\"/portes-entrada-ocultec/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#ffffff;text-decoration:none;border-bottom:2px solid #e4152d\">Particular OCULTEC</a><a href=\"/portes-entrada-comercial/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Comercial</a></div>"
+        "editor": "<div style=\"border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:6px\"><a href=\"/portes-entrada-particular/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Particular</a><a href=\"/portes-entrada-ocultec/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#ffffff;text-decoration:none;border-bottom:2px solid #e4152d\">Particular OCULTEC</a><a href=\"/portes-entrada-comercial/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Comercial</a></div>"
        },
        "elements": []
       }
@@ -120,7 +120,7 @@
    "isInner": false
   },
   {
-   "id": "abdbeb4",
+   "id": "9f44e95",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -158,7 +158,7 @@
    },
    "elements": [
     {
-     "id": "0070d23",
+     "id": "8232e11",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -169,7 +169,7 @@
      },
      "elements": [
       {
-       "id": "54ff9e9",
+       "id": "c5866e9",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -204,7 +204,7 @@
      "isInner": false
     },
     {
-     "id": "3e9e39f",
+     "id": "e7e2367",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -215,7 +215,7 @@
      },
      "elements": [
       {
-       "id": "850af92",
+       "id": "7b1ce3d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -250,7 +250,7 @@
      "isInner": false
     },
     {
-     "id": "e0a2095",
+     "id": "c633573",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -261,7 +261,7 @@
      },
      "elements": [
       {
-       "id": "a088ea2",
+       "id": "24f0d2c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -299,7 +299,7 @@
    "isInner": false
   },
   {
-   "id": "5a1e3a5",
+   "id": "7dc1c76",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -337,7 +337,7 @@
    },
    "elements": [
     {
-     "id": "4d6b3e3",
+     "id": "931af58",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -348,7 +348,7 @@
      },
      "elements": [
       {
-       "id": "f80ff32",
+       "id": "9185f3e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -383,7 +383,7 @@
      "isInner": false
     },
     {
-     "id": "bf424cb",
+     "id": "c3535fe",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -394,7 +394,7 @@
      },
      "elements": [
       {
-       "id": "d3a7f48",
+       "id": "05546b0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -429,7 +429,7 @@
      "isInner": false
     },
     {
-     "id": "0b1ec36",
+     "id": "a29d159",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -440,7 +440,7 @@
      },
      "elements": [
       {
-       "id": "26f5bd4",
+       "id": "1a0a283",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -478,7 +478,7 @@
    "isInner": false
   },
   {
-   "id": "ef41d48",
+   "id": "c182f93",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -516,7 +516,7 @@
    },
    "elements": [
     {
-     "id": "b2ab001",
+     "id": "51174ad",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -527,7 +527,7 @@
      },
      "elements": [
       {
-       "id": "801272e",
+       "id": "01931a6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -562,7 +562,7 @@
      "isInner": false
     },
     {
-     "id": "2cd4e8a",
+     "id": "4ba3c16",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -573,7 +573,7 @@
      },
      "elements": [
       {
-       "id": "cf2226d",
+       "id": "bdc4626",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -608,7 +608,7 @@
      "isInner": false
     },
     {
-     "id": "a03fa30",
+     "id": "92bbd31",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -619,7 +619,7 @@
      },
      "elements": [
       {
-       "id": "194cf6c",
+       "id": "3937230",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -657,7 +657,7 @@
    "isInner": false
   },
   {
-   "id": "a012869",
+   "id": "936a40b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -695,7 +695,7 @@
    },
    "elements": [
     {
-     "id": "978d766",
+     "id": "44cd7a8",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -706,7 +706,7 @@
      },
      "elements": [
       {
-       "id": "a1d7311",
+       "id": "1b5230e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -741,7 +741,7 @@
      "isInner": false
     },
     {
-     "id": "c5866e9",
+     "id": "abdbeb4",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -752,7 +752,7 @@
      },
      "elements": [
       {
-       "id": "2cad8fa",
+       "id": "02b1be0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -787,7 +787,7 @@
      "isInner": false
     },
     {
-     "id": "7b1ce3d",
+     "id": "ef41d48",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -798,7 +798,7 @@
      },
      "elements": [
       {
-       "id": "8232e11",
+       "id": "5a1e3a5",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -836,7 +836,7 @@
    "isInner": false
   },
   {
-   "id": "3b92d18",
+   "id": "0d73a25",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -874,7 +874,7 @@
    },
    "elements": [
     {
-     "id": "24f0d2c",
+     "id": "3b92d18",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -885,7 +885,7 @@
      },
      "elements": [
       {
-       "id": "e7e2367",
+       "id": "a012869",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -920,7 +920,7 @@
      "isInner": false
     },
     {
-     "id": "9185f3e",
+     "id": "bd5af7c",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -931,7 +931,7 @@
      },
      "elements": [
       {
-       "id": "c633573",
+       "id": "5227b6a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -966,7 +966,7 @@
      "isInner": false
     },
     {
-     "id": "05546b0",
+     "id": "f15d337",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -977,7 +977,7 @@
      },
      "elements": [
       {
-       "id": "931af58",
+       "id": "cd4bb35",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1015,7 +1015,7 @@
    "isInner": false
   },
   {
-   "id": "5227b6a",
+   "id": "e21e4e5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1053,7 +1053,7 @@
    },
    "elements": [
     {
-     "id": "1a0a283",
+     "id": "f6e794a",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1064,7 +1064,7 @@
      },
      "elements": [
       {
-       "id": "c3535fe",
+       "id": "a869ccb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1099,7 +1099,7 @@
      "isInner": false
     },
     {
-     "id": "01931a6",
+     "id": "fca0789",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1110,7 +1110,7 @@
      },
      "elements": [
       {
-       "id": "a29d159",
+       "id": "c902b49",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1145,7 +1145,7 @@
      "isInner": false
     },
     {
-     "id": "bdc4626",
+     "id": "4e62e75",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1156,7 +1156,7 @@
      },
      "elements": [
       {
-       "id": "51174ad",
+       "id": "9a49a25",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1194,7 +1194,7 @@
    "isInner": false
   },
   {
-   "id": "bd5af7c",
+   "id": "d30960c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1232,7 +1232,7 @@
    },
    "elements": [
     {
-     "id": "3937230",
+     "id": "1943102",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1243,7 +1243,7 @@
      },
      "elements": [
       {
-       "id": "4ba3c16",
+       "id": "9bb6dee",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1278,7 +1278,7 @@
      "isInner": false
     },
     {
-     "id": "1b5230e",
+     "id": "23c97e9",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1289,7 +1289,7 @@
      },
      "elements": [
       {
-       "id": "92bbd31",
+       "id": "37d097c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1324,7 +1324,7 @@
      "isInner": false
     },
     {
-     "id": "02b1be0",
+     "id": "2a34abd",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -1335,7 +1335,7 @@
      },
      "elements": [
       {
-       "id": "44cd7a8",
+       "id": "5d6646a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1373,7 +1373,7 @@
    "isInner": false
   },
   {
-   "id": "a869ccb",
+   "id": "a486cd0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1411,7 +1411,7 @@
    },
    "elements": [
     {
-     "id": "f15d337",
+     "id": "350db08",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1422,7 +1422,7 @@
      },
      "elements": [
       {
-       "id": "cd4bb35",
+       "id": "24917db",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1452,7 +1452,7 @@
    "isInner": false
   },
   {
-   "id": "1943102",
+   "id": "ddd9dda",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1517,7 +1517,7 @@
    },
    "elements": [
     {
-     "id": "9a49a25",
+     "id": "ee26fc6",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -1528,7 +1528,7 @@
      },
      "elements": [
       {
-       "id": "f6e794a",
+       "id": "cb8da67",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1571,7 +1571,7 @@
        "elements": []
       },
       {
-       "id": "c902b49",
+       "id": "1e8c391",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1603,7 +1603,7 @@
        "elements": []
       },
       {
-       "id": "fca0789",
+       "id": "a381c2c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1674,7 +1674,7 @@
      "isInner": false
     },
     {
-     "id": "9bb6dee",
+     "id": "697e382",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -1687,7 +1687,7 @@
      },
      "elements": [
       {
-       "id": "4e62e75",
+       "id": "d542599",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1710,7 +1710,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

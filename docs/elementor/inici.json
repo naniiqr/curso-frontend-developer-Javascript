@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "c9f0f89",
+   "id": "45c48cc",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "e4da3b7",
+     "id": "1679091",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "c81e728",
+       "id": "eccbc87",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -130,7 +130,7 @@
        "elements": []
       },
       {
-       "id": "eccbc87",
+       "id": "a87ff67",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -173,7 +173,7 @@
        "elements": []
       },
       {
-       "id": "a87ff67",
+       "id": "e4da3b7",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -207,9 +207,156 @@
       {
        "id": "c4ca423",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Demana pressupost &rarr;</a><a href=\"/projectes/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure projectes &rarr;</a>"
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c81e728",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Veure projectes",
+        "link": {
+         "url": "/projectes/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -217,7 +364,7 @@
      "isInner": false
     },
     {
-     "id": "8f14e45",
+     "id": "c9f0f89",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -230,7 +377,7 @@
      },
      "elements": [
       {
-       "id": "1679091",
+       "id": "8f14e45",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -249,7 +396,7 @@
    "isInner": false
   },
   {
-   "id": "70efdf2",
+   "id": "6f4922f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -299,7 +446,7 @@
    },
    "elements": [
     {
-     "id": "d3d9446",
+     "id": "6512bd4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -310,7 +457,7 @@
      },
      "elements": [
       {
-       "id": "45c48cc",
+       "id": "d3d9446",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -359,7 +506,7 @@
      "isInner": false
     },
     {
-     "id": "c20ad4d",
+     "id": "c51ce41",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -370,7 +517,7 @@
      },
      "elements": [
       {
-       "id": "6512bd4",
+       "id": "c20ad4d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -419,7 +566,7 @@
      "isInner": false
     },
     {
-     "id": "aab3238",
+     "id": "9bf31c7",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -430,7 +577,7 @@
      },
      "elements": [
       {
-       "id": "c51ce41",
+       "id": "aab3238",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -479,7 +626,7 @@
      "isInner": false
     },
     {
-     "id": "c74d97b",
+     "id": "70efdf2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -490,7 +637,7 @@
      },
      "elements": [
       {
-       "id": "9bf31c7",
+       "id": "c74d97b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -542,7 +689,7 @@
    "isInner": false
   },
   {
-   "id": "b6d767d",
+   "id": "37693cf",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -587,7 +734,7 @@
    },
    "elements": [
     {
-     "id": "98f1370",
+     "id": "3c59dc0",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -598,7 +745,7 @@
      },
      "elements": [
       {
-       "id": "1f0e3da",
+       "id": "98f1370",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -644,7 +791,7 @@
      "isInner": false
     },
     {
-     "id": "3c59dc0",
+     "id": "b6d767d",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -655,11 +802,11 @@
      },
      "elements": [
       {
-       "id": "6f4922f",
+       "id": "1f0e3da",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right\"><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure tots els productes &rarr;</a></div>"
+        "editor": "<div style=\"text-align:right\"><a href=\"/productes/\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure tots els productes &rarr;</a></div>"
        },
        "elements": []
       }
@@ -670,7 +817,7 @@
    "isInner": false
   },
   {
-   "id": "73278a4",
+   "id": "5fd0b37",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -708,7 +855,7 @@
    },
    "elements": [
     {
-     "id": "33e75ff",
+     "id": "6ea9ab1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -729,7 +876,7 @@
      },
      "elements": [
       {
-       "id": "37693cf",
+       "id": "1ff1de7",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -766,7 +913,7 @@
        "elements": []
       },
       {
-       "id": "1ff1de7",
+       "id": "8e296a0",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -779,7 +926,7 @@
        "elements": []
       },
       {
-       "id": "8e296a0",
+       "id": "4e732ce",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -832,7 +979,7 @@
        "elements": []
       },
       {
-       "id": "4e732ce",
+       "id": "02e74f1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -872,7 +1019,7 @@
        "elements": []
       },
       {
-       "id": "02e74f1",
+       "id": "33e75ff",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -888,7 +1035,7 @@
      "isInner": false
     },
     {
-     "id": "e369853",
+     "id": "1c383cd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -909,7 +1056,7 @@
      },
      "elements": [
       {
-       "id": "6ea9ab1",
+       "id": "34173cb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -946,7 +1093,7 @@
        "elements": []
       },
       {
-       "id": "34173cb",
+       "id": "c16a532",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -959,7 +1106,7 @@
        "elements": []
       },
       {
-       "id": "c16a532",
+       "id": "6364d3f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1012,7 +1159,7 @@
        "elements": []
       },
       {
-       "id": "6364d3f",
+       "id": "182be0c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1052,7 +1199,7 @@
        "elements": []
       },
       {
-       "id": "182be0c",
+       "id": "e369853",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1068,7 +1215,7 @@
      "isInner": false
     },
     {
-     "id": "d645920",
+     "id": "3416a75",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1089,7 +1236,7 @@
      },
      "elements": [
       {
-       "id": "1c383cd",
+       "id": "19ca14e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1126,7 +1273,7 @@
        "elements": []
       },
       {
-       "id": "19ca14e",
+       "id": "a5bfc9e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1139,7 +1286,7 @@
        "elements": []
       },
       {
-       "id": "a5bfc9e",
+       "id": "a5771bc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1192,7 +1339,7 @@
        "elements": []
       },
       {
-       "id": "a5771bc",
+       "id": "d67d8ab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1232,7 +1379,7 @@
        "elements": []
       },
       {
-       "id": "d67d8ab",
+       "id": "d645920",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1248,7 +1395,7 @@
      "isInner": false
     },
     {
-     "id": "d9d4f49",
+     "id": "67c6a1e",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1269,7 +1416,7 @@
      },
      "elements": [
       {
-       "id": "3416a75",
+       "id": "a1d0c6e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1306,7 +1453,7 @@
        "elements": []
       },
       {
-       "id": "a1d0c6e",
+       "id": "17e6216",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1319,7 +1466,7 @@
        "elements": []
       },
       {
-       "id": "17e6216",
+       "id": "f717716",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1372,7 +1519,7 @@
        "elements": []
       },
       {
-       "id": "f717716",
+       "id": "6c8349c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1412,768 +1559,7 @@
        "elements": []
       },
       {
-       "id": "6c8349c",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "5fd0b37",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "9a11581",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "67c6a1e",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-persianes-locals.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/persianes-locals-comercials/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 147,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "642e92e",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "f457c54",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Persianes locals comercials",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/persianes-locals-comercials/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "c0c7c76",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Resistència i funcionalitat",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "2838023",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "66f041e",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "d82c8d1",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/corredisses/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 147,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "a684ece",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "b53b3a3",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Corredisses",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/corredisses/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "9f61408",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Espais oberts i llum natural",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "72b32a1",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "ea5d2f1",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "093f65e",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses-grans.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/corredisses-grans-dimensions/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 147,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "072b030",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "7f39f83",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Corredisses grans dimensions",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/corredisses-grans-dimensions/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "44f683a",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Sense límits",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "03afdbd",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "7cbbc40",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50,
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "fc490ca",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-baranes.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "link": {
-         "url": "/baranes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 210,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 147,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "3295c76",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "735b90b",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Baranes",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/baranes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "a3f390d",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Seguretat amb estil",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "14bfa6b",
+       "id": "d9d4f49",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2230,7 +1616,7 @@
    },
    "elements": [
     {
-     "id": "fbd7939",
+     "id": "d82c8d1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2251,7 +1637,768 @@
      },
      "elements": [
       {
-       "id": "e2c420d",
+       "id": "642e92e",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-persianes-locals.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/persianes-locals-comercials/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 147,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "f457c54",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c0c7c76",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Persianes locals comercials",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "/persianes-locals-comercials/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "2838023",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Resistència i funcionalitat",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "9a11581",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "093f65e",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "a684ece",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/corredisses/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 147,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "b53b3a3",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "9f61408",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Corredisses",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "/corredisses/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "72b32a1",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Espais oberts i llum natural",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "66f041e",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fc490ca",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "072b030",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-corredisses-grans.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/corredisses-grans-dimensions/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 147,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7f39f83",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "44f683a",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Corredisses grans dimensions",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "/corredisses-grans-dimensions/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "03afdbd",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Sense límits",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ea5d2f1",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e2c420d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "3295c76",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/prod-baranes.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "link": {
+         "url": "/baranes/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 210,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 147,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "735b90b",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "a3f390d",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Baranes",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "/baranes/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "14bfa6b",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Seguretat amb estil",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7cbbc40",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c45147d",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "28dd2c7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50,
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "32bb90e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2288,7 +2435,7 @@
        "elements": []
       },
       {
-       "id": "32bb90e",
+       "id": "d2ddea1",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2301,7 +2448,7 @@
        "elements": []
       },
       {
-       "id": "d2ddea1",
+       "id": "ad61ab1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2354,7 +2501,7 @@
        "elements": []
       },
       {
-       "id": "ad61ab1",
+       "id": "d09bf41",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2394,7 +2541,7 @@
        "elements": []
       },
       {
-       "id": "d09bf41",
+       "id": "fbd7939",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2410,7 +2557,7 @@
      "isInner": false
     },
     {
-     "id": "9778d5d",
+     "id": "fe9fc28",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2431,7 +2578,7 @@
      },
      "elements": [
       {
-       "id": "28dd2c7",
+       "id": "35f4a8d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2468,7 +2615,7 @@
        "elements": []
       },
       {
-       "id": "35f4a8d",
+       "id": "d1fe173",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2481,7 +2628,7 @@
        "elements": []
       },
       {
-       "id": "d1fe173",
+       "id": "f033ab3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2534,7 +2681,7 @@
        "elements": []
       },
       {
-       "id": "f033ab3",
+       "id": "43ec517",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2574,7 +2721,7 @@
        "elements": []
       },
       {
-       "id": "43ec517",
+       "id": "9778d5d",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2590,7 +2737,7 @@
      "isInner": false
     },
     {
-     "id": "2a38a4a",
+     "id": "7647966",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2611,7 +2758,7 @@
      },
      "elements": [
       {
-       "id": "fe9fc28",
+       "id": "68d30a9",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2648,7 +2795,7 @@
        "elements": []
       },
       {
-       "id": "68d30a9",
+       "id": "3ef8154",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2661,7 +2808,7 @@
        "elements": []
       },
       {
-       "id": "3ef8154",
+       "id": "93db85e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2714,7 +2861,7 @@
        "elements": []
       },
       {
-       "id": "93db85e",
+       "id": "c7e1249",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2754,7 +2901,7 @@
        "elements": []
       },
       {
-       "id": "c7e1249",
+       "id": "2a38a4a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2770,7 +2917,7 @@
      "isInner": false
     },
     {
-     "id": "f4b9ec3",
+     "id": "812b4ba",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2791,7 +2938,7 @@
      },
      "elements": [
       {
-       "id": "7647966",
+       "id": "8613985",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2828,7 +2975,7 @@
        "elements": []
       },
       {
-       "id": "8613985",
+       "id": "54229ab",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2841,7 +2988,7 @@
        "elements": []
       },
       {
-       "id": "54229ab",
+       "id": "92cc227",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2894,7 +3041,7 @@
        "elements": []
       },
       {
-       "id": "92cc227",
+       "id": "98dce83",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2934,7 +3081,7 @@
        "elements": []
       },
       {
-       "id": "98dce83",
+       "id": "f4b9ec3",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2953,7 +3100,7 @@
    "isInner": false
   },
   {
-   "id": "5ef0599",
+   "id": "07e1cd7",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2991,7 +3138,7 @@
    },
    "elements": [
     {
-     "id": "f899139",
+     "id": "38b3eff",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3012,7 +3159,7 @@
      },
      "elements": [
       {
-       "id": "812b4ba",
+       "id": "26657d5",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3049,7 +3196,7 @@
        "elements": []
       },
       {
-       "id": "26657d5",
+       "id": "e2ef524",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3062,7 +3209,7 @@
        "elements": []
       },
       {
-       "id": "e2ef524",
+       "id": "ed3d2c2",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3115,7 +3262,7 @@
        "elements": []
       },
       {
-       "id": "ed3d2c2",
+       "id": "ac627ab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3155,7 +3302,7 @@
        "elements": []
       },
       {
-       "id": "ac627ab",
+       "id": "f899139",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3171,7 +3318,7 @@
      "isInner": false
     },
     {
-     "id": "f0935e4",
+     "id": "a97da62",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3192,7 +3339,7 @@
      },
      "elements": [
       {
-       "id": "38b3eff",
+       "id": "ec89566",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3229,7 +3376,7 @@
        "elements": []
       },
       {
-       "id": "ec89566",
+       "id": "6974ce5",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3242,7 +3389,7 @@
        "elements": []
       },
       {
-       "id": "6974ce5",
+       "id": "c9e1074",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3295,7 +3442,7 @@
        "elements": []
       },
       {
-       "id": "c9e1074",
+       "id": "65b9eea",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3335,7 +3482,7 @@
        "elements": []
       },
       {
-       "id": "65b9eea",
+       "id": "f0935e4",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3351,7 +3498,7 @@
      "isInner": false
     },
     {
-     "id": "7f6ffaa",
+     "id": "73278a4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3372,7 +3519,7 @@
      },
      "elements": [
       {
-       "id": "a97da62",
+       "id": "a3c65c2",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3409,7 +3556,7 @@
        "elements": []
       },
       {
-       "id": "a3c65c2",
+       "id": "2723d09",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3422,7 +3569,7 @@
        "elements": []
       },
       {
-       "id": "2723d09",
+       "id": "5f93f98",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3475,7 +3622,7 @@
        "elements": []
       },
       {
-       "id": "5f93f98",
+       "id": "698d51a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3515,7 +3662,7 @@
        "elements": []
       },
       {
-       "id": "698d51a",
+       "id": "7f6ffaa",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3531,7 +3678,7 @@
      "isInner": false
     },
     {
-     "id": "eb160de",
+     "id": "5ef0599",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3544,7 +3691,7 @@
      },
      "elements": [
       {
-       "id": "c45147d",
+       "id": "eb160de",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3563,7 +3710,7 @@
    "isInner": false
   },
   {
-   "id": "c8ffe9a",
+   "id": "3def184",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3608,7 +3755,7 @@
    },
    "elements": [
     {
-     "id": "a0a080f",
+     "id": "202cb96",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -3619,7 +3766,7 @@
      },
      "elements": [
       {
-       "id": "da4fb5c",
+       "id": "4c56ff4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3662,7 +3809,7 @@
        "elements": []
       },
       {
-       "id": "4c56ff4",
+       "id": "a0a080f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3689,7 +3836,7 @@
      "isInner": false
     },
     {
-     "id": "202cb96",
+     "id": "c8ffe9a",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -3700,11 +3847,11 @@
      },
      "elements": [
       {
-       "id": "07e1cd7",
+       "id": "da4fb5c",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right\"><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure tots els projectes &rarr;</a></div>"
+        "editor": "<div style=\"text-align:right\"><a href=\"/projectes/\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure tots els projectes &rarr;</a></div>"
        },
        "elements": []
       }
@@ -3715,7 +3862,7 @@
    "isInner": false
   },
   {
-   "id": "02522a2",
+   "id": "7f1de29",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3753,7 +3900,7 @@
    },
    "elements": [
     {
-     "id": "ec5decc",
+     "id": "76dc611",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -3764,7 +3911,7 @@
      },
      "elements": [
       {
-       "id": "3def184",
+       "id": "069059b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3801,7 +3948,7 @@
        "elements": []
       },
       {
-       "id": "069059b",
+       "id": "ec5decc",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3828,7 +3975,7 @@
      "isInner": false
     },
     {
-     "id": "9b86192",
+     "id": "1afa34a",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -3839,7 +3986,7 @@
      },
      "elements": [
       {
-       "id": "76dc611",
+       "id": "d1f491a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3876,7 +4023,7 @@
        "elements": []
       },
       {
-       "id": "d1f491a",
+       "id": "9b86192",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3903,7 +4050,7 @@
      "isInner": false
     },
     {
-     "id": "9fc3d71",
+     "id": "02522a2",
      "elType": "column",
      "settings": {
       "_column_size": 33.33,
@@ -3914,7 +4061,7 @@
      },
      "elements": [
       {
-       "id": "1afa34a",
+       "id": "65ded53",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3951,7 +4098,7 @@
        "elements": []
       },
       {
-       "id": "65ded53",
+       "id": "9fc3d71",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3981,7 +4128,7 @@
    "isInner": false
   },
   {
-   "id": "e00da03",
+   "id": "1385974",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -4021,7 +4168,7 @@
    },
    "elements": [
     {
-     "id": "42a0e18",
+     "id": "3988c7f",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -4032,7 +4179,7 @@
      },
      "elements": [
       {
-       "id": "7f1de29",
+       "id": "42a0e18",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4068,7 +4215,7 @@
      "isInner": false
     },
     {
-     "id": "013d407",
+     "id": "e00da03",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -4079,7 +4226,7 @@
      },
      "elements": [
       {
-       "id": "3988c7f",
+       "id": "013d407",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4124,7 +4271,7 @@
    "isInner": false
   },
   {
-   "id": "47d1e99",
+   "id": "f221706",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -4164,7 +4311,7 @@
    },
    "elements": [
     {
-     "id": "0f28b5d",
+     "id": "a8baa56",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -4175,7 +4322,7 @@
      },
      "elements": [
       {
-       "id": "1385974",
+       "id": "0f28b5d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4224,7 +4371,7 @@
      "isInner": false
     },
     {
-     "id": "903ce92",
+     "id": "0a09c88",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -4235,7 +4382,7 @@
      },
      "elements": [
       {
-       "id": "a8baa56",
+       "id": "903ce92",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4284,7 +4431,7 @@
      "isInner": false
     },
     {
-     "id": "2b24d49",
+     "id": "a5e0013",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -4295,7 +4442,7 @@
      },
      "elements": [
       {
-       "id": "0a09c88",
+       "id": "2b24d49",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4344,7 +4491,7 @@
      "isInner": false
     },
     {
-     "id": "8d5e957",
+     "id": "47d1e99",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -4355,7 +4502,7 @@
      },
      "elements": [
       {
-       "id": "a5e0013",
+       "id": "8d5e957",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4407,7 +4554,7 @@
    "isInner": false
   },
   {
-   "id": "0777d5c",
+   "id": "fa7cdfa",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -4442,7 +4589,7 @@
    },
    "elements": [
     {
-     "id": "7ef605f",
+     "id": "a8f15ed",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -4453,7 +4600,7 @@
      },
      "elements": [
       {
-       "id": "f221706",
+       "id": "7ef605f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -4487,7 +4634,7 @@
      "isInner": false
     },
     {
-     "id": "2a79ea2",
+     "id": "1c9ac01",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -4508,7 +4655,7 @@
      },
      "elements": [
       {
-       "id": "a8f15ed",
+       "id": "37a749d",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4540,7 +4687,7 @@
        "elements": []
       },
       {
-       "id": "37a749d",
+       "id": "b3e3e39",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4573,7 +4720,7 @@
        "elements": []
       },
       {
-       "id": "b3e3e39",
+       "id": "1d7f7ab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4605,11 +4752,11 @@
        "elements": []
       },
       {
-       "id": "1d7f7ab",
+       "id": "2a79ea2",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<a href=\"/productes/\" style=\"color:#b30f22;font:600 12px Inter,sans-serif;text-decoration:none\">Saber més</a>"
+        "editor": "<a href=\"/productes/\" style=\"color:#b30f22;font:600 12px Inter,sans-serif;text-decoration:none\">Saber més</a>"
        },
        "elements": []
       }
@@ -4617,7 +4764,7 @@
      "isInner": false
     },
     {
-     "id": "6c4b761",
+     "id": "0640966",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -4628,7 +4775,7 @@
      },
      "elements": [
       {
-       "id": "1c9ac01",
+       "id": "6c4b761",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -4662,7 +4809,7 @@
      "isInner": false
     },
     {
-     "id": "82aa4b0",
+     "id": "0777d5c",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -4683,7 +4830,7 @@
      },
      "elements": [
       {
-       "id": "0640966",
+       "id": "140f696",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4715,7 +4862,7 @@
        "elements": []
       },
       {
-       "id": "140f696",
+       "id": "b73ce39",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4748,7 +4895,7 @@
        "elements": []
       },
       {
-       "id": "b73ce39",
+       "id": "bd4c9ab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4780,11 +4927,11 @@
        "elements": []
       },
       {
-       "id": "bd4c9ab",
+       "id": "82aa4b0",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<a href=\"/projectes/\" style=\"color:#b30f22;font:600 12px Inter,sans-serif;text-decoration:none\">Saber més</a>"
+        "editor": "<a href=\"/projectes/\" style=\"color:#b30f22;font:600 12px Inter,sans-serif;text-decoration:none\">Saber més</a>"
        },
        "elements": []
       }
@@ -4795,7 +4942,7 @@
    "isInner": false
   },
   {
-   "id": "7e7757b",
+   "id": "5878a7a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -4840,7 +4987,7 @@
    },
    "elements": [
     {
-     "id": "9766527",
+     "id": "7e7757b",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -4851,7 +4998,7 @@
      },
      "elements": [
       {
-       "id": "fa7cdfa",
+       "id": "9766527",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4889,317 +5036,6 @@
          "bottom": "6",
          "left": "0",
          "isLinked": false
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "e2c0be2",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "006f52e",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "5878a7a",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-01.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "149e967",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "3636638",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "1ff8a7b",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "a4a042c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "bf82296",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "f7e6c85",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "38af861",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "8216124",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "8f85517",
-     "elType": "column",
-     "settings": {
-      "_column_size": 16.67,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 33.33
-     },
-     "elements": [
-      {
-       "id": "96da2f5",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-06.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "none",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
         }
        },
        "elements": []
@@ -5249,7 +5085,7 @@
    },
    "elements": [
     {
-     "id": "045117b",
+     "id": "3636638",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5260,12 +5096,12 @@
      },
      "elements": [
       {
-       "id": "8f53295",
+       "id": "006f52e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-01.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5294,7 +5130,7 @@
      "isInner": false
     },
     {
-     "id": "4c5bde7",
+     "id": "a4a042c",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5305,12 +5141,12 @@
      },
      "elements": [
       {
-       "id": "fc22130",
+       "id": "149e967",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-08.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-02.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5339,7 +5175,7 @@
      "isInner": false
     },
     {
-     "id": "6cdd60e",
+     "id": "f7e6c85",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5350,12 +5186,12 @@
      },
      "elements": [
       {
-       "id": "cedebb6",
+       "id": "1ff8a7b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5384,7 +5220,7 @@
      "isInner": false
     },
     {
-     "id": "9872ed9",
+     "id": "8216124",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5395,12 +5231,12 @@
      },
      "elements": [
       {
-       "id": "eecca5b",
+       "id": "bf82296",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5429,7 +5265,7 @@
      "isInner": false
     },
     {
-     "id": "9dcb88e",
+     "id": "96da2f5",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5440,12 +5276,12 @@
      },
      "elements": [
       {
-       "id": "31fefc0",
+       "id": "38af861",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5474,7 +5310,7 @@
      "isInner": false
     },
     {
-     "id": "cfecdb2",
+     "id": "8f53295",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5485,12 +5321,12 @@
      },
      "elements": [
       {
-       "id": "a2557a7",
+       "id": "8f85517",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -5531,6 +5367,317 @@
      "unit": "px",
      "top": "3",
      "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "fc22130",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "045117b",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-07.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "cedebb6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "4c5bde7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-08.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "eecca5b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "6cdd60e",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-09.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "31fefc0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "9872ed9",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "a2557a7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "9dcb88e",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-11.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "0aa1883",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16.67,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 33.33
+     },
+     "elements": [
+      {
+       "id": "cfecdb2",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/insta-12.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "none",
+        "height": {
+         "unit": "px",
+         "size": 190,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 133,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7eabe3a",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
      "bottom": "72",
      "left": "0",
      "isLinked": false
@@ -5560,7 +5707,7 @@
    },
    "elements": [
     {
-     "id": "58a2fc6",
+     "id": "bd686fd",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5571,7 +5718,7 @@
      },
      "elements": [
       {
-       "id": "0aa1883",
+       "id": "58a2fc6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5605,7 +5752,7 @@
      "isInner": false
     },
     {
-     "id": "a597e50",
+     "id": "0336dcb",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5616,7 +5763,7 @@
      },
      "elements": [
       {
-       "id": "bd686fd",
+       "id": "a597e50",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5650,7 +5797,7 @@
      "isInner": false
     },
     {
-     "id": "084b6fb",
+     "id": "85d8ce5",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5661,7 +5808,7 @@
      },
      "elements": [
       {
-       "id": "0336dcb",
+       "id": "084b6fb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5695,7 +5842,7 @@
      "isInner": false
     },
     {
-     "id": "0e65972",
+     "id": "84d9ee4",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5706,7 +5853,7 @@
      },
      "elements": [
       {
-       "id": "85d8ce5",
+       "id": "0e65972",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5740,7 +5887,7 @@
      "isInner": false
     },
     {
-     "id": "3644a68",
+     "id": "757b505",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5751,7 +5898,7 @@
      },
      "elements": [
       {
-       "id": "84d9ee4",
+       "id": "3644a68",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5785,7 +5932,7 @@
      "isInner": false
     },
     {
-     "id": "854d6fa",
+     "id": "e2c0be2",
      "elType": "column",
      "settings": {
       "_column_size": 16.67,
@@ -5796,7 +5943,7 @@
      },
      "elements": [
       {
-       "id": "757b505",
+       "id": "854d6fa",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -5833,7 +5980,7 @@
    "isInner": false
   },
   {
-   "id": "45fbc6d",
+   "id": "63dc7ed",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -5898,7 +6045,7 @@
    },
    "elements": [
     {
-     "id": "979d472",
+     "id": "ca46c1b",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -5909,7 +6056,7 @@
      },
      "elements": [
       {
-       "id": "7eabe3a",
+       "id": "69adc1e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -5952,7 +6099,7 @@
        "elements": []
       },
       {
-       "id": "69adc1e",
+       "id": "091d584",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -5984,7 +6131,7 @@
        "elements": []
       },
       {
-       "id": "091d584",
+       "id": "b1d10e7",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -6056,7 +6203,7 @@
      "isInner": false
     },
     {
-     "id": "ca46c1b",
+     "id": "3b8a614",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -6067,7 +6214,7 @@
      },
      "elements": [
       {
-       "id": "b1d10e7",
+       "id": "6f3ef77",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -6113,7 +6260,7 @@
        "elements": []
       },
       {
-       "id": "6f3ef77",
+       "id": "eb16372",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -6159,7 +6306,7 @@
        "elements": []
       },
       {
-       "id": "eb16372",
+       "id": "1534b76",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -6208,7 +6355,7 @@
      "isInner": false
     },
     {
-     "id": "3b8a614",
+     "id": "45fbc6d",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -6221,7 +6368,7 @@
      },
      "elements": [
       {
-       "id": "1534b76",
+       "id": "979d472",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -6266,7 +6413,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }

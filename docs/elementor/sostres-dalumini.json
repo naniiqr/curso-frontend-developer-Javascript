@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "d63fbf8",
+   "id": "4e6cd95",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "99adff4",
+     "id": "35464c8",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,16 +91,16 @@
      },
      "elements": [
       {
-       "id": "5cce8de",
+       "id": "f337d99",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sostres d'alumini</span></div>"
+        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sostres d'alumini</span></div>"
        },
        "elements": []
       },
       {
-       "id": "109d2dd",
+       "id": "89ae0fe",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "aa486f2",
+       "id": "aff0a6a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "cb8acb1",
+       "id": "204da25",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,11 +214,158 @@
        "elements": []
       },
       {
-       "id": "e60e81c",
+       "id": "d010396",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "button",
        "settings": {
-        "html": "<a href=\"/contacte/\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid #e4152d;background:#e4152d;border-radius:2px\">Demana pressupost &rarr;</a><a href=\"#galeria\" style=\"display:inline-block;margin:0 14px 10px 0;padding:14px 24px;font:600 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.4);background:transparent;border-radius:2px\">Veure la galeria &rarr;</a>"
+        "text": "Demana pressupost",
+        "link": {
+         "url": "/contacte/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "#e4152d",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "#e4152d",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "819c9fb",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Veure la galeria",
+        "link": {
+         "url": "#galeria",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "align": "left",
+        "size": "md",
+        "button_text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,.4)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "26",
+         "bottom": "14",
+         "left": "26",
+         "isLinked": false
+        },
+        "selected_icon": {
+         "value": "fas fa-arrow-right",
+         "library": "fa-solid"
+        },
+        "icon_align": "right",
+        "icon_indent": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "_element_width": "auto",
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "10",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": []
       }
@@ -226,7 +373,7 @@
      "isInner": false
     },
     {
-     "id": "3530922",
+     "id": "6b8eba4",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -239,7 +386,7 @@
      },
      "elements": [
       {
-       "id": "0804083",
+       "id": "c88d8d0",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -258,7 +405,7 @@
    "isInner": false
   },
   {
-   "id": "819c9fb",
+   "id": "3a20f62",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -308,7 +455,7 @@
    },
    "elements": [
     {
-     "id": "b5a1fc2",
+     "id": "18ead4c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -319,7 +466,7 @@
      },
      "elements": [
       {
-       "id": "748ba69",
+       "id": "351b335",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -368,7 +515,7 @@
      "isInner": false
     },
     {
-     "id": "b60c5ab",
+     "id": "b2dd140",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -379,7 +526,7 @@
      },
      "elements": [
       {
-       "id": "d1a6964",
+       "id": "98986c0",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -428,7 +575,7 @@
      "isInner": false
     },
     {
-     "id": "cda7217",
+     "id": "596f713",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -439,7 +586,7 @@
      },
      "elements": [
       {
-       "id": "17e23e5",
+       "id": "4e9cec1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -488,7 +635,7 @@
      "isInner": false
     },
     {
-     "id": "d010396",
+     "id": "020c8bf",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -499,7 +646,7 @@
      },
      "elements": [
       {
-       "id": "1373b28",
+       "id": "2992100",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -551,7 +698,7 @@
    "isInner": false
   },
   {
-   "id": "4e9cec1",
+   "id": "a1afc58",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -586,7 +733,7 @@
    },
    "elements": [
     {
-     "id": "89ae0fe",
+     "id": "92af93f",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -597,7 +744,7 @@
      },
      "elements": [
       {
-       "id": "f337d99",
+       "id": "b132ecc",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -631,7 +778,7 @@
      "isInner": false
     },
     {
-     "id": "b2dd140",
+     "id": "452bf20",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -650,16 +797,16 @@
      },
      "elements": [
       {
-       "id": "aff0a6a",
+       "id": "4d6e474",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
+        "editor": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
        },
        "elements": []
       },
       {
-       "id": "204da25",
+       "id": "facf9f7",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -698,7 +845,7 @@
        "elements": []
       },
       {
-       "id": "35464c8",
+       "id": "d961e9f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -741,7 +888,7 @@
        "elements": []
       },
       {
-       "id": "c88d8d0",
+       "id": "be53ee6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -773,7 +920,7 @@
        "elements": []
       },
       {
-       "id": "98986c0",
+       "id": "7bd28f1",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -784,7 +931,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "6b8eba4"
+          "_id": "18d10dc"
          },
          {
           "text": "Bany, cuina o galeries",
@@ -792,7 +939,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "4e6cd95"
+          "_id": "dfa92d8"
          },
          {
           "text": "Material de primera qualitat",
@@ -800,7 +947,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "351b335"
+          "_id": "655ea4b"
          },
          {
           "text": "Llarga durabilitat",
@@ -808,7 +955,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "18ead4c"
+          "_id": "7949e45"
          }
         ],
         "icon_color": "#e4152d",
@@ -841,7 +988,7 @@
    "isInner": false
   },
   {
-   "id": "b132ecc",
+   "id": "95d309f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -886,7 +1033,7 @@
    },
    "elements": [
     {
-     "id": "020c8bf",
+     "id": "af5afd7",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -897,7 +1044,7 @@
      },
      "elements": [
       {
-       "id": "2992100",
+       "id": "70efba6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -943,7 +1090,7 @@
      "isInner": false
     },
     {
-     "id": "3a20f62",
+     "id": "7e1d842",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -954,11 +1101,11 @@
      },
      "elements": [
       {
-       "id": "596f713",
+       "id": "0d4f480",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
+        "editor": "<div style=\"text-align:right\"><a href=\"#galeria\" style=\"color:#fff;text-decoration:none;font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase\">Veure més imatges &rarr;</a></div>"
        },
        "elements": []
       }
@@ -969,7 +1116,7 @@
    "isInner": false
   },
   {
-   "id": "7949e45",
+   "id": "49af6c4",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1007,7 +1154,7 @@
    },
    "elements": [
     {
-     "id": "4d6e474",
+     "id": "dc5c768",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1018,7 +1165,7 @@
      },
      "elements": [
       {
-       "id": "92af93f",
+       "id": "ed42277",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1053,7 +1200,7 @@
      "isInner": false
     },
     {
-     "id": "d961e9f",
+     "id": "b710915",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1064,7 +1211,7 @@
      },
      "elements": [
       {
-       "id": "facf9f7",
+       "id": "88a1996",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1099,7 +1246,7 @@
      "isInner": false
     },
     {
-     "id": "18d10dc",
+     "id": "277281a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1110,7 +1257,7 @@
      },
      "elements": [
       {
-       "id": "be53ee6",
+       "id": "076023e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1145,7 +1292,7 @@
      "isInner": false
     },
     {
-     "id": "655ea4b",
+     "id": "8f19793",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1156,7 +1303,7 @@
      },
      "elements": [
       {
-       "id": "dfa92d8",
+       "id": "228499b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1194,7 +1341,7 @@
    "isInner": false
   },
   {
-   "id": "88a1996",
+   "id": "9c19a2a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1234,7 +1381,7 @@
    },
    "elements": [
     {
-     "id": "a1afc58",
+     "id": "bcb41cc",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1253,7 +1400,7 @@
      },
      "elements": [
       {
-       "id": "7bd28f1",
+       "id": "894b77f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1286,11 +1433,11 @@
        "elements": []
       },
       {
-       "id": "452bf20",
+       "id": "dca5672",
        "elType": "widget",
-       "widgetType": "html",
+       "widgetType": "text-editor",
        "settings": {
-        "html": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Espais</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Bany, cuina o galeries</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Material</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Alumini de primera qualitat</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Durabilitat</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Llarga</td></tr></table>"
+        "editor": "<table style=\"width:100%;border-collapse:collapse;font:12px Inter,sans-serif;color:#fff\"><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Espais</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Bany, cuina o galeries</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Material</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Alumini de primera qualitat</td></tr><tr><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12);color:#cfcfd2;width:48%\">Durabilitat</td><td style=\"padding:10px 0;border-bottom:1px solid rgba(255,255,255,.12)\">Llarga</td></tr></table>"
        },
        "elements": []
       }
@@ -1298,7 +1445,7 @@
      "isInner": false
     },
     {
-     "id": "dc5c768",
+     "id": "87ec2f4",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1332,7 +1479,7 @@
      },
      "elements": [
       {
-       "id": "0d4f480",
+       "id": "5129a5d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1371,7 +1518,7 @@
        "elements": []
       },
       {
-       "id": "70efba6",
+       "id": "d72fbbc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1414,7 +1561,7 @@
        "elements": []
       },
       {
-       "id": "af5afd7",
+       "id": "06a81a4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1446,7 +1593,7 @@
        "elements": []
       },
       {
-       "id": "7e1d842",
+       "id": "0ebcc77",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1515,7 +1662,7 @@
        "elements": []
       },
       {
-       "id": "95d309f",
+       "id": "d88518a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1528,7 +1675,7 @@
        "elements": []
       },
       {
-       "id": "ed42277",
+       "id": "309fee4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1558,7 +1705,7 @@
    "isInner": false
   },
   {
-   "id": "894b77f",
+   "id": "f18a6d1",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1597,7 +1744,7 @@
    },
    "elements": [
     {
-     "id": "228499b",
+     "id": "1bc0249",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1608,7 +1755,7 @@
      },
      "elements": [
       {
-       "id": "b710915",
+       "id": "83e8ef5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1647,7 +1794,7 @@
        "elements": []
       },
       {
-       "id": "076023e",
+       "id": "9e984c1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1690,7 +1837,7 @@
        "elements": []
       },
       {
-       "id": "277281a",
+       "id": "c559da2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1717,7 +1864,7 @@
      "isInner": false
     },
     {
-     "id": "49af6c4",
+     "id": "a368b0d",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1728,7 +1875,7 @@
      },
      "elements": [
       {
-       "id": "8f19793",
+       "id": "f317393",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1759,7 +1906,7 @@
    "isInner": false
   },
   {
-   "id": "f18a6d1",
+   "id": "c7af092",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1797,7 +1944,7 @@
    },
    "elements": [
     {
-     "id": "bcb41cc",
+     "id": "9597353",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1808,7 +1955,7 @@
      },
      "elements": [
       {
-       "id": "dca5672",
+       "id": "495dabf",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1843,7 +1990,7 @@
      "isInner": false
     },
     {
-     "id": "d72fbbc",
+     "id": "a2cc63e",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1854,7 +2001,7 @@
      },
      "elements": [
       {
-       "id": "5129a5d",
+       "id": "faafda6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1889,7 +2036,7 @@
      "isInner": false
     },
     {
-     "id": "0ebcc77",
+     "id": "7a6a74c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1900,7 +2047,7 @@
      },
      "elements": [
       {
-       "id": "06a81a4",
+       "id": "a14ac55",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1935,7 +2082,7 @@
      "isInner": false
     },
     {
-     "id": "309fee4",
+     "id": "69d658d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1946,7 +2093,7 @@
      },
      "elements": [
       {
-       "id": "d88518a",
+       "id": "52947e0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1984,7 +2131,7 @@
    "isInner": false
   },
   {
-   "id": "495dabf",
+   "id": "fc52859",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2022,7 +2169,7 @@
    },
    "elements": [
     {
-     "id": "9c19a2a",
+     "id": "71a58e8",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2033,7 +2180,7 @@
      },
      "elements": [
       {
-       "id": "87ec2f4",
+       "id": "e9fd7c2",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2068,7 +2215,7 @@
      "isInner": false
     },
     {
-     "id": "9e984c1",
+     "id": "297fa77",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2079,7 +2226,7 @@
      },
      "elements": [
       {
-       "id": "83e8ef5",
+       "id": "962e56a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2114,7 +2261,7 @@
      "isInner": false
     },
     {
-     "id": "1bc0249",
+     "id": "d1dc3a8",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2125,7 +2272,7 @@
      },
      "elements": [
       {
-       "id": "c559da2",
+       "id": "f60bb6b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2160,7 +2307,7 @@
      "isInner": false
     },
     {
-     "id": "a368b0d",
+     "id": "4462bf0",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2171,7 +2318,7 @@
      },
      "elements": [
       {
-       "id": "f317393",
+       "id": "806beaf",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2209,7 +2356,7 @@
    "isInner": false
   },
   {
-   "id": "a2cc63e",
+   "id": "bc57386",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2247,7 +2394,7 @@
    },
    "elements": [
     {
-     "id": "faafda6",
+     "id": "a981f2b",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2258,7 +2405,7 @@
      },
      "elements": [
       {
-       "id": "9597353",
+       "id": "9327969",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2333,7 +2480,7 @@
    "isInner": false
   },
   {
-   "id": "806beaf",
+   "id": "52c5189",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2398,7 +2545,7 @@
    },
    "elements": [
     {
-     "id": "297fa77",
+     "id": "6dd4e10",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2409,7 +2556,7 @@
      },
      "elements": [
       {
-       "id": "a14ac55",
+       "id": "97d0145",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2452,7 +2599,7 @@
        "elements": []
       },
       {
-       "id": "7a6a74c",
+       "id": "efb76cf",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2484,7 +2631,7 @@
        "elements": []
       },
       {
-       "id": "52947e0",
+       "id": "5c50b4d",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2556,7 +2703,7 @@
      "isInner": false
     },
     {
-     "id": "f60bb6b",
+     "id": "42a3964",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -2567,7 +2714,7 @@
      },
      "elements": [
       {
-       "id": "69d658d",
+       "id": "46031b3",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2613,7 +2760,7 @@
        "elements": []
       },
       {
-       "id": "e9fd7c2",
+       "id": "6ba3af5",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2659,7 +2806,7 @@
        "elements": []
       },
       {
-       "id": "71a58e8",
+       "id": "0771fc6",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2708,7 +2855,7 @@
      "isInner": false
     },
     {
-     "id": "d1dc3a8",
+     "id": "1c54985",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -2721,7 +2868,7 @@
      },
      "elements": [
       {
-       "id": "962e56a",
+       "id": "21fe5b8",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2766,7 +2913,6 @@
   "template": "elementor_header_footer",
   "hide_title": "yes",
   "background_background": "classic",
-  "background_color": "#0c0c0d",
-  "custom_css": "\n/* Aluminis Albera - acabado fino (skills: make-interfaces-feel-better, typography, viewports, reduced-motion) */\nbody { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #0c0c0d; }\n.elementor-heading-title { text-wrap: balance; }\n.elementor-widget-text-editor p, .elementor-icon-box-description, .elementor-icon-list-text { text-wrap: pretty; max-width: 70ch; }\n.elementor-widget-text-editor, .elementor-widget-icon-box { max-width: 100%; }\n.elementor-widget-image img { outline: 1px solid rgba(255,255,255,.08); outline-offset: -1px; object-fit: cover; }\n.elementor-location-header img, .elementor-location-footer img { outline: 0; object-fit: contain; }\n.elementor-widget-image a { display: block; overflow: hidden; }\n.elementor-widget-image a img { transition: transform .45s cubic-bezier(.2,.8,.2,1); }\n.elementor-widget-image a:hover img { transform: scale(1.04); }\n.elementor-button { min-height: 44px; transition: filter .2s ease, transform .15s ease, background-color .2s ease, border-color .2s ease; }\n.elementor-button:hover { filter: brightness(1.12); }\n.elementor-button:active { transform: scale(.97); }\n.elementor-icon-box-title a, .elementor-heading-title a { transition: color .2s ease; }\n.elementor-heading-title a:hover { color: #e4152d; }\na:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .elementor-button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }\n.elementor-nav-menu a.elementor-item { min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }\n.elementor-accordion .elementor-tab-title { min-height: 44px; }\n.elementor-column > .elementor-widget-wrap { min-width: 0; }\n@media (max-width: 767px) { .elementor-widget-text-editor p, .elementor-icon-box-description { font-size: 15px; } .elementor-widget-image img { height: auto; } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; } .elementor-widget-image a:hover img { transform: none; } }\n"
+  "background_color": "#0c0c0d"
  }
 }
