@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "addfa9b",
+   "id": "f9a40a4",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "22ac3c5",
+     "id": "a67f096",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "362e80d",
+       "id": "f7e9050",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "fe8c15f",
+       "id": "addfa9b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "1efa39b",
+       "id": "8c235f8",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "92fb0c6",
+       "id": "847cc55",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "84f7e69",
+       "id": "22ac3c5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "f455267",
+       "id": "aff1621",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "f7e9050",
+     "id": "fc49306",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "aff1621",
+       "id": "2a084e5",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "1fc2140",
+   "id": "22fb0ce",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "847cc55",
+     "id": "19b6506",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "8c235f8",
+       "id": "5ec91aa",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "2a084e5",
+     "id": "3b3dbaf",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "a67f096",
+       "id": "1fc2140",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "f9a40a4",
+     "id": "ede7e2b",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "fc49306",
+       "id": "ca8155f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "19b6506",
+     "id": "49c9adb",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "5ec91aa",
+       "id": "dd45045",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "dd8eb9f",
+   "id": "170c944",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "ca8155f",
+     "id": "43feaee",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "3b3dbaf",
+       "id": "aeb3135",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "3524072",
+     "id": "210f760",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "ede7e2b",
+       "id": "98d6f58",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "dd45045",
+       "id": "51ef186",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "49c9adb",
+       "id": "4b0a59d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "22fb0ce",
+       "id": "67d16d0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "67d16d0",
+       "id": "6c3cf77",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "aeb3135"
+          "_id": "3524072"
          },
          {
           "text": "Eviten l'entrada de la calor o del fred",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "43feaee"
+          "_id": "dd8eb9f"
          },
          {
           "text": "Persianes de seguretat",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "98d6f58"
+          "_id": "d516b13"
          },
          {
           "text": "Persianes apilables",
@@ -973,7 +973,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "51ef186"
+          "_id": "1f50893"
          },
          {
           "text": "Persianes mallorquines",
@@ -981,7 +981,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "4b0a59d"
+          "_id": "7504ada"
          }
         ],
         "icon_color": "#e4152d",
@@ -1014,7 +1014,7 @@
    "isInner": false
   },
   {
-   "id": "210f760",
+   "id": "0787191",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1059,7 +1059,7 @@
    },
    "elements": [
     {
-     "id": "7504ada",
+     "id": "7ce3284",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1070,7 +1070,7 @@
      },
      "elements": [
       {
-       "id": "1f50893",
+       "id": "704afe0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1116,7 +1116,7 @@
      "isInner": false
     },
     {
-     "id": "6c3cf77",
+     "id": "0a113ef",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1127,7 +1127,7 @@
      },
      "elements": [
       {
-       "id": "d516b13",
+       "id": "0efe328",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1142,7 +1142,7 @@
    "isInner": false
   },
   {
-   "id": "c2aee86",
+   "id": "a64c94b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1180,7 +1180,7 @@
    },
    "elements": [
     {
-     "id": "0efe328",
+     "id": "cfbce4c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1191,7 +1191,7 @@
      },
      "elements": [
       {
-       "id": "170c944",
+       "id": "024d7f8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1237,7 +1237,7 @@
      "isInner": false
     },
     {
-     "id": "7ce3284",
+     "id": "d56b9fc",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1248,7 +1248,7 @@
      },
      "elements": [
       {
-       "id": "704afe0",
+       "id": "c2aee86",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1294,7 +1294,7 @@
      "isInner": false
     },
     {
-     "id": "0787191",
+     "id": "20aee3a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1305,7 +1305,7 @@
      },
      "elements": [
       {
-       "id": "0a113ef",
+       "id": "4b02507",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1351,7 +1351,7 @@
      "isInner": false
     },
     {
-     "id": "cfbce4c",
+     "id": "5705e11",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1362,7 +1362,7 @@
      },
      "elements": [
       {
-       "id": "024d7f8",
+       "id": "061412e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1411,7 +1411,7 @@
    "isInner": false
   },
   {
-   "id": "aa169b4",
+   "id": "a4300b0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1451,7 +1451,7 @@
    },
    "elements": [
     {
-     "id": "20aee3a",
+     "id": "892c91e",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1470,7 +1470,7 @@
      },
      "elements": [
       {
-       "id": "d56b9fc",
+       "id": "0188251",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1503,7 +1503,7 @@
        "elements": []
       },
       {
-       "id": "4b02507",
+       "id": "acf4b89",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1515,7 +1515,7 @@
      "isInner": false
     },
     {
-     "id": "b6a1085",
+     "id": "8b6dd7d",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1549,7 +1549,7 @@
      },
      "elements": [
       {
-       "id": "061412e",
+       "id": "b6a1085",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1588,7 +1588,7 @@
        "elements": []
       },
       {
-       "id": "5705e11",
+       "id": "aa169b4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1631,7 +1631,7 @@
        "elements": []
       },
       {
-       "id": "a64c94b",
+       "id": "f47d0ad",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1663,7 +1663,7 @@
        "elements": []
       },
       {
-       "id": "0188251",
+       "id": "f57a2f5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1741,7 +1741,7 @@
        "elements": []
       },
       {
-       "id": "acf4b89",
+       "id": "c8fbbc8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1754,7 +1754,7 @@
        "elements": []
       },
       {
-       "id": "892c91e",
+       "id": "621461a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1784,7 +1784,7 @@
    "isInner": false
   },
   {
-   "id": "e205ee2",
+   "id": "23ce185",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1823,7 +1823,7 @@
    },
    "elements": [
     {
-     "id": "621461a",
+     "id": "8b5040a",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1834,7 +1834,7 @@
      },
      "elements": [
       {
-       "id": "f47d0ad",
+       "id": "e205ee2",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1873,7 +1873,7 @@
        "elements": []
       },
       {
-       "id": "f57a2f5",
+       "id": "b56a18e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1916,7 +1916,7 @@
        "elements": []
       },
       {
-       "id": "c8fbbc8",
+       "id": "2a9d121",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1943,7 +1943,7 @@
      "isInner": false
     },
     {
-     "id": "a4300b0",
+     "id": "24896ee",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1954,7 +1954,7 @@
      },
      "elements": [
       {
-       "id": "8b6dd7d",
+       "id": "7634ea6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1985,7 +1985,7 @@
    "isInner": false
   },
   {
-   "id": "6602294",
+   "id": "cc1aa43",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2023,7 +2023,7 @@
    },
    "elements": [
     {
-     "id": "2a9d121",
+     "id": "1e056d2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2034,7 +2034,7 @@
      },
      "elements": [
       {
-       "id": "b56a18e",
+       "id": "da0d111",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2080,218 +2080,6 @@
      "isInner": false
     },
     {
-     "id": "7634ea6",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "8b5040a",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "23ce185",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "24896ee",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "1e056d2",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "da0d111",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "c22abfa",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "6d0f846",
      "elType": "column",
      "settings": {
@@ -2308,7 +2096,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2365,7 +2153,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2422,64 +2210,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "cbb6a3b",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "7fa732b",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2523,7 +2254,7 @@
    "isInner": false
   },
   {
-   "id": "ca75910",
+   "id": "2ab5641",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2561,6 +2292,63 @@
    },
    "elements": [
     {
+     "id": "cbb6a3b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "7fa732b",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-06.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "d045c59",
      "elType": "column",
      "settings": {
@@ -2577,7 +2365,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2634,7 +2422,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2691,64 +2479,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-12.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "4daa3db",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "043c3d7",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2792,7 +2523,7 @@
    "isInner": false
   },
   {
-   "id": "4311359",
+   "id": "c32d9bf",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2830,6 +2561,63 @@
    },
    "elements": [
     {
+     "id": "4daa3db",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "043c3d7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "90794e3",
      "elType": "column",
      "settings": {
@@ -2846,7 +2634,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2903,7 +2691,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2960,64 +2748,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b55ec28",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "92262bf",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-17.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-13.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3061,7 +2792,7 @@
    "isInner": false
   },
   {
-   "id": "92977ae",
+   "id": "d79aac0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3099,6 +2830,63 @@
    },
    "elements": [
     {
+     "id": "b55ec28",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "92262bf",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-14.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "64223cc",
      "elType": "column",
      "settings": {
@@ -3115,7 +2903,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-18.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3172,7 +2960,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-19.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-16.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3229,64 +3017,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-20.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "a3d68b4",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "3cef96d",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-21.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-17.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3330,7 +3061,7 @@
    "isInner": false
   },
   {
-   "id": "9c01802",
+   "id": "287e03d",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3368,6 +3099,63 @@
    },
    "elements": [
     {
+     "id": "a3d68b4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "3cef96d",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-18.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "e6cb2a3",
      "elType": "column",
      "settings": {
@@ -3384,7 +3172,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-22.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-19.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3441,7 +3229,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-23.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-20.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3498,64 +3286,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-24.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "d240e3d",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "2ba5966",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-25.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-21.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3599,7 +3330,7 @@
    "isInner": false
   },
   {
-   "id": "cc1aa43",
+   "id": "fec8d47",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3637,6 +3368,63 @@
    },
    "elements": [
     {
+     "id": "d240e3d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "2ba5966",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-22.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "437d7d1",
      "elType": "column",
      "settings": {
@@ -3653,7 +3441,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-26.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-23.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3710,7 +3498,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-27.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-24.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3767,6 +3555,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-25.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6aab127",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "4e0cb6f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "eeb69a3",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-26.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "8f468c8",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "6cfe0e6",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-27.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "89fcd07",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e744f91",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-28.jpg",
          "id": ""
         },
@@ -3808,7 +3808,7 @@
      "isInner": false
     },
     {
-     "id": "4e0cb6f",
+     "id": "c22abfa",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3819,7 +3819,7 @@
      },
      "elements": [
       {
-       "id": "eeb69a3",
+       "id": "6602294",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3868,7 +3868,7 @@
    "isInner": false
   },
   {
-   "id": "2ab5641",
+   "id": "d93ed5b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3906,7 +3906,7 @@
    },
    "elements": [
     {
-     "id": "8f468c8",
+     "id": "4311359",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3917,7 +3917,7 @@
      },
      "elements": [
       {
-       "id": "6cfe0e6",
+       "id": "ca75910",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3963,7 +3963,7 @@
      "isInner": false
     },
     {
-     "id": "89fcd07",
+     "id": "9c01802",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -3974,7 +3974,7 @@
      },
      "elements": [
       {
-       "id": "e744f91",
+       "id": "92977ae",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -4023,7 +4023,7 @@
    "isInner": false
   },
   {
-   "id": "287e03d",
+   "id": "df6d233",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -4061,7 +4061,7 @@
    },
    "elements": [
     {
-     "id": "d79aac0",
+     "id": "fe7ee8f",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -4072,7 +4072,7 @@
      },
      "elements": [
       {
-       "id": "c32d9bf",
+       "id": "54a367d",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -4156,7 +4156,7 @@
    "isInner": false
   },
   {
-   "id": "860320b",
+   "id": "9ab0d88",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -4221,7 +4221,7 @@
    },
    "elements": [
     {
-     "id": "a1140a3",
+     "id": "2bcab9d",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -4232,7 +4232,7 @@
      },
      "elements": [
       {
-       "id": "fec8d47",
+       "id": "9908279",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4275,7 +4275,7 @@
        "elements": []
       },
       {
-       "id": "6aab127",
+       "id": "a1140a3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4307,7 +4307,7 @@
        "elements": []
       },
       {
-       "id": "d93ed5b",
+       "id": "4fac9ba",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -4388,7 +4388,7 @@
      "isInner": false
     },
     {
-     "id": "4fac9ba",
+     "id": "0b8aff0",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -4399,7 +4399,7 @@
      },
      "elements": [
       {
-       "id": "54a367d",
+       "id": "692f93b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4445,7 +4445,7 @@
        "elements": []
       },
       {
-       "id": "fe7ee8f",
+       "id": "860320b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4491,7 +4491,7 @@
        "elements": []
       },
       {
-       "id": "df6d233",
+       "id": "7b13b22",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4540,7 +4540,7 @@
      "isInner": false
     },
     {
-     "id": "692f93b",
+     "id": "ec5aa0b",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -4553,7 +4553,7 @@
      },
      "elements": [
       {
-       "id": "9908279",
+       "id": "934815a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

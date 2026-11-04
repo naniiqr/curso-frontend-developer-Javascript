@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "05f971b",
+   "id": "b337e84",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "3505107",
+     "id": "5b69b9c",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "559cb99",
+       "id": "7380ad8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "55a7cf9",
+       "id": "05f971b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "2f55707",
+       "id": "3cf166c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "1be3bc3",
+       "id": "cee6311",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "854d9fc",
+       "id": "3505107",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "c410003",
+       "id": "b534ba6",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "7380ad8",
+     "id": "285e19f",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "b534ba6",
+       "id": "b5b41fa",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -445,7 +445,7 @@
    "isInner": false
   },
   {
-   "id": "e2230b8",
+   "id": "2b8a615",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -495,186 +495,6 @@
    },
    "elements": [
     {
-     "id": "cee6311",
-     "elType": "column",
-     "settings": {
-      "_column_size": 20.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "3cf166c",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-temperature-low",
-         "library": "fa-solid"
-        },
-        "title_text": "Aïllament tèrmic",
-        "description_text": "d'alt rendiment",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b5b41fa",
-     "elType": "column",
-     "settings": {
-      "_column_size": 20.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "5b69b9c",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-volume-mute",
-         "library": "fa-solid"
-        },
-        "title_text": "Aïllament acústic",
-        "description_text": "fins a 45 dB",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b337e84",
-     "elType": "column",
-     "settings": {
-      "_column_size": 20.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "285e19f",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-leaf",
-         "library": "fa-solid"
-        },
-        "title_text": "Eficiència energètica",
-        "description_text": "i sostenibilitat",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 30,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
      "id": "ff4d5fb",
      "elType": "column",
      "settings": {
@@ -691,11 +511,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-gem",
+         "value": "fas fa-temperature-low",
          "library": "fa-solid"
         },
-        "title_text": "Disseny actual",
-        "description_text": "i personalitzat",
+        "title_text": "Aïllament tèrmic",
+        "description_text": "d'alt rendiment",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -751,6 +571,186 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
+         "value": "fas fa-volume-mute",
+         "library": "fa-solid"
+        },
+        "title_text": "Aïllament acústic",
+        "description_text": "fins a 45 dB",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "0874085",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e2230b8",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-leaf",
+         "library": "fa-solid"
+        },
+        "title_text": "Eficiència energètica",
+        "description_text": "i sostenibilitat",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "10a7cdd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "a760880",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-gem",
+         "library": "fa-solid"
+        },
+        "title_text": "Disseny actual",
+        "description_text": "i personalitzat",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "59b90e1",
+     "elType": "column",
+     "settings": {
+      "_column_size": 20.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 100,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "3dc4876",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
          "value": "fas fa-cog",
          "library": "fa-solid"
         },
@@ -798,7 +798,7 @@
    "isInner": false
   },
   {
-   "id": "2bb232c",
+   "id": "37f0e88",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -833,7 +833,7 @@
    },
    "elements": [
     {
-     "id": "a760880",
+     "id": "38913e1",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -844,7 +844,7 @@
      },
      "elements": [
       {
-       "id": "0874085",
+       "id": "f3f27a3",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -878,7 +878,7 @@
      "isInner": false
     },
     {
-     "id": "53fde96",
+     "id": "f4be002",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -897,7 +897,7 @@
      },
      "elements": [
       {
-       "id": "10a7cdd",
+       "id": "ebd9629",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "3dc4876",
+       "id": "63538fe",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -945,7 +945,7 @@
        "elements": []
       },
       {
-       "id": "59b90e1",
+       "id": "cf67355",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -988,7 +988,7 @@
        "elements": []
       },
       {
-       "id": "2b8a615",
+       "id": "07563a3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1020,7 +1020,7 @@
        "elements": []
       },
       {
-       "id": "07563a3",
+       "id": "13f320e",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -1031,7 +1031,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "f3f27a3"
+          "_id": "53fde96"
          },
          {
           "text": "Gran varietat d'acabats i colors",
@@ -1039,7 +1039,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "38913e1"
+          "_id": "2bb232c"
          },
          {
           "text": "Compatible amb diferents tipus de vidre",
@@ -1047,7 +1047,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "ebd9629"
+          "_id": "ba2fd31"
          },
          {
           "text": "Disseny minimalista i línies modernes",
@@ -1055,7 +1055,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "63538fe"
+          "_id": "69421f0"
          },
          {
           "text": "Solució ideal per a obra nova i rehabilitació",
@@ -1063,7 +1063,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "cf67355"
+          "_id": "85422af"
          }
         ],
         "icon_color": "#e4152d",
@@ -1096,7 +1096,7 @@
    "isInner": false
   },
   {
-   "id": "f4be002",
+   "id": "c399862",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1141,7 +1141,7 @@
    },
    "elements": [
     {
-     "id": "85422af",
+     "id": "298f95e",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1152,7 +1152,7 @@
      },
      "elements": [
       {
-       "id": "69421f0",
+       "id": "0fcbc61",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1198,7 +1198,7 @@
      "isInner": false
     },
     {
-     "id": "13f320e",
+     "id": "df877f3",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1209,7 +1209,7 @@
      },
      "elements": [
       {
-       "id": "ba2fd31",
+       "id": "d64a340",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1224,7 +1224,7 @@
    "isInner": false
   },
   {
-   "id": "5ea1649",
+   "id": "8144813",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1262,7 +1262,7 @@
    },
    "elements": [
     {
-     "id": "d64a340",
+     "id": "65658fd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1273,7 +1273,7 @@
      },
      "elements": [
       {
-       "id": "37f0e88",
+       "id": "33e8075",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1319,7 +1319,7 @@
      "isInner": false
     },
     {
-     "id": "298f95e",
+     "id": "7bcdf75",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1330,7 +1330,7 @@
      },
      "elements": [
       {
-       "id": "0fcbc61",
+       "id": "5ea1649",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1376,7 +1376,7 @@
      "isInner": false
     },
     {
-     "id": "c399862",
+     "id": "9b72e31",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1387,7 +1387,7 @@
      },
      "elements": [
       {
-       "id": "df877f3",
+       "id": "5737034",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1433,7 +1433,7 @@
      "isInner": false
     },
     {
-     "id": "65658fd",
+     "id": "7dcd340",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1444,7 +1444,7 @@
      },
      "elements": [
       {
-       "id": "33e8075",
+       "id": "16c222a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1493,7 +1493,7 @@
    "isInner": false
   },
   {
-   "id": "8d34201",
+   "id": "5e38810",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1533,7 +1533,7 @@
    },
    "elements": [
     {
-     "id": "9b72e31",
+     "id": "ed265bc",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1552,7 +1552,7 @@
      },
      "elements": [
       {
-       "id": "7bcdf75",
+       "id": "97e8527",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1585,7 +1585,7 @@
        "elements": []
       },
       {
-       "id": "5737034",
+       "id": "647bba3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1597,7 +1597,7 @@
      "isInner": false
     },
     {
-     "id": "c75b6f1",
+     "id": "f387624",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1631,7 +1631,7 @@
      },
      "elements": [
       {
-       "id": "16c222a",
+       "id": "c75b6f1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1670,7 +1670,7 @@
        "elements": []
       },
       {
-       "id": "7dcd340",
+       "id": "8d34201",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1713,7 +1713,7 @@
        "elements": []
       },
       {
-       "id": "8144813",
+       "id": "ccb1d45",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1745,7 +1745,7 @@
        "elements": []
       },
       {
-       "id": "97e8527",
+       "id": "01f78be",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1823,7 +1823,7 @@
        "elements": []
       },
       {
-       "id": "647bba3",
+       "id": "7f24d24",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1836,7 +1836,7 @@
        "elements": []
       },
       {
-       "id": "ed265bc",
+       "id": "94c7bb5",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1866,7 +1866,7 @@
    "isInner": false
   },
   {
-   "id": "15de21c",
+   "id": "58ae749",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1905,7 +1905,7 @@
    },
    "elements": [
     {
-     "id": "94c7bb5",
+     "id": "1bb91f7",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1916,7 +1916,7 @@
      },
      "elements": [
       {
-       "id": "ccb1d45",
+       "id": "15de21c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1955,7 +1955,7 @@
        "elements": []
       },
       {
-       "id": "01f78be",
+       "id": "11b921e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1998,7 +1998,7 @@
        "elements": []
       },
       {
-       "id": "7f24d24",
+       "id": "6e2713a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2025,7 +2025,7 @@
      "isInner": false
     },
     {
-     "id": "5e38810",
+     "id": "a9a6653",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -2036,7 +2036,7 @@
      },
      "elements": [
       {
-       "id": "f387624",
+       "id": "3a07724",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2067,7 +2067,7 @@
    "isInner": false
   },
   {
-   "id": "b2eeb73",
+   "id": "c3992e9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2105,7 +2105,7 @@
    },
    "elements": [
     {
-     "id": "6e2713a",
+     "id": "8eefcfd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2116,7 +2116,7 @@
      },
      "elements": [
       {
-       "id": "11b921e",
+       "id": "4e4b5fb",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2162,218 +2162,6 @@
      "isInner": false
     },
     {
-     "id": "3a07724",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1bb91f7",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "58ae749",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "a9a6653",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "8eefcfd",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "4e4b5fb",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "08c5433",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "cbcb58a",
      "elType": "column",
      "settings": {
@@ -2390,7 +2178,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-05.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-02.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2447,7 +2235,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2504,64 +2292,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-07.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "c9892a9",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "a86c450",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-08.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2605,7 +2336,7 @@
    "isInner": false
   },
   {
-   "id": "6aca970",
+   "id": "d86ea61",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2643,6 +2374,63 @@
    },
    "elements": [
     {
+     "id": "c9892a9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "a86c450",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-05.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "e5f6ad6",
      "elType": "column",
      "settings": {
@@ -2659,7 +2447,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2716,7 +2504,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2773,64 +2561,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "258be18",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "a8849b0",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2874,7 +2605,7 @@
    "isInner": false
   },
   {
-   "id": "3435c37",
+   "id": "9cf81d8",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2912,6 +2643,63 @@
    },
    "elements": [
     {
+     "id": "258be18",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "a8849b0",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-09.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "c6e19e8",
      "elType": "column",
      "settings": {
@@ -2928,7 +2716,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-10.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2985,7 +2773,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3042,64 +2830,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-15.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "766ebcd",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "605ff76",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-16.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3143,7 +2874,7 @@
    "isInner": false
   },
   {
-   "id": "d490d7b",
+   "id": "c361bc7",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3152,7 +2883,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "72",
+     "bottom": "3",
      "left": "0",
      "isLinked": false
     },
@@ -3160,7 +2891,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "54",
+     "bottom": "2",
      "left": "24",
      "isLinked": false
     },
@@ -3168,7 +2899,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "40",
+     "bottom": "2",
      "left": "18",
      "isLinked": false
     },
@@ -3180,6 +2911,63 @@
     }
    },
    "elements": [
+    {
+     "id": "766ebcd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "605ff76",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-13.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
     {
      "id": "30bb382",
      "elType": "column",
@@ -3197,7 +2985,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-19.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-14.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3254,7 +3042,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-20.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3311,6 +3099,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-16.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "44c4c17",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "04ecb1f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "076a0c9",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-19.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "08c5433",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "b2eeb73",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-20.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3435c37",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "6aca970",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-21.jpg",
          "id": ""
         },
@@ -3352,7 +3352,7 @@
      "isInner": false
     },
     {
-     "id": "04ecb1f",
+     "id": "b2f627f",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3363,7 +3363,7 @@
      },
      "elements": [
       {
-       "id": "076a0c9",
+       "id": "d490d7b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3412,7 +3412,7 @@
    "isInner": false
   },
   {
-   "id": "d86ea61",
+   "id": "d7a728a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3450,7 +3450,7 @@
    },
    "elements": [
     {
-     "id": "c3992e9",
+     "id": "996a7fa",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -3461,7 +3461,7 @@
      },
      "elements": [
       {
-       "id": "b2f627f",
+       "id": "dc82d63",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3545,7 +3545,7 @@
    "isInner": false
   },
   {
-   "id": "851ddf5",
+   "id": "b73dfe2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3610,7 +3610,7 @@
    },
    "elements": [
     {
-     "id": "8ebda54",
+     "id": "5d44ee6",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3621,7 +3621,7 @@
      },
      "elements": [
       {
-       "id": "9cf81d8",
+       "id": "00ac8ed",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3664,7 +3664,7 @@
        "elements": []
       },
       {
-       "id": "c361bc7",
+       "id": "8ebda54",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3696,7 +3696,7 @@
        "elements": []
       },
       {
-       "id": "44c4c17",
+       "id": "f76a89f",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3777,7 +3777,7 @@
      "isInner": false
     },
     {
-     "id": "f76a89f",
+     "id": "eb6fdc3",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3788,7 +3788,7 @@
      },
      "elements": [
       {
-       "id": "dc82d63",
+       "id": "f29c21d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3834,7 +3834,7 @@
        "elements": []
       },
       {
-       "id": "996a7fa",
+       "id": "851ddf5",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3880,7 +3880,7 @@
        "elements": []
       },
       {
-       "id": "d7a728a",
+       "id": "58d4d1e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3929,7 +3929,7 @@
      "isInner": false
     },
     {
-     "id": "f29c21d",
+     "id": "cdc0d6e",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3942,7 +3942,7 @@
      },
      "elements": [
       {
-       "id": "00ac8ed",
+       "id": "7750ca3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "82c2559",
+   "id": "0188e8b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "2b6d65b",
+     "id": "52292e0",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "f473306",
+       "id": "c44e503",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "0e095e0",
+       "id": "82c2559",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "97af4fb",
+       "id": "160c886",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "5680522",
+       "id": "b20bb95",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "6eb6e75",
+       "id": "2b6d65b",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "2ac2406",
+       "id": "4f28480",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "c44e503",
+     "id": "a42a596",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "4f28480",
+       "id": "9a3d458",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "c54e783",
+   "id": "fb2fcd5",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "b20bb95",
+     "id": "ae5e3ce",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "160c886",
+       "id": "9adeb82",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "9a3d458",
+     "id": "4d2e7bd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "52292e0",
+       "id": "c54e783",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "0188e8b",
+     "id": "7501e5d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "a42a596",
+       "id": "fe2d010",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "ae5e3ce",
+     "id": "491442d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "9adeb82",
+       "id": "147702d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "285ab94",
+   "id": "6a61d42",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "fe2d010",
+     "id": "144a3f7",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "4d2e7bd",
+       "id": "b571ece",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "f7cade8",
+     "id": "3948ead",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "7501e5d",
+       "id": "4e4e53a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "147702d",
+       "id": "a58149d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "491442d",
+       "id": "7e7e69e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "fb2fcd5",
+       "id": "f7cade8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "7e7e69e",
+       "id": "a4d2f0d",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "b571ece"
+          "_id": "285ab94"
          },
          {
           "text": "Redueixen l'impacte visual de les fulles centrals",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "144a3f7"
+          "_id": "a016102"
          },
          {
           "text": "Sensació de contacte amb l'exterior",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "4e4e53a"
+          "_id": "33ceb07"
          },
          {
           "text": "Es manté el confort de l'interior",
@@ -973,7 +973,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "a58149d"
+          "_id": "c8ba76c"
          }
         ],
         "icon_color": "#e4152d",
@@ -1006,7 +1006,7 @@
    "isInner": false
   },
   {
-   "id": "3948ead",
+   "id": "3a029f0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1051,7 +1051,7 @@
    },
    "elements": [
     {
-     "id": "c8ba76c",
+     "id": "b24d516",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1062,7 +1062,7 @@
      },
      "elements": [
       {
-       "id": "33ceb07",
+       "id": "2715518",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1108,7 +1108,7 @@
      "isInner": false
     },
     {
-     "id": "a4d2f0d",
+     "id": "1d72310",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1119,7 +1119,7 @@
      },
      "elements": [
       {
-       "id": "a016102",
+       "id": "3f67fd9",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1134,7 +1134,7 @@
    "isInner": false
   },
   {
-   "id": "25df35d",
+   "id": "6c14da1",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1172,7 +1172,7 @@
    },
    "elements": [
     {
-     "id": "3f67fd9",
+     "id": "68d13cf",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1183,7 +1183,7 @@
      },
      "elements": [
       {
-       "id": "6a61d42",
+       "id": "43cca4b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1229,7 +1229,7 @@
      "isInner": false
     },
     {
-     "id": "b24d516",
+     "id": "3210ddb",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1240,7 +1240,7 @@
      },
      "elements": [
       {
-       "id": "2715518",
+       "id": "25df35d",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1286,7 +1286,7 @@
      "isInner": false
     },
     {
-     "id": "3a029f0",
+     "id": "eb86d51",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1297,7 +1297,7 @@
      },
      "elements": [
       {
-       "id": "1d72310",
+       "id": "c4851e8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1343,7 +1343,7 @@
      "isInner": false
     },
     {
-     "id": "68d13cf",
+     "id": "4122cb1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1354,7 +1354,7 @@
      },
      "elements": [
       {
-       "id": "43cca4b",
+       "id": "310ce61",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1403,7 +1403,7 @@
    "isInner": false
   },
   {
-   "id": "7bccfde",
+   "id": "2de5d16",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1443,7 +1443,7 @@
    },
    "elements": [
     {
-     "id": "eb86d51",
+     "id": "81dc9bd",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1462,7 +1462,7 @@
      },
      "elements": [
       {
-       "id": "3210ddb",
+       "id": "e53a0a2",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1495,7 +1495,7 @@
        "elements": []
       },
       {
-       "id": "c4851e8",
+       "id": "e034fb6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1507,7 +1507,7 @@
      "isInner": false
     },
     {
-     "id": "9996535",
+     "id": "1c65cef",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1541,7 +1541,7 @@
      },
      "elements": [
       {
-       "id": "310ce61",
+       "id": "9996535",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1580,7 +1580,7 @@
        "elements": []
       },
       {
-       "id": "4122cb1",
+       "id": "7bccfde",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1623,7 +1623,7 @@
        "elements": []
       },
       {
-       "id": "6c14da1",
+       "id": "a9eb812",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1655,7 +1655,7 @@
        "elements": []
       },
       {
-       "id": "e53a0a2",
+       "id": "d389017",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1733,7 +1733,7 @@
        "elements": []
       },
       {
-       "id": "e034fb6",
+       "id": "b3ba8f1",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1746,7 +1746,7 @@
        "elements": []
       },
       {
-       "id": "81dc9bd",
+       "id": "a9078e8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1776,7 +1776,7 @@
    "isInner": false
   },
   {
-   "id": "e1d5be1",
+   "id": "2ba8698",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1815,7 +1815,7 @@
    },
    "elements": [
     {
-     "id": "a9078e8",
+     "id": "905056c",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1826,7 +1826,7 @@
      },
      "elements": [
       {
-       "id": "a9eb812",
+       "id": "e1d5be1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1865,7 +1865,7 @@
        "elements": []
       },
       {
-       "id": "d389017",
+       "id": "2c89109",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1908,7 +1908,7 @@
        "elements": []
       },
       {
-       "id": "b3ba8f1",
+       "id": "5eac43a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1935,7 +1935,7 @@
      "isInner": false
     },
     {
-     "id": "2de5d16",
+     "id": "39e4973",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1946,7 +1946,7 @@
      },
      "elements": [
       {
-       "id": "1c65cef",
+       "id": "e6d8545",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1977,7 +1977,7 @@
    "isInner": false
   },
   {
-   "id": "c0a271b",
+   "id": "459a4dd",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2015,7 +2015,7 @@
    },
    "elements": [
     {
-     "id": "5eac43a",
+     "id": "838e8af",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2026,7 +2026,7 @@
      },
      "elements": [
       {
-       "id": "2c89109",
+       "id": "81e5f81",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2072,218 +2072,6 @@
      "isInner": false
     },
     {
-     "id": "e6d8545",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "905056c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "2ba8698",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "39e4973",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "838e8af",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "81e5f81",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "4079016",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "b495ce6",
      "elType": "column",
      "settings": {
@@ -2300,7 +2088,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2357,7 +2145,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2414,64 +2202,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "68a83ee",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "26588e9",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2515,7 +2246,7 @@
    "isInner": false
   },
   {
-   "id": "0e9fa1f",
+   "id": "7c82fab",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2553,6 +2284,63 @@
    },
    "elements": [
     {
+     "id": "68a83ee",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "26588e9",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-06.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "17326d1",
      "elType": "column",
      "settings": {
@@ -2569,7 +2357,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2626,7 +2414,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2683,64 +2471,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-12.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "b51a15f",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "8e2cfdc",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2784,7 +2515,7 @@
    "isInner": false
   },
   {
-   "id": "0829424",
+   "id": "84438b7",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2822,6 +2553,63 @@
    },
    "elements": [
     {
+     "id": "b51a15f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "8e2cfdc",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "e004061",
      "elType": "column",
      "settings": {
@@ -2838,7 +2626,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2895,7 +2683,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2952,64 +2740,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "bb04af0",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "e702e51",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-17.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-13.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3053,7 +2784,7 @@
    "isInner": false
   },
   {
-   "id": "7022294",
+   "id": "dc87c13",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3091,6 +2822,63 @@
    },
    "elements": [
     {
+     "id": "bb04af0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e702e51",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-14.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "d759175",
      "elType": "column",
      "settings": {
@@ -3107,7 +2895,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-18.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3164,7 +2952,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-19.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-16.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3221,6 +3009,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-17.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "2812e5c",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "018b59c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "1cecc7a",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-18.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "944bdd9",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "242c100",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-19.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "4079016",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "c0a271b",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-20.jpg",
          "id": ""
         },
@@ -3262,7 +3262,7 @@
      "isInner": false
     },
     {
-     "id": "018b59c",
+     "id": "0829424",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3273,7 +3273,7 @@
      },
      "elements": [
       {
-       "id": "1cecc7a",
+       "id": "0e9fa1f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3322,7 +3322,7 @@
    "isInner": false
   },
   {
-   "id": "71f6278",
+   "id": "286674e",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3360,7 +3360,7 @@
    },
    "elements": [
     {
-     "id": "944bdd9",
+     "id": "71f6278",
      "elType": "column",
      "settings": {
       "_column_size": 100.0,
@@ -3371,7 +3371,7 @@
      },
      "elements": [
       {
-       "id": "242c100",
+       "id": "7022294",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3420,7 +3420,7 @@
    "isInner": false
   },
   {
-   "id": "84438b7",
+   "id": "6f3e29a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3458,7 +3458,7 @@
    },
    "elements": [
     {
-     "id": "7c82fab",
+     "id": "a0833c8",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -3469,7 +3469,7 @@
      },
      "elements": [
       {
-       "id": "459a4dd",
+       "id": "a51fb97",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3553,7 +3553,7 @@
    "isInner": false
   },
   {
-   "id": "fd5c905",
+   "id": "7bb0607",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3618,7 +3618,7 @@
    },
    "elements": [
     {
-     "id": "996009f",
+     "id": "a0872cc",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3629,7 +3629,7 @@
      },
      "elements": [
       {
-       "id": "dc87c13",
+       "id": "2df4524",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3672,7 +3672,7 @@
        "elements": []
       },
       {
-       "id": "2812e5c",
+       "id": "996009f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3704,7 +3704,7 @@
        "elements": []
       },
       {
-       "id": "286674e",
+       "id": "d282ef2",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3785,7 +3785,7 @@
      "isInner": false
     },
     {
-     "id": "d282ef2",
+     "id": "4476b92",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3796,7 +3796,7 @@
      },
      "elements": [
       {
-       "id": "a51fb97",
+       "id": "5caf41d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3842,7 +3842,7 @@
        "elements": []
       },
       {
-       "id": "a0833c8",
+       "id": "fd5c905",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3888,7 +3888,7 @@
        "elements": []
       },
       {
-       "id": "6f3e29a",
+       "id": "7940ab4",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3937,7 +3937,7 @@
      "isInner": false
     },
     {
-     "id": "5caf41d",
+     "id": "535ab76",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3950,7 +3950,7 @@
      },
      "elements": [
       {
-       "id": "2df4524",
+       "id": "f93882c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

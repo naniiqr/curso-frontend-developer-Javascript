@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "217eedd",
+   "id": "0537fb4",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "6cd67d9",
+     "id": "2e65f2f",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "59c3301",
+       "id": "a5cdd4a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "ba38666",
+       "id": "217eedd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "6c29793",
+       "id": "df263d9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "e995f98",
+       "id": "edfbe1a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "5751ec3",
+       "id": "6cd67d9",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "d5cfead",
+       "id": "6bc24fc",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "a5cdd4a",
+     "id": "5c572ec",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "6bc24fc",
+       "id": "e94550c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "8d317bd",
+   "id": "6f2268b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "edfbe1a",
+     "id": "185e65b",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "df263d9",
+       "id": "5f0f5e5",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "e94550c",
+     "id": "e49b8b4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "2e65f2f",
+       "id": "8d317bd",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "0537fb4",
+     "id": "b137fdd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "5c572ec",
+       "id": "b056eb1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "185e65b",
+     "id": "a1d33d0",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "5f0f5e5",
+       "id": "912d2b1",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "eefc9e1",
+   "id": "288cc0f",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "b056eb1",
+     "id": "ccb0989",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "e49b8b4",
+       "id": "872488f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "06997f0",
+     "id": "3a835d3",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "b137fdd",
+       "id": "2823f47",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "912d2b1",
+       "id": "470e7a4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "a1d33d0",
+       "id": "bf62768",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "6f2268b",
+       "id": "fa14d4f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "bf62768",
+       "id": "5807a68",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "872488f"
+          "_id": "2ca65f5"
          },
          {
           "text": "Color adaptat a l'estil de l'entorn",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "ccb0989"
+          "_id": "88ae637"
          },
          {
           "text": "Envidrament per a un ambient clar i acollidor",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "2823f47"
+          "_id": "06997f0"
          },
          {
           "text": "Galeries: particular, OCULTEC i comercial",
@@ -973,7 +973,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "470e7a4"
+          "_id": "eefc9e1"
          }
         ],
         "icon_color": "#e4152d",
@@ -1000,7 +1000,7 @@
        "elements": []
       },
       {
-       "id": "fa14d4f",
+       "id": "d840cc5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1087,7 +1087,7 @@
        "elements": []
       },
       {
-       "id": "2ca65f5",
+       "id": "959a557",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1174,7 +1174,7 @@
        "elements": []
       },
       {
-       "id": "88ae637",
+       "id": "f2201f5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1267,7 +1267,7 @@
    "isInner": false
   },
   {
-   "id": "3a835d3",
+   "id": "4e0928d",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1312,7 +1312,7 @@
    },
    "elements": [
     {
-     "id": "959a557",
+     "id": "e57c6b9",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1323,7 +1323,7 @@
      },
      "elements": [
       {
-       "id": "d840cc5",
+       "id": "b7ee6f5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1369,7 +1369,7 @@
      "isInner": false
     },
     {
-     "id": "f2201f5",
+     "id": "86b122d",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1380,7 +1380,7 @@
      },
      "elements": [
       {
-       "id": "5807a68",
+       "id": "4ea06fb",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1395,7 +1395,7 @@
    "isInner": false
   },
   {
-   "id": "f1c1592",
+   "id": "6e0721b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1433,7 +1433,7 @@
    },
    "elements": [
     {
-     "id": "4ea06fb",
+     "id": "8c6744c",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1444,7 +1444,7 @@
      },
      "elements": [
       {
-       "id": "288cc0f",
+       "id": "c0f168c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1490,7 +1490,7 @@
      "isInner": false
     },
     {
-     "id": "e57c6b9",
+     "id": "e074133",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1501,7 +1501,7 @@
      },
      "elements": [
       {
-       "id": "b7ee6f5",
+       "id": "f1c1592",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1547,7 +1547,7 @@
      "isInner": false
     },
     {
-     "id": "4e0928d",
+     "id": "a8e864d",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1558,7 +1558,7 @@
      },
      "elements": [
       {
-       "id": "86b122d",
+       "id": "67d96d4",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1604,7 +1604,7 @@
      "isInner": false
     },
     {
-     "id": "8c6744c",
+     "id": "72da7fd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1615,7 +1615,7 @@
      },
      "elements": [
       {
-       "id": "c0f168c",
+       "id": "7143d7f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1664,7 +1664,7 @@
    "isInner": false
   },
   {
-   "id": "c15da1f",
+   "id": "82489c9",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1704,7 +1704,7 @@
    },
    "elements": [
     {
-     "id": "a8e864d",
+     "id": "61b4a64",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1723,7 +1723,7 @@
      },
      "elements": [
       {
-       "id": "e074133",
+       "id": "fc8001f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1756,7 +1756,7 @@
        "elements": []
       },
       {
-       "id": "67d96d4",
+       "id": "4b04a68",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1768,7 +1768,7 @@
      "isInner": false
     },
     {
-     "id": "3621f14",
+     "id": "da8ce53",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1802,7 +1802,7 @@
      },
      "elements": [
       {
-       "id": "7143d7f",
+       "id": "3621f14",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1841,7 +1841,7 @@
        "elements": []
       },
       {
-       "id": "72da7fd",
+       "id": "c15da1f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1884,7 +1884,7 @@
        "elements": []
       },
       {
-       "id": "6e0721b",
+       "id": "68053af",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1916,7 +1916,7 @@
        "elements": []
       },
       {
-       "id": "fc8001f",
+       "id": "2dace78",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1994,7 +1994,7 @@
        "elements": []
       },
       {
-       "id": "4b04a68",
+       "id": "df7f28a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2007,7 +2007,7 @@
        "elements": []
       },
       {
-       "id": "61b4a64",
+       "id": "96ea64f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2037,7 +2037,7 @@
    "isInner": false
   },
   {
-   "id": "7c590f0",
+   "id": "1905aed",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2076,7 +2076,7 @@
    },
    "elements": [
     {
-     "id": "96ea64f",
+     "id": "9e3cfc4",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -2087,7 +2087,7 @@
      },
      "elements": [
       {
-       "id": "68053af",
+       "id": "7c590f0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2126,7 +2126,7 @@
        "elements": []
       },
       {
-       "id": "2dace78",
+       "id": "35cf865",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2169,7 +2169,7 @@
        "elements": []
       },
       {
-       "id": "df7f28a",
+       "id": "beb22fb",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2196,7 +2196,7 @@
      "isInner": false
     },
     {
-     "id": "82489c9",
+     "id": "7a53928",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -2207,7 +2207,7 @@
      },
      "elements": [
       {
-       "id": "da8ce53",
+       "id": "28267ab",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2238,7 +2238,7 @@
    "isInner": false
   },
   {
-   "id": "c2626d8",
+   "id": "301ad0e",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2276,7 +2276,7 @@
    },
    "elements": [
     {
-     "id": "beb22fb",
+     "id": "1aa48fc",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2287,7 +2287,7 @@
      },
      "elements": [
       {
-       "id": "35cf865",
+       "id": "1141938",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2333,218 +2333,6 @@
      "isInner": false
     },
     {
-     "id": "28267ab",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "9e3cfc4",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "1905aed",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "7a53928",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "1aa48fc",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1141938",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "ce78d1d",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "846c260",
      "elType": "column",
      "settings": {
@@ -2561,7 +2349,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2618,7 +2406,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2675,64 +2463,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "670e8a4",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "b6edc1c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2776,7 +2507,7 @@
    "isInner": false
   },
   {
-   "id": "8e82ab7",
+   "id": "4d5b995",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2814,6 +2545,63 @@
    },
    "elements": [
     {
+     "id": "670e8a4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "b6edc1c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "e0cf1f4",
      "elType": "column",
      "settings": {
@@ -2830,7 +2618,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2887,7 +2675,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2944,64 +2732,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "3b5dca5",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "f0adc88",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3045,7 +2776,7 @@
    "isInner": false
   },
   {
-   "id": "e0ec453",
+   "id": "ab88b15",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3054,7 +2785,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "72",
+     "bottom": "3",
      "left": "0",
      "isLinked": false
     },
@@ -3062,7 +2793,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "54",
+     "bottom": "2",
      "left": "24",
      "isLinked": false
     },
@@ -3070,7 +2801,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "40",
+     "bottom": "2",
      "left": "18",
      "isLinked": false
     },
@@ -3082,6 +2813,63 @@
     }
    },
    "elements": [
+    {
+     "id": "3b5dca5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "f0adc88",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
     {
      "id": "4558dbb",
      "elType": "column",
@@ -3099,7 +2887,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3156,7 +2944,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -3213,6 +3001,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b0b183c",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "fa3a3c4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "795c7a7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "ce78d1d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "c2626d8",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e0ec453",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "8e82ab7",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg",
          "id": ""
         },
@@ -3254,7 +3254,7 @@
      "isInner": false
     },
     {
-     "id": "fa3a3c4",
+     "id": "013a006",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3265,7 +3265,7 @@
      },
      "elements": [
       {
-       "id": "795c7a7",
+       "id": "7250eb9",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3314,7 +3314,7 @@
    "isInner": false
   },
   {
-   "id": "301ad0e",
+   "id": "fa83a11",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3352,7 +3352,7 @@
    },
    "elements": [
     {
-     "id": "013a006",
+     "id": "8f7d807",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -3363,7 +3363,7 @@
      },
      "elements": [
       {
-       "id": "7250eb9",
+       "id": "f9028fa",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3447,7 +3447,7 @@
    "isInner": false
   },
   {
-   "id": "b86e8d0",
+   "id": "92fb0c6",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3512,7 +3512,7 @@
    },
    "elements": [
     {
-     "id": "fc3cf45",
+     "id": "362e80d",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3523,7 +3523,7 @@
      },
      "elements": [
       {
-       "id": "4d5b995",
+       "id": "02a32ad",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3566,7 +3566,7 @@
        "elements": []
       },
       {
-       "id": "ab88b15",
+       "id": "fc3cf45",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3598,7 +3598,7 @@
        "elements": []
       },
       {
-       "id": "b0b183c",
+       "id": "3d8e28c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3679,7 +3679,7 @@
      "isInner": false
     },
     {
-     "id": "3d8e28c",
+     "id": "fe8c15f",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3690,7 +3690,7 @@
      },
      "elements": [
       {
-       "id": "f9028fa",
+       "id": "e97ee20",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3736,7 +3736,7 @@
        "elements": []
       },
       {
-       "id": "8f7d807",
+       "id": "b86e8d0",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3782,7 +3782,7 @@
        "elements": []
       },
       {
-       "id": "fa83a11",
+       "id": "84f7e69",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3831,7 +3831,7 @@
      "isInner": false
     },
     {
-     "id": "e97ee20",
+     "id": "1efa39b",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3844,7 +3844,7 @@
      },
      "elements": [
       {
-       "id": "02a32ad",
+       "id": "f455267",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "a8f8f60",
+   "id": "8fb5f8b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "7895fc1",
+     "id": "f4a331b",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "411ae1b",
+       "id": "eaa32c9",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "e11943a",
+       "id": "a8f8f60",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "56468d5",
+       "id": "db6ebd0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "b069b34",
+       "id": "540ae6b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "0663a4d",
+       "id": "7895fc1",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "5635273",
+       "id": "1f3202d",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "eaa32c9",
+     "id": "f69e505",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "1f3202d",
+       "id": "b197ffd",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "8fb21ee",
+   "id": "6786f3c",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "540ae6b",
+     "id": "b265ce6",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "db6ebd0",
+       "id": "afe4346",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "b197ffd",
+     "id": "c930eec",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "f4a331b",
+       "id": "8fb21ee",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "8fb5f8b",
+     "id": "2dffbc4",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "f69e505",
+       "id": "e94f63f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "b265ce6",
+     "id": "80a8155",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "afe4346",
+       "id": "c5cc17e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "1abb1e1",
+   "id": "372d3f3",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "e94f63f",
+     "id": "3bbfdde",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "c930eec",
+       "id": "536a76f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "4dcae38",
+     "id": "c913303",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "2dffbc4",
+       "id": "0a1bf96",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "c5cc17e",
+       "id": "5e76bef",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "80a8155",
+       "id": "01d8bae",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "6786f3c",
+       "id": "4dcae38",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "01d8bae",
+       "id": "fe70c36",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "536a76f"
+          "_id": "1abb1e1"
          },
          {
           "text": "Permet gaudir de l'exterior durant tot l'any",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "3bbfdde"
+          "_id": "07042ac"
          },
          {
           "text": "Per a particulars i per a professionals",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "0a1bf96"
+          "_id": "9515140"
          },
          {
           "text": "Personalitzables amb diferents combinacions",
@@ -973,7 +973,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "5e76bef"
+          "_id": "ad71c82"
          }
         ],
         "icon_color": "#e4152d",
@@ -1006,7 +1006,7 @@
    "isInner": false
   },
   {
-   "id": "c913303",
+   "id": "42ffcf0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1051,7 +1051,7 @@
    },
    "elements": [
     {
-     "id": "ad71c82",
+     "id": "cec6f62",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1062,7 +1062,7 @@
      },
      "elements": [
       {
-       "id": "9515140",
+       "id": "0245952",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1108,7 +1108,7 @@
      "isInner": false
     },
     {
-     "id": "fe70c36",
+     "id": "991de29",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1119,7 +1119,7 @@
      },
      "elements": [
       {
-       "id": "07042ac",
+       "id": "6d9cb7d",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1134,7 +1134,7 @@
    "isInner": false
   },
   {
-   "id": "ac796a5",
+   "id": "dc09c97",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1172,7 +1172,7 @@
    },
    "elements": [
     {
-     "id": "6d9cb7d",
+     "id": "daa96d9",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1183,7 +1183,7 @@
      },
      "elements": [
       {
-       "id": "372d3f3",
+       "id": "8b0d268",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1229,7 +1229,7 @@
      "isInner": false
     },
     {
-     "id": "cec6f62",
+     "id": "7d6044e",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1240,7 +1240,7 @@
      },
      "elements": [
       {
-       "id": "0245952",
+       "id": "ac796a5",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1286,7 +1286,7 @@
      "isInner": false
     },
     {
-     "id": "42ffcf0",
+     "id": "97275a2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1297,7 +1297,7 @@
      },
      "elements": [
       {
-       "id": "991de29",
+       "id": "571d3a9",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1343,7 +1343,7 @@
      "isInner": false
     },
     {
-     "id": "daa96d9",
+     "id": "83cdcec",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1354,7 +1354,7 @@
      },
      "elements": [
       {
-       "id": "8b0d268",
+       "id": "78b9cab",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1403,7 +1403,7 @@
    "isInner": false
   },
   {
-   "id": "729c688",
+   "id": "f187a23",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1443,7 +1443,7 @@
    },
    "elements": [
     {
-     "id": "97275a2",
+     "id": "ab541d8",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1462,7 +1462,7 @@
      },
      "elements": [
       {
-       "id": "7d6044e",
+       "id": "e816c63",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1495,7 +1495,7 @@
        "elements": []
       },
       {
-       "id": "571d3a9",
+       "id": "4e8412a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1507,7 +1507,7 @@
      "isInner": false
     },
     {
-     "id": "bffc983",
+     "id": "1baff70",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1541,7 +1541,7 @@
      },
      "elements": [
       {
-       "id": "78b9cab",
+       "id": "bffc983",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1580,7 +1580,7 @@
        "elements": []
       },
       {
-       "id": "83cdcec",
+       "id": "729c688",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1623,7 +1623,7 @@
        "elements": []
       },
       {
-       "id": "dc09c97",
+       "id": "7fb8ceb",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1655,7 +1655,7 @@
        "elements": []
       },
       {
-       "id": "e816c63",
+       "id": "86df7dc",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1733,7 +1733,7 @@
        "elements": []
       },
       {
-       "id": "4e8412a",
+       "id": "6d3a1e0",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1746,7 +1746,7 @@
        "elements": []
       },
       {
-       "id": "ab541d8",
+       "id": "8a146f1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1776,7 +1776,7 @@
    "isInner": false
   },
   {
-   "id": "226d1f1",
+   "id": "55c567f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1815,7 +1815,7 @@
    },
    "elements": [
     {
-     "id": "8a146f1",
+     "id": "fcdf25d",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1826,7 +1826,7 @@
      },
      "elements": [
       {
-       "id": "7fb8ceb",
+       "id": "226d1f1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1865,7 +1865,7 @@
        "elements": []
       },
       {
-       "id": "86df7dc",
+       "id": "e655c77",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1908,7 +1908,7 @@
        "elements": []
       },
       {
-       "id": "6d3a1e0",
+       "id": "1714726",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1935,7 +1935,7 @@
      "isInner": false
     },
     {
-     "id": "f187a23",
+     "id": "1415db7",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1946,7 +1946,7 @@
      },
      "elements": [
       {
-       "id": "1baff70",
+       "id": "fa1e9c9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1977,7 +1977,7 @@
    "isInner": false
   },
   {
-   "id": "471c75e",
+   "id": "cb8acb1",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2015,7 +2015,7 @@
    },
    "elements": [
     {
-     "id": "1714726",
+     "id": "6490791",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2026,7 +2026,7 @@
      },
      "elements": [
       {
-       "id": "e655c77",
+       "id": "ced556c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2072,218 +2072,6 @@
      "isInner": false
     },
     {
-     "id": "fa1e9c9",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "fcdf25d",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "55c567f",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1415db7",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "6490791",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "ced556c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "8c00dee",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "5cbdfd0",
      "elType": "column",
      "settings": {
@@ -2300,7 +2088,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2357,7 +2145,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2414,64 +2202,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "4dcf435",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "b5488ae",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2515,7 +2246,7 @@
    "isInner": false
   },
   {
-   "id": "e60e81c",
+   "id": "99adff4",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2553,6 +2284,63 @@
    },
    "elements": [
     {
+     "id": "4dcf435",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "b5488ae",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-06.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "1cd3882",
      "elType": "column",
      "settings": {
@@ -2569,7 +2357,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2626,7 +2414,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2683,64 +2471,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-12.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "bc73169",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "83f2550",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-13.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-09.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2784,7 +2515,7 @@
    "isInner": false
   },
   {
-   "id": "5cce8de",
+   "id": "0804083",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2793,7 +2524,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "72",
+     "bottom": "3",
      "left": "0",
      "isLinked": false
     },
@@ -2801,7 +2532,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "54",
+     "bottom": "2",
      "left": "24",
      "isLinked": false
     },
@@ -2809,7 +2540,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "40",
+     "bottom": "2",
      "left": "18",
      "isLinked": false
     },
@@ -2821,6 +2552,63 @@
     }
    },
    "elements": [
+    {
+     "id": "bc73169",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "83f2550",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
     {
      "id": "81c8727",
      "elType": "column",
@@ -2838,7 +2626,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-14.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2895,7 +2683,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-12.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2952,6 +2740,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-13.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3530922",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "df12ecd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "3fb451c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-14.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "8c00dee",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "471c75e",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-15.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "5cce8de",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e60e81c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-16.jpg",
          "id": ""
         },
@@ -2993,7 +2993,7 @@
      "isInner": false
     },
     {
-     "id": "df12ecd",
+     "id": "aa486f2",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -3004,7 +3004,7 @@
      },
      "elements": [
       {
-       "id": "3fb451c",
+       "id": "109d2dd",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3053,7 +3053,7 @@
    "isInner": false
   },
   {
-   "id": "cb8acb1",
+   "id": "b5a1fc2",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3091,7 +3091,7 @@
    },
    "elements": [
     {
-     "id": "aa486f2",
+     "id": "748ba69",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -3102,7 +3102,7 @@
      },
      "elements": [
       {
-       "id": "109d2dd",
+       "id": "d63fbf8",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3186,7 +3186,7 @@
    "isInner": false
   },
   {
-   "id": "1373b28",
+   "id": "204da25",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3251,7 +3251,7 @@
    },
    "elements": [
     {
-     "id": "b60c5ab",
+     "id": "f337d99",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3262,7 +3262,7 @@
      },
      "elements": [
       {
-       "id": "99adff4",
+       "id": "d1a6964",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3305,7 +3305,7 @@
        "elements": []
       },
       {
-       "id": "0804083",
+       "id": "b60c5ab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3337,7 +3337,7 @@
        "elements": []
       },
       {
-       "id": "3530922",
+       "id": "17e23e5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3418,7 +3418,7 @@
      "isInner": false
     },
     {
-     "id": "17e23e5",
+     "id": "89ae0fe",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3429,7 +3429,7 @@
      },
      "elements": [
       {
-       "id": "d63fbf8",
+       "id": "cda7217",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3475,7 +3475,7 @@
        "elements": []
       },
       {
-       "id": "748ba69",
+       "id": "1373b28",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3521,7 +3521,7 @@
        "elements": []
       },
       {
-       "id": "b5a1fc2",
+       "id": "d010396",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3570,7 +3570,7 @@
      "isInner": false
     },
     {
-     "id": "cda7217",
+     "id": "aff0a6a",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3583,7 +3583,7 @@
      },
      "elements": [
       {
-       "id": "d1a6964",
+       "id": "819c9fb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

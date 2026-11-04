@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "96c5c28",
+   "id": "19de10a",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "a3545bd",
+     "id": "09fb05d",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "7503cfa",
+       "id": "537de30",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "49ad23d",
+       "id": "96c5c28",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "6ae07dc",
+       "id": "f9d1152",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "3c947bc",
+       "id": "4e87337",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "ff1418e",
+       "id": "a3545bd",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "eb1e783",
+       "id": "d7fd118",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "537de30",
+     "id": "69d1fc7",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "d7fd118",
+       "id": "d072677",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "68c694d",
+   "id": "7e9e346",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "4e87337",
+     "id": "c164bbc",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "f9d1152",
+       "id": "a19acd7",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "d072677",
+     "id": "d305281",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "09fb05d",
+       "id": "68c694d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "19de10a",
+     "id": "2f25f6e",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "69d1fc7",
+       "id": "fb8feff",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "c164bbc",
+     "id": "958adb5",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "a19acd7",
+       "id": "d4b2aeb",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "e1314fc",
+   "id": "2d1b2a5",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "fb8feff",
+     "id": "f31b204",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "d305281",
+       "id": "ba9a56c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "b4568df",
+     "id": "7302e3f",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "2f25f6e",
+       "id": "dc5d637",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "d4b2aeb",
+       "id": "44a2e08",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "958adb5",
+       "id": "3214a6d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "7e9e346",
+       "id": "b4568df",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "3214a6d",
+       "id": "c366c2c",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "ba9a56c"
+          "_id": "e1314fc"
          },
          {
           "text": "Pèrgoles bioclimàtiques, mampares de bany i tancaments de jardí",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "f31b204"
+          "_id": "c450082"
          },
          {
           "text": "Baranes i sostres, entre d'altres",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "dc5d637"
+          "_id": "f0fcf35"
          },
          {
           "text": "Reformes, rehabilitacions i obra nova",
@@ -973,7 +973,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "44a2e08"
+          "_id": "d523773"
          }
         ],
         "icon_color": "#e4152d",
@@ -1006,7 +1006,7 @@
    "isInner": false
   },
   {
-   "id": "7302e3f",
+   "id": "56f9f88",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1051,7 +1051,7 @@
    },
    "elements": [
     {
-     "id": "d523773",
+     "id": "13168e6",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1062,7 +1062,7 @@
      },
      "elements": [
       {
-       "id": "f0fcf35",
+       "id": "865dfbd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1108,7 +1108,7 @@
      "isInner": false
     },
     {
-     "id": "c366c2c",
+     "id": "ca46033",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1119,7 +1119,7 @@
      },
      "elements": [
       {
-       "id": "c450082",
+       "id": "6814859",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1134,7 +1134,7 @@
    "isInner": false
   },
   {
-   "id": "e06f967",
+   "id": "fc4ddc1",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1172,7 +1172,7 @@
    },
    "elements": [
     {
-     "id": "6814859",
+     "id": "059fdcd",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1183,7 +1183,7 @@
      },
      "elements": [
       {
-       "id": "2d1b2a5",
+       "id": "5fa9e41",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1229,7 +1229,7 @@
      "isInner": false
     },
     {
-     "id": "13168e6",
+     "id": "af3303f",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1240,7 +1240,7 @@
      },
      "elements": [
       {
-       "id": "865dfbd",
+       "id": "e06f967",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1286,7 +1286,7 @@
      "isInner": false
     },
     {
-     "id": "56f9f88",
+     "id": "6be5336",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1297,7 +1297,7 @@
      },
      "elements": [
       {
-       "id": "ca46033",
+       "id": "11f524c",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1343,7 +1343,7 @@
      "isInner": false
     },
     {
-     "id": "059fdcd",
+     "id": "d54e99a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1354,7 +1354,7 @@
      },
      "elements": [
       {
-       "id": "5fa9e41",
+       "id": "9fdb62f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1403,7 +1403,7 @@
    "isInner": false
   },
   {
-   "id": "77369e3",
+   "id": "c44799b",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1443,7 +1443,7 @@
    },
    "elements": [
     {
-     "id": "6be5336",
+     "id": "73e0f74",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1462,7 +1462,7 @@
      },
      "elements": [
       {
-       "id": "af3303f",
+       "id": "944626a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1495,7 +1495,7 @@
        "elements": []
       },
       {
-       "id": "11f524c",
+       "id": "c91591a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1507,7 +1507,7 @@
      "isInner": false
     },
     {
-     "id": "dea9ddb",
+     "id": "ff7d0f5",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1541,7 +1541,7 @@
      },
      "elements": [
       {
-       "id": "9fdb62f",
+       "id": "dea9ddb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1580,7 +1580,7 @@
        "elements": []
       },
       {
-       "id": "d54e99a",
+       "id": "77369e3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1623,7 +1623,7 @@
        "elements": []
       },
       {
-       "id": "fc4ddc1",
+       "id": "6569972",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1655,7 +1655,7 @@
        "elements": []
       },
       {
-       "id": "944626a",
+       "id": "0609154",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1733,7 +1733,7 @@
        "elements": []
       },
       {
-       "id": "c91591a",
+       "id": "ab73148",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1746,7 +1746,7 @@
        "elements": []
       },
       {
-       "id": "73e0f74",
+       "id": "04df4d4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1776,7 +1776,7 @@
    "isInner": false
   },
   {
-   "id": "07a4e20",
+   "id": "44968ae",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1815,7 +1815,7 @@
    },
    "elements": [
     {
-     "id": "04df4d4",
+     "id": "cb79f8f",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1826,7 +1826,7 @@
      },
      "elements": [
       {
-       "id": "6569972",
+       "id": "07a4e20",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1865,7 +1865,7 @@
        "elements": []
       },
       {
-       "id": "0609154",
+       "id": "b432f34",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1908,7 +1908,7 @@
        "elements": []
       },
       {
-       "id": "ab73148",
+       "id": "65fc52e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1935,7 +1935,7 @@
      "isInner": false
     },
     {
-     "id": "c44799b",
+     "id": "8c8a58f",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1946,7 +1946,7 @@
      },
      "elements": [
       {
-       "id": "ff7d0f5",
+       "id": "e74c0d4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1977,7 +1977,7 @@
    "isInner": false
   },
   {
-   "id": "f22e474",
+   "id": "2d00f43",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2015,7 +2015,7 @@
    },
    "elements": [
     {
-     "id": "65fc52e",
+     "id": "3332221",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2026,7 +2026,7 @@
      },
      "elements": [
       {
-       "id": "b432f34",
+       "id": "9f69929",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2072,218 +2072,6 @@
      "isInner": false
     },
     {
-     "id": "e74c0d4",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "cb79f8f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "44968ae",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "8c8a58f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "3332221",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "9f69929",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "95e6834",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "b139e10",
      "elType": "column",
      "settings": {
@@ -2300,7 +2088,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2357,7 +2145,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2414,64 +2202,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "29530de",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "139f087",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2515,7 +2246,7 @@
    "isInner": false
   },
   {
-   "id": "7af6266",
+   "id": "1f71e39",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2524,7 +2255,7 @@
      "unit": "px",
      "top": "3",
      "right": "0",
-     "bottom": "72",
+     "bottom": "3",
      "left": "0",
      "isLinked": false
     },
@@ -2532,7 +2263,7 @@
      "unit": "px",
      "top": "2",
      "right": "24",
-     "bottom": "54",
+     "bottom": "2",
      "left": "24",
      "isLinked": false
     },
@@ -2540,7 +2271,7 @@
      "unit": "px",
      "top": "2",
      "right": "18",
-     "bottom": "40",
+     "bottom": "2",
      "left": "18",
      "isLinked": false
     },
@@ -2552,6 +2283,63 @@
     }
    },
    "elements": [
+    {
+     "id": "29530de",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "139f087",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-06.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
     {
      "id": "52d2752",
      "elType": "column",
@@ -2569,7 +2357,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2626,7 +2414,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2683,6 +2471,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-09.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "de03bef",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "72",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "54",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "40",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "ad4cc1f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "136f951",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "95e6834",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "f22e474",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "519c841",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "7af6266",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-12.jpg",
          "id": ""
         },
@@ -2724,7 +2724,7 @@
      "isInner": false
     },
     {
-     "id": "ad4cc1f",
+     "id": "6f2688a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2735,7 +2735,7 @@
      },
      "elements": [
       {
-       "id": "136f951",
+       "id": "c3395dd",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2784,7 +2784,7 @@
    "isInner": false
   },
   {
-   "id": "6f2688a",
+   "id": "03e7d2e",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2822,7 +2822,7 @@
    },
    "elements": [
     {
-     "id": "c3395dd",
+     "id": "36ac8e5",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2833,7 +2833,7 @@
      },
      "elements": [
       {
-       "id": "519c841",
+       "id": "7ca57a9",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2917,7 +2917,7 @@
    "isInner": false
   },
   {
-   "id": "378a063",
+   "id": "f106b7f",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2982,7 +2982,7 @@
    },
    "elements": [
     {
-     "id": "1113d7a",
+     "id": "d77f007",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -2993,7 +2993,7 @@
      },
      "elements": [
       {
-       "id": "2d00f43",
+       "id": "6a508a6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3036,7 +3036,7 @@
        "elements": []
       },
       {
-       "id": "1f71e39",
+       "id": "1113d7a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3068,7 +3068,7 @@
        "elements": []
       },
       {
-       "id": "de03bef",
+       "id": "a38b161",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3149,7 +3149,7 @@
      "isInner": false
     },
     {
-     "id": "a38b161",
+     "id": "e4dd552",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3160,7 +3160,7 @@
      },
      "elements": [
       {
-       "id": "7ca57a9",
+       "id": "5a7f963",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3206,7 +3206,7 @@
        "elements": []
       },
       {
-       "id": "36ac8e5",
+       "id": "378a063",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3252,7 +3252,7 @@
        "elements": []
       },
       {
-       "id": "03e7d2e",
+       "id": "e340843",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3301,7 +3301,7 @@
      "isInner": false
     },
     {
-     "id": "5a7f963",
+     "id": "7f16109",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3314,7 +3314,7 @@
      },
      "elements": [
       {
-       "id": "6a508a6",
+       "id": "277a78f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

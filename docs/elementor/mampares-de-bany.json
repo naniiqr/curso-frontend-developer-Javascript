@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "b3bbccd",
+   "id": "d2cdf04",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -80,7 +80,7 @@
    },
    "elements": [
     {
-     "id": "54e36c5",
+     "id": "231141b",
      "elType": "column",
      "settings": {
       "_column_size": 55,
@@ -91,7 +91,7 @@
      },
      "elements": [
       {
-       "id": "418ef61",
+       "id": "6a5dfac",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +100,7 @@
        "elements": []
       },
       {
-       "id": "97d9811",
+       "id": "b3bbccd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -139,7 +139,7 @@
        "elements": []
       },
       {
-       "id": "442cde8",
+       "id": "11c484e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -182,7 +182,7 @@
        "elements": []
       },
       {
-       "id": "3e15cc1",
+       "id": "a63fc8c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -214,7 +214,7 @@
        "elements": []
       },
       {
-       "id": "6e62a99",
+       "id": "54e36c5",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -301,7 +301,7 @@
        "elements": []
       },
       {
-       "id": "955a158",
+       "id": "fc9b003",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -391,7 +391,7 @@
      "isInner": false
     },
     {
-     "id": "6a5dfac",
+     "id": "cefab44",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -404,7 +404,7 @@
      },
      "elements": [
       {
-       "id": "fc9b003",
+       "id": "d8d31bd",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -423,7 +423,7 @@
    "isInner": false
   },
   {
-   "id": "e22dd5d",
+   "id": "96a93ba",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "a63fc8c",
+     "id": "ba1b3eb",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -484,7 +484,7 @@
      },
      "elements": [
       {
-       "id": "11c484e",
+       "id": "2612aa8",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -533,7 +533,7 @@
      "isInner": false
     },
     {
-     "id": "d8d31bd",
+     "id": "7283518",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -544,7 +544,7 @@
      },
      "elements": [
       {
-       "id": "231141b",
+       "id": "e22dd5d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -593,7 +593,7 @@
      "isInner": false
     },
     {
-     "id": "d2cdf04",
+     "id": "df9028f",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -604,7 +604,7 @@
      },
      "elements": [
       {
-       "id": "cefab44",
+       "id": "17ed8ab",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -653,7 +653,7 @@
      "isInner": false
     },
     {
-     "id": "ba1b3eb",
+     "id": "8698ff9",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -664,7 +664,7 @@
      },
      "elements": [
       {
-       "id": "2612aa8",
+       "id": "94e4451",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -716,7 +716,7 @@
    "isInner": false
   },
   {
-   "id": "2995704",
+   "id": "6709e8d",
    "elType": "section",
    "settings": {
     "layout": "full_width",
@@ -751,7 +751,7 @@
    },
    "elements": [
     {
-     "id": "17ed8ab",
+     "id": "db29450",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -762,7 +762,7 @@
      },
      "elements": [
       {
-       "id": "7283518",
+       "id": "e8fd4a8",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -796,7 +796,7 @@
      "isInner": false
     },
     {
-     "id": "21be9a4",
+     "id": "e9b73bc",
      "elType": "column",
      "settings": {
       "_column_size": 50,
@@ -815,7 +815,7 @@
      },
      "elements": [
       {
-       "id": "df9028f",
+       "id": "7eb7eab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -824,7 +824,7 @@
        "elements": []
       },
       {
-       "id": "94e4451",
+       "id": "e5a4d6b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -863,7 +863,7 @@
        "elements": []
       },
       {
-       "id": "8698ff9",
+       "id": "21be9a4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -906,7 +906,7 @@
        "elements": []
       },
       {
-       "id": "96a93ba",
+       "id": "2995704",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -938,7 +938,7 @@
        "elements": []
       },
       {
-       "id": "e5a4d6b",
+       "id": "7dd0240",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -949,7 +949,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "e8fd4a8"
+          "_id": "4abe17a"
          },
          {
           "text": "A mida de les necessitats de cada client",
@@ -957,7 +957,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "db29450"
+          "_id": "f0bda02"
          },
          {
           "text": "Instal·lació per Aluminis Albera",
@@ -965,7 +965,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "7eb7eab"
+          "_id": "36d7534"
          }
         ],
         "icon_color": "#e4152d",
@@ -998,7 +998,7 @@
    "isInner": false
   },
   {
-   "id": "e9b73bc",
+   "id": "b865367",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1043,7 +1043,7 @@
    },
    "elements": [
     {
-     "id": "36d7534",
+     "id": "8b6a80c",
      "elType": "column",
      "settings": {
       "_column_size": 70,
@@ -1054,7 +1054,7 @@
      },
      "elements": [
       {
-       "id": "f0bda02",
+       "id": "f63f65b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1100,7 +1100,7 @@
      "isInner": false
     },
     {
-     "id": "7dd0240",
+     "id": "4a2ddf1",
      "elType": "column",
      "settings": {
       "_column_size": 30,
@@ -1111,7 +1111,7 @@
      },
      "elements": [
       {
-       "id": "4abe17a",
+       "id": "8c01a75",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1126,7 +1126,7 @@
    "isInner": false
   },
   {
-   "id": "6449f44",
+   "id": "0523352",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1164,7 +1164,7 @@
    },
    "elements": [
     {
-     "id": "8c01a75",
+     "id": "393c55a",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1175,7 +1175,7 @@
      },
      "elements": [
       {
-       "id": "6709e8d",
+       "id": "365d177",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1221,7 +1221,7 @@
      "isInner": false
     },
     {
-     "id": "8b6a80c",
+     "id": "d860bd1",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1232,7 +1232,7 @@
      },
      "elements": [
       {
-       "id": "f63f65b",
+       "id": "6449f44",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1278,7 +1278,7 @@
      "isInner": false
     },
     {
-     "id": "b865367",
+     "id": "ecd62de",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1289,7 +1289,7 @@
      },
      "elements": [
       {
-       "id": "4a2ddf1",
+       "id": "db957c6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1335,7 +1335,7 @@
      "isInner": false
     },
     {
-     "id": "393c55a",
+     "id": "bf201d5",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -1346,7 +1346,7 @@
      },
      "elements": [
       {
-       "id": "365d177",
+       "id": "d254144",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1395,7 +1395,7 @@
    "isInner": false
   },
   {
-   "id": "8d9fc23",
+   "id": "3fab589",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1435,7 +1435,7 @@
    },
    "elements": [
     {
-     "id": "ecd62de",
+     "id": "0731460",
      "elType": "column",
      "settings": {
       "_column_size": 40,
@@ -1454,7 +1454,7 @@
      },
      "elements": [
       {
-       "id": "d860bd1",
+       "id": "c8cbd66",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1487,7 +1487,7 @@
        "elements": []
       },
       {
-       "id": "db957c6",
+       "id": "59e0b26",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1499,7 +1499,7 @@
      "isInner": false
     },
     {
-     "id": "90599c8",
+     "id": "dc40b71",
      "elType": "column",
      "settings": {
       "_column_size": 60,
@@ -1533,7 +1533,7 @@
      },
      "elements": [
       {
-       "id": "d254144",
+       "id": "90599c8",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1572,7 +1572,7 @@
        "elements": []
       },
       {
-       "id": "bf201d5",
+       "id": "8d9fc23",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1615,7 +1615,7 @@
        "elements": []
       },
       {
-       "id": "0523352",
+       "id": "ac5dab2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1647,7 +1647,7 @@
        "elements": []
       },
       {
-       "id": "c8cbd66",
+       "id": "0533a88",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1725,7 +1725,7 @@
        "elements": []
       },
       {
-       "id": "59e0b26",
+       "id": "f39ae9f",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1738,7 +1738,7 @@
        "elements": []
       },
       {
-       "id": "0731460",
+       "id": "cd14821",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1768,7 +1768,7 @@
    "isInner": false
   },
   {
-   "id": "90e1357",
+   "id": "6e79ed0",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -1807,7 +1807,7 @@
    },
    "elements": [
     {
-     "id": "cd14821",
+     "id": "1f1baa5",
      "elType": "column",
      "settings": {
       "_column_size": 65,
@@ -1818,7 +1818,7 @@
      },
      "elements": [
       {
-       "id": "ac5dab2",
+       "id": "90e1357",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1857,7 +1857,7 @@
        "elements": []
       },
       {
-       "id": "0533a88",
+       "id": "7ffd85d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1900,7 +1900,7 @@
        "elements": []
       },
       {
-       "id": "f39ae9f",
+       "id": "d1e946f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1927,7 +1927,7 @@
      "isInner": false
     },
     {
-     "id": "3fab589",
+     "id": "645098b",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -1938,7 +1938,7 @@
      },
      "elements": [
       {
-       "id": "dc40b71",
+       "id": "39027df",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1969,7 +1969,7 @@
    "isInner": false
   },
   {
-   "id": "9a1de01",
+   "id": "728f206",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2007,7 +2007,7 @@
    },
    "elements": [
     {
-     "id": "d1e946f",
+     "id": "5b6ba13",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2018,7 +2018,7 @@
      },
      "elements": [
       {
-       "id": "7ffd85d",
+       "id": "09b15d4",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2064,218 +2064,6 @@
      "isInner": false
     },
     {
-     "id": "39027df",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "1f1baa5",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "6e79ed0",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "645098b",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "5b6ba13",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "09b15d4",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "d757719",
-   "elType": "section",
-   "settings": {
-    "layout": "boxed",
-    "gap": "narrow",
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_position": "top",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
      "id": "155fa09",
      "elType": "column",
      "settings": {
@@ -2292,7 +2080,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-06.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2349,7 +2137,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-07.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-04.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2406,64 +2194,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ],
-     "isInner": false
-    },
-    {
-     "id": "f2d887e",
-     "elType": "column",
-     "settings": {
-      "_column_size": 25.0,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 50,
-      "_inline_size_tablet": 50
-     },
-     "elements": [
-      {
-       "id": "17c3433",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-09.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-05.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2507,7 +2238,7 @@
    "isInner": false
   },
   {
-   "id": "dfce068",
+   "id": "201d728",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2545,6 +2276,63 @@
    },
    "elements": [
     {
+     "id": "f2d887e",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "17c3433",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-06.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
      "id": "0e087ec",
      "elType": "column",
      "settings": {
@@ -2561,7 +2349,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-10.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-07.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2618,7 +2406,7 @@
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-11.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-08.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -2675,6 +2463,218 @@
        "widgetType": "image",
        "settings": {
         "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-09.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e8dfff4",
+   "elType": "section",
+   "settings": {
+    "layout": "boxed",
+    "gap": "narrow",
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_position": "top",
+    "content_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "4496bf2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "fface83",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-10.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "069654d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "aa2a773",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-11.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "open_lightbox": "yes",
+        "height": {
+         "unit": "px",
+         "size": 230,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 161,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "61b1fb3",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25.0,
+      "_inline_size": null,
+      "content_position": "top",
+      "_inline_size_mobile": 50,
+      "_inline_size_tablet": 50
+     },
+     "elements": [
+      {
+       "id": "e0ab531",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/mampares-12.jpg",
          "id": ""
         },
@@ -2716,7 +2716,7 @@
      "isInner": false
     },
     {
-     "id": "4496bf2",
+     "id": "d757719",
      "elType": "column",
      "settings": {
       "_column_size": 25.0,
@@ -2727,7 +2727,7 @@
      },
      "elements": [
       {
-       "id": "fface83",
+       "id": "9a1de01",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2776,7 +2776,7 @@
    "isInner": false
   },
   {
-   "id": "f26dab9",
+   "id": "57c0531",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2814,7 +2814,7 @@
    },
    "elements": [
     {
-     "id": "069654d",
+     "id": "f26dab9",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -2825,7 +2825,7 @@
      },
      "elements": [
       {
-       "id": "aa2a773",
+       "id": "dfce068",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2871,7 +2871,7 @@
      "isInner": false
     },
     {
-     "id": "61b1fb3",
+     "id": "d765758",
      "elType": "column",
      "settings": {
       "_column_size": 50.0,
@@ -2882,7 +2882,7 @@
      },
      "elements": [
       {
-       "id": "e0ab531",
+       "id": "85f007f",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2931,7 +2931,7 @@
    "isInner": false
   },
   {
-   "id": "728f206",
+   "id": "59bcda7",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -2969,7 +2969,7 @@
    },
    "elements": [
     {
-     "id": "d765758",
+     "id": "06a15eb",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -2980,7 +2980,7 @@
      },
      "elements": [
       {
-       "id": "85f007f",
+       "id": "4888241",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3064,7 +3064,7 @@
    "isInner": false
   },
   {
-   "id": "8c3039b",
+   "id": "3c947bc",
    "elType": "section",
    "settings": {
     "layout": "boxed",
@@ -3129,7 +3129,7 @@
    },
    "elements": [
     {
-     "id": "82cadb0",
+     "id": "7503cfa",
      "elType": "column",
      "settings": {
       "_column_size": 45,
@@ -3140,7 +3140,7 @@
      },
      "elements": [
       {
-       "id": "201d728",
+       "id": "f45a107",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3183,7 +3183,7 @@
        "elements": []
       },
       {
-       "id": "e8dfff4",
+       "id": "82cadb0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3215,7 +3215,7 @@
        "elements": []
       },
       {
-       "id": "57c0531",
+       "id": "7385db9",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3296,7 +3296,7 @@
      "isInner": false
     },
     {
-     "id": "7385db9",
+     "id": "49ad23d",
      "elType": "column",
      "settings": {
       "_column_size": 35,
@@ -3307,7 +3307,7 @@
      },
      "elements": [
       {
-       "id": "4888241",
+       "id": "cd63a3e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3353,7 +3353,7 @@
        "elements": []
       },
       {
-       "id": "06a15eb",
+       "id": "8c3039b",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3399,7 +3399,7 @@
        "elements": []
       },
       {
-       "id": "59bcda7",
+       "id": "ff1418e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3448,7 +3448,7 @@
      "isInner": false
     },
     {
-     "id": "cd63a3e",
+     "id": "6ae07dc",
      "elType": "column",
      "settings": {
       "_column_size": 20,
@@ -3461,7 +3461,7 @@
      },
      "elements": [
       {
-       "id": "f45a107",
+       "id": "eb1e783",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
