@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "c450082",
+   "id": "afe4346",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "3214a6d",
+     "id": "b197ffd",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -118,7 +118,7 @@
      },
      "elements": [
       {
-       "id": "ba9a56c",
+       "id": "a8f8f60",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -127,7 +127,7 @@
        "elements": []
       },
       {
-       "id": "f31b204",
+       "id": "db6ebd0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -166,7 +166,7 @@
        "elements": []
       },
       {
-       "id": "dc5d637",
+       "id": "540ae6b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -209,7 +209,7 @@
        "elements": []
       },
       {
-       "id": "44a2e08",
+       "id": "f4a331b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -241,12 +241,12 @@
        "elements": []
       },
       {
-       "id": "798cebc",
+       "id": "ebb7104",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "958adb5",
+         "id": "1f3202d",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -333,7 +333,7 @@
          "elements": []
         },
         {
-         "id": "7e9e346",
+         "id": "eaa32c9",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -449,7 +449,7 @@
      ]
     },
     {
-     "id": "e1314fc",
+     "id": "8fb5f8b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -481,7 +481,7 @@
      },
      "elements": [
       {
-       "id": "b4568df",
+       "id": "f69e505",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -498,7 +498,7 @@
    ]
   },
   {
-   "id": "ca46033",
+   "id": "536a76f",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -555,7 +555,7 @@
    },
    "elements": [
     {
-     "id": "d523773",
+     "id": "8fb21ee",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -585,7 +585,7 @@
      },
      "elements": [
       {
-       "id": "f0fcf35",
+       "id": "b265ce6",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -633,7 +633,7 @@
      ]
     },
     {
-     "id": "7302e3f",
+     "id": "e94f63f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -663,7 +663,7 @@
      },
      "elements": [
       {
-       "id": "c366c2c",
+       "id": "c930eec",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -711,7 +711,7 @@
      ]
     },
     {
-     "id": "6814859",
+     "id": "c5cc17e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -741,7 +741,7 @@
      },
      "elements": [
       {
-       "id": "2d1b2a5",
+       "id": "2dffbc4",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -789,7 +789,7 @@
      ]
     },
     {
-     "id": "13168e6",
+     "id": "6786f3c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -819,7 +819,7 @@
      },
      "elements": [
       {
-       "id": "865dfbd",
+       "id": "80a8155",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -869,7 +869,7 @@
    ]
   },
   {
-   "id": "73e0f74",
+   "id": "0245952",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -911,7 +911,7 @@
    },
    "elements": [
     {
-     "id": "5fa9e41",
+     "id": "0a1bf96",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -941,7 +941,7 @@
      },
      "elements": [
       {
-       "id": "56f9f88",
+       "id": "3bbfdde",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -974,7 +974,7 @@
      ]
     },
     {
-     "id": "c91591a",
+     "id": "6d9cb7d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1013,16 +1013,75 @@
      },
      "elements": [
       {
-       "id": "059fdcd",
-       "elType": "widget",
-       "widgetType": "text-editor",
+       "id": "0f3d014",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "5e76bef",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<div style=\"font: 14px Inter, sans-serif;\"><a style=\"color: #cfcfd2; margin-left: 16px; text-decoration: none;\" href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\">&#128196; Colors acabats i texturats</a></div>",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "15",
+           "left": "0",
+           "isLinked": false
+          },
+          "_element_width": "initial"
+         },
+         "elements": []
+        },
+        {
+         "id": "01d8bae",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<div style=\"font: 14px Inter, sans-serif;\"><a style=\"color: #cfcfd2; margin-left: 16px; text-decoration: none;\" href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\">&#128196; Acabats fusta texturats</a></div>",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "15",
+           "left": "0",
+           "isLinked": false
+          },
+          "_element_width": "initial"
+         },
+         "elements": []
+        }
+       ],
        "settings": {
-        "editor": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
-       },
-       "elements": []
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "flex_align_items": "flex-start",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       }
       },
       {
-       "id": "e06f967",
+       "id": "4dcae38",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1061,7 +1120,7 @@
        "elements": []
       },
       {
-       "id": "af3303f",
+       "id": "1abb1e1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1104,7 +1163,7 @@
        "elements": []
       },
       {
-       "id": "11f524c",
+       "id": "07042ac",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1136,7 +1195,7 @@
        "elements": []
       },
       {
-       "id": "944626a",
+       "id": "372d3f3",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -1147,7 +1206,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "6be5336"
+          "_id": "9515140"
          },
          {
           "text": "Pèrgoles bioclimàtiques, mampares de bany i tancaments de jardí",
@@ -1155,7 +1214,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "9fdb62f"
+          "_id": "ad71c82"
          },
          {
           "text": "Baranes i sostres, entre d'altres",
@@ -1163,7 +1222,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "d54e99a"
+          "_id": "fe70c36"
          },
          {
           "text": "Reformes, rehabilitacions i obra nova",
@@ -1171,7 +1230,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "fc4ddc1"
+          "_id": "c913303"
          }
         ],
         "icon_color": "#e4152d",
@@ -1202,7 +1261,7 @@
    ]
   },
   {
-   "id": "ab73148",
+   "id": "daa96d9",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1247,7 +1306,7 @@
    },
    "elements": [
     {
-     "id": "6569972",
+     "id": "42ffcf0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1278,7 +1337,7 @@
      },
      "elements": [
       {
-       "id": "77369e3",
+       "id": "991de29",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1323,7 +1382,7 @@
      ]
     },
     {
-     "id": "0609154",
+     "id": "8b0d268",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1354,7 +1413,7 @@
      },
      "elements": [
       {
-       "id": "dea9ddb",
+       "id": "cec6f62",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1367,31 +1426,31 @@
    ]
   },
   {
-   "id": "8c8a58f",
+   "id": "571d3a9",
    "elType": "container",
    "isInner": false,
    "settings": {
     "padding": {
      "unit": "px",
-     "top": "3",
+     "top": "6",
      "right": "0",
-     "bottom": "72",
+     "bottom": "24",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "2",
+     "top": "4",
      "right": "24",
-     "bottom": "54",
+     "bottom": "18",
      "left": "24",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "px",
-     "top": "2",
+     "top": "3",
      "right": "18",
-     "bottom": "40",
+     "bottom": "13",
      "left": "18",
      "isLinked": false
     },
@@ -1405,14 +1464,14 @@
     "flex_wrap": "wrap",
     "flex_gap": {
      "unit": "px",
-     "column": "4",
-     "row": "4",
+     "column": "10",
+     "row": "10",
      "isLinked": true
     }
    },
    "elements": [
     {
-     "id": "ff7d0f5",
+     "id": "7d6044e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1426,286 +1485,69 @@
       },
       "width": {
        "unit": "%",
-       "size": 24.7,
+       "size": 100,
        "sizes": []
       },
       "width_tablet": {
        "unit": "%",
-       "size": 49.71,
+       "size": 100,
        "sizes": []
       },
       "width_mobile": {
        "unit": "%",
-       "size": 49.41,
+       "size": 100,
        "sizes": []
       }
      },
      "elements": [
       {
-       "id": "04df4d4",
+       "id": "ac796a5",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "gallery",
        "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
+        "gallery_type": "single",
+        "gallery": [
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-02.jpg"
+         }
+        ],
+        "gallery_layout": "grid",
+        "columns": 4,
+        "columns_tablet": 3,
+        "columns_mobile": 2,
+        "gap": {
+         "unit": "px",
+         "size": 8,
          "sizes": []
         },
+        "gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        },
+        "gap_mobile": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        },
+        "aspect_ratio": "3:2",
         "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
         "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "07a4e20",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "c44799b",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "65fc52e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "b432f34",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "e74c0d4",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "cb79f8f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 190,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 133,
-         "sizes": []
-        }
+        "lazyload": "yes",
+        "overlay_background": "overlay"
        },
        "elements": []
       }
@@ -1714,7 +1556,7 @@
    ]
   },
   {
-   "id": "29530de",
+   "id": "86df7dc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1761,7 +1603,7 @@
    },
    "elements": [
     {
-     "id": "3332221",
+     "id": "83cdcec",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1799,7 +1641,7 @@
      },
      "elements": [
       {
-       "id": "44968ae",
+       "id": "97275a2",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1832,7 +1674,7 @@
        "elements": []
       },
       {
-       "id": "9f69929",
+       "id": "78b9cab",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1843,7 +1685,7 @@
      ]
     },
     {
-     "id": "139f087",
+     "id": "7fb8ceb",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1897,7 +1739,7 @@
      },
      "elements": [
       {
-       "id": "414e773",
+       "id": "dc09c97",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1936,7 +1778,7 @@
        "elements": []
       },
       {
-       "id": "b139e10",
+       "id": "e816c63",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1979,7 +1821,7 @@
        "elements": []
       },
       {
-       "id": "0950ca9",
+       "id": "4e8412a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2011,7 +1853,7 @@
        "elements": []
       },
       {
-       "id": "5103c35",
+       "id": "ab541d8",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2089,7 +1931,7 @@
        "elements": []
       },
       {
-       "id": "e5b294b",
+       "id": "bffc983",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2102,7 +1944,7 @@
        "elements": []
       },
       {
-       "id": "5bce843",
+       "id": "729c688",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2130,7 +1972,7 @@
    ]
   },
   {
-   "id": "136f951",
+   "id": "1714726",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2176,7 +2018,7 @@
    },
    "elements": [
     {
-     "id": "8562ae5",
+     "id": "f187a23",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2207,7 +2049,7 @@
      },
      "elements": [
       {
-       "id": "15d185e",
+       "id": "6d3a1e0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2246,7 +2088,7 @@
        "elements": []
       },
       {
-       "id": "52d2752",
+       "id": "8a146f1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2289,7 +2131,7 @@
        "elements": []
       },
       {
-       "id": "1e913e1",
+       "id": "1baff70",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2315,7 +2157,7 @@
      ]
     },
     {
-     "id": "11108a3",
+     "id": "e655c77",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2346,7 +2188,7 @@
      },
      "elements": [
       {
-       "id": "8d55a24",
+       "id": "226d1f1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2375,725 +2217,31 @@
    ]
   },
   {
-   "id": "95f6870",
+   "id": "1415db7",
    "elType": "container",
    "isInner": false,
    "settings": {
     "padding": {
      "unit": "px",
-     "top": "3",
+     "top": "6",
      "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "4",
-     "row": "4",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "f22e474",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "ad4cc1f",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "7af6266",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "95e6834",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "c3395dd",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "519c841",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "2d00f43",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "6f2688a",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c215b44",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "4",
-     "row": "4",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "de03bef",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "1f71e39",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-06.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "36ac8e5",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "7ca57a9",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-07.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "6a508a6",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "03e7d2e",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "a38b161",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "1113d7a",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-09.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "39dcaf7",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
      "bottom": "40",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "4",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "3",
+     "right": "18",
+     "bottom": "22",
      "left": "18",
      "isLinked": false
     },
@@ -3107,14 +2255,14 @@
     "flex_wrap": "wrap",
     "flex_gap": {
      "unit": "px",
-     "column": "4",
-     "row": "4",
+     "column": "10",
+     "row": "10",
      "isLinked": true
     }
    },
    "elements": [
     {
-     "id": "378a063",
+     "id": "fa1e9c9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3128,286 +2276,101 @@
       },
       "width": {
        "unit": "%",
-       "size": 24.7,
+       "size": 100,
        "sizes": []
       },
       "width_tablet": {
        "unit": "%",
-       "size": 49.71,
+       "size": 100,
        "sizes": []
       },
       "width_mobile": {
        "unit": "%",
-       "size": 49.41,
+       "size": 100,
        "sizes": []
       }
      },
      "elements": [
       {
-       "id": "5a7f963",
+       "id": "fcdf25d",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "gallery",
        "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-10.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
+        "gallery_type": "single",
+        "gallery": [
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-02.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-03.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-04.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-05.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-06.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-07.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-08.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-09.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-10.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-12.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-13.jpg"
+         }
+        ],
+        "gallery_layout": "grid",
+        "columns": 4,
+        "columns_tablet": 3,
+        "columns_mobile": 2,
+        "gap": {
+         "unit": "px",
+         "size": 8,
          "sizes": []
         },
+        "gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        },
+        "gap_mobile": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        },
+        "aspect_ratio": "4:3",
         "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
         "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "277a78f",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "e340843",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "e4dd552",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "d77f007",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-12.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "f106b7f",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "7f16109",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/muntatge-13.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
+        "lazyload": "yes",
+        "overlay_background": "overlay"
        },
        "elements": []
       }
@@ -3416,7 +2379,7 @@
    ]
   },
   {
-   "id": "a82d922",
+   "id": "6490791",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3461,7 +2424,7 @@
    },
    "elements": [
     {
-     "id": "3683af9",
+     "id": "ced556c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3491,7 +2454,7 @@
      },
      "elements": [
       {
-       "id": "d46e1fc",
+       "id": "55c567f",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3573,7 +2536,7 @@
    ]
   },
   {
-   "id": "405e289",
+   "id": "41a6037",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3646,7 +2609,7 @@
    },
    "elements": [
     {
-     "id": "7d2b92b",
+     "id": "4dcf435",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3677,7 +2640,7 @@
      },
      "elements": [
       {
-       "id": "98c7242",
+       "id": "cfa5301",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3720,7 +2683,7 @@
        "elements": []
       },
       {
-       "id": "4d85566",
+       "id": "5cbdfd0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3752,7 +2715,7 @@
        "elements": []
       },
       {
-       "id": "0004d0b",
+       "id": "77f959f",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3832,7 +2795,7 @@
      ]
     },
     {
-     "id": "dd055f5",
+     "id": "ebd6d2f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3863,7 +2826,7 @@
      },
      "elements": [
       {
-       "id": "de73998",
+       "id": "0c8ce55",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3874,12 +2837,12 @@
         "title_text": "Truca'ns",
         "description_text": "600 83 19 36",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -3909,7 +2872,7 @@
        "elements": []
       },
       {
-       "id": "c4de8ce",
+       "id": "49b8b4f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3920,12 +2883,12 @@
         "title_text": "WhatsApp",
         "description_text": "Envia'ns un missatge",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -3955,7 +2918,7 @@
        "elements": []
       },
       {
-       "id": "deb54ff",
+       "id": "0c9ebb2",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3966,12 +2929,12 @@
         "title_text": "Escriu-nos",
         "description_text": "info@aluminisalbera.com",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -4003,7 +2966,7 @@
      ]
     },
     {
-     "id": "4afd521",
+     "id": "1cd3882",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4036,7 +2999,7 @@
      },
      "elements": [
       {
-       "id": "3d863b3",
+       "id": "b5488ae",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

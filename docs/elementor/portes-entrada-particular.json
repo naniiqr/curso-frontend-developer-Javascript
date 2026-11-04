@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "1c6a019",
+   "id": "52947e0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -49,7 +49,7 @@
    },
    "elements": [
     {
-     "id": "b440509",
+     "id": "7a6a74c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -79,7 +79,7 @@
      },
      "elements": [
       {
-       "id": "f12ee97",
+       "id": "faafda6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -88,7 +88,7 @@
        "elements": []
       },
       {
-       "id": "81b3833",
+       "id": "a2cc63e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -131,7 +131,7 @@
        "elements": []
       },
       {
-       "id": "e2ad76f",
+       "id": "a14ac55",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -144,1072 +144,31 @@
    ]
   },
   {
-   "id": "934b535",
+   "id": "71a58e8",
    "elType": "container",
    "isInner": false,
    "settings": {
     "padding": {
      "unit": "px",
-     "top": "3",
+     "top": "6",
      "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "4",
-     "row": "4",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "71560ce",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "0a87257",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-01.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "ca0daec",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "14ea0d5",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "8c5f6ec",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "cdf1e28",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "ea119a4",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "25db67c",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "04048ae",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "4",
-     "row": "4",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "1145a30",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "6832a7b",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "e45823a",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "5249ee8",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "2d969e2",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "dd28e50",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "06d5ae1",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "4b4edc2",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "8ca8da4",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "4",
-     "row": "4",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "4aecfbe",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "fea9c11",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "db116b3",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "cd3afef",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "3323fe1",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "1368ba1",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "01894d6",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "05a7045",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "443dec3",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "72",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "54",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
      "bottom": "40",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "4",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "3",
+     "right": "18",
+     "bottom": "22",
      "left": "18",
      "isLinked": false
     },
@@ -1223,14 +182,14 @@
     "flex_wrap": "wrap",
     "flex_gap": {
      "unit": "px",
-     "column": "4",
-     "row": "4",
+     "column": "10",
+     "row": "10",
      "isLinked": true
     }
    },
    "elements": [
     {
-     "id": "02e656a",
+     "id": "e9fd7c2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1244,286 +203,117 @@
       },
       "width": {
        "unit": "%",
-       "size": 24.7,
+       "size": 100,
        "sizes": []
       },
       "width_tablet": {
        "unit": "%",
-       "size": 49.71,
+       "size": 100,
        "sizes": []
       },
       "width_mobile": {
        "unit": "%",
-       "size": 49.41,
+       "size": 100,
        "sizes": []
       }
      },
      "elements": [
       {
-       "id": "f3d9de8",
+       "id": "69d658d",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "gallery",
        "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
+        "gallery_type": "single",
+        "gallery": [
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-01.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-02.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-03.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-04.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-05.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-06.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-07.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-08.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-09.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-10.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-11.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-12.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-13.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-16.jpg"
+         }
+        ],
+        "gallery_layout": "grid",
+        "columns": 4,
+        "columns_tablet": 3,
+        "columns_mobile": 2,
+        "gap": {
+         "unit": "px",
+         "size": 8,
          "sizes": []
         },
+        "gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        },
+        "gap_mobile": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        },
+        "aspect_ratio": "3:4",
         "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
         "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "b5c0150",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "5938b4d",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-14.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "13111c2",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "b0df227",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-15.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "598920e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 24.7,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "d2a27e8",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-pe-16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 380,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 266,
-         "sizes": []
-        }
+        "lazyload": "yes",
+        "overlay_background": "overlay"
        },
        "elements": []
       }
@@ -1532,7 +322,7 @@
    ]
   },
   {
-   "id": "4ae67a7",
+   "id": "f60bb6b",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1577,7 +367,7 @@
    },
    "elements": [
     {
-     "id": "efdf562",
+     "id": "297fa77",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1607,7 +397,7 @@
      },
      "elements": [
       {
-       "id": "01eee50",
+       "id": "962e56a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1635,7 +425,7 @@
    ]
   },
   {
-   "id": "b0b79da",
+   "id": "a981f2b",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1707,7 +497,7 @@
    },
    "elements": [
     {
-     "id": "3e6260b",
+     "id": "c7af092",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1738,7 +528,7 @@
      },
      "elements": [
       {
-       "id": "6cd9313",
+       "id": "d1dc3a8",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1781,7 +571,7 @@
        "elements": []
       },
       {
-       "id": "329e658",
+       "id": "806beaf",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1813,7 +603,7 @@
        "elements": []
       },
       {
-       "id": "2a8a812",
+       "id": "4462bf0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1892,7 +682,7 @@
      ]
     },
     {
-     "id": "653ac11",
+     "id": "9327969",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1924,7 +714,7 @@
      },
      "elements": [
       {
-       "id": "e0f7a4d",
+       "id": "fc52859",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {

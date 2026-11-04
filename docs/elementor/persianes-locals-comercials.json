@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "5d616dd",
+   "id": "c2626d8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "766d856",
+     "id": "d554f7b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -118,7 +118,7 @@
      },
      "elements": [
       {
-       "id": "1e48c44",
+       "id": "4558dbb",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -127,7 +127,7 @@
        "elements": []
       },
       {
-       "id": "7f975a5",
+       "id": "afda332",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -166,7 +166,7 @@
        "elements": []
       },
       {
-       "id": "f33ba15",
+       "id": "632cee9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -209,7 +209,7 @@
        "elements": []
       },
       {
-       "id": "6b18003",
+       "id": "677e097",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -241,12 +241,12 @@
        "elements": []
       },
       {
-       "id": "522a9ae",
+       "id": "704afe0",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "1587965",
+         "id": "3b5dca5",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -333,7 +333,7 @@
          "elements": []
         },
         {
-         "id": "31b3b31",
+         "id": "e2a2dcc",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -449,7 +449,7 @@
      ]
     },
     {
-     "id": "08fe262",
+     "id": "fa3a3c4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -481,7 +481,7 @@
      },
      "elements": [
       {
-       "id": "298923c",
+       "id": "795c7a7",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -498,7 +498,7 @@
    ]
   },
   {
-   "id": "24146db",
+   "id": "b0b183c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -555,7 +555,7 @@
    },
    "elements": [
     {
-     "id": "03e0704",
+     "id": "8e82ab7",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -585,7 +585,7 @@
      },
      "elements": [
       {
-       "id": "ef50c33",
+       "id": "ce78d1d",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -633,7 +633,7 @@
      ]
     },
     {
-     "id": "0768281",
+     "id": "7250eb9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -663,7 +663,7 @@
      },
      "elements": [
       {
-       "id": "65cc2c8",
+       "id": "e0ec453",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -711,7 +711,7 @@
      ]
     },
     {
-     "id": "ce5140d",
+     "id": "301ad0e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -741,7 +741,7 @@
      },
      "elements": [
       {
-       "id": "93d6564",
+       "id": "013a006",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -789,7 +789,7 @@
      ]
     },
     {
-     "id": "82b8a34",
+     "id": "ab88b15",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -819,7 +819,7 @@
      },
      "elements": [
       {
-       "id": "021bbc7",
+       "id": "4d5b995",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -869,7 +869,7 @@
    ]
   },
   {
-   "id": "6d70cb6",
+   "id": "1efa39b",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -911,7 +911,7 @@
    },
    "elements": [
     {
-     "id": "3806734",
+     "id": "8f7d807",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -941,7 +941,7 @@
      },
      "elements": [
       {
-       "id": "883e881",
+       "id": "f9028fa",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -974,7 +974,7 @@
      ]
     },
     {
-     "id": "eddb904",
+     "id": "fe8c15f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1013,16 +1013,75 @@
      },
      "elements": [
       {
-       "id": "84d2004",
-       "elType": "widget",
-       "widgetType": "text-editor",
+       "id": "7ce3284",
+       "elType": "container",
+       "isInner": true,
+       "elements": [
+        {
+         "id": "fa83a11",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<div style=\"font: 14px Inter, sans-serif;\"><a style=\"color: #cfcfd2; margin-left: 16px; text-decoration: none;\" href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\">&#128196; Colors acabats i texturats</a></div>",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "15",
+           "left": "0",
+           "isLinked": false
+          },
+          "_element_width": "initial"
+         },
+         "elements": []
+        },
+        {
+         "id": "02a32ad",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<div style=\"font: 14px Inter, sans-serif;\"><a style=\"color: #cfcfd2; margin-left: 16px; text-decoration: none;\" href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\">&#128196; Acabats fusta texturats</a></div>",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "15",
+           "left": "0",
+           "isLinked": false
+          },
+          "_element_width": "initial"
+         },
+         "elements": []
+        }
+       ],
        "settings": {
-        "editor": "<div style=\"text-align:right;font:12px Inter,sans-serif\"><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/08/FinishesTexturesCatalog.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Colors acabats i texturats</a><a href=\"https://aluminisalbera.com/wp-content/uploads/2020/10/maderas-1.pdf\" style=\"color:#cfcfd2;margin-left:16px;text-decoration:none\">&#128196; Acabats fusta texturats</a></div>"
-       },
-       "elements": []
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": true
+        },
+        "flex_align_items": "flex-start",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       }
       },
       {
-       "id": "e515df0",
+       "id": "fc3cf45",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1061,7 +1120,7 @@
        "elements": []
       },
       {
-       "id": "afdec70",
+       "id": "3d8e28c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1104,7 +1163,7 @@
        "elements": []
       },
       {
-       "id": "995e1fd",
+       "id": "e97ee20",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1136,7 +1195,7 @@
        "elements": []
       },
       {
-       "id": "83fa5a4",
+       "id": "362e80d",
        "elType": "widget",
        "widgetType": "icon-list",
        "settings": {
@@ -1147,7 +1206,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "e17184b"
+          "_id": "b86e8d0"
          },
          {
           "text": "Més visibilitat al negoci",
@@ -1155,7 +1214,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "bdb106a"
+          "_id": "84f7e69"
          },
          {
           "text": "Diferents opcions segons les necessitats de cada local",
@@ -1163,7 +1222,7 @@
            "value": "fas fa-check",
            "library": "fa-solid"
           },
-          "_id": "a34bacf"
+          "_id": "f455267"
          }
         ],
         "icon_color": "#e4152d",
@@ -1194,7 +1253,7 @@
    ]
   },
   {
-   "id": "58c5480",
+   "id": "f9a40a4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1241,7 +1300,7 @@
    },
    "elements": [
     {
-     "id": "d736bb1",
+     "id": "aff1621",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1279,7 +1338,7 @@
      },
      "elements": [
       {
-       "id": "27ed0fb",
+       "id": "92fb0c6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1312,7 +1371,7 @@
        "elements": []
       },
       {
-       "id": "537d9b6",
+       "id": "22ac3c5",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1323,7 +1382,7 @@
      ]
     },
     {
-     "id": "7cce53c",
+     "id": "fc49306",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1377,7 +1436,7 @@
      },
      "elements": [
       {
-       "id": "9ac403d",
+       "id": "f7e9050",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1416,7 +1475,7 @@
        "elements": []
       },
       {
-       "id": "b9141af",
+       "id": "addfa9b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1459,7 +1518,7 @@
        "elements": []
       },
       {
-       "id": "1019c80",
+       "id": "8c235f8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1491,7 +1550,7 @@
        "elements": []
       },
       {
-       "id": "a0e2a2c",
+       "id": "847cc55",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1569,7 +1628,7 @@
        "elements": []
       },
       {
-       "id": "1579779",
+       "id": "a67f096",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1582,7 +1641,7 @@
        "elements": []
       },
       {
-       "id": "20b5e1c",
+       "id": "2a084e5",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1610,7 +1669,7 @@
    ]
   },
   {
-   "id": "4ca8278",
+   "id": "dd45045",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1656,7 +1715,7 @@
    },
    "elements": [
     {
-     "id": "7fec306",
+     "id": "3b3dbaf",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1687,7 +1746,7 @@
      },
      "elements": [
       {
-       "id": "5055cbf",
+       "id": "5ec91aa",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1726,7 +1785,7 @@
        "elements": []
       },
       {
-       "id": "456ac9b",
+       "id": "19b6506",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1769,7 +1828,7 @@
        "elements": []
       },
       {
-       "id": "f4dd765",
+       "id": "1fc2140",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1795,7 +1854,7 @@
      ]
     },
     {
-     "id": "53c0411",
+     "id": "ede7e2b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1826,7 +1885,7 @@
      },
      "elements": [
       {
-       "id": "db576a7",
+       "id": "ca8155f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1855,31 +1914,31 @@
    ]
   },
   {
-   "id": "6c340f2",
+   "id": "aeb3135",
    "elType": "container",
    "isInner": false,
    "settings": {
     "padding": {
      "unit": "px",
-     "top": "3",
+     "top": "6",
      "right": "0",
-     "bottom": "72",
+     "bottom": "40",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "2",
+     "top": "4",
      "right": "24",
-     "bottom": "54",
+     "bottom": "30",
      "left": "24",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "px",
-     "top": "2",
+     "top": "3",
      "right": "18",
-     "bottom": "40",
+     "bottom": "22",
      "left": "18",
      "isLinked": false
     },
@@ -1893,14 +1952,14 @@
     "flex_wrap": "wrap",
     "flex_gap": {
      "unit": "px",
-     "column": "4",
-     "row": "4",
+     "column": "10",
+     "row": "10",
      "isLinked": true
     }
    },
    "elements": [
     {
-     "id": "b4d168b",
+     "id": "22fb0ce",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1914,211 +1973,65 @@
       },
       "width": {
        "unit": "%",
-       "size": 33.06,
+       "size": 100,
        "sizes": []
       },
       "width_tablet": {
        "unit": "%",
-       "size": 49.71,
+       "size": 100,
        "sizes": []
       },
       "width_mobile": {
        "unit": "%",
-       "size": 49.41,
+       "size": 100,
        "sizes": []
       }
      },
      "elements": [
       {
-       "id": "d8700cb",
+       "id": "49c9adb",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "gallery",
        "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-02.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
+        "gallery_type": "single",
+        "gallery": [
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-02.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-03.jpg"
+         },
+         {
+          "id": "",
+          "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-04.jpg"
+         }
+        ],
+        "gallery_layout": "grid",
+        "columns": 3,
+        "columns_tablet": 3,
+        "columns_mobile": 2,
+        "gap": {
+         "unit": "px",
+         "size": 8,
          "sizes": []
         },
+        "gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "sizes": []
+        },
+        "gap_mobile": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        },
+        "aspect_ratio": "4:3",
         "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
         "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "299a23a",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 33.06,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "4a08142",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-03.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "cd89fef",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 33.06,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 49.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 49.41,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "a89cf52",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-04.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "file",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "open_lightbox": "yes",
-        "height": {
-         "unit": "px",
-         "size": 230,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 161,
-         "sizes": []
-        }
+        "lazyload": "yes",
+        "overlay_background": "overlay"
        },
        "elements": []
       }
@@ -2127,7 +2040,7 @@
    ]
   },
   {
-   "id": "43dd49b",
+   "id": "51ef186",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2172,7 +2085,7 @@
    },
    "elements": [
     {
-     "id": "a2137a2",
+     "id": "98d6f58",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2202,7 +2115,7 @@
      },
      "elements": [
       {
-       "id": "2290a73",
+       "id": "43feaee",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2284,7 +2197,7 @@
    ]
   },
   {
-   "id": "062ddb6",
+   "id": "0efe328",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2357,7 +2270,7 @@
    },
    "elements": [
     {
-     "id": "708f3cf",
+     "id": "6c3cf77",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2388,7 +2301,7 @@
      },
      "elements": [
       {
-       "id": "31857b4",
+       "id": "4b0a59d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2431,7 +2344,7 @@
        "elements": []
       },
       {
-       "id": "53adaf4",
+       "id": "67d16d0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2463,7 +2376,7 @@
        "elements": []
       },
       {
-       "id": "fc2c7c4",
+       "id": "3524072",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2543,7 +2456,7 @@
      ]
     },
     {
-     "id": "4607263",
+     "id": "210f760",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2574,7 +2487,7 @@
      },
      "elements": [
       {
-       "id": "dc58e3a",
+       "id": "dd8eb9f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2585,12 +2498,12 @@
         "title_text": "Truca'ns",
         "description_text": "600 83 19 36",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -2620,7 +2533,7 @@
        "elements": []
       },
       {
-       "id": "1b0114c",
+       "id": "d516b13",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2631,12 +2544,12 @@
         "title_text": "WhatsApp",
         "description_text": "Envia'ns un missatge",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -2666,7 +2579,7 @@
        "elements": []
       },
       {
-       "id": "a1519de",
+       "id": "1f50893",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2677,12 +2590,12 @@
         "title_text": "Escriu-nos",
         "description_text": "info@aluminisalbera.com",
         "position": "left",
-        "text_align": "left",
+        "text_align": "start",
         "title_size": "h3",
         "primary_color": "#e4152d",
         "icon_size": {
          "unit": "px",
-         "size": 22,
+         "size": 20,
          "sizes": []
         },
         "icon_space": {
@@ -2714,7 +2627,7 @@
      ]
     },
     {
-     "id": "8a1e808",
+     "id": "170c944",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2747,7 +2660,7 @@
      },
      "elements": [
       {
-       "id": "390e982",
+       "id": "7504ada",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
