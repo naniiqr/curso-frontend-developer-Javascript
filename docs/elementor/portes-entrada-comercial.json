@@ -185,6 +185,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -231,6 +242,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -277,6 +299,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -364,6 +397,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -410,6 +454,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -456,6 +511,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -543,6 +609,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -589,6 +666,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -635,6 +723,17 @@
          "sizes": []
         },
         "link_to": "file",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "open_lightbox": "yes",
         "height": {
          "unit": "px",
@@ -928,6 +1027,15 @@
          "left": "26",
          "isLinked": false
         },
+        "hover_color": "#ffffff",
+        "button_background_hover_color": "#a21d2c",
+        "button_hover_border_color": "#a21d2c",
+        "button_hover_transition": {
+         "unit": "px",
+         "size": 0.25,
+         "sizes": []
+        },
+        "hover_animation": "grow",
         "selected_icon": {
          "value": "fas fa-arrow-right",
          "library": "fa-solid"

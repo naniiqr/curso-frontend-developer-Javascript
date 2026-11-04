@@ -246,6 +246,15 @@
          "left": "26",
          "isLinked": false
         },
+        "hover_color": "#ffffff",
+        "button_background_hover_color": "#ff2a42",
+        "button_hover_border_color": "#ff2a42",
+        "button_hover_transition": {
+         "unit": "px",
+         "size": 0.25,
+         "sizes": []
+        },
+        "hover_animation": "grow",
         "selected_icon": {
          "value": "fas fa-arrow-right",
          "library": "fa-solid"
@@ -324,6 +333,15 @@
          "left": "26",
          "isLinked": false
         },
+        "hover_color": "#ffffff",
+        "button_background_hover_color": "rgba(255,255,255,.12)",
+        "button_hover_border_color": "rgba(255,255,255,.7)",
+        "button_hover_transition": {
+         "unit": "px",
+         "size": 0.25,
+         "sizes": []
+        },
+        "hover_animation": "grow",
         "selected_icon": {
          "value": "fas fa-arrow-right",
          "library": "fa-solid"
@@ -892,6 +910,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/finestres-fulla-oculta/",
          "is_external": "",
@@ -1072,6 +1101,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/finestres-rpt-55/",
          "is_external": "",
@@ -1252,6 +1292,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/portes-dentrada/",
          "is_external": "",
@@ -1432,6 +1483,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/persianes/",
          "is_external": "",
@@ -1653,6 +1715,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/persianes-locals-comercials/",
          "is_external": "",
@@ -1833,6 +1906,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/corredisses/",
          "is_external": "",
@@ -2013,6 +2097,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/corredisses-grans-dimensions/",
          "is_external": "",
@@ -2193,6 +2288,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/baranes/",
          "is_external": "",
@@ -2414,6 +2520,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/pergoles-bioclimatiques/",
          "is_external": "",
@@ -2594,6 +2711,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/sostres-dalumini/",
          "is_external": "",
@@ -2774,6 +2902,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/tancaments-jardi/",
          "is_external": "",
@@ -2954,6 +3093,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/mampares-de-bany/",
          "is_external": "",
@@ -3175,6 +3325,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/muntatge/",
          "is_external": "",
@@ -3355,6 +3516,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/altres-feines/",
          "is_external": "",
@@ -3535,6 +3707,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "#",
          "is_external": "",
@@ -3927,6 +4110,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/projectes/",
          "is_external": "",
@@ -4002,6 +4196,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/projectes/",
          "is_external": "",
@@ -4077,6 +4282,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/projectes/",
          "is_external": "",
@@ -6172,6 +6388,15 @@
          "left": "26",
          "isLinked": false
         },
+        "hover_color": "#ffffff",
+        "button_background_hover_color": "#ff2a42",
+        "button_hover_border_color": "#ff2a42",
+        "button_hover_transition": {
+         "unit": "px",
+         "size": 0.25,
+         "sizes": []
+        },
+        "hover_animation": "grow",
         "selected_icon": {
          "value": "fas fa-arrow-right",
          "library": "fa-solid"

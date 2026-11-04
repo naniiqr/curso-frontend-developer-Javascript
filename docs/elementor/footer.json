@@ -81,6 +81,17 @@
          "sizes": []
         },
         "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
         "link": {
          "url": "/",
          "is_external": "",
