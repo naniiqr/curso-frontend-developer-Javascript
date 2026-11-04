@@ -4,11 +4,10 @@
  "type": "page",
  "content": [
   {
-   "id": "25ddc0f",
-   "elType": "section",
+   "id": "cfee398",
+   "elType": "container",
+   "isInner": false,
    "settings": {
-    "layout": "boxed",
-    "gap": "default",
     "padding": {
      "unit": "px",
      "top": "72",
@@ -32,12 +31,6 @@
      "bottom": "40",
      "left": "18",
      "isLinked": false
-    },
-    "content_position": "middle",
-    "content_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
     },
     "background_background": "classic",
     "background_color": "#0c0c0d",
@@ -66,13 +59,27 @@
      "size": 1,
      "sizes": []
     },
-    "height": "min-height",
-    "custom_height": {
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_wrap": "wrap",
+    "flex_gap": {
+     "unit": "px",
+     "column": "10",
+     "row": "10",
+     "isLinked": true
+    },
+    "flex_align_items": "center",
+    "min_height": {
      "unit": "px",
      "size": 440,
      "sizes": []
     },
-    "custom_height_mobile": {
+    "min_height_mobile": {
      "unit": "px",
      "size": 374,
      "sizes": []
@@ -80,18 +87,38 @@
    },
    "elements": [
     {
-     "id": "8e6b42f",
-     "elType": "column",
+     "id": "5ef0b4e",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "_column_size": 55,
-      "_inline_size": null,
-      "content_position": "middle",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 54.5,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "flex_justify_content": "center"
      },
      "elements": [
       {
-       "id": "877a9ba",
+       "id": "ef575e8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -100,7 +127,7 @@
        "elements": []
       },
       {
-       "id": "dc6a648",
+       "id": "2050e03",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -143,7 +170,7 @@
        "elements": []
       },
       {
-       "id": "2633735",
+       "id": "25ddc0f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -174,24 +201,42 @@
        },
        "elements": []
       }
-     ],
-     "isInner": false
+     ]
     },
     {
-     "id": "2050e03",
-     "elType": "column",
+     "id": "74071a6",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "_column_size": 45,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100,
       "hide_tablet": "hidden-tablet",
-      "hide_mobile": "hidden-mobile"
+      "hide_mobile": "hidden-mobile",
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 44.5,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      }
      },
      "elements": [
       {
-       "id": "ef575e8",
+       "id": "598b3e7",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -203,18 +248,15 @@
        },
        "elements": []
       }
-     ],
-     "isInner": false
+     ]
     }
-   ],
-   "isInner": false
+   ]
   },
   {
-   "id": "1be3bc3",
-   "elType": "section",
+   "id": "05f971b",
+   "elType": "container",
+   "isInner": false,
    "settings": {
-    "layout": "boxed",
-    "gap": "extended",
     "padding": {
      "unit": "px",
      "top": "72",
@@ -239,27 +281,54 @@
      "left": "18",
      "isLinked": false
     },
-    "content_position": "top",
-    "content_width": {
+    "content_width": "boxed",
+    "boxed_width": {
      "unit": "px",
      "size": 1180,
      "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_wrap": "wrap",
+    "flex_gap": {
+     "unit": "px",
+     "column": "16",
+     "row": "16",
+     "isLinked": true
     }
    },
    "elements": [
     {
-     "id": "f770b62",
-     "elType": "column",
+     "id": "7d04bbb",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "_column_size": 60,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 59.2,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      }
      },
      "elements": [
       {
-       "id": "9461cce",
+       "id": "218a0ae",
        "elType": "widget",
        "widgetType": "form",
        "settings": {
@@ -272,7 +341,7 @@
           "placeholder": "El teu nom",
           "required": "true",
           "width": "50",
-          "_id": "5ef0b4e"
+          "_id": "d18f655"
          },
          {
           "custom_id": "tel",
@@ -281,7 +350,7 @@
           "placeholder": "600 00 00 00",
           "required": "",
           "width": "50",
-          "_id": "598b3e7"
+          "_id": "6ea2ef7"
          },
          {
           "custom_id": "email",
@@ -290,7 +359,7 @@
           "placeholder": "nom@correu.com",
           "required": "true",
           "width": "100",
-          "_id": "74071a6"
+          "_id": "9461cce"
          },
          {
           "custom_id": "tipus",
@@ -299,7 +368,7 @@
           "placeholder": "",
           "required": "",
           "width": "100",
-          "_id": "cfee398",
+          "_id": "f770b62",
           "field_options": "Finestres\nPortes d'entrada\nPersianes\nPèrgoles i exteriors\nBaranes i mampares\nAltres"
          },
          {
@@ -309,7 +378,7 @@
           "placeholder": "Explica'ns breument el teu projecte",
           "required": "",
           "width": "100",
-          "_id": "d18f655",
+          "_id": "e1e32e2",
           "rows": 5
          },
          {
@@ -319,7 +388,7 @@
           "placeholder": "",
           "required": "true",
           "width": "100",
-          "_id": "6ea2ef7",
+          "_id": "eba0dc3",
           "acceptance_text": "He llegit i accepto la política de privacitat.",
           "checked_by_default": ""
          }
@@ -423,18 +492,13 @@
        },
        "elements": []
       }
-     ],
-     "isInner": false
+     ]
     },
     {
-     "id": "2f55707",
-     "elType": "column",
+     "id": "7380ad8",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "_column_size": 40,
-      "_inline_size": null,
-      "content_position": "top",
-      "_inline_size_mobile": 100,
-      "_inline_size_tablet": 100,
       "background_background": "classic",
       "background_color": "#131315",
       "padding": {
@@ -444,11 +508,34 @@
        "bottom": "26",
        "left": "26",
        "isLinked": false
+      },
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 39.2,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
       }
      },
      "elements": [
       {
-       "id": "e1e32e2",
+       "id": "a516a87",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -458,136 +545,6 @@
         },
         "title_text": "Truca'ns",
         "description_text": "600 83 19 36 · 667 50 65 17",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      },
-      {
-       "id": "eba0dc3",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "rgba(255,255,255,.12)",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "218a0ae",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fab fa-whatsapp",
-         "library": "fa-brands"
-        },
-        "title_text": "WhatsApp",
-        "description_text": "Envia'ns un missatge",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      },
-      {
-       "id": "7d04bbb",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "rgba(255,255,255,.12)",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "a516a87",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-envelope",
-         "library": "fa-solid"
-        },
-        "title_text": "Escriu-nos",
-        "description_text": "info@aluminisalbera.com",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -648,11 +605,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-map-marker-alt",
-         "library": "fa-solid"
+         "value": "fab fa-whatsapp",
+         "library": "fa-brands"
         },
-        "title_text": "On som",
-        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
+        "title_text": "WhatsApp",
+        "description_text": "Envia'ns un missatge",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -713,6 +670,136 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
+         "value": "fas fa-envelope",
+         "library": "fa-solid"
+        },
+        "title_text": "Escriu-nos",
+        "description_text": "info@aluminisalbera.com",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "55a7cf9",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "2f55707",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-map-marker-alt",
+         "library": "fa-solid"
+        },
+        "title_text": "On som",
+        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "1be3bc3",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "3505107",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
          "value": "far fa-clock",
          "library": "fa-regular"
         },
@@ -754,7 +841,7 @@
        "elements": []
       },
       {
-       "id": "55a7cf9",
+       "id": "b534ba6",
        "elType": "widget",
        "widgetType": "google_maps",
        "settings": {
@@ -777,11 +864,9 @@
        },
        "elements": []
       }
-     ],
-     "isInner": false
+     ]
     }
-   ],
-   "isInner": false
+   ]
   }
  ],
  "page_settings": {
