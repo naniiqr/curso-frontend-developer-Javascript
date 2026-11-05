@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "cfee398",
+   "id": "25ddc0f",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "5ef0b4e",
+     "id": "8e6b42f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -118,16 +118,7 @@
      },
      "elements": [
       {
-       "id": "ef575e8",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Contacte</span></div>"
-       },
-       "elements": []
-      },
-      {
-       "id": "2050e03",
+       "id": "dc6a648",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -170,7 +161,7 @@
        "elements": []
       },
       {
-       "id": "25ddc0f",
+       "id": "2633735",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -204,7 +195,7 @@
      ]
     },
     {
-     "id": "74071a6",
+     "id": "2050e03",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -236,7 +227,7 @@
      },
      "elements": [
       {
-       "id": "598b3e7",
+       "id": "ef575e8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -253,7 +244,7 @@
    ]
   },
   {
-   "id": "05f971b",
+   "id": "1be3bc3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -298,7 +289,7 @@
    },
    "elements": [
     {
-     "id": "7d04bbb",
+     "id": "f770b62",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -328,7 +319,7 @@
      },
      "elements": [
       {
-       "id": "218a0ae",
+       "id": "9461cce",
        "elType": "widget",
        "widgetType": "form",
        "settings": {
@@ -341,7 +332,7 @@
           "placeholder": "El teu nom",
           "required": "true",
           "width": "50",
-          "_id": "d18f655"
+          "_id": "5ef0b4e"
          },
          {
           "custom_id": "tel",
@@ -350,7 +341,7 @@
           "placeholder": "600 00 00 00",
           "required": "",
           "width": "50",
-          "_id": "6ea2ef7"
+          "_id": "598b3e7"
          },
          {
           "custom_id": "email",
@@ -359,7 +350,7 @@
           "placeholder": "nom@correu.com",
           "required": "true",
           "width": "100",
-          "_id": "9461cce"
+          "_id": "74071a6"
          },
          {
           "custom_id": "tipus",
@@ -368,7 +359,7 @@
           "placeholder": "",
           "required": "",
           "width": "100",
-          "_id": "f770b62",
+          "_id": "cfee398",
           "field_options": "Finestres\nPortes d'entrada\nPersianes\nPèrgoles i exteriors\nBaranes i mampares\nAltres"
          },
          {
@@ -378,7 +369,7 @@
           "placeholder": "Explica'ns breument el teu projecte",
           "required": "",
           "width": "100",
-          "_id": "e1e32e2",
+          "_id": "d18f655",
           "rows": 5
          },
          {
@@ -388,7 +379,7 @@
           "placeholder": "",
           "required": "true",
           "width": "100",
-          "_id": "eba0dc3",
+          "_id": "6ea2ef7",
           "acceptance_text": "He llegit i accepto la política de privacitat.",
           "checked_by_default": ""
          }
@@ -495,7 +486,7 @@
      ]
     },
     {
-     "id": "7380ad8",
+     "id": "2f55707",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -535,7 +526,7 @@
      },
      "elements": [
       {
-       "id": "a516a87",
+       "id": "e1e32e2",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -545,6 +536,136 @@
         },
         "title_text": "Truca'ns",
         "description_text": "600 83 19 36 · 667 50 65 17",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "eba0dc3",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "218a0ae",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fab fa-whatsapp",
+         "library": "fa-brands"
+        },
+        "title_text": "WhatsApp",
+        "description_text": "Envia'ns un missatge",
+        "position": "left",
+        "text_align": "left",
+        "title_size": "h3",
+        "primary_color": "#e4152d",
+        "icon_size": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        },
+        "icon_space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "title_color": "#ffffff",
+        "description_color": "#a9a9ae",
+        "title_typography_typography": "custom",
+        "title_typography_font_family": "Inter",
+        "title_typography_font_size": {
+         "unit": "px",
+         "size": 15,
+         "sizes": []
+        },
+        "title_typography_font_weight": "600",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Inter",
+        "description_typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "description_typography_font_weight": "400"
+       },
+       "elements": []
+      },
+      {
+       "id": "7d04bbb",
+       "elType": "widget",
+       "widgetType": "divider",
+       "settings": {
+        "color": "rgba(255,255,255,.12)",
+        "weight": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "gap": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "a516a87",
+       "elType": "widget",
+       "widgetType": "icon-box",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-envelope",
+         "library": "fa-solid"
+        },
+        "title_text": "Escriu-nos",
+        "description_text": "info@aluminisalbera.com",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -605,11 +726,11 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fab fa-whatsapp",
-         "library": "fa-brands"
+         "value": "fas fa-map-marker-alt",
+         "library": "fa-solid"
         },
-        "title_text": "WhatsApp",
-        "description_text": "Envia'ns un missatge",
+        "title_text": "On som",
+        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
         "position": "left",
         "text_align": "left",
         "title_size": "h3",
@@ -670,136 +791,6 @@
        "widgetType": "icon-box",
        "settings": {
         "selected_icon": {
-         "value": "fas fa-envelope",
-         "library": "fa-solid"
-        },
-        "title_text": "Escriu-nos",
-        "description_text": "info@aluminisalbera.com",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      },
-      {
-       "id": "55a7cf9",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "rgba(255,255,255,.12)",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "2f55707",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
-         "value": "fas fa-map-marker-alt",
-         "library": "fa-solid"
-        },
-        "title_text": "On som",
-        "description_text": "Carrer Arquitecte Ricard Giralt, 1 Nau 7 · 17600 Figueres (Girona)",
-        "position": "left",
-        "text_align": "left",
-        "title_size": "h3",
-        "primary_color": "#e4152d",
-        "icon_size": {
-         "unit": "px",
-         "size": 24,
-         "sizes": []
-        },
-        "icon_space": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "title_color": "#ffffff",
-        "description_color": "#a9a9ae",
-        "title_typography_typography": "custom",
-        "title_typography_font_family": "Inter",
-        "title_typography_font_size": {
-         "unit": "px",
-         "size": 15,
-         "sizes": []
-        },
-        "title_typography_font_weight": "600",
-        "description_typography_typography": "custom",
-        "description_typography_font_family": "Inter",
-        "description_typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "description_typography_font_weight": "400"
-       },
-       "elements": []
-      },
-      {
-       "id": "1be3bc3",
-       "elType": "widget",
-       "widgetType": "divider",
-       "settings": {
-        "color": "rgba(255,255,255,.12)",
-        "weight": {
-         "unit": "px",
-         "size": 1,
-         "sizes": []
-        },
-        "gap": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "3505107",
-       "elType": "widget",
-       "widgetType": "icon-box",
-       "settings": {
-        "selected_icon": {
          "value": "far fa-clock",
          "library": "fa-regular"
         },
@@ -841,7 +832,7 @@
        "elements": []
       },
       {
-       "id": "b534ba6",
+       "id": "55a7cf9",
        "elType": "widget",
        "widgetType": "google_maps",
        "settings": {

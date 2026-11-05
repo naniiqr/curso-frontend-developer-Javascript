@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "bca82e4",
+   "id": "d34ab16",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "d34ab16",
+     "id": "ad972f1",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -118,16 +118,7 @@
      },
      "elements": [
       {
-       "id": "ad972f1",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Sobre nosaltres</span></div>"
-       },
-       "elements": []
-      },
-      {
-       "id": "f61d694",
+       "id": "24b16fe",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -170,7 +161,7 @@
        "elements": []
       },
       {
-       "id": "142949d",
+       "id": "ffd52f3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -202,18 +193,18 @@
        "elements": []
       },
       {
-       "id": "2633735",
+       "id": "ab817c9",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "24b16fe",
+         "id": "d709f38",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Parlem del teu projecte",
           "link": {
-           "url": "/contacte/",
+           "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
            "is_external": "",
            "nofollow": "",
            "custom_attributes": ""
@@ -294,13 +285,13 @@
          "elements": []
         },
         {
-         "id": "ffd52f3",
+         "id": "41f1f19",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Veure projectes",
           "link": {
-           "url": "/projectes/",
+           "url": "https://aluminisalbera.com/2026/projectes-dalumini-figueres/",
            "is_external": "",
            "nofollow": "",
            "custom_attributes": ""
@@ -410,7 +401,7 @@
      ]
     },
     {
-     "id": "a02ffd9",
+     "id": "142949d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -443,7 +434,7 @@
      },
      "elements": [
       {
-       "id": "8bf1211",
+       "id": "f61d694",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -482,7 +473,7 @@
    ]
   },
   {
-   "id": "70c639d",
+   "id": "a01a038",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -527,7 +518,7 @@
    },
    "elements": [
     {
-     "id": "8efb100",
+     "id": "0584ce5",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -558,7 +549,7 @@
      },
      "elements": [
       {
-       "id": "00ec53c",
+       "id": "8bf1211",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -597,7 +588,7 @@
        "elements": []
       },
       {
-       "id": "4f6ffe1",
+       "id": "a02ffd9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -640,7 +631,7 @@
        "elements": []
       },
       {
-       "id": "beed136",
+       "id": "bca82e4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -672,7 +663,7 @@
        "elements": []
       },
       {
-       "id": "0584ce5",
+       "id": "00ec53c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -704,7 +695,7 @@
        "elements": []
       },
       {
-       "id": "dc912a2",
+       "id": "4f6ffe1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -736,13 +727,13 @@
        "elements": []
       },
       {
-       "id": "39461a1",
+       "id": "beed136",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Parlem del teu projecte",
         "link": {
-         "url": "/contacte/",
+         "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -816,7 +807,7 @@
      ]
     },
     {
-     "id": "f73b76c",
+     "id": "c86a7ee",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -847,12 +838,12 @@
      },
      "elements": [
       {
-       "id": "8e6b42f",
+       "id": "877a9ba",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "d9fc5b7",
+         "id": "dc912a2",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -897,7 +888,7 @@
          "elements": []
         },
         {
-         "id": "c86a7ee",
+         "id": "39461a1",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -942,7 +933,7 @@
          "elements": []
         },
         {
-         "id": "a01a038",
+         "id": "8efb100",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -987,7 +978,7 @@
          "elements": []
         },
         {
-         "id": "5a4b25a",
+         "id": "d9fc5b7",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -1063,7 +1054,7 @@
    ]
   },
   {
-   "id": "e46de7e",
+   "id": "28f0b86",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1110,7 +1101,7 @@
    },
    "elements": [
     {
-     "id": "f8c1f23",
+     "id": "70c639d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1140,7 +1131,7 @@
      },
      "elements": [
       {
-       "id": "28f0b86",
+       "id": "5a4b25a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1179,7 +1170,7 @@
        "elements": []
       },
       {
-       "id": "1543843",
+       "id": "f73b76c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1226,7 +1217,7 @@
    ]
   },
   {
-   "id": "8cb22bd",
+   "id": "bbf94b3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1273,7 +1264,7 @@
    },
    "elements": [
     {
-     "id": "816b112",
+     "id": "b7b16ec",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1313,7 +1304,7 @@
      },
      "elements": [
       {
-       "id": "b7b16ec",
+       "id": "1543843",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1356,7 +1347,7 @@
        "elements": []
       },
       {
-       "id": "352fe25",
+       "id": "f8c1f23",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1389,7 +1380,7 @@
        "elements": []
       },
       {
-       "id": "18d8042",
+       "id": "e46de7e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1415,7 +1406,7 @@
      ]
     },
     {
-     "id": "bbcbff5",
+     "id": "69cb3ea",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1455,7 +1446,7 @@
      },
      "elements": [
       {
-       "id": "69cb3ea",
+       "id": "352fe25",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1498,7 +1489,7 @@
        "elements": []
       },
       {
-       "id": "bbf94b3",
+       "id": "18d8042",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1531,7 +1522,7 @@
        "elements": []
       },
       {
-       "id": "4f4adcb",
+       "id": "816b112",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1559,7 +1550,7 @@
    ]
   },
   {
-   "id": "1068c6e",
+   "id": "f4f6dce",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1604,7 +1595,7 @@
    },
    "elements": [
     {
-     "id": "a96b65a",
+     "id": "8cb22bd",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1635,7 +1626,7 @@
      },
      "elements": [
       {
-       "id": "f4f6dce",
+       "id": "4f4adcb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1678,7 +1669,7 @@
        "elements": []
       },
       {
-       "id": "0d0fd7c",
+       "id": "bbcbff5",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1706,7 +1697,7 @@
    ]
   },
   {
-   "id": "41ae36e",
+   "id": "66808e3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1751,7 +1742,7 @@
    },
    "elements": [
     {
-     "id": "b9228e0",
+     "id": "a96b65a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1781,7 +1772,7 @@
      },
      "elements": [
       {
-       "id": "17d63b1",
+       "id": "0d0fd7c",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1829,7 +1820,7 @@
      ]
     },
     {
-     "id": "66808e3",
+     "id": "17d63b1",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1859,7 +1850,7 @@
      },
      "elements": [
       {
-       "id": "0deb1c5",
+       "id": "1068c6e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1907,7 +1898,7 @@
      ]
     },
     {
-     "id": "8fe0093",
+     "id": "0deb1c5",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1937,7 +1928,7 @@
      },
      "elements": [
       {
-       "id": "42e7aaa",
+       "id": "b9228e0",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1987,7 +1978,7 @@
    ]
   },
   {
-   "id": "3c7781a",
+   "id": "e0c6411",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2032,7 +2023,7 @@
    },
    "elements": [
     {
-     "id": "7eacb53",
+     "id": "8fe0093",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2062,7 +2053,7 @@
      },
      "elements": [
       {
-       "id": "d1f255a",
+       "id": "42e7aaa",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2110,7 +2101,7 @@
      ]
     },
     {
-     "id": "e0c6411",
+     "id": "d1f255a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2140,7 +2131,7 @@
      },
      "elements": [
       {
-       "id": "b6f0479",
+       "id": "41ae36e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2188,7 +2179,7 @@
      ]
     },
     {
-     "id": "faa9afe",
+     "id": "b6f0479",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2218,7 +2209,7 @@
      },
      "elements": [
       {
-       "id": "f85454e",
+       "id": "7eacb53",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -2268,7 +2259,7 @@
    ]
   },
   {
-   "id": "8d7d8ee",
+   "id": "25b2822",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2313,7 +2304,7 @@
    },
    "elements": [
     {
-     "id": "1899773",
+     "id": "3c7781a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2344,7 +2335,7 @@
      },
      "elements": [
       {
-       "id": "25b2822",
+       "id": "f85454e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2387,7 +2378,7 @@
        "elements": []
       },
       {
-       "id": "6ecbdd6",
+       "id": "faa9afe",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2415,7 +2406,7 @@
    ]
   },
   {
-   "id": "d61e4bb",
+   "id": "1a5b1e4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2460,7 +2451,7 @@
    },
    "elements": [
     {
-     "id": "019d385",
+     "id": "f74909a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2490,7 +2481,7 @@
      },
      "elements": [
       {
-       "id": "75fc093",
+       "id": "6ecbdd6",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -2509,7 +2500,7 @@
        "elements": []
       },
       {
-       "id": "f74909a",
+       "id": "1899773",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2552,7 +2543,7 @@
        "elements": []
       },
       {
-       "id": "6636827",
+       "id": "8d7d8ee",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2585,7 +2576,7 @@
        "elements": []
       },
       {
-       "id": "248e844",
+       "id": "75fc093",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2611,7 +2602,7 @@
      ]
     },
     {
-     "id": "1651cf0",
+     "id": "ddb3068",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2641,7 +2632,7 @@
      },
      "elements": [
       {
-       "id": "a49e941",
+       "id": "6636827",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -2660,7 +2651,7 @@
        "elements": []
       },
       {
-       "id": "ddb3068",
+       "id": "248e844",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2703,7 +2694,7 @@
        "elements": []
       },
       {
-       "id": "2421fcb",
+       "id": "019d385",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2736,7 +2727,7 @@
        "elements": []
       },
       {
-       "id": "fccb60f",
+       "id": "a49e941",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2762,7 +2753,7 @@
      ]
     },
     {
-     "id": "13f3cf8",
+     "id": "a8abb4b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2792,7 +2783,7 @@
      },
      "elements": [
       {
-       "id": "eed5af6",
+       "id": "2421fcb",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -2811,7 +2802,7 @@
        "elements": []
       },
       {
-       "id": "a8abb4b",
+       "id": "fccb60f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2854,7 +2845,7 @@
        "elements": []
       },
       {
-       "id": "15d4e89",
+       "id": "1651cf0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2887,7 +2878,7 @@
        "elements": []
       },
       {
-       "id": "c203d8a",
+       "id": "eed5af6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2913,7 +2904,7 @@
      ]
     },
     {
-     "id": "9b70e8f",
+     "id": "67f7fb8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2943,7 +2934,7 @@
      },
      "elements": [
       {
-       "id": "550a141",
+       "id": "15d4e89",
        "elType": "widget",
        "widgetType": "divider",
        "settings": {
@@ -2962,7 +2953,7 @@
        "elements": []
       },
       {
-       "id": "67f7fb8",
+       "id": "c203d8a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3005,7 +2996,7 @@
        "elements": []
       },
       {
-       "id": "1a5b1e4",
+       "id": "13f3cf8",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3038,7 +3029,7 @@
        "elements": []
       },
       {
-       "id": "9a96876",
+       "id": "550a141",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3066,7 +3057,7 @@
    ]
   },
   {
-   "id": "d07e70e",
+   "id": "821fa74",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3113,7 +3104,7 @@
    },
    "elements": [
     {
-     "id": "42998cf",
+     "id": "e44fea3",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3143,7 +3134,7 @@
      },
      "elements": [
       {
-       "id": "f5f8590",
+       "id": "9a96876",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3186,7 +3177,7 @@
        "elements": []
       },
       {
-       "id": "250cf8b",
+       "id": "49ae49a",
        "elType": "widget",
        "widgetType": "accordion",
        "settings": {
@@ -3194,27 +3185,27 @@
          {
           "tab_title": "Fabriqueu a mida?",
           "tab_content": "<p>Sí. Cada projecte es dissenya i es fabrica segons les mides, els colors i els acabats que necessites, tant per a obra nova com per a rehabilitació.</p>",
-          "_id": "941e1aa"
+          "_id": "9b70e8f"
          },
          {
           "tab_title": "Us ocupeu també de la instal·lació?",
           "tab_content": "<p>Sí. Ens dediquem a la instal·lació i muntatge, i t'assessorem perquè obtinguis la millor solució en cada cas.</p>",
-          "_id": "9431c87"
+          "_id": "d61e4bb"
          },
          {
           "tab_title": "Quins materials utilitzeu?",
           "tab_content": "<p>Treballem amb alumini amb trencament de pont tèrmic i PVC de les millors marques del mercat, combinats amb vidres adaptats a cada necessitat d'aïllament i seguretat.</p>",
-          "_id": "49ae49a"
+          "_id": "f5f8590"
          },
          {
           "tab_title": "Quin tipus d'obres feu?",
           "tab_content": "<p>Reformes, rehabilitacions i obra nova, tant per a particulars com per a empreses i establiments comercials: finestres, portes, persianes, pèrgoles, baranes, mampares, tancaments i sostres.</p>",
-          "_id": "e44fea3"
+          "_id": "941e1aa"
          },
          {
           "tab_title": "Treballeu amb particulars i amb professionals?",
           "tab_content": "<p>Sí. Atenem tant el particular com el professional, amb una atenció i un servei personalitzat de primera qualitat.</p>",
-          "_id": "821fa74"
+          "_id": "9431c87"
          }
         ],
         "title_color": "#ffffff",
@@ -3252,7 +3243,7 @@
    ]
   },
   {
-   "id": "dc6a648",
+   "id": "e836d81",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3325,7 +3316,7 @@
    },
    "elements": [
     {
-     "id": "e836d81",
+     "id": "428fca9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3356,7 +3347,7 @@
      },
      "elements": [
       {
-       "id": "7fe1f8a",
+       "id": "250cf8b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3399,7 +3390,7 @@
        "elements": []
       },
       {
-       "id": "98b2979",
+       "id": "42998cf",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3431,13 +3422,13 @@
        "elements": []
       },
       {
-       "id": "0353ab4",
+       "id": "d07e70e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Demana pressupost",
         "link": {
-         "url": "/contacte/",
+         "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3511,7 +3502,7 @@
      ]
     },
     {
-     "id": "ab817c9",
+     "id": "f1b6f28",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3542,7 +3533,7 @@
      },
      "elements": [
       {
-       "id": "51d92be",
+       "id": "7fe1f8a",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3588,7 +3579,7 @@
        "elements": []
       },
       {
-       "id": "428fca9",
+       "id": "98b2979",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3634,7 +3625,7 @@
        "elements": []
       },
       {
-       "id": "f1b6f28",
+       "id": "0353ab4",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -3682,7 +3673,7 @@
      ]
     },
     {
-     "id": "877a9ba",
+     "id": "68ce199",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3715,7 +3706,7 @@
      },
      "elements": [
       {
-       "id": "68ce199",
+       "id": "51d92be",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

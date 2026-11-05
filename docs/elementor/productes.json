@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "d1c38a0",
+   "id": "13fe9d8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "bcbe336",
+     "id": "060ad92",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -119,15 +119,6 @@
      "elements": [
       {
        "id": "c0e190d",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Productes</span></div>"
-       },
-       "elements": []
-      },
-      {
-       "id": "ec8ce6a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -170,7 +161,7 @@
        "elements": []
       },
       {
-       "id": "060ad92",
+       "id": "ec8ce6a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -204,7 +195,7 @@
      ]
     },
     {
-     "id": "13fe9d8",
+     "id": "115f895",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -236,7 +227,7 @@
      },
      "elements": [
       {
-       "id": "115f895",
+       "id": "bcbe336",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -253,7 +244,7 @@
    ]
   },
   {
-   "id": "74db120",
+   "id": "705f217",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -298,7 +289,7 @@
    },
    "elements": [
     {
-     "id": "705f217",
+     "id": "9cfdf10",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -328,7 +319,777 @@
      },
      "elements": [
       {
-       "id": "9cfdf10",
+       "id": "d1c38a0",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a666587",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "padding": {
+     "unit": "px",
+     "top": "3",
+     "right": "0",
+     "bottom": "3",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "2",
+     "right": "24",
+     "bottom": "2",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "2",
+     "right": "18",
+     "bottom": "2",
+     "left": "18",
+     "isLinked": false
+    },
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1180,
+     "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_wrap": "wrap",
+    "flex_gap": {
+     "unit": "px",
+     "column": "32",
+     "row": "32",
+     "isLinked": true
+    }
+   },
+   "elements": [
+    {
+     "id": "289dff0",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 31.2,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 47.71,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      }
+     },
+     "elements": [
+      {
+       "id": "74db120",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-04.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/finestres-fulla-oculta-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "57aeee3",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "6da9003",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Finestres fulla oculta C/16",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/finestres-fulla-oculta-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "9b04d15",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Màxima llum, disseny minimalista",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "be83ab3",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Disseny minimalista: la fulla mòbil queda amagada dins del fix, i els marcs més fins permeten guanyar fins a un 30% de superfície de vidre.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "e165421",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "f340f1b",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 31.2,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 47.71,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      }
+     },
+     "elements": [
+      {
+       "id": "577ef11",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-15.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/finestres-rpt-55-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "01161aa",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "539fd53",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Finestres RPT 55",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/finestres-rpt-55-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ac1dd20",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Aïllament i eficiència",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "555d670",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Finestres d'alumini amb trencament de pont tèrmic: un material aïllant entre la cara externa i la interna evita la pèrdua energètica.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "335f535",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "621bf66",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "background_background": "classic",
+      "background_color": "#131315",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "content_width": "full",
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 31.2,
+       "sizes": []
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 47.71,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
+       "sizes": []
+      }
+     },
+     "elements": [
+      {
+       "id": "e4a6222",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/portes-entrada-21.jpg",
+         "id": ""
+        },
+        "image_size": "full",
+        "align": "center",
+        "width": {
+         "unit": "%",
+         "size": 100,
+         "sizes": []
+        },
+        "link_to": "custom",
+        "css_filters_hover_css_filter": "custom",
+        "css_filters_hover_brightness": {
+         "unit": "px",
+         "size": 115,
+         "sizes": []
+        },
+        "background_hover_transition": {
+         "unit": "px",
+         "size": 0.3,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/portes-dentrada-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "height": {
+         "unit": "px",
+         "size": 220,
+         "sizes": []
+        },
+        "object-fit": "cover",
+        "height_mobile": {
+         "unit": "px",
+         "size": 154,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "cb70ab3",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 6,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "9188905",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Portes d'entrada",
+        "header_size": "h3",
+        "align": "left",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 0.4,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.15,
+         "sizes": []
+        },
+        "link": {
+         "url": "https://aluminisalbera.com/2026/portes-dentrada-figueres/",
+         "is_external": "",
+         "nofollow": "",
+         "custom_attributes": ""
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "2",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0266e33",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "Seguretat i disseny",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_margin": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "38db3ae",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "La primera impressió de casa teva: les fem totalment personalitzades i adaptades a les teves necessitats.",
+        "text_color": "#a9a9ae",
+        "align": "left",
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "400",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.65,
+         "sizes": []
+        },
+        "_padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "14",
+         "bottom": "0",
+         "left": "14",
+         "isLinked": false
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "3cec07e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -390,7 +1151,7 @@
    },
    "elements": [
     {
-     "id": "577ef11",
+     "id": "fe131d7",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -430,12 +1191,12 @@
      },
      "elements": [
       {
-       "id": "57aeee3",
+       "id": "077e29b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/finestres-c16-04.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-02.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -458,7 +1219,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/finestres-fulla-oculta/",
+         "url": "https://aluminisalbera.com/2026/persianes-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -478,7 +1239,7 @@
        "elements": []
       },
       {
-       "id": "6da9003",
+       "id": "6c9882b",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -491,11 +1252,11 @@
        "elements": []
       },
       {
-       "id": "9b04d15",
+       "id": "19f3cd3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Finestres fulla oculta C/16",
+        "title": "Persianes",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -519,7 +1280,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/finestres-fulla-oculta/",
+         "url": "https://aluminisalbera.com/2026/persianes-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -544,11 +1305,11 @@
        "elements": []
       },
       {
-       "id": "be83ab3",
+       "id": "03c6b06",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Màxima llum, disseny minimalista",
+        "editor": "Confort i aïllament",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -584,11 +1345,11 @@
        "elements": []
       },
       {
-       "id": "e165421",
+       "id": "c24cd76",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Disseny minimalista: la fulla mòbil queda amagada dins del fix, i els marcs més fins permeten guanyar fins a un 30% de superfície de vidre.",
+        "editor": "Redueixen el soroll de l'exterior i eviten l'entrada de calor o fred. De seguretat, apilables i mallorquines.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -616,7 +1377,7 @@
        "elements": []
       },
       {
-       "id": "289dff0",
+       "id": "c52f1bd",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -631,7 +1392,7 @@
      ]
     },
     {
-     "id": "e4a6222",
+     "id": "36660e5",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -671,12 +1432,12 @@
      },
      "elements": [
       {
-       "id": "01161aa",
+       "id": "f718499",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/site-rpt-15.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -699,7 +1460,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/finestres-rpt-55/",
+         "url": "https://aluminisalbera.com/2026/persianes-locals-comercials-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -719,7 +1480,7 @@
        "elements": []
       },
       {
-       "id": "539fd53",
+       "id": "d96409b",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -732,11 +1493,11 @@
        "elements": []
       },
       {
-       "id": "ac1dd20",
+       "id": "502e4a1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Finestres RPT 55",
+        "title": "Persianes locals comercials",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -760,7 +1521,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/finestres-rpt-55/",
+         "url": "https://aluminisalbera.com/2026/persianes-locals-comercials-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -785,11 +1546,11 @@
        "elements": []
       },
       {
-       "id": "555d670",
+       "id": "cfa0860",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Aïllament i eficiència",
+        "editor": "Resistència i funcionalitat",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -825,11 +1586,11 @@
        "elements": []
       },
       {
-       "id": "335f535",
+       "id": "a4f2367",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Finestres d'alumini amb trencament de pont tèrmic: un material aïllant entre la cara externa i la interna evita la pèrdua energètica.",
+        "editor": "Seguretat per a empreses i establiments comercials i, alhora, més visibilitat al negoci.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -857,7 +1618,7 @@
        "elements": []
       },
       {
-       "id": "f340f1b",
+       "id": "b1a59b3",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -872,7 +1633,7 @@
      ]
     },
     {
-     "id": "077e29b",
+     "id": "06138bc",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -912,12 +1673,12 @@
      },
      "elements": [
       {
-       "id": "cb70ab3",
+       "id": "8c19f57",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/portes-entrada-21.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-03.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -940,7 +1701,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/portes-dentrada/",
+         "url": "https://aluminisalbera.com/2026/finestres-corredisses-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -960,7 +1721,7 @@
        "elements": []
       },
       {
-       "id": "9188905",
+       "id": "d6baf65",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -973,11 +1734,11 @@
        "elements": []
       },
       {
-       "id": "0266e33",
+       "id": "e56954b",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Portes d'entrada",
+        "title": "Corredisses",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1001,7 +1762,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/portes-dentrada/",
+         "url": "https://aluminisalbera.com/2026/finestres-corredisses-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1026,11 +1787,11 @@
        "elements": []
       },
       {
-       "id": "38db3ae",
+       "id": "f766406",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Seguretat i disseny",
+        "editor": "Espais oberts i llum natural",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1066,11 +1827,11 @@
        "elements": []
       },
       {
-       "id": "3cec07e",
+       "id": "eda80a3",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "La primera impressió de casa teva: les fem totalment personalitzades i adaptades a les teves necessitats.",
+        "editor": "Ambients més oberts, amb més llum i confort, sense ocupar espai ni a l'interior ni a l'exterior.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1098,7 +1859,7 @@
        "elements": []
       },
       {
-       "id": "621bf66",
+       "id": "8f121ce",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1160,7 +1921,7 @@
    },
    "elements": [
     {
-     "id": "f718499",
+     "id": "db8e1af",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1200,12 +1961,12 @@
      },
      "elements": [
       {
-       "id": "6c9882b",
+       "id": "3905972",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-02.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-15.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1228,7 +1989,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/persianes/",
+         "url": "https://aluminisalbera.com/2026/corredisses-grans-dimensions-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1248,7 +2009,7 @@
        "elements": []
       },
       {
-       "id": "19f3cd3",
+       "id": "7f100b7",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1261,11 +2022,11 @@
        "elements": []
       },
       {
-       "id": "03c6b06",
+       "id": "7a614fd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Persianes",
+        "title": "Corredisses grans dimensions",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1289,7 +2050,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/persianes/",
+         "url": "https://aluminisalbera.com/2026/corredisses-grans-dimensions-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1314,11 +2075,11 @@
        "elements": []
       },
       {
-       "id": "c24cd76",
+       "id": "4734ba6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Confort i aïllament",
+        "editor": "Sense límits",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1354,11 +2115,11 @@
        "elements": []
       },
       {
-       "id": "c52f1bd",
+       "id": "d947bf0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Redueixen el soroll de l'exterior i eviten l'entrada de calor o fred. De seguretat, apilables i mallorquines.",
+        "editor": "Pensades per a espais grans: redueixen l'impacte visual de les fulles centrals i connecten amb l'exterior.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1386,7 +2147,7 @@
        "elements": []
       },
       {
-       "id": "fe131d7",
+       "id": "63923f4",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1401,7 +2162,7 @@
      ]
     },
     {
-     "id": "8c19f57",
+     "id": "0f49c89",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1441,12 +2202,12 @@
      },
      "elements": [
       {
-       "id": "d96409b",
+       "id": "20f0759",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/persianes-locals-03.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-11.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1469,7 +2230,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/persianes-locals-comercials/",
+         "url": "https://aluminisalbera.com/2026/baranes-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1489,7 +2250,7 @@
        "elements": []
       },
       {
-       "id": "502e4a1",
+       "id": "07cdfd2",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1502,11 +2263,11 @@
        "elements": []
       },
       {
-       "id": "cfa0860",
+       "id": "d395771",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Persianes locals comercials",
+        "title": "Baranes",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1530,7 +2291,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/persianes-locals-comercials/",
+         "url": "https://aluminisalbera.com/2026/baranes-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1555,11 +2316,11 @@
        "elements": []
       },
       {
-       "id": "a4f2367",
+       "id": "92c8c96",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Resistència i funcionalitat",
+        "editor": "Seguretat amb estil",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1595,11 +2356,11 @@
        "elements": []
       },
       {
-       "id": "b1a59b3",
+       "id": "e3796ae",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Seguretat per a empreses i establiments comercials i, alhora, més visibilitat al negoci.",
+        "editor": "D'alumini o d'acer inoxidable, també de vidre, per a terrasses, patis i escales, a l'interior o a l'exterior.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1627,7 +2388,7 @@
        "elements": []
       },
       {
-       "id": "36660e5",
+       "id": "6a9aedd",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1642,7 +2403,7 @@
      ]
     },
     {
-     "id": "3905972",
+     "id": "f90f2ac",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1682,12 +2443,12 @@
      },
      "elements": [
       {
-       "id": "d6baf65",
+       "id": "46ba9f2",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-03.jpg",
+         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-16.jpg",
          "id": ""
         },
         "image_size": "full",
@@ -1710,7 +2471,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/corredisses/",
+         "url": "https://aluminisalbera.com/2026/pergoles-bioclimatiques-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1730,7 +2491,7 @@
        "elements": []
       },
       {
-       "id": "e56954b",
+       "id": "0e01938",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1743,11 +2504,11 @@
        "elements": []
       },
       {
-       "id": "f766406",
+       "id": "16a5cda",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Corredisses",
+        "title": "Pèrgoles bioclimàtiques",
         "header_size": "h3",
         "align": "left",
         "title_color": "#ffffff",
@@ -1771,7 +2532,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/corredisses/",
+         "url": "https://aluminisalbera.com/2026/pergoles-bioclimatiques-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1796,11 +2557,11 @@
        "elements": []
       },
       {
-       "id": "eda80a3",
+       "id": "918317b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Espais oberts i llum natural",
+        "editor": "Confort tot l'any",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1836,11 +2597,11 @@
        "elements": []
       },
       {
-       "id": "8f121ce",
+       "id": "48aedb8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "Ambients més oberts, amb més llum i confort, sense ocupar espai ni a l'interior ni a l'exterior.",
+        "editor": "Protecció solar per gaudir del pati o la terrassa durant tot l'any, per a particulars i professionals.",
         "text_color": "#a9a9ae",
         "align": "left",
         "typography_typography": "custom",
@@ -1868,7 +2629,7 @@
        "elements": []
       },
       {
-       "id": "06138bc",
+       "id": "839ab46",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1930,7 +2691,7 @@
    },
    "elements": [
     {
-     "id": "20f0759",
+     "id": "9fd8184",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1970,777 +2731,7 @@
      },
      "elements": [
       {
-       "id": "7f100b7",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/corredisses-grans-15.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "link": {
-         "url": "/corredisses-grans-dimensions/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "7a614fd",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "4734ba6",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Corredisses grans dimensions",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/corredisses-grans-dimensions/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "d947bf0",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Sense límits",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "63923f4",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Pensades per a espais grans: redueixen l'impacte visual de les fulles centrals i connecten amb l'exterior.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "db8e1af",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "46ba9f2",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 31.2,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 47.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 100,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "07cdfd2",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/baranes-11.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "link": {
-         "url": "/baranes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "d395771",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "92c8c96",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Baranes",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/baranes/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "e3796ae",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Seguretat amb estil",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "6a9aedd",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "D'alumini o d'acer inoxidable, també de vidre, per a terrasses, patis i escales, a l'interior o a l'exterior.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0f49c89",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "9c838d2",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 31.2,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 47.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 100,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "0e01938",
-       "elType": "widget",
-       "widgetType": "image",
-       "settings": {
-        "image": {
-         "url": "https://raw.githubusercontent.com/naniiqr/curso-frontend-developer-Javascript/claude/cool-maxwell-eomrra/docs/img/p/pergoles-16.jpg",
-         "id": ""
-        },
-        "image_size": "full",
-        "align": "center",
-        "width": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "link_to": "custom",
-        "css_filters_hover_css_filter": "custom",
-        "css_filters_hover_brightness": {
-         "unit": "px",
-         "size": 115,
-         "sizes": []
-        },
-        "background_hover_transition": {
-         "unit": "px",
-         "size": 0.3,
-         "sizes": []
-        },
-        "link": {
-         "url": "/pergoles-bioclimatiques/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "height": {
-         "unit": "px",
-         "size": 220,
-         "sizes": []
-        },
-        "object-fit": "cover",
-        "height_mobile": {
-         "unit": "px",
-         "size": 154,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "16a5cda",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 6,
-         "sizes": []
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "918317b",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Pèrgoles bioclimàtiques",
-        "header_size": "h3",
-        "align": "left",
-        "title_color": "#ffffff",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 12,
-         "sizes": []
-        },
-        "typography_font_weight": "600",
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 0.4,
-         "sizes": []
-        },
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.15,
-         "sizes": []
-        },
-        "link": {
-         "url": "/pergoles-bioclimatiques/",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "2",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "48aedb8",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Confort tot l'any",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_margin": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "839ab46",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "Protecció solar per gaudir del pati o la terrassa durant tot l'any, per a particulars i professionals.",
-        "text_color": "#a9a9ae",
-        "align": "left",
-        "typography_typography": "custom",
-        "typography_font_family": "Inter",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 14,
-         "sizes": []
-        },
-        "typography_font_weight": "400",
-        "typography_line_height": {
-         "unit": "em",
-         "size": 1.65,
-         "sizes": []
-        },
-        "_padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "14",
-         "bottom": "0",
-         "left": "14",
-         "isLinked": false
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "f90f2ac",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 10,
-         "sizes": []
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "fe73f68",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "padding": {
-     "unit": "px",
-     "top": "3",
-     "right": "0",
-     "bottom": "3",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_tablet": {
-     "unit": "px",
-     "top": "2",
-     "right": "24",
-     "bottom": "2",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "2",
-     "right": "18",
-     "bottom": "2",
-     "left": "18",
-     "isLinked": false
-    },
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1180,
-     "sizes": []
-    },
-    "flex_direction": "row",
-    "flex_wrap": "wrap",
-    "flex_gap": {
-     "unit": "px",
-     "column": "32",
-     "row": "32",
-     "isLinked": true
-    }
-   },
-   "elements": [
-    {
-     "id": "26e359e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "background_background": "classic",
-      "background_color": "#131315",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "content_width": "full",
-      "flex_direction": "column",
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": true
-      },
-      "width": {
-       "unit": "%",
-       "size": 31.2,
-       "sizes": []
-      },
-      "width_tablet": {
-       "unit": "%",
-       "size": 47.71,
-       "sizes": []
-      },
-      "width_mobile": {
-       "unit": "%",
-       "size": 100,
-       "sizes": []
-      }
-     },
-     "elements": [
-      {
-       "id": "1700002",
+       "id": "9c838d2",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2768,7 +2759,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/sostres-dalumini/",
+         "url": "https://aluminisalbera.com/2026/sostres-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -2788,7 +2779,7 @@
        "elements": []
       },
       {
-       "id": "53c3bce",
+       "id": "1700002",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2801,7 +2792,7 @@
        "elements": []
       },
       {
-       "id": "6883966",
+       "id": "53c3bce",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2829,7 +2820,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/sostres-dalumini/",
+         "url": "https://aluminisalbera.com/2026/sostres-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -2854,7 +2845,7 @@
        "elements": []
       },
       {
-       "id": "49182f8",
+       "id": "6883966",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2894,7 +2885,7 @@
        "elements": []
       },
       {
-       "id": "d296c10",
+       "id": "49182f8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2926,7 +2917,7 @@
        "elements": []
       },
       {
-       "id": "9fd8184",
+       "id": "d296c10",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2941,7 +2932,7 @@
      ]
     },
     {
-     "id": "496e05e",
+     "id": "37bc2f7",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2981,7 +2972,7 @@
      },
      "elements": [
       {
-       "id": "ef0d393",
+       "id": "26e359e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3009,7 +3000,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/tancaments-jardi/",
+         "url": "https://aluminisalbera.com/2026/tancaments-jardi-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3029,7 +3020,7 @@
        "elements": []
       },
       {
-       "id": "94f6d7e",
+       "id": "ef0d393",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3042,7 +3033,7 @@
        "elements": []
       },
       {
-       "id": "34ed066",
+       "id": "94f6d7e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3070,7 +3061,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/tancaments-jardi/",
+         "url": "https://aluminisalbera.com/2026/tancaments-jardi-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3095,7 +3086,7 @@
        "elements": []
       },
       {
-       "id": "577bcc9",
+       "id": "34ed066",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3135,7 +3126,7 @@
        "elements": []
       },
       {
-       "id": "11b9842",
+       "id": "577bcc9",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3167,7 +3158,7 @@
        "elements": []
       },
       {
-       "id": "37bc2f7",
+       "id": "11b9842",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3182,7 +3173,7 @@
      ]
     },
     {
-     "id": "950a415",
+     "id": "9dfcd5e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3222,7 +3213,7 @@
      },
      "elements": [
       {
-       "id": "b2eb734",
+       "id": "496e05e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3250,7 +3241,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/mampares-de-bany/",
+         "url": "https://aluminisalbera.com/2026/mampares-bany-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3270,7 +3261,7 @@
        "elements": []
       },
       {
-       "id": "8e98d81",
+       "id": "b2eb734",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3283,7 +3274,7 @@
        "elements": []
       },
       {
-       "id": "a8c88a0",
+       "id": "8e98d81",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3311,7 +3302,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/mampares-de-bany/",
+         "url": "https://aluminisalbera.com/2026/mampares-bany-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3336,7 +3327,7 @@
        "elements": []
       },
       {
-       "id": "eddea82",
+       "id": "a8c88a0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3376,7 +3367,7 @@
        "elements": []
       },
       {
-       "id": "06eb61b",
+       "id": "eddea82",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3408,7 +3399,7 @@
        "elements": []
       },
       {
-       "id": "9dfcd5e",
+       "id": "06eb61b",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3425,7 +3416,7 @@
    ]
   },
   {
-   "id": "6da37dd",
+   "id": "fe73f68",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3470,7 +3461,7 @@
    },
    "elements": [
     {
-     "id": "8d3bba7",
+     "id": "432aca3",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3510,7 +3501,7 @@
      },
      "elements": [
       {
-       "id": "158f306",
+       "id": "950a415",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3538,7 +3529,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/muntatge/",
+         "url": "https://aluminisalbera.com/2026/muntatge-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3558,7 +3549,7 @@
        "elements": []
       },
       {
-       "id": "7588749",
+       "id": "158f306",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3571,7 +3562,7 @@
        "elements": []
       },
       {
-       "id": "ad13a2a",
+       "id": "7588749",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3599,7 +3590,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/muntatge/",
+         "url": "https://aluminisalbera.com/2026/muntatge-alumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3624,7 +3615,7 @@
        "elements": []
       },
       {
-       "id": "3fe94a0",
+       "id": "ad13a2a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3664,7 +3655,7 @@
        "elements": []
       },
       {
-       "id": "5b8add2",
+       "id": "3fe94a0",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3696,7 +3687,7 @@
        "elements": []
       },
       {
-       "id": "432aca3",
+       "id": "5b8add2",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3711,7 +3702,7 @@
      ]
     },
     {
-     "id": "a666587",
+     "id": "89f0fd5",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3751,7 +3742,7 @@
      },
      "elements": [
       {
-       "id": "3207225",
+       "id": "8d3bba7",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -3779,7 +3770,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/altres-feines/",
+         "url": "https://aluminisalbera.com/2026/claraboies-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3799,7 +3790,7 @@
        "elements": []
       },
       {
-       "id": "caf1a3d",
+       "id": "3207225",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3812,7 +3803,7 @@
        "elements": []
       },
       {
-       "id": "5737c6e",
+       "id": "caf1a3d",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3840,7 +3831,7 @@
          "sizes": []
         },
         "link": {
-         "url": "/altres-feines/",
+         "url": "https://aluminisalbera.com/2026/claraboies-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -3865,7 +3856,7 @@
        "elements": []
       },
       {
-       "id": "bc6dc48",
+       "id": "5737c6e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3905,7 +3896,7 @@
        "elements": []
       },
       {
-       "id": "f2fc990",
+       "id": "bc6dc48",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -3937,7 +3928,7 @@
        "elements": []
       },
       {
-       "id": "89f0fd5",
+       "id": "f2fc990",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3954,7 +3945,7 @@
    ]
   },
   {
-   "id": "58238e9",
+   "id": "3dd48ab",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4027,7 +4018,7 @@
    },
    "elements": [
     {
-     "id": "0402595",
+     "id": "819f46e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4058,7 +4049,7 @@
      },
      "elements": [
       {
-       "id": "c042f4d",
+       "id": "6da37dd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4101,7 +4092,7 @@
        "elements": []
       },
       {
-       "id": "310dcbb",
+       "id": "c042f4d",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4133,13 +4124,13 @@
        "elements": []
       },
       {
-       "id": "2f2b265",
+       "id": "310dcbb",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Demana pressupost",
         "link": {
-         "url": "/contacte/",
+         "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -4213,7 +4204,7 @@
      ]
     },
     {
-     "id": "40008b9",
+     "id": "0402595",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4244,7 +4235,7 @@
      },
      "elements": [
       {
-       "id": "f9b902f",
+       "id": "2f2b265",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4290,7 +4281,7 @@
        "elements": []
       },
       {
-       "id": "6855456",
+       "id": "f9b902f",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4336,7 +4327,7 @@
        "elements": []
       },
       {
-       "id": "357a6fd",
+       "id": "6855456",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -4384,7 +4375,7 @@
      ]
     },
     {
-     "id": "3dd48ab",
+     "id": "40008b9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4417,7 +4408,7 @@
      },
      "elements": [
       {
-       "id": "819f46e",
+       "id": "357a6fd",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {

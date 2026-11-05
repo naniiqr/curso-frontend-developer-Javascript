@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "52947e0",
+   "id": "d72fbbc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -49,7 +49,7 @@
    },
    "elements": [
     {
-     "id": "7a6a74c",
+     "id": "5129a5d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -79,16 +79,7 @@
      },
      "elements": [
       {
-       "id": "faafda6",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <a href=\"/productes/\" style=\"color:#a9a9ae;text-decoration:none\">Productes</a> &nbsp;/&nbsp; <a href=\"/portes-dentrada/\" style=\"color:#a9a9ae;text-decoration:none\">Portes d'entrada</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Portes d'Entrada Particular</span></div>"
-       },
-       "elements": []
-      },
-      {
-       "id": "a2cc63e",
+       "id": "dca5672",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -131,11 +122,11 @@
        "elements": []
       },
       {
-       "id": "a14ac55",
+       "id": "bcb41cc",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<div style=\"border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:6px\"><a href=\"/portes-entrada-particular/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#ffffff;text-decoration:none;border-bottom:2px solid #e4152d\">Particular</a><a href=\"/portes-entrada-ocultec/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Particular OCULTEC</a><a href=\"/portes-entrada-comercial/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Comercial</a></div>"
+        "editor": "<div style=\"border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:6px\"><a href=\"https://aluminisalbera.com/2026/portes-entrada-particular-figueres/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#ffffff;text-decoration:none;border-bottom:2px solid #e4152d\">Particular</a><a href=\"https://aluminisalbera.com/2026/portes-ocultec-figueres/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Particular OCULTEC</a><a href=\"https://aluminisalbera.com/2026/portes-comercials-figueres/\" style=\"display:inline-block;padding:12px 22px;font:14px Inter,sans-serif;color:#a9a9ae;text-decoration:none;border-bottom:2px solid transparent\">Comercial</a></div>"
        },
        "elements": []
       }
@@ -144,7 +135,7 @@
    ]
   },
   {
-   "id": "71a58e8",
+   "id": "d88518a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -189,7 +180,7 @@
    },
    "elements": [
     {
-     "id": "e9fd7c2",
+     "id": "0ebcc77",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -219,7 +210,7 @@
      },
      "elements": [
       {
-       "id": "69d658d",
+       "id": "06a81a4",
        "elType": "widget",
        "widgetType": "gallery",
        "settings": {
@@ -322,7 +313,7 @@
    ]
   },
   {
-   "id": "f60bb6b",
+   "id": "9c19a2a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -367,7 +358,7 @@
    },
    "elements": [
     {
-     "id": "297fa77",
+     "id": "87ec2f4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -397,7 +388,7 @@
      },
      "elements": [
       {
-       "id": "962e56a",
+       "id": "309fee4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -425,7 +416,7 @@
    ]
   },
   {
-   "id": "a981f2b",
+   "id": "f18a6d1",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -497,7 +488,7 @@
    },
    "elements": [
     {
-     "id": "c7af092",
+     "id": "1bc0249",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -528,7 +519,7 @@
      },
      "elements": [
       {
-       "id": "d1dc3a8",
+       "id": "83e8ef5",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -571,7 +562,7 @@
        "elements": []
       },
       {
-       "id": "806beaf",
+       "id": "9e984c1",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -603,13 +594,13 @@
        "elements": []
       },
       {
-       "id": "4462bf0",
+       "id": "c559da2",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Demana pressupost",
         "link": {
-         "url": "/contacte/",
+         "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -682,7 +673,7 @@
      ]
     },
     {
-     "id": "9327969",
+     "id": "a368b0d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -714,7 +705,7 @@
      },
      "elements": [
       {
-       "id": "fc52859",
+       "id": "f317393",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "fb7b9ff",
+   "id": "82cec96",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "8dd48d6",
+     "id": "371bce7",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -118,16 +118,7 @@
      },
      "elements": [
       {
-       "id": "efe9377",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<div style=\"font:12px Inter,sans-serif;margin-bottom:14px\"><a href=\"/\" style=\"color:#a9a9ae;text-decoration:none\">Inici</a> &nbsp;/&nbsp; <span style=\"color:#a9a9ae\">Projectes</span></div>"
-       },
-       "elements": []
-      },
-      {
-       "id": "371bce7",
+       "id": "9de6d14",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -170,7 +161,7 @@
        "elements": []
       },
       {
-       "id": "138bb06",
+       "id": "efe9377",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -202,18 +193,18 @@
        "elements": []
       },
       {
-       "id": "41f1f19",
+       "id": "0c74b7f",
        "elType": "container",
        "isInner": true,
        "elements": [
         {
-         "id": "9de6d14",
+         "id": "0bb4aec",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Parlem del teu projecte",
           "link": {
-           "url": "/contacte/",
+           "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
            "is_external": "",
            "nofollow": "",
            "custom_attributes": ""
@@ -323,7 +314,7 @@
      ]
     },
     {
-     "id": "6c524f9",
+     "id": "8dd48d6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -355,7 +346,7 @@
      },
      "elements": [
       {
-       "id": "82cec96",
+       "id": "138bb06",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -372,7 +363,7 @@
    ]
   },
   {
-   "id": "c058f54",
+   "id": "fb7b9ff",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -417,7 +408,7 @@
    },
    "elements": [
     {
-     "id": "aa942ab",
+     "id": "6c524f9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -447,7 +438,7 @@
      },
      "elements": [
       {
-       "id": "0bb4aec",
+       "id": "01386bd",
        "elType": "widget",
        "widgetType": "gallery",
        "settings": {
@@ -455,7 +446,7 @@
         "galleries": [
          {
           "gallery_title": "Finestres i corredisses",
-          "_id": "3ad7c2e",
+          "_id": "58238e9",
           "multiple_gallery": [
            {
             "id": "",
@@ -541,7 +532,7 @@
          },
          {
           "gallery_title": "Portes d'entrada",
-          "_id": "b3967a0",
+          "_id": "3ad7c2e",
           "multiple_gallery": [
            {
             "id": "",
@@ -611,7 +602,7 @@
          },
          {
           "gallery_title": "Persianes",
-          "_id": "d81f9c1",
+          "_id": "b3967a0",
           "multiple_gallery": [
            {
             "id": "",
@@ -661,7 +652,7 @@
          },
          {
           "gallery_title": "Exteriors",
-          "_id": "13f9896",
+          "_id": "d81f9c1",
           "multiple_gallery": [
            {
             "id": "",
@@ -739,7 +730,7 @@
          },
          {
           "gallery_title": "Mampares de bany",
-          "_id": "c5ff254",
+          "_id": "13f9896",
           "multiple_gallery": [
            {
             "id": "",
@@ -777,7 +768,7 @@
          },
          {
           "gallery_title": "Muntatge i altres feines",
-          "_id": "01386bd",
+          "_id": "c5ff254",
           "multiple_gallery": [
            {
             "id": "",
@@ -927,7 +918,7 @@
    ]
   },
   {
-   "id": "d709f38",
+   "id": "cf004fd",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1000,7 +991,7 @@
    },
    "elements": [
     {
-     "id": "05049e9",
+     "id": "9be40ce",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1031,7 +1022,7 @@
      },
      "elements": [
       {
-       "id": "e7b24b1",
+       "id": "aa942ab",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1074,7 +1065,7 @@
        "elements": []
       },
       {
-       "id": "52720e0",
+       "id": "c058f54",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1106,13 +1097,13 @@
        "elements": []
       },
       {
-       "id": "c3e878e",
+       "id": "e7b24b1",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Demana pressupost",
         "link": {
-         "url": "/contacte/",
+         "url": "https://aluminisalbera.com/2026/pressupost-dalumini-figueres/",
          "is_external": "",
          "nofollow": "",
          "custom_attributes": ""
@@ -1186,7 +1177,7 @@
      ]
     },
     {
-     "id": "cf004fd",
+     "id": "5ef698c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1217,7 +1208,7 @@
      },
      "elements": [
       {
-       "id": "0041146",
+       "id": "52720e0",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1263,7 +1254,7 @@
        "elements": []
       },
       {
-       "id": "bac9162",
+       "id": "c3e878e",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1309,7 +1300,7 @@
        "elements": []
       },
       {
-       "id": "9be40ce",
+       "id": "0041146",
        "elType": "widget",
        "widgetType": "icon-box",
        "settings": {
@@ -1357,7 +1348,7 @@
      ]
     },
     {
-     "id": "0c74b7f",
+     "id": "05049e9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1390,7 +1381,7 @@
      },
      "elements": [
       {
-       "id": "5ef698c",
+       "id": "bac9162",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
